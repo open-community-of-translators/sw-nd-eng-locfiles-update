@@ -843,18 +843,18 @@
  gov_mandalorian_sector_desc: "The Mandalorian Sector is an Imperial-backed regime led by Gar Saxon of Clan Saxon that will stop at nothing to ensure total Imperial rule in Mandalorian space."
  RT_IMPERIAL_VICEROY: "Imperial Viceroy"
  RT_IMPERIAL_VICEROY_FEMALE: "Imperial Viceroy"
- auth_mando_dictatorial: "Mando Dictatorial"
- auth_mando_dictatorial_desc: "Dictatorial governments are ruled by a single individual for life that wields absolute control over the state."
+ auth_mando_dictatorial: "Way of the Mand'alor"
+ auth_mando_dictatorial_desc: "Strict adherence to the Way guides our Mand'alor and unites our people."
  ethic_mando_egalitarian: "Egalitarian"
- ethic_mando_egalitarian_desc: "§LAny society that does not embrace equality between its members - where an individual can rise to any position with enough hard work - is not only deeply unfair, but ultimately counterproductive.§!\n"
+ ethic_mando_egalitarian_desc: "§LGuided by the Way of the Mand'alor, we are to protect our fellow Mandalorians and take in Foundlings for our survival. This is the Way.§!\n"
  RT_DAIMYO: "Daimyo"
  RT_DAIMYO_FEMALE: "Daimyo"
  gov_mandalorian_fett_gottra: "Fett Gottra"
  gov_mandalorian_fett_gottra_desc: "Taking advantage of a power vacuum on Tatooine, the legendary bounty hunter Boba Fett - the unaltered son of clone progenitor Jango Fett - seizes control of the criminal underworld, guiding it toward a new direction."
- auth_mando_oligarchic: "Oligarchic"
- auth_mando_oligarchic_desc: "Oligarchic governments are ruled by a small group of individuals that hold most if not all of the political power." # could need some Bosmer
+ auth_mando_oligarchic: "The Families"
+ auth_mando_oligarchic_desc: "Former vassals to the previous criminal empire now pledge their loyalty to the new Daiymo." # could need some Bosmer
  ethic_mando_materialist: "Materialist"
- ethic_mando_materialist_desc: "§LAs we reach for the stars, we must put away childish things; gods, spirits and other phantasms of the brain. Reality is cruel and unforgiving, yet we must steel ourselves and secure the survival of our race through the unflinching pursuit of science and technology.§!\n" # could need some Bosmer
+ ethic_mando_materialist_desc: "§LMandalorians are more than just mercenaries or bounty hunters. We are a people that need to be united and serve no scughole that would lead us to our deaths.§!\n" # could need some Bosmer
 
  #Subjects
  clan_can_not_be_integrated_desc: "Clans cannot be integrated."
@@ -936,65 +936,3 @@
 
  ### New 12.12.2022 ###
  sys_mando_clan: "Clan Owned System"
-
-
-
- ### New 4.4.2023 ###
-# Imported from LOTOR with permission
-# Major - The Treasures of Dianth
- swnd_digsite.10.name: "A White City"
- swnd_digsite.10.desc: "While in orbit over §Y[From.GetName]§!, §Y[This.Leader.GetName]§! and their team on [This.GetName] found what appears to be a city made of white stone. Scans show no sign of life, though imaging of the city itself provides what seems to be evidence of a long ago conflict, if not outright war." # this = ship | from = planet
- swnd_digsite.10.desc.no_force_sens: "$swnd_digsite.10.desc$\n\nRegardless, §Y[This.Leader.GetName]§! has concluded that landing and beginning exploration of the city would pose little risk to their safety. Answers as to what happened to the city surely lay in the empty city below, as do any riches and resources left over from the conflict..." # this = ship
- swnd_digsite.10.desc.force_sens: "$swnd_digsite.10.desc$\n\nUpon entering the atmosphere, §Y[This.Leader.GetName]§! is able to sense an indeterminate darkness permeating the city. There doesn't seem to be any discernable source aside the fact that it originates from somewhere in the city. While there is some measure of risk, the darkness does not seem oppressive enough as to negatively impact the team if they were to land and explore." # this = ship
- swnd_digsite.10.a.no_force_sens: "Determine the fate of this strange city."
- swnd_digsite.10.a.force_sens: "This darkness will not dissuade us from finding answers."
- swnd_digsite.10.b: "Mark the city's location for future expeditions."
- treasures_of_dianth: "$swnd_digsite.10.name$"
- treasures_of_dianth_desc: "While in orbit over the planet, we found what appears to be a city made of white stone. Scans show no sign of life, though imaging of the city itself provides what seems to be evidence of a long ago conflict, if not outright war."
- swnd_digsite.11.name: "An Empty City"
- swnd_digsite.11.desc: "In all the time spent exploring the city, the team has uncovered surprisingly little about the fate of its inhabitants. The barren streets provide nothing more than a vague grasp on the society's travel habits, while the buildings are so empty the team has taken to calling them 'hollow'. Stranger still, now that the team is in the city, scanners seem to be picking up faint signs of life in a number of areas."
- swnd_digsite.11.desc.no_force_sens: "$swnd_digsite.11.desc$ These scans may be attributed to malfunctions, given the lack of findings, but they are rather constant and the team is growing concerned."
- swnd_digsite.11.desc.force_sens: "$swnd_digsite.11.desc$ Whether this is linked to the darkness diffused throughout the city is unclear. The darkness itself has remained constant throughout their exploration, neither worsening or abating."
- swnd_digsite.11.a: "Keep exploring. There must be answers here somewhere."
- swnd_digsite.12.name: "Living Stone"
- swnd_digsite.12.desc: "§Y[This.Leader.GetName]§! has determined the source of the signs of life the scanners picked up on previously: the city itself! In addition to discovering the name of the city, §HVaale§!, the white stone it's comprised of seems to be alive in some strange capacity. Thus far nothing seems to indicate that this living matter has any form of sentience, seeming to be analogous to a type of hardened bone more than actual stone. This revelation brings more questions than answers, but will provide insight for further exploration." # this = fleet
- swnd_digsite.12.a: "Intriguing. There must be more to this strange place."
- swnd_digsite.13.name: "The Architects"
- swnd_digsite.13.desc: "Even with the sheer emptiness of the city, answers could not be kept from us forever. After combing a number of databases and written record in a variety of locations throughout §HVaale§! we've discovered the founders of this city were a secluded group of artisans called §HThe Architects of Vaale§!. Along with this discovery came the records of a number of artifacts by their design, most interestingly a pair of rings that provide the wearer with \"immense power\". The nature of this power was not explicitly stated, but the prospect of uncovering such artifacts has become the new focus of the team."
- swnd_digsite.13.a: "Some of these artifacts must still remain somewhere."
- swnd_digsite.14.name: "Beneath The City"
- swnd_digsite.14.desc: "It seems we'd been looking in the wrong place all this time. After an extensive search, a passage beneath the city was uncovered beneath the rubble of what seems to be a building that housed the government of §HVaale§!. Exploration into this passage has led to a large, ornate door covered in a macabre mural. While studying it, members of the research team have reported a profound sense of dread. It's clear that whatever is hidden behind the door would provide answers about this city and the fate of its inhabitants, as well as potential artifacts, but at what cost?"
- swnd_digsite.14.a: "We must uncover the truth."
- swnd_digsite.15.name: "Dust And Echoes"
- swnd_digsite.15.desc: "What seemed at first to be a missed report may have developed into something much more dire. §Y[event_target:dianth_missing_scientist.GetName]§! and their team aboard [event_target:missing_crew_ship.GetName] have completely disappeared from all sensors and have ceased responding to all attempts at communication. Their last report indicates they were close to opening the strange door beneath the city of §HVaale§!, and that the sense of dread they had been feeling had worsened. Unless we receive word from §Y[This.Leader.GetName]§!, it would be unwise to send any further ships to investigate the city." # this = fleet
- swnd_digsite.15.a: "We won't lose faith. They are still out there."
- swnd_digsite.16.name: "The Madness Of Vaale"
- swnd_digsite.16.desc: "We've received word from the [missing_crew_ship.GetName] at last! §Y[missing_crew_ship.Leader.GetName]§! has reported that shortly after opening the door beneath §HVaale§!, members of the team began acting paranoid and hostile. A number of them rushed into the room, which appeared to be some form of workshop and storage area, destroying whatever they could find. §Y[missing_crew_ship.Leader.GetName]§! and the remaining sane members gathered what little they could from the workshop before escaping. Unfortunately, the madness inflicted upon the crew had been long brewing, and the ship's hyperdrive and communications had been sabotaged.\n\nFortunately §Y[missing_crew_ship.Leader.GetName]§! and the remaining team members were able to repair the ship, returning with a number of artifacts, including the so called §MRing of Immortality§!. One of a pair of supposedly cursed rings, when brought together said to bring immense power. The location of the sister ring is currently unknown, though it's clear it no longer resides on §Y[FromFrom.Planet.GetName]§!.\n\n§Y[missing_crew_ship.Leader.GetName]§! had one thing to say upon turning over the ring.\n\n§SDestroy it.§!"
- swnd_digsite.16.a: "Keep the ring and present it to our leader."
- swnd_digsite.16.b: "Destroy the ring."
- swnd_digsite.17.name: "$r_blue_ring_vaale$"
- swnd_digsite.17.desc: "The so called \"Ring of Immortality\". It is said that wearing it provides the wearer with long life, potentially making them immortal. Given it has found its way to us, one might question the claims of immortality, but records show it does extend the life of the user. A powerful relic indeed.!"
- swnd_digsite.17.a: "[leader_option_1.GetLeaderClassIcon] [leader_option_1.GetLeaderClass] §Y[leader_option_1.GetName]§!"
- swnd_digsite.17.b: "[leader_option_2.GetLeaderClassIcon] [leader_option_2.GetLeaderClass] §Y[leader_option_2.GetName]§!"
- swnd_digsite.17.c: "[leader_option_3.GetLeaderClassIcon] [leader_option_3.GetLeaderClass] §Y[leader_option_3.GetName]§!"
- swnd_digsite.17.d: "[leader_option_4.GetLeaderClassIcon] [leader_option_4.GetLeaderClass] §Y[leader_option_4.GetName]§!"
- swnd_digsite.17.e: "[leader_option_5.GetLeaderClassIcon] [leader_option_5.GetLeaderClass] §Y[leader_option_5.GetName]§!"
- swnd_digsite.17.f: "[leader_option_6.GetLeaderClassIcon] [leader_option_6.GetLeaderClass] §Y[leader_option_6.GetName]§!"
- swnd_digsite.17.g: "I want the other leader."
- swnd_digsite.18.name: "Mental Security"
- swnd_digsite.18.desc: "Progress has been slow going due to the sudden onset of headaches between members of the research team. Hypotheses that an unknown disease or compound in the air were causing the headaches were quickly disproven, only to uncover the disturbing truth.\n\nWhile scanning the brain of one researcher, §Y[This.Leader.GetName]§! found that strange frequencies being emitted through the city were responsible for the headaches. These frequencies weren't coming from any one source, instead from the \"living\" city itself! The team has gotten to work retrofitting a collection of neural disruptors to combat these frequencies to provide a measure of safety while continuing their work." # this = fleet
- swnd_digsite.18.a: "Understood."
- swnd_digsite.19.name: "The Unsteady Tower"
- swnd_digsite.19.desc: "Investigations have brought the research team to a large tower which seemed to be of some importance to the previous inhabitants of the city. The tower stood as one of the tallest buildings in the skyline, standing tall despite the battle torn walls and cratered base of the building. Scans deemed the tower to be at minor risk of collapse.\n\nUnfortunately for our team, a minor risk is still a risk, and after a few days exploration the tower fell in upon itself and collapsed, sending a plume of dust high into the sky. §Y[This.Leader.GetName]§! was not in the tower as it collapsed, nor were most of the team, but a handful of members were inside, and scans show no sign of life in the rubble."
- swnd_digsite.19.a: "We must continue, despite their sacrifice."
-
- r_blue_ring_vaale: "Blue Ring of Vaale"
- r_blue_ring_vaale_desc: "The Rings of Vaale were an artifact crafted by §HThe Architects of Vaale§!, an ancient, long-forgotten society based in the city of Vaale on the planet Dianth. According to legends, two such rings existed: one that provided eternal life but drove the wearer to madness, and another that gave whoever wore it eternal fortune but hastened their death. When worn together, the rings supposedly provided the wearer with great power."
- r_blue_ring_vaale_active: "Gives the $r_blue_ring_vaale$ to one of your leaders."
- requires_blue_ring_vaale_not_equipped: "$TRIGGER_FAIL$§ROne of your leaders is already wearing the $r_blue_ring_vaale$§!"
- leader_trait_blue_ring_of_vaale: "$r_blue_ring_vaale$"
- leader_trait_blue_ring_of_vaale_desc: "The $r_blue_ring_vaale$ provides eternal life at the expense of one's mental health."
-
- # Deposits
- d_ravens_peak_eriadu: "The Raven's Peak"
- d_ravens_peak_eriadu_desc: "The Raven's Peak is an Imperial fortress located on a mountain on Eriadu, the homeworld of Wilhuff Tarkin. The compound is heavily guarded and can only be accessed through a landing bay or through the dedicated sky rail system that connects the compound to the starfighter depot."

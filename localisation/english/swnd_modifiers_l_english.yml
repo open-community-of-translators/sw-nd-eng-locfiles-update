@@ -698,9 +698,9 @@ l_english:
 
  po_brainworm_plaque: "§BBrainworm Rot§!"
  po_brainworm_plaque_desc: "$po_brainworm_plaque$ has spread throughout this world, affecting productivity, increasing crime and risk of death."
- po_rakghoul_plaque: "§MRakghoul Plaque§!"
+ po_rakghoul_plaque: "§MRakghoul Plague§!"
  po_rakghoul_plaque_desc: "$po_rakghoul_plaque$ has spread throughout this world, turning everyone into a mindless killing maschine."
- po_endregaad_plaque: "§YEndregaad Plaque§!"
+ po_endregaad_plaque: "§YEndregaad Plague§!"
  po_endregaad_plaque_desc: "$po_endregaad_plaque$ has spread throughout this world, affecting productivity and reducing stability."
  po_festerlung_plaque: "§RFester Lung§!"
  po_festerlung_plaque_desc: "$po_festerlung_plaque$ has spread throughout this world, affecting productivity and reducing stability."
@@ -729,7 +729,7 @@ l_english:
  leader_trait_swp_fighter_pilots_gaunt:0 "Experienced Tie Squadrons"
  leader_trait_swp_fighter_pilots_gaunt_desc:0 "Furnished through non-stop battle deployments against the empire foes, giving Gaunt an impressive streak of wins, as well as allwoing his Tie Squadrons a plethora of actual combat experience as opposed to many of the Empire´s Starfleet crews."
  
- leader_trait_endregaadPlaque: "Endregaad Plaque"
+ leader_trait_endregaadPlaque: "Endregaad Plague"
  leader_trait_endregaadPlaque_desc: "Dont be fooled into thinking that this virulent, quick-to-spread but non-lethal disease isnt a huge threat. Presented initially as a fever, the onset of Endregaad Plague leads to extreme loss of bodily fluids, a noticeable crusting around the eye and mouth areas, and the swelling of the tongue and fingers."
  leader_trait_moncalNerveshock: "Mon Calamari Nerveshock"
  leader_trait_moncalNerveshock_desc: "Fatal if not immunized against, the disease would lay dormant for years before exploding inside its host and attacking the nervous system."

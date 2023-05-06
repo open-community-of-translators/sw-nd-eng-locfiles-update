@@ -93,7 +93,7 @@
  NAME_Sp_Chiss: "Chiss"
  NAME_Sp_Echani: "Echani"
  NAME_Sp_Hapan: "Hapan"
- NAME_Sp_Hatt: "Hatt"
+ NAME_Sp_Hutt: "Hutt" # No clue why this one was even changed to "Hatt" to begin with
  NAME_Sp_Ilosian: "Ilosian"
  NAME_Sp_KelDor: "Kel Dor"
  NAME_Sp_Killik: "Killik"

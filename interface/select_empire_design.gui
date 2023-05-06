@@ -90,7 +90,7 @@ if_resolution = {
 	min_height = 801
         containerWindowType = {
             name = "empire_glossary"
-            size = { width = 390 height = 210 }
+            size = { width = 330 height = 210 }
             
 			position = { x = 315 y = 0 }
 
@@ -105,7 +105,7 @@ if_resolution = {
                 name = "empire_glossary_header"
                 font = "malgun_goth_24"
                 position = { x = 12  y = 8 }
-                maxWidth = 250
+                maxWidth = 210
                 text =   "GLOSSARY"
                 format = left
                 alwaysTransparent = yes
@@ -150,7 +150,7 @@ if_resolution = {
                     font = "cg_16b"
 					position = { x = 6  y = -125 }
                     maxWidth = 230
-                    text =   "Имперская фракция"
+                    text =   "Imperial Faction"
                     text_color_code = "G"
                     format = left
                     alwaysTransparent = yes
@@ -161,7 +161,7 @@ if_resolution = {
                     font = "cg_16b"
 					position = { x = 6  y = -100 }
                     maxWidth = 230
-                    text =   "Лояльные Республике"
+                    text =   "Republic Loyalist Faction"
                     text_color_code = "R"
                     format = left
                     alwaysTransparent = yes
@@ -172,7 +172,7 @@ if_resolution = {
                     font = "cg_16b"
 					position = { x = 6  y = -75 }
                     maxWidth = 230
-                    text =   "Фракция сепаратистов"
+                    text =   "Separatist Faction"
                     text_color_code = "B"
                     format = left
                     alwaysTransparent = yes
@@ -183,7 +183,7 @@ if_resolution = {
                     font = "cg_16b"
 					position = { x = 6  y = -50 }
                     maxWidth = 230
-                    text =   "Криминальная фракция"
+                    text =   "Criminal Faction"
                     text_color_code = "H"
                     format = left
                     alwaysTransparent = yes
@@ -194,7 +194,7 @@ if_resolution = {
                     font = "cg_16b"
 					position = { x = 6  y = -25 }
                     maxWidth = 230
-                    text =   "Уникальные империи"
+                    text =   "Unique Empires"
                     text_color_code = "M"
                     format = left
                     alwaysTransparent = yes
@@ -206,7 +206,7 @@ if_resolution = {
                     font = "cg_16b"
 					position = { x = 6  y = 10 }
                     maxWidth = 230
-                    text =   "Отсутствующие империи?"
+                    text =   "Missing Empires?"
 					#scale = 1.5
                     #text_color_code = "B"
                     format = left
@@ -225,7 +225,7 @@ if_resolution = {
 					name = "rmg_steam"
 					quadTextureSprite = "GFX_front_menu_rmg_steam"
 					# quadTextureSprite = "GFX_front_menu_homepage"
-					position = { x = 180 y = 5 }
+					position = { x = 125 y = 5 }
 					pdx_tooltip = "SUBMOD_STEAM"
 					web_link="https://steamcommunity.com/sharedfiles/filedetails/?id=2644238920"
 				}

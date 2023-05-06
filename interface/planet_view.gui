@@ -182,6 +182,12 @@ guiTypes = {
 			}
 
 			buttonType = {
+				name = "go_to_observation_post"
+				quadTextureSprite = "GFX_fleetview_open_observation_post"
+				position = { x = 18 y = 4 }
+			}
+
+			buttonType = {
 				name = "close"
 				quadTextureSprite = "GFX_close"
 				position = { x = -43 y = 4 }
@@ -263,8 +269,8 @@ guiTypes = {
 				name = "planet_class"
 				font = "cg_16b"
 				text = "planet_class"
-				position = { x = 5 y = 10 }
-				maxWidth = 150
+				position = { x = 14 y = 10 }
+				maxWidth = 130
 				maxHeight = 30
 				fixedSize = yes
 				format = left
@@ -1271,7 +1277,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "planetary_production_output_title"
 						font = "cg_16b"
-						text = "Производство"
+						text = "PLANETARY_PRODUCTION"
 						position = { x = 0 y = 8 }
 						maxWidth = 150
 						maxHeight = 20
@@ -1286,7 +1292,7 @@ guiTypes = {
 						position = { x = 18  y = 26 }
 						text = "" # produced resources set in code
 						maxWidth = 110
-						maxHeight = 100
+						maxHeight = 70
 						format = center
 						scrollbartype = "standardtext_slider_small"
 					}
@@ -1295,7 +1301,7 @@ guiTypes = {
 						name = "planetary_consumption_output_title"
 						font = "cg_16b"
 						text = "PLANETARY_DEFICIT"
-						position = { x = 0 y = 115 }
+						position = { x = 0 y = 100 }
 						maxWidth = 150
 						maxHeight = 20
 						fixedSize = yes
@@ -1305,7 +1311,7 @@ guiTypes = {
 					instantTextBoxType={
 						name = "planetary_consumption_output_amount"
 						font = "cg_16b"
-						position = { x = 18 y = 133 }
+						position = { x = 18 y = 120 }
 						text = "" # consumed resources set in code
 						maxWidth = 110
 						maxHeight = 50
@@ -1385,7 +1391,6 @@ guiTypes = {
 
 				#<--------------------- Designation --------------------------->
 
-				# designation
 				# designation
 				containerWindowType = {
 					name = "designation_info"
@@ -1548,7 +1553,7 @@ guiTypes = {
 						font = "cg_16b"
 						text = "SECTOR TYPE"
 						position = { x = 50 y = 34 }
-						maxWidth = 300
+						maxWidth = 100
 						maxHeight = 30
 						fixedSize = yes
 						format = left
@@ -3009,7 +3014,7 @@ guiTypes = {
 				name = "holdings_planet_owner_resources"
 				size = { width = 270 height = 170 }
 				position = { x = 580 y = 60 }
-	
+
 				background = {
 					name = "output_background"
 					spriteType = "GFX_dark_area_cut"
@@ -3020,7 +3025,7 @@ guiTypes = {
 					quadTextureSprite = "GFX_empire_flag_48"
 					position = { x = 5 y = 10  }
 				}
-	
+
 				instantTextBoxType = {
 					name = "holdings_planet_owner_production_output_title"
 					font = "cg_16b"
@@ -3033,7 +3038,7 @@ guiTypes = {
 					orientation = upper_left
 					alwaysTransparent = yes
 				}
-	
+
 				instantTextBoxType = {
 					name = "holdings_planet_owner_production_output_amount"
 					font = "cg_16b"
@@ -3044,7 +3049,7 @@ guiTypes = {
 					fixedSize = yes
 					format = left
 				}
-	
+
 				instantTextBoxType = {
 					name = "holdings_planet_owner_consumption_output_title"
 					font = "cg_16b"
@@ -3057,7 +3062,7 @@ guiTypes = {
 					orientation = upper_left
 					alwaysTransparent = yes
 				}
-	
+
 				instantTextBoxType = {
 					name = "holdings_planet_owner_consumption_output_amount"
 					font = "cg_16b"
@@ -4638,12 +4643,6 @@ guiTypes = {
 			clicksound = "click_outliner"
 			oversound = no_sound
 		}
-
-		iconType = {
-			name = "progressbar"
-			spriteType = "GFX_blocker_progressbar"
-			position = { x = 79 y = 70 }
-		}
 	}
 
 	containerWindowType = {
@@ -6043,6 +6042,7 @@ guiTypes = {
 			position = { x=2 y=5 }
 			spriteType = "GFX_army_icons"
 			alwaysTransparent = yes
+			scale = 0.9
 		}
 
 		instantTextBoxType = {
@@ -6098,6 +6098,7 @@ guiTypes = {
 			name = "army_icon"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_army_icons"
+			scale = 0.9
 		}
 
 		instantTextBoxType = {
@@ -6192,6 +6193,7 @@ guiTypes = {
 			name = "army_icon"
 			position = { x=1 y=4 }
 			spriteType = "GFX_army_icons"
+			scale = 0.9
 		}
 
 		iconType = {
@@ -6347,7 +6349,7 @@ guiTypes = {
 			name = "empty_text_container"
 			size = { width = 200 height = 20 }
 			position = { x = 140 y = 18 }
-			
+
 			instantTextBoxType = {
 				name = "empty_text"
 				font = "cg_16b"
@@ -6382,12 +6384,12 @@ guiTypes = {
 				quadTextureSprite = "GFX_empire_flag_48"
 				position = { x = 5 y = 10  }
 			}
-	
+
 			containerWindowType = {
 				name = "buildings_container"
 				size = { width = 245 height = 65 }
 				position = { x = 55 y = 5 }
-	
+
 				gridBoxType = {
 					name = "buildings_box"
 					position = { x = 0 y = 0 }
@@ -6399,18 +6401,18 @@ guiTypes = {
 					max_slots_vertical = 1
 				}
 			}
-	
+
 			containerWindowType = {
 				name = "holdings_value_container"
 				size = { width = 270 height = 48 }
 				position = { x = 455 y = -14 }
-	
+
 				iconType = {
 					name = "holdings_value_icon"
 					spriteType = "GFX_resource_energy_large"
 					position = { x = 0 y = 0 }
 				}
-	
+
 				instantTextBoxType = {
 					name = "holdings_value_amount"
 					font = "malgun_goth_24"
@@ -6423,13 +6425,13 @@ guiTypes = {
 					orientation = upper_left
 				}
 			}
-	
+
 			# Branch office output
 			containerWindowType = {
 				name = "holdings_resources"
 				size = { width = 160 height = 84 }
 				position = { x = 301 y = -8 }
-	
+
 				instantTextBoxType = {
 					name = "holdings_production_output_title"
 					font = "cg_16b"
@@ -6442,7 +6444,7 @@ guiTypes = {
 					orientation = upper_left
 					alwaysTransparent = yes
 				}
-	
+
 				instantTextBoxType={
 					name = "holdings_production_output_amount"
 					font = "cg_16b"
@@ -6453,7 +6455,7 @@ guiTypes = {
 					fixedSize = yes
 					format = center
 				}
-	
+
 				instantTextBoxType = {
 					name = "holdings_consumption_output_title"
 					font = "cg_16b"
@@ -6466,7 +6468,7 @@ guiTypes = {
 					orientation = upper_left
 					alwaysTransparent = yes
 				}
-	
+
 				instantTextBoxType={
 					name = "holdings_consumption_output_amount"
 					font = "cg_16b"
@@ -6478,7 +6480,7 @@ guiTypes = {
 					format = center
 				}
 			}
-	
+
 			buttonType = {
 				name = "close_branch_office_button"
 				quadTextureSprite = "GFX_button_close_branch_office"

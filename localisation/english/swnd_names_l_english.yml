@@ -4867,7 +4867,7 @@ Ulrikae: "Ulrikae"
  NAME_Fateclaw: "Fateclaw"
 
  #Mando update
- NAME_Clan_Leader: "Clan [Leader.GetName]"
+ NAME_Clan_Leader: "Clan [event_target:factionLeader.GetName]"
  NAME_root_militia: "[Root.GetName] Militia"
  NAME_Clan_Fleet_Yard: "[This.Owner.GetName] Shipyard"
  format.mando_clan: "Mandalorian Clan"

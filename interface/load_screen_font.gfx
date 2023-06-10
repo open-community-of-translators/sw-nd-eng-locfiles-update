@@ -1,17 +1,28 @@
-# Замена шрифта на экране загрузки
-
 bitmapfonts = {
+	
 	bitmapfont = {
 		name = "load_screen"
-		path = "gfx/fonts/orbitron_28"
+		#path = "gfx/fonts/orbitron_28"
+		#path = "gfx/fonts/cg_16b"
+		path = "gfx/fonts/malgun_goth_24"
 		color = 0xffffffff
+		#color = 0xff000000
 	}
-
+	
 	bitmapfont_override = {
 		name = "load_screen"
-		ttf_font = "OrbitronCYR"
-        ttf_size = "18"
-		languages = { "l_russian" } 
-		vertical_offset  = "-5"
+		fontfiles = { 
+			"gfx/fonts/cg_34"
+		}
+		languages = { "l_russian" "l_polish" } 
+	}
+	
+		
+	bitmapfont_override = {
+		name = "load_screen"
+       ttf_font = "Chinese_header"
+       ttf_size = "20"
+		vertical_offset  = "1"
+		languages = { "l_simp_chinese" } 
 	}
 }

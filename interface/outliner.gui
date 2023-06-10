@@ -639,6 +639,14 @@ guiTypes = {
 			scale = 0.7
 		}
 
+		iconType = {
+			name = "leader_level"
+			position = { x = -100 y = 24 }
+			spriteType = "GFX_outliner_leader_level"
+			alwaysTransparent = no
+			scale = 0.8
+		}
+
 		instantTextBoxType = {
 			name = "name"
 			font = "cg_16b"
@@ -983,8 +991,8 @@ guiTypes = {
 			name = "name"
 			font = "cg_16b"
 			text = "0"
-			position = { x = 45 y = 1 }
-			maxWidth = 80
+			position = { x = 35 y = 1 }
+			maxWidth = 120
 			maxHeight = 19
 			fixedSize = yes
 			orientation = "UPPER_LEFT"
@@ -1064,7 +1072,15 @@ guiTypes = {
 				spriteType = "GFX_outliner_planet_construction_progressbar"
 				frame = 50
 			}
-		}											
+		}
+		
+		iconType = {
+			name = "leader_level"
+			position = { x = 4 y = 24 }
+			spriteType = "GFX_outliner_leader_level"
+			alwaysTransparent = no
+			scale = 0.8
+		}
 	}
 
 	containerWindowType = {
@@ -1138,7 +1154,7 @@ guiTypes = {
 
 		iconType = {
 			name = "leader_level"
-			position = { x = 120 y = 1 }
+			position = { x = 4 y = 24 }
 			spriteType = "GFX_outliner_leader_level"
 			alwaysTransparent = no
 			#frame = 10

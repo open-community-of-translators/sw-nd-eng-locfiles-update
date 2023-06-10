@@ -232,8 +232,8 @@
  mandalorian_discommendation_not_ruler: "The governing Clan can not be discommended."
  mandalorian_discommendation_must_be_discommended: "The [This.GetName] has not been stripped of its honour."
  swnd_faction_events.1.name: "Clan Gaining Influence"
- swnd_faction_events.1.desc.01: "A new Clan has risen in power, §H[Root.GetName]§!. Led by [Root.Leader.GetName] and with their powerbase centred in the [new_clan_system.GetName] system, [Root.GetName] is eager to earn glory and honour for the [Root.Owner.GetName]."
- swnd_faction_events.1.desc.02: "A new Clan has risen in power, §H[Root.GetName]§!. Led by [Root.Leader.GetName], [Root.GetName] is eager to earn glory and honour for the [Root.Owner.GetName]."
+ swnd_faction_events.1.desc.01: "A new Clan has risen in power, §H[Root.GetName]§!. Led by [clan_leader.GetName] and with their powerbase centered in the [new_clan_system.GetName] system, [Root.GetName] is eager to earn glory and honour for the [Root.Owner.GetName]."
+ swnd_faction_events.1.desc.02: "A new Clan has risen in power, §H[Root.GetName]§!. Led by [clan_leader.GetName], [Root.GetName] is eager to earn glory and honour for the [Root.Owner.GetName]."
  
  swnd_mandalorian_clans.2.name: "Clans Divided"
  swnd_mandalorian_clans.2.desc: "In the face of conflict with the [From.GetName], all true Mandalorian warriors must put aside their disputes to unite against their common enemy.\n\nThe ongoing rebellions that have plagued the Empire have formally ended."

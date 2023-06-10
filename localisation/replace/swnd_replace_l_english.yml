@@ -61,3 +61,6 @@
  feature_hyper_relay_construction_desc: "Constructs a §YHyperspace Relay§! outside of the gravity well of a system. $swnd_hyperspace_relay_DESC$"
  HYPER_RELAY_GALACTIC: "$swnd_hyperspace_relay$"
  HYPER_RELAY_GALACTIC_DESC: "This system contains a §Y$swnd_hyperspace_relay$§!"
+
+ #Frontend
+ CREDITS: "§HCredits§!\nDiscover the people behind New Dawn"

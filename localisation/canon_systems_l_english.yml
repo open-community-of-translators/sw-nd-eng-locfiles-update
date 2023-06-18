@@ -555,18 +555,18 @@
  NAME_Colonial_Station_Camco_S: "Cam'co"
  NAME_Colonial_Station_Camco_P1: "Colonial Station Cam'co"
  
- #Naropar
- NAME_Naropar: "Naropar"
- NAME_Naropar_S: "Naropar"
- NAME_Naropar_P1: "Naropar I"
- NAME_Naropar_P2: "Naropar II"
- NAME_Naropar_P3: "Naropar"
- NAME_Naropar_P4: "Naropar IV"
- NAME_Naropar_P4_1: "Naropar IVa"
- NAME_Naropar_P4_2: "Naropar IVb"
- NAME_Naropar_P4_3: "Naropar IVc"
- NAME_Naropar_P4_4: "Naropar IVd"
- NAME_Naropar_P4_5: "Naropar IVg"
+ #Naporar
+ NAME_Naporar: "Naporar"
+ NAME_Naporar_S: "Naporar"
+ NAME_Naporar_P1: "Naporar I"
+ NAME_Naporar_P2: "Naporar II"
+ NAME_Naporar_P3: "Naporar"
+ NAME_Naporar_P4: "Naporar IV"
+ NAME_Naporar_P4_1: "Naporar IVa"
+ NAME_Naporar_P4_2: "Naporar IVb"
+ NAME_Naporar_P4_3: "Naporar IVc"
+ NAME_Naporar_P4_4: "Naporar IVd"
+ NAME_Naporar_P4_5: "Naporar IVg"
  NAME_Naropar_P5: "Naropar V"
  
  ### CIS Sector Systems ###

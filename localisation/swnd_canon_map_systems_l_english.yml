@@ -9495,11 +9495,11 @@
  NAME_Geroon_S: "Geroon"
  NAME_Geroon_P1: "Geroon"
  
- #The Red Twinds
- NAME_The_Red_Twinds: "The Red Twinds"
- NAME_The_Red_Twinds_S1: "The Red Twinds A"
- NAME_The_Red_Twinds_S2: "The Red Twinds B"
- NAME_The_Red_Twinds_P1: "Acherin"
+ #The Red Twins
+ NAME_The_Red_Twins: "The Red Twins"
+ NAME_The_Red_Twins_S1: "The Red Twins A"
+ NAME_The_Red_Twins_S2: "The Red Twins B"
+ NAME_The_Red_Twins_P1: "Acherin"
  
  #Durace
  NAME_Durace: "Durace"

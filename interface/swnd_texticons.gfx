@@ -1,0 +1,387 @@
+spriteTypes = {
+
+	## Focus Points
+	spriteType = {
+		name = "GFX_text_focus_points"
+		texturefile = "gfx/interface/icons/Institutions/text_focus_points.dds"
+	}
+
+	## Cooldown
+	spriteType = {
+		name = "GFX_text_cooldown"
+		texturefile = "gfx/interface/icons/Institutions/text_cooldown.dds"
+	}
+
+	## Empire Star for Major Empires
+	spriteType = {
+		name = "GFX_text_empire_star"
+		texturefile = "gfx/interface/icons/Institutions/empire/text_empire_star.dds"
+	}
+
+	## Icons for Military Institution
+
+	## Agressive Expansion
+	spriteType = {
+		name = "GFX_text_agressive_expansion"
+		texturefile = "gfx/interface/icons/Institutions/military/text_agressive_expansion.dds"
+	}
+
+	## Claimcost Reduction
+	spriteType = {
+		name = "GFX_text_claimcost_reduction"
+		texturefile = "gfx/interface/icons/Institutions/military/text_claimcost_reduction.dds"
+	}
+
+	## Claimcost Reduction
+	spriteType = {
+		name = "GFX_text_alloy_production"
+		texturefile = "gfx/interface/icons/Institutions/military/text_alloy_production.dds"
+	}
+
+	## Ship Build Speed
+	spriteType = {
+		name = "GFX_text_ship_build_speed"
+		texturefile = "gfx/interface/icons/Institutions/military/text_ship_build_speed.dds"
+	}
+
+	## Ship Build Cost
+	spriteType = {
+		name = "GFX_text_ship_build_cost"
+		texturefile = "gfx/interface/icons/Institutions/military/text_ship_build_cost.dds"
+	}
+
+	## War Economy
+	spriteType = {
+		name = "GFX_text_war_economy"
+		texturefile = "gfx/interface/icons/Institutions/military/text_war_economy.dds"
+	}
+
+	## War Exhaustion
+	spriteType = {
+		name = "GFX_text_war_exhaustion"
+		texturefile = "gfx/interface/icons/Institutions/military/text_war_exhaustion.dds"
+	}
+
+	## Ship Upkeep
+	spriteType = {
+		name = "GFX_text_ship_upkeep"
+		texturefile = "gfx/interface/icons/Institutions/military/text_ship_upkeep.dds"
+	}
+
+	## Naval Capacity
+	spriteType = {
+		name = "GFX_text_naval_cap"
+		texturefile = "gfx/interface/icons/Institutions/military/text_naval_cap.dds"
+	}
+
+	## Icons for Research Institution
+
+	## Scientist Upkeep reduction
+	spriteType = {
+		name = "GFX_text_scientist_upkeep"
+		texturefile = "gfx/interface/icons/Institutions/research/text_scientist_upkeep.dds"
+	}
+	## Stolen blueprints
+	spriteType = {
+		name = "GFX_text_stolen_blueprints"
+		texturefile = "gfx/interface/icons/Institutions/research/text_stolen_blueprints.dds"
+	}
+	## Breakthrough
+	spriteType = {
+		name = "GFX_text_breaktrough"
+		texturefile = "gfx/interface/icons/Institutions/research/text_breaktrough.dds"
+	}
+	## Society research speed
+	spriteType = {
+		name = "GFX_text_society_speed"
+		texturefile = "gfx/interface/icons/Institutions/research/text_society_speed.dds"
+	}
+	## Physics research speed
+	spriteType = {
+		name = "GFX_text_physics_speed"
+		texturefile = "gfx/interface/icons/Institutions/research/text_physics_speed.dds"
+	}
+	## Engineering research speed
+	spriteType = {
+		name = "GFX_text_engineering_speed"
+		texturefile = "gfx/interface/icons/Institutions/research/text_engineering_speed.dds"
+	}
+	## General research speed
+	spriteType = {
+		name = "GFX_text_research_speed"
+		texturefile = "gfx/interface/icons/Institutions/research/text_research_speed.dds"
+	}
+
+	## Icons for Diplomatic Institution
+
+	## Diplomatic Powerhouse
+	spriteType = {
+		name = "GFX_text_diplomatic_powerhouse"
+		texturefile = "gfx/interface/icons/Institutions/diplomacy/text_diplomatic_powerhouse.dds"
+	}
+
+	## Diplomatic Weight
+	spriteType = {
+		name = "GFX_text_diplomatic_weight"
+		texturefile = "gfx/interface/icons/Institutions/diplomacy/text_diplomatic_weight.dds"
+	}
+
+	## Border Friction
+	spriteType = {
+		name = "GFX_text_border_friction"
+		texturefile = "gfx/interface/icons/Institutions/diplomacy/text_border_friction.dds"
+	}
+
+	## Cohesion Penalty
+	spriteType = {
+		name = "GFX_text_cohesion_penalty"
+		texturefile = "gfx/interface/icons/Institutions/diplomacy/text_cohesion_penalty.dds"
+	}
+
+	## Stability Increase
+	spriteType = {
+		name = "GFX_text_stability_increase"
+		texturefile = "gfx/interface/icons/Institutions/diplomacy/text_stability_increase.dds"
+	}
+
+	## Pop Happiness
+	spriteType = {
+		name = "GFX_text_pop_happiness"
+		texturefile = "gfx/interface/icons/Institutions/diplomacy/text_pop_happiness.dds"
+	}
+
+	## Icons for Economy Institution
+
+	## Maxmimum Effiency
+	spriteType = {
+		name = "GFX_text_maximum_effiency"
+		texturefile = "gfx/interface/icons/Institutions/economy/text_maximum_effiency.dds"
+	}
+	## Branch Office Output multiplier
+	spriteType = {
+		name = "GFX_text_branch_office_mult"
+		texturefile = "gfx/interface/icons/Institutions/economy/text_branch_office_mult.dds"
+	}
+	## Market Fee reduction
+	spriteType = {
+		name = "GFX_text_market_fees"
+		texturefile = "gfx/interface/icons/Institutions/economy/text_market_fees.dds"
+	}
+	## Special Resource prodcution
+	spriteType = {
+		name = "GFX_text_special_resources"
+		texturefile = "gfx/interface/icons/Institutions/economy/text_special_resources.dds"
+	}
+	## Station gather output
+	spriteType = {
+		name = "GFX_text_station_icon"
+		texturefile = "gfx/interface/icons/Institutions/economy/text_station_icon.dds"
+	}
+	## Trade Value
+	spriteType = {
+		name = "GFX_text_trade_value"
+		texturefile = "gfx/interface/icons/Institutions/economy/text_trade_value.dds"
+	}
+
+	## Icons for Loyalists Institution
+
+	## Diplomatic Opinion
+	spriteType = {
+		name = "GFX_text_diplomatic_opinion"
+		texturefile = "gfx/interface/icons/Institutions/loyalists/text_diplomatic_opinion.dds"
+	}
+	## Trust growth
+	spriteType = {
+		name = "GFX_text_trust_growth"
+		texturefile = "gfx/interface/icons/Institutions/loyalists/text_trust_growth.dds"
+	}
+	## Increase relations
+	spriteType = {
+		name = "GFX_text_increase_relation"
+		texturefile = "gfx/interface/icons/Institutions/loyalists/text_increase_relation.dds"
+	}
+	## Diplomatic stance modifier
+	spriteType = {
+		name = "GFX_text_diplomatic_stance_modifier"
+		texturefile = "gfx/interface/icons/Institutions/loyalists/text_diplomatic_stance_modifier.dds"
+	}
+	## Senate Envoys
+	spriteType = {
+		name = "GFX_text_envoy"
+		texturefile = "gfx/interface/icons/Institutions/loyalists/text_envoy.dds"
+	}
+	## Trust Cap Increase
+	spriteType = {
+		name = "GFX_text_trust_cap_increase"
+		texturefile = "gfx/interface/icons/Institutions/loyalists/text_trust_cap_increase.dds"
+	}
+
+	## Icons for Rebels
+
+	## Disengagement Chance
+	spriteType = {
+		name = "GFX_text_disengagement_chance"
+		texturefile = "gfx/interface/icons/Institutions/rebel/text_disengagement_chance.dds"
+	}
+
+	## Icons for Imperial Institution
+
+	## Megastructure build speed
+	spriteType = {
+		name = "GFX_text_megastructure_build_speed"
+		texturefile = "gfx/interface/icons/Institutions/imperial/text_megastructure_build_speed.dds"
+	}
+	## Unity Generation Increase
+	spriteType = {
+		name = "GFX_text_unity_increase"
+		texturefile = "gfx/interface/icons/Institutions/imperial/text_unity_increase.dds"
+	}
+
+	## Icons for Confederate Remnant
+
+	## Droid output
+	spriteType = {
+		name = "GFX_text_droid_output"
+		texturefile = "gfx/interface/icons/Institutions/cis/text_droid_output.dds"
+	}
+
+	## Icons for Coperate Sector Authority
+
+	## Planet Crime
+	spriteType = {
+		name = "GFX_text_planet_crime"
+		texturefile = "gfx/interface/icons/Institutions/csa/text_planet_crime.dds"
+	}
+	## Piracy supression
+	spriteType = {
+		name = "GFX_text_piracy_protection"
+		texturefile = "gfx/interface/icons/Institutions/csa/text_piracy_protection.dds"
+	}
+	## Trade Protection
+	spriteType = {
+		name = "GFX_text_trade_protection"
+		texturefile = "gfx/interface/icons/Institutions/csa/text_trade_protection.dds"
+	}
+	## District Upkeep
+	spriteType = {
+		name = "GFX_text_district_upkeep_csa"
+		texturefile = "gfx/interface/icons/Institutions/csa/text_district_upkeep_csa.dds"
+	}
+	## Building Upkeep
+	spriteType = {
+		name = "GFX_text_building_upkeep_csa"
+		texturefile = "gfx/interface/icons/Institutions/csa/text_building_upkeep_csa.dds"
+	}
+	## Ship Upkeep
+	spriteType = {
+		name = "GFX_text_ship_upkeep_csa"
+		texturefile = "gfx/interface/icons/Institutions/csa/text_ship_upkeep_csa.dds"
+	}
+	## Starbase Upkeep
+	spriteType = {
+		name = "GFX_text_starbase_upkeep_csa"
+		texturefile = "gfx/interface/icons/Institutions/csa/text_starbase_upkeep_csa.dds"
+	}
+	## Army Health
+	spriteType = {
+		name = "GFX_text_army_health"
+		texturefile = "gfx/interface/icons/Institutions/csa/text_army_health.dds"
+	}
+
+	## Icons for Mandalorian Institution
+
+	## Army Damage
+	spriteType = {
+		name = "GFX_text_army_damage"
+		texturefile = "gfx/interface/icons/Institutions/mando/text_army_damage.dds"
+	}
+	## Army Moral
+	spriteType = {
+		name = "GFX_text_army_moral"
+		texturefile = "gfx/interface/icons/Institutions/mando/text_army_moral.dds"
+	}
+	## Ship Speed
+	spriteType = {
+		name = "GFX_text_ship_speed"
+		texturefile = "gfx/interface/icons/Institutions/mando/text_ship_speed.dds"
+	}
+	## Ship Damage
+	spriteType = {
+		name = "GFX_text_ship_weapon_damage"
+		texturefile = "gfx/interface/icons/Institutions/mando/text_ship_weapon_damage.dds"
+	}
+	## Ship Fire Rate
+	spriteType = {
+		name = "GFX_text_ship_fire_rate"
+		texturefile = "gfx/interface/icons/Institutions/mando/text_ship_fire_rate.dds"
+	}
+	## Pop Growth Speed
+	spriteType = {
+		name = "GFX_text_pop_growth_speed"
+		texturefile = "gfx/interface/icons/Institutions/mando/text_pop_growth_speed.dds"
+	}
+	## Starbase upkeep
+	spriteType = {
+		name = "GFX_text_starbase_upkeep_mando"
+		texturefile = "gfx/interface/icons/Institutions/mando/text_starbase_upkeep_mando.dds"
+	}
+	## Starbase damage
+	spriteType = {
+		name = "GFX_text_starbase_damage_mando"
+		texturefile = "gfx/interface/icons/Institutions/mando/text_starbase_damage_mando.dds"
+	}
+	## Starbase hull
+	spriteType = {
+		name = "GFX_text_starbase_hull_mando"
+		texturefile = "gfx/interface/icons/Institutions/mando/text_starbase_hull_mando.dds"
+	}
+	# Megacorp Dlc
+	spriteType = {
+		name = "GFX_text_megacorp"
+		texturefile = "gfx/interface/icons/text_icons/megacorp.dds"
+	}
+
+	## Weapon Icons
+
+	# Yellow
+	spriteType = {
+		name = "GFX_text_yellow_icon"
+		texturefile = "gfx/interface/icons/text_icons/weapon_icons/yellow_icon.dds"
+	}
+
+	# Orange
+	spriteType = {
+		name = "GFX_text_orange_icon"
+		texturefile = "gfx/interface/icons/text_icons/weapon_icons/orange_icon.dds"
+	}
+
+	# Red
+	spriteType = {
+		name = "GFX_text_red_icon"
+		texturefile = "gfx/interface/icons/text_icons/weapon_icons/red_icon.dds"
+	}
+
+	# Blue
+	spriteType = {
+		name = "GFX_text_blue_icon"
+		texturefile = "gfx/interface/icons/text_icons/weapon_icons/blue_icon.dds"
+	}
+
+	# Purple
+	spriteType = {
+		name = "GFX_text_purple_icon"
+		texturefile = "gfx/interface/icons/text_icons/weapon_icons/purple_icon.dds"
+	}
+
+	# Teal
+	spriteType = {
+		name = "GFX_text_teal_icon"
+		texturefile = "gfx/interface/icons/text_icons/weapon_icons/teal_icon.dds"
+	}
+
+	# Green
+	spriteType = {
+		name = "GFX_text_green_icon"
+		texturefile = "gfx/interface/icons/text_icons/weapon_icons/green_icon.dds"
+	}
+}

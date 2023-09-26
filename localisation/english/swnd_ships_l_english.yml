@@ -11671,7 +11671,7 @@ l_english:
  defence_satelite_rocket_west_key: "Basic Structure"
 
  swp_planetary_shipyard_2: "Completed Planetary Shipyard"
- swp_planetary_shipyard_2_DESC:  "The $swp_planetary_shipyard_2$ is a massive station based around a planet dedicated entirely to ship construction, capable of building or upgrading ships."
+ swp_planetary_shipyard_2_DESC: "The $swp_planetary_shipyard_2$ is a massive station based around a planet dedicated entirely to ship construction, capable of building or upgrading ships."
  swnd_xq2_station_0: "XQ 2 Platform"
  swnd_xq2_station_0_DESC: "The XQ2 Platform is a basic space station designed to act as a waypoint for travelers visiting highly populated planets. Designed for deployment just at the edge of the atmosphere of planets with heavy space traffic."
  swnd_xq2_station_0_MEGASTRUCTURE_DETAILS: "The XQ2 Platform is a basic space station designed to act as a waypoint for travelers and merchants."

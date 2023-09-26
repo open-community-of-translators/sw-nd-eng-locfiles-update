@@ -1,0 +1,103 @@
+spriteTypes = {
+	###Hero Ships
+	spriteType = {
+		name = "GFX_ship_counter_0"
+		textureFile = "gfx/interface/system/hero_ship.dds"
+	}
+
+	###Corvettes
+	spriteType = {
+		name = "GFX_ship_counter_2"
+		textureFile = "gfx/interface/system/icon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_4"
+		textureFile = "gfx/interface/system/icon_1.dds"
+	}
+
+	###Frigates
+	spriteType = {
+		name = "GFX_ship_counter_6"
+		textureFile = "gfx/interface/system/icon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_8"
+		textureFile = "gfx/interface/system/icon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_10"
+		textureFile = "gfx/interface/system/icon_2.dds"
+	}
+
+	###Interdictors
+	spriteType = {
+		name = "GFX_ship_counter_9"
+		textureFile = "gfx/interface/system/icon_swp_interdictor.dds"
+	}
+
+	###Cruisers
+	spriteType = {
+		name = "GFX_ship_counter_12"
+		textureFile = "gfx/interface/system/icon_swp_cruiser.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_14"
+		textureFile = "gfx/interface/system/icon_swp_cruiser.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_16"
+		textureFile = "gfx/interface/system/icon_swp_cruiser.dds"
+	}
+
+	###Heavy Cruisers
+	spriteType = {
+		name = "GFX_ship_counter_18"
+		textureFile = "gfx/interface/system/icon_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_22"
+		textureFile = "gfx/interface/system/icon_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_26"
+		textureFile = "gfx/interface/system/icon_4.dds"
+	}
+
+	###Star Destroyers
+	spriteType = {
+		name = "GFX_ship_counter_28"
+		textureFile = "gfx/interface/system/icon_8.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_32"
+		textureFile = "gfx/interface/system/icon_8.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_36"
+		textureFile = "gfx/interface/system/icon_8.dds"
+	}
+
+	###Interdictor SD
+	spriteType = {
+		name = "GFX_ship_counter_35"
+		textureFile = "gfx/interface/system/icon_swp_interdictor_sd.dds"
+	}
+
+	###Battlecruisers
+	spriteType = {
+		name = "GFX_ship_counter_60"
+		textureFile = "gfx/interface/system/icon_16.dds"
+	}
+
+
+	###Dreadnoughts
+	spriteType = {
+		name = "GFX_ship_counter_120"
+		textureFile = "gfx/interface/system/icon_32.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_counter_180"
+		textureFile = "gfx/interface/system/icon_32.dds"
+	}
+
+}

@@ -1,0 +1,853 @@
+spriteTypes = {	
+	# Commander Gaunt Event
+	spriteType = {
+		name = "GFX_evt_gaunt_tarkin"
+		texturefile = "gfx/event_pictures/tarkin.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_gaunt_probe_droid"
+		texturefile = "gfx/event_pictures/probe_droid_2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_gaunt_rebel_fleet"
+		texturefile = "gfx/event_pictures/rebel_fleet.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_gaunt_isd_skirmish"
+		texturefile = "gfx/event_pictures/isd_skirmish.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_gaunt_isd_attack"
+		texturefile = "gfx/event_pictures/isd_attack.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_gaunt_tie_screen"
+		texturefile = "gfx/event_pictures/tie_screen.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_gaunt_isd_bridge"
+		texturefile = "gfx/event_pictures/isd_bridge.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_gaunt_bridge"
+		texturefile = "gfx/event_pictures/gaunt_bridge.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_gaunt_final_battle"
+		texturefile = "gfx/event_pictures/isd_tie.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	# Tactical Droid
+	spriteType = {
+		name = "GFX_evt_tactical_droid"
+		texturefile = "gfx/event_pictures/ascension_perks/tactical_droid.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	# GCW/ New Order chain
+	spriteType = {
+		name = "GFX_evt_senate_building"
+		texturefile = "gfx/event_pictures/senate_building.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_new_order"
+		texturefile = "gfx/event_pictures/new_order.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ilum_mining"
+		texturefile = "gfx/event_pictures/ilum_mining.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ilum_mined"
+		texturefile = "gfx/event_pictures/ilum_mined.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_enlist_today"
+		texturefile = "gfx/event_pictures/enlist_today.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_dark_force_inq"
+		texturefile = "gfx/event_pictures/dark_force_inq.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_mon_mothma_ro"
+		texturefile = "gfx/event_pictures/mon_mothma_ro.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ds_rogue_one_jedha"
+		texturefile = "gfx/event_pictures/ds_rogue_one_jedha.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	#Disease Events
+	spriteType = {
+		name = "GFX_evt_mon_cala_nerveshock"
+		texturefile = "gfx/event_pictures/mon_cala_nerveshock.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_disease_droid"
+		texturefile = "gfx/event_pictures/disease_droid.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_disease_virus"
+		texturefile = "gfx/event_pictures/bio_virus.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	### Generic Imperial Events
+	spriteType = {
+		name = "GFX_evt_imp_officer_toast"
+		texturefile = "gfx/event_pictures/imp_officer_toast.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	### Generic Mando Events
+	spriteType = {
+		name = "GFX_evt_mando_meeting"
+		texturefile = "gfx/event_pictures/mando_meeting.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_mando_clan_rising"
+		texturefile = "gfx/event_pictures/mando_clan_rising.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_mando_clan_bar"
+		texturefile = "gfx/event_pictures/mando_clan_bar.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_mando_clan_raid"
+		texturefile = "gfx/event_pictures/mando_clan_raid.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_mando_this_is_the_way"
+		texturefile = "gfx/event_pictures/mando_this_is_the_way.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mando_the_tribe"
+		texturefile = "gfx/event_pictures/mando_the_tribe.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mando_taung"
+		texturefile = "gfx/event_pictures/mando_taung.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_coruscant_celebrating"
+		texturefile = "gfx/event_pictures/victory_coruscant.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_book_of_boba"
+		texturefile = "gfx/event_pictures/book_of_boba.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mando_forge_tools"
+		texturefile = "gfx/event_pictures/mando_forge_tools.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mando_forge_gift"
+		texturefile = "gfx/event_pictures/mando_forge_gift.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mando_cubikad_01"
+		texturefile = "gfx/event_pictures/mando_cubikad_01.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mando_cubikad_02"
+		texturefile = "gfx/event_pictures/mando_cubikad_02.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+
+	### Mandalorian Protectors
+	spriteType = {
+		name = "GFX_evt_concord_moon"
+		texturefile = "gfx/event_pictures/protectors/concord_thirdmoon.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_fang_fighter"
+		texturefile = "gfx/event_pictures/protectors/fang_fighter.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_peace_park"
+		texturefile = "gfx/event_pictures/protectors/peace_park.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_rau_camp"
+		texturefile = "gfx/event_pictures/protectors/rau_camp.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_landed_mando_ships"
+		texturefile = "gfx/event_pictures/protectors/landed_mando_ships.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_street_thugs"
+		texturefile = "gfx/event_pictures/protectors/street_thugs.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mando_diplomacy"
+		texturefile = "gfx/event_pictures/protectors/mando_diplomacy.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_shysa_protectors"
+		texturefile = "gfx/event_pictures/protectors/shysa_protectors.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mando_bar_brawl"
+		texturefile = "gfx/event_pictures/protectors/mando_bar_brawl.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	### Mandalorian Civil War
+
+	spriteType = {
+		name = "GFX_evt_dutchess_activated"
+		texturefile = "gfx/event_pictures/mando_civil_war/dutchess_activated.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_dutchess_detonate"
+		texturefile = "gfx/event_pictures/mando_civil_war/dutchess_detonate.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_bo_katan_rally"
+		texturefile = "gfx/event_pictures/mando_civil_war/bo_katan_rally.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_bo_katan_rally2"
+		texturefile = "gfx/event_pictures/mando_civil_war/bo_katan_rally2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_dathomir_darksaber"
+		texturefile = "gfx/event_pictures/mando_civil_war/dathomir_darksaber.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_dathomir_skyline"
+		texturefile = "gfx/event_pictures/mando_civil_war/dathomir_skyline.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_dathomir_surface"
+		texturefile = "gfx/event_pictures/mando_civil_war/dathomir_surface.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_dathomir_village"
+		texturefile = "gfx/event_pictures/mando_civil_war/dathomir_village.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_dathomir_zombies"
+		texturefile = "gfx/event_pictures/mando_civil_war/dathomir_zombies.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_dathomir_gorgara"
+		texturefile = "gfx/event_pictures/mando_civil_war/dathomir_gorgara.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_dathomir_nightbrothers"
+		texturefile = "gfx/event_pictures/mando_civil_war/dathomir_nightbrothers.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_dathomir_witch_summon"
+		texturefile = "gfx/event_pictures/mando_civil_war/dathomir_witch_summon.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_empty_beskar_armor"
+		texturefile = "gfx/event_pictures/mando_civil_war/empty_beskar_armor.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_imperial_super_commandos"
+		texturefile = "gfx/event_pictures/mando_civil_war/imperial_super_commandos.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_krownest_court"
+		texturefile = "gfx/event_pictures/mando_civil_war/krownest_court.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mandalorian_assemble"
+		texturefile = "gfx/event_pictures/mando_civil_war/mandalorian_assemble.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mando_pursuit"
+		texturefile = "gfx/event_pictures/mando_civil_war/mando_pursuit.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_protectors_shootout"
+		texturefile = "gfx/event_pictures/mando_civil_war/protectors_shootout.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_sabine_blasters"
+		texturefile = "gfx/event_pictures/mando_civil_war/sabine_blasters.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_sabine_hangar"
+		texturefile = "gfx/event_pictures/mando_civil_war/sabine_hangar.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_sabine_rally"
+		texturefile = "gfx/event_pictures/mando_civil_war/sabine_rally.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_saxon_treason"
+		texturefile = "gfx/event_pictures/mando_civil_war/saxon_treason.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_vizsla_darksaber"
+		texturefile = "gfx/event_pictures/mando_civil_war/vizsla_darksaber.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_vizsla_kneel"
+		texturefile = "gfx/event_pictures/mando_civil_war/vizsla_kneel.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_war_with_saxon"
+		texturefile = "gfx/event_pictures/mando_civil_war/war_with_saxon.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_saxon_formation"
+		texturefile = "gfx/event_pictures/mando_civil_war/saxon_formation.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_dutchess_atdp"
+		texturefile = "gfx/event_pictures/mando_civil_war/dutchess_atdp.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_imperial_super_commandos_shooting"
+		texturefile = "gfx/event_pictures/mando_civil_war/imperial_super_commando_shooting.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_atdp_fire"
+		texturefile = "gfx/event_pictures/atdp_fire.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_kryze_castle_destroyed"
+		texturefile = "gfx/event_pictures/mando_civil_war/kryze_castle_destroyed.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_saxon_commandos"
+		texturefile = "gfx/event_pictures/mando_civil_war/saxon_commandos.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	# Special Planet Events
+	spriteType = {
+		name = "GFX_evt_sandpeople"
+		texturefile = "gfx/event_pictures/tatooine_sandpeople.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_planet_tatooine"
+		texturefile = "gfx/event_pictures/planet_tatooine.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_sandpeople_killed"
+		texturefile = "gfx/event_pictures/tatooine_sandpeople_killed.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_sandpeople_raid"
+		texturefile = "gfx/event_pictures/tatooine_sandpeople_raid.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	###########################
+	# Bountyhunter Espionage Operations
+	###########################
+	spriteType = {
+		name = "GFX_evt_bountyhunter_assassination"
+		texturefile = "gfx/event_pictures/bountyhunter/bountyhunter_assassination.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_bountyhunter_abducted"
+		texturefile = "gfx/event_pictures/bountyhunter/bountyhunter_abduct.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_bountyhunter_relic"
+		texturefile = "gfx/event_pictures/bountyhunter/bountyhunter_relic.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_bountyhunter_hacking"
+		texturefile = "gfx/event_pictures/bountyhunter/bountyhunter_hacking.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_bountyhunter_sabotage"
+		texturefile = "gfx/event_pictures/bountyhunter/bountyhunter_sabotage.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_bountyhunter_branch_office"
+		texturefile = "gfx/event_pictures/bountyhunter/bountyhunter_branch.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_bountyhunter_la_casa_de_papel"
+		texturefile = "gfx/event_pictures/bountyhunter/bountyhunter_bella_ciao.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	#################
+	# Thrawn Events #
+	#################
+
+	spriteType = {
+		name = "GFX_evt_datapad"
+		texturefile = "gfx/event_pictures/datapad.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_cave_entrance"
+		texturefile = "gfx/event_pictures/cave_entrance.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_kyber_crystal"
+		texturefile = "gfx/event_pictures/kyber_crystal.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_tie_wreckage"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_tie_wreckage.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_trooper_search"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_trooper_search_1.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_camp_explosion"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_camp_explosion.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_captured_1"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_captured_1.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_captured_2"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_captured_2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_captured_3"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_captured_3.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_probe_droid"
+		texturefile = "gfx/event_pictures/probe_droid.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_palpatine_1"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_palpatine_1.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_palpatine_2"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_palpatine_2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_barracks"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_barracks.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_melee"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_melee.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_cadet_ambush"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_cadet_ambush.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_cadet_insults"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_cadet_insults.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_sabacc_1"
+		texturefile = "gfx/event_pictures/sabacc_1.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_blood_crow"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_blood_crow.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_chimaera"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_chimaera.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_thrawn_admiral"
+		texturefile = "gfx/event_pictures/thrawn/thrawn_admiral.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_grand_admiral_thrawn"
+		texturefile = "gfx/event_pictures/thrawn/grand_admiral_thrawn.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_imperial_supplies"
+		texturefile = "gfx/event_pictures/imperial_supplies.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = { 
+		name = "GFX_evt_vong_coruscant"
+		textureFile = "gfx/event_pictures/vong_coruscant.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = { 
+		name = "GFX_evt_vong_invasion"
+		textureFile = "gfx/event_pictures/vong_invasion.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = { 
+		name = "GFX_evt_vong_fleet"
+		textureFile = "gfx/event_pictures/vong_fleet.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	#######################################
+	# Imported with permission from LOTOR #
+	#######################################
+
+	# Bountiful Harvest
+	spriteType = {
+		name = "GFX_evt_bountiful_harvest"
+		texturefile = "gfx/event_pictures/bountiful_harvest.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	# Rich Mineral Vein
+	spriteType = {
+		name = "GFX_evt_rich_mineral_vein"
+		texturefile = "gfx/event_pictures/rich_mineral_vein.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	# Infestation (Tainted Goods)
+	spriteType = {
+		name = "GFX_evt_tainted_goods"
+		texturefile = "gfx/event_pictures/tainted_goods.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	### Treasures of Dianth dig site
+	spriteType = { 
+		name = "GFX_evt_brain_frequencies"
+		textureFile = "gfx/event_pictures/treasures_dianth/brain_frequencies.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = { 
+		name = "GFX_evt_dianth_planet"
+		textureFile = "gfx/event_pictures/treasures_dianth/planet_dianth.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = { 
+		name = "GFX_evt_door_under_city"
+		textureFile = "gfx/event_pictures/treasures_dianth/door_under_city.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = { 
+		name = "GFX_evt_galactic_dust"
+		textureFile = "gfx/event_pictures/treasures_dianth/galactic_dust.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = { 
+		name = "GFX_evt_living_stone"
+		textureFile = "gfx/event_pictures/treasures_dianth/living_stone.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = { 
+		name = "GFX_evt_ring_of_immortality"
+		textureFile = "gfx/event_pictures/treasures_dianth/ring_of_immortality.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = { 
+		name = "GFX_evt_rings_cave_paiting"
+		textureFile = "gfx/event_pictures/treasures_dianth/rings_cave_paiting.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = { 
+		name = "GFX_evt_vaale_city"
+		textureFile = "gfx/event_pictures/treasures_dianth/vaale_city.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = { 
+		name = "GFX_evt_vaale_towers"
+		textureFile = "gfx/event_pictures/treasures_dianth/vaale_towers.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}
+
+
+

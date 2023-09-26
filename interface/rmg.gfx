@@ -1,0 +1,28 @@
+# this file goes into the interface folder
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_glow_tile_purple"
+		textureFile = "gfx/interface/tiles/rmg/glow_tile_purple.dds"
+		borderSize = {
+			x = 12
+			y = 12
+		}
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	spriteType = {
+		name = "GFX_rmg_lotor"
+		texturefile = "gfx/interface/buttons/rmg/rmg_lotor.dds"
+	}
+	spriteType = {
+		name = "GFX_rmg_stnc"
+		texturefile = "gfx/interface/buttons/rmg/rmg_stnc.dds"
+	}
+	spriteType = {
+		name = "GFX_rmg_collection"
+		texturefile = "gfx/interface/buttons/rmg/rmg_collection.dds"
+	}
+	spriteType = {
+		name = "GFX_rmg_swnd"
+		texturefile = "gfx/interface/buttons/rmg/rmg_swnd.dds"
+	}
+}

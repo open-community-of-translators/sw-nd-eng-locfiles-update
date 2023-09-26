@@ -1,0 +1,15 @@
+sectors_others_group = {
+	resources = {
+		tibanna_gas
+		hyperfuel
+		electronics
+		ammunition
+		bacta
+		spice
+		sr_agrocite
+	}
+	localization = {
+		"RESOURCE_GROUP_BALANCE_ONLY" = default
+		"RESOURCE_GROUP_BALANCE_ONLY_NEG" = { balance < 0 }
+	}
+}

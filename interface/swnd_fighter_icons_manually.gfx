@@ -1,0 +1,13 @@
+#Not in the Sheets
+
+spriteTypes = {
+	#Rahm Kota
+	spriteType = { name = "GFX_ship_part_hangar_fighter_rahm_kota" textureFile = "gfx/interface/icons/ship_parts/fighters/ship_part_fighter_kota.dds" }
+	spriteType = { name = "GFX_ship_part_hangar_bomber_rahm_kota" textureFile = "gfx/interface/icons/ship_parts/fighters/ship_part_bomber_kota.dds" }
+	
+	#Gaunt
+	spriteType = { name = "GFX_ship_part_hangar_fighter_gaunt_neel" textureFile = "gfx/interface/icons/ship_parts/fighters/ship_part_event_fighter_neel.dds" }
+	spriteType = { name = "GFX_ship_part_hangar_fighter_gaunt_rosh" textureFile = "gfx/interface/icons/ship_parts/fighters/ship_part_event_fighter_rosh.dds" }
+	spriteType = { name = "GFX_ship_part_hangar_bomber_gaunt_ada" textureFile = "gfx/interface/icons/ship_parts/fighters/ship_part_event_bomber_ada.dds" }
+	
+}

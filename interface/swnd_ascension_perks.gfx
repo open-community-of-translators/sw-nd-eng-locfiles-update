@@ -1,0 +1,129 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ap_financial_sectors"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_financial_sectors.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_mining_guilds"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_mining_guilds.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_empire_decree"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_empire_decree.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_empire_institutions"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_empire_institutions.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_commercial_guilds"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_commercial_guilds.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_industrial_powerhouse"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_industrial_powerhouse.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_droid_leaders"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_droid_leaders.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_sovereign_unification"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_sovereign_unification.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_media_control"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_media_control.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_cloning"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_cloning.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_understanding_galaxy"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_understanding_galaxy.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_genetic_modifying"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_genetic_modifying.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_weapon_production"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_weapon_production.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_hyperspace_tracking"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_hyperspace_tracking.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_adaptable_ai"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_adaptable_ai.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_starfighter_focus"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_starfighter_focus.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_space_fortress"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_space_fortress.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_turret_focus"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_turret_focus.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ap_ordnance_focus"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_ordnance_focus.dds"
+		alwaystransparent = yes
+	}
+
+	#spriteType = {
+	#	name = "GFX_ap_new_order"
+	#	texturefile = "gfx/interface/icons/ascension_perks/ap_new_order.dds"
+	#	alwaystransparent = yes
+	#}
+
+	spriteType = {
+		name = "GFX_ap_mando_crusade"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_mando_crusade.dds"
+		alwaystransparent = yes
+	}
+
+}

@@ -1,0 +1,181 @@
+﻿
+#Star Wars New Dawn Modding Team
+--------
+
+-- Lead Developers --
+Elratie
+
+-- Coder --
+Dal
+Bosmeri
+
+-- Helping Hands --
+Akyla
+Bane
+Walchicus
+Renegade Modding group
+
+-- Contributors --
+Кулаков Егор
+
+
+# Former Members
+
+-- Developers --
+Akyla 
+Bane
+Dayshine
+Snapstyle
+Harain
+The24thDS
+Shaggo
+The Pretender
+SplendidSpud
+
+
+-- 3D --
+Westbend
+pHySo
+Zo0r
+Ajax
+Grinsel (G-man)
+
+-- 2D --
+Ael's
+Cutter Slade
+Shuulo
+Kharak
+Dirty Chewbacca
+Quinn
+Hooliehoo
+Laank
+Makk
+
+-- Voice Over --
+MightyJ
+Rasono
+Bazaar
+Zachary Johnson
+
+-- Map --
+chriskar
+
+-- Events --
+Madventurer
+Kaiser
+Teindrcah
+Defiance
+HomoAspien
+Ironheartbb
+Marty
+Sykes Erata
+The Cyperpunk - Jake
+Mats
+
+-- Localisation writers --
+Baahb
+Zoom
+Tootastic
+Elusive
+Varangian Succ
+Carl
+Kowalskee
+matt_defalco
+TheIronWookie
+awrton headfield
+Beeman
+Yondi
+Boots
+Animeinspector
+Annimagus
+MerlinTheMighty
+The Commissar
+BattleFrontline
+Kerim_77_XD
+Loon
+Mattzimann
+NickTheNick
+Thinkblu3
+
+-- Brazillian Translators --
+Captain_A
+
+-- Russian Translators --
+I'm the Senate
+
+-- French translators --
+satanluimm
+Razorix22
+
+-- Spanish Translators --
+Fedello
+
+-- German Translators --
+ThinkBlu3
+Mattzimann
+Ullewupp
+aule
+Loon
+PaddyGameTV
+
+-- Beta Testers -- 
+Livnthedream
+Locutus von Borg
+Fennec
+Solar Rider
+xavierss
+CliiiCk
+Overseer_praefectus
+The Patrician Fireball900
+rightM
+Sol
+Sick_Rabbid
+Mitrhe 
+Lady Zentonous
+AGloriousSlothBear
+Apollo
+Ragthagar
+
+# Contributors/ Shared Assets
+
+Evillejedi
+Doci
+Warbnull
+Walshicus
+Shiny_Man
+Yuuzahn Vong at War Team
+Strobe
+Lucasarts
+Petroglyph
+Megabalta
+Enpremi and Seregruth
+The Farseer
+Thrawns Revenge Dev Team
+Chickenhunt
+Maxloef
+Wolf/ Aotr Team
+ArvisTaljik
+ARA Jedi Master
+Expanding Fronts Dev Team
+Barlex
+force728
+Dolynick
+DrBLOOD
+Rise of Hope Modteam
+Loyal Records
+Fractalsponge
+Howard Day
+DICE
+AdamKop
+Geroenimo
+Garry Windu
+
+Star Wars and all related logos, icons, marks, and characters 
+are solely owned by The Walt Disney Company. 
+This total conversion mod is not endorsed, sponsored, or 
+affiliated with The Walt Disney Company, Lucasfilm Ltd. LLC, 
+Electronic Arts, or any other publisher or producer of 
+Star Wars related media. No independent rights will be 
+asserted against The Walt Disney Company, Lucasfilm Ltd. LLC, 
+or Electronic Arts and no commercial exhibition or distribution 
+will be permitted. This is entirely a community-driven, non-profit project.

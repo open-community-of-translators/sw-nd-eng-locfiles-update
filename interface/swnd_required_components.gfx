@@ -1,0 +1,132 @@
+spriteTypes = {
+	spriteType = { name = "GFX_ship_part_swp_required_hyperdrive_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_hyperdrive_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_hyperdrive_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_hyperdrive_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_hyperdrive_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_hyperdrive_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_hyperdrive_4" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_hyperdrive_4.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_hyperdrive_5" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_hyperdrive_5.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_computer_skirmish_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_skirmish_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_computer_brawl_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_brawl_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_computer_charge_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_charge_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_computer_artillery_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_artillery_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_computer_skirmish_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_skirmish_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_computer_brawl_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_brawl_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_computer_charge_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_charge_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_computer_artillery_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_artillery_2.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_defense_shield_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_defense_shield_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_defense_shield_a_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_defense_shield_a_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_defense_shield_b_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_defense_shield_b_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_defense_shield_a_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_defense_shield_a_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_defense_shield_b_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_defense_shield_b_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_defense_shield_a_4" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_defense_shield_a_4.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_defense_shield_b_4" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_defense_shield_b_4.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_defense_shield_a_5" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_defense_shield_a_5.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_defense_shield_b_5" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_defense_shield_b_5.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_thruster_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_thruster_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_thruster_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_thruster_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_thruster_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_thruster_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_thruster_4" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_thruster_4.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_thruster_5" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_thruster_5.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_armor_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_a_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_a_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_b_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_a_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_a_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_b_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_a_4" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_a_4.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_b_4" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_4.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_a_5" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_a_5.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_b_5" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_5.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_a_6" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_a_6.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_armor_b_6" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_armor_6.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_balanced_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_balanced_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_balanced_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_balanced_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_defensive_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_defensive_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_defensive_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_defensive_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_offensive_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_offensive_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_offensive_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_offensive_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_lightweight_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_lightweight_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_lightweight_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_lightweight_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_rebel_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_rebel_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_imperial_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_imperial_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_hapan_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_hapan_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_mando_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_mando_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_cis_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_cis_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_architecture_chiss_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_architecture_chiss_1.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_empty_0" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_empty_0.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_station_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_station_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_station_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_station_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_station_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_station_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_starbase_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_starbase_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_starbase_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_starbase_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_starbase_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_starbase_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_science_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_science_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_science_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_science_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_sensor_science_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_sensor_science_3.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_vong_hyperdrive_1" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_hyperdrive_2" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_hyperdrive_3" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_hyperdrive_4" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_hyperdrive_5" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_vong_thruster_1" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_thruster_2" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_thruster_3" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_thruster_4" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_thruster_5" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_vong_armor_1" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_armor_2" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_armor_3" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_armor_4" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_armor_5" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_armor_6" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_station_reactor_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_utility_small_reactor_0.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_station_reactor_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_utility_small_reactor_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_station_reactor_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_utility_small_reactor_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_station_reactor_4" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_utility_small_reactor_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_station_reactor_5" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_utility_small_reactor_4.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_vong_reactor_1" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_reactor_2" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_reactor_3" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_reactor_4" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_vong_reactor_5" textureFile = "gfx/interface/icons/ship_parts/weapons/WIP_turret.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_aura_empty_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_empty_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_tractor_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_tractor_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_tractor_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_tractor_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_tractor_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_tractor_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_inhibitor_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_inhibitor_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_inhibitor_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_inhibitor_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_inhibitor_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_inhibitor_3.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_aura_cnc_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_cnc_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_cnc_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_cnc_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_cnc_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_cnc_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_ecm_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_ecm_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_ecm_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_ecm_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_ecm_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_ecm_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_armor_pen_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_armor_pen_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_armor_pen_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_armor_pen_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_armor_pen_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_armor_pen_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_repair_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_repair_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_sweeper_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_sweeper_1.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_aura_well_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_well_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_well_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_well_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_well_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_well_3.dds" }
+
+	spriteType = { name = "GFX_ship_part_swp_required_aura_mines_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_mines_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_mines_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_mines_2.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_mines_3" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_mines_3.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_mines_4" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_mines_4.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_gravity_mines_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_aura_gravity_mines_1.dds" }
+}

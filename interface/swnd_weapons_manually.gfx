@@ -1,0 +1,109 @@
+#Not in the Sheets stuff
+
+spriteTypes = {
+	#Nihilus
+	spriteType = { name = "GFX_ship_part_swp_nihilus_medium_tl" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_turbolaser_special.dds" }
+	spriteType = { name = "GFX_ship_part_swp_nihilus_point_defence" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_special.dds" }
+	spriteType = { name = "GFX_ship_part_swp_nihilus_ion_cannon" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_ion_cannon_special.dds" }
+	spriteType = { name = "GFX_ship_part_swp_nihilus_torpedo" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_torpedo_proton_special.dds" }
+	spriteType = { name = "GFX_ship_part_swp_nihilus_missile" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_torpedo_concussion_special.dds" }
+
+	#Rahm Kota
+	spriteType = { name = "GFX_ship_part_swp_rahm_kota_small_tl" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_turbolaser_kota.dds" }
+	spriteType = { name = "GFX_ship_part_swp_rahm_kota_medium_tl" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_turbolaser_kota.dds" }
+	
+	#Deathstar
+	spriteType = { name = "GFX_ship_part_swp_death_star_beam" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_large_death_star_beam.dds" }
+	spriteType = { name = "GFX_ship_part_swp_death_star_laser" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_large_death_star_laser.dds" }
+	
+	#Imperial
+	#Medium
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_httl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_httl_1.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_httl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_httl_2.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_httl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_httl_3.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_httl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_httl_4.dds" }
+	
+	#Mando
+	#PD
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_lthlc_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_lthlc_1.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_lthlc_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_lthlc_2.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_lthlc_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_lthlc_3.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_lthlc_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_lthlc_4.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_lthlc_5" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_lthlc_5.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_lthlc_6" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_lthlc_6.dds" }
+	
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_dltl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_dltl_1.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_dltl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_dltl_2.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_dltl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_dltl_3.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_dltl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_dltl_4.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_dltl_5" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_dltl_5.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_mando_dltl_5" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_swp_turret_mando_dltl_6.dds" }
+	
+	#Small
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_dltl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_dltl_1.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_dltl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_dltl_2.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_dltl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_dltl_3.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_dltl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_dltl_4.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_dltl_5" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_dltl_5.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_dltl_6" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_dltl_6.dds" }
+	
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_mqtl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_mqtl_1.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_mqtl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_mqtl_2.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_mqtl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_mqtl_3.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_mqtl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_mqtl_4.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_mqtl_5" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_mqtl_5.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_mando_mqtl_6" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_mando_mqtl_6.dds" }
+	
+	#Medium
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_hdtl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_hdtl_1.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_hdtl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_hdtl_2.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_hdtl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_hdtl_3.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_hdtl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_hdtl_4.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_hdtl_5" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_hdtl_5.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_hdtl_6" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_hdtl_6.dds" }
+
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_old_hdtl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_old_hdtl_1.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_old_hdtl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_old_hdtl_2.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_old_hdtl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_old_hdtl_3.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_old_hdtl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_old_hdtl_4.dds" }
+	
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_mstl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_mstl_1.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_mstl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_mstl_2.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_mstl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_mstl_3.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_mando_mstl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_mando_mstl_4.dds" }
+
+
+	#Rebels
+	#PD
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_rebel_dp20_dlc_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_dp20_laser_cannon_1.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_rebel_dp20_dlc_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_dp20_laser_cannon_2.dds" }
+	spriteType = { name = "GFX_ship_part_pd_swp_turret_rebel_dp20_dlc_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_point_defence_dp20_laser_cannon_3.dds" }
+	
+	#Small
+	spriteType = { name = "GFX_ship_part_small_swp_turret_rebel_dp20_dltl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_dp20_dltl_1.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_rebel_dp20_dltl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_dp20_dltl_2.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_rebel_dp20_dltl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_dp20_dltl_3.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_rebel_dp20_dltl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_dp20_dltl_4.dds" }
+
+	#CIS
+	#Small
+	spriteType = { name = "GFX_ship_part_small_swp_turret_cis_dltl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_cis_dltl_1.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_cis_dltl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_cis_dltl_2.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_cis_dltl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_cis_dltl_3.dds" }
+	spriteType = { name = "GFX_ship_part_small_swp_turret_cis_dltl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_small_swp_turret_cis_dltl_4.dds" }
+	
+	#Medium
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_cis_hdtl_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_cis_hdtl_1.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_cis_hdtl_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_cis_hdtl_2.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_cis_hdtl_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_cis_hdtl_3.dds" }
+	spriteType = { name = "GFX_ship_part_medium_swp_turret_cis_hdtl_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_medium_swp_turret_cis_hdtl_4.dds" }
+
+	#Missiles
+	#Ion Pulse
+	spriteType = { name = "GFX_ship_part_torpedo_ionpulse_1" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_torpedo_ionpulse_1.dds" }
+	spriteType = { name = "GFX_ship_part_torpedo_ionpulse_2" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_torpedo_ionpulse_2.dds" }
+	spriteType = { name = "GFX_ship_part_torpedo_ionpulse_3" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_torpedo_ionpulse_3.dds" }
+	spriteType = { name = "GFX_ship_part_torpedo_ionpulse_4" textureFile = "gfx/interface/icons/ship_parts/weapons/ship_part_torpedo_ionpulse_4.dds" }
+
+	
+}

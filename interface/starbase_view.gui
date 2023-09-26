@@ -3,7 +3,7 @@
 @tabs_pos_y = 230
 @tabs_size_h = -50
 @side_view_panel_width = 334
-@side_view_entry_width = 364
+@side_view_entry_width = 364 # ND
 
 guiTypes = {
 	containerWindowType = {
@@ -346,12 +346,12 @@ guiTypes = {
 
 				gridBoxType = {
 					name = "buildings_grid"
-					position = { x = 16 y = 39 }
+					position = { x = 16 y = 39 } # ND
 					size = { width = 0 height = 0 }
 					format = "UPPER_LEFT"
 					slotsize = { width = 60 height = 60 }
 					add_horizontal = yes
-					max_slots_horizontal = 4
+					max_slots_horizontal = 4 # ND
 				}
 			}
 
@@ -514,7 +514,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "build_queue_info"
-				position = { x = 290 y = 110 }
+				position = { x = 290 y = 318 }
 				size = { width = 260 height = -1 }
 #				orientation = center_up
 #				origo = upper_left
@@ -691,7 +691,7 @@ guiTypes = {
 					name = "build_queue_list"
 					position = { x = 10 y = 43 }
 					orientation = upper_left
-					size = { x = 230 y = 318 }
+					size = { x = 235 y = 318 }
 					borderSize = { x = 0 y = 0 }
 					scrollbartype = "standardlistbox_slider"
 					autohide_scrollbar = no
@@ -783,7 +783,6 @@ guiTypes = {
 #					fixedSize = yes
 #					format = center
 #					alwaysTransparent = yes
-#					text_color_code = g
 #				}
 
 				instantTextBoxType={
@@ -845,7 +844,7 @@ guiTypes = {
 					#text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
-		}
+				}
 			}
 
 			containerWindowType = {
@@ -876,7 +875,7 @@ guiTypes = {
 					name = "build_queue_list"
 					position = { x = 10 y = 43 }
 					orientation = upper_left
-					size = { x = 230 y = 317 }
+					size = { x = 235 y = 317 }
 					borderSize = { x = 0 y = 0 }
 					scrollbartype = "standardlistbox_slider"
 					autohide_scrollbar = no
@@ -991,6 +990,7 @@ guiTypes = {
 					fixedSize = yes
 					format = center
 					alwaysTransparent = yes
+					text_color_code = g
 				}
 
 				smoothListBoxType = {
@@ -1176,7 +1176,7 @@ guiTypes = {
 				buttonText = "STARBASE_SHIPYARD_TAB"
 				buttonFont = "cg_16b"
 				clicksound = "tab_click"
-				shortcut = "c"
+				shortcut = "v"
 			}
 		}
 	}
@@ -1233,12 +1233,12 @@ guiTypes = {
 
 			if_scaled_resolution = {
 				max_height = 800
-				size = { x = 370 y = 498 }
+				size = { x = 370 y = 498 } # ND
 			}
 
 			if_scaled_resolution = {
 				min_height = 801
-				size = { x = 370 y = 692 }
+				size = { x = 370 y = 692 } # ND
 			}
 
 			scrollbarType = "standardlistbox_slider"
@@ -1387,7 +1387,7 @@ guiTypes = {
 			name = "cost"
 			font = "cg_16b"
 			text = "COST"
-			position = { x = -200 y = 6 }
+			position = { x = -200 y = 6 } # ND
 			maxWidth = 170
 			maxHeight = 20
 			fixedSize = yes
@@ -1510,7 +1510,7 @@ guiTypes = {
 		buttonType = {
 			name = "priority_upwards"
 			quadTextureSprite = "GFX_button_up"
-			position = { x= 202 y = -1 }
+			position = { x= 210 y = -1 }
 #			Orientation = "UPPER_RIGHT"
 			buttonFont = "cg_16b"
 			pdx_tooltip = "STARBASE_BUILDQUEUE_UP"
@@ -1520,7 +1520,7 @@ guiTypes = {
 		buttonType = {
 			name = "priority_downwards"
 			quadTextureSprite = "GFX_button_down"
-			position = { x= 202 y = 24 }
+			position = { x= 210 y = 24 }
 #			Orientation = "LOWER_RIGHT"
 			buttonFont = "cg_16b"
 			pdx_tooltip = "STARBASE_BUILDQUEUE_DOWN"

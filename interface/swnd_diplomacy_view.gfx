@@ -1,0 +1,67 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_diplomacy_status_is_imperial_sector"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_is_imperial_sector.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_status_is_imperial_sector_human"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_is_imperial_sector.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplomacy_status_is_cis_sector"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_is_cis_sector.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplomacy_status_is_mando_clan"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_is_mando_clan.dds"
+	}
+
+	# Subject
+	spriteType = {
+		name = "GFX_diplomacy_specialist_subject_mando_clan_large"
+		texturefile = "gfx/interface/subjugation/specialist_icons/specialist_subject_mando_clan_icon.dds"
+	}
+
+	spriteType = { # Walchicus
+		name = "GFX_event_button_yellow"
+		texturefile = "gfx/interface/buttons/button_452_animated_trader.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_452_animated_mask.dds"
+			animationtexturefile = "gfx/interface/buttons/button_452_animated_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 180.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	corneredTileSpriteType = { # Walchicus
+		name = "GFX_tile_large_bg_red"
+		textureFile = "gfx/interface/tiles/tile_large_bg.dds"
+		borderSize = { x=330 y=296 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	spriteType = { # Walchicus
+		name = "GFX_hex_bg_red"
+		textureFile = "gfx/interface/planetview/planet_view_hex_bg.dds"
+	}
+	spriteType = { # Walchicus
+		name = "GFX_main_close_button_red"
+		texturefile = "gfx/interface/buttons/close_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_portrait_frame_red"
+		textureFile = "gfx/interface/diplomacy/diplomacy_portrait_frame.dds"
+	}		
+}

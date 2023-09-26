@@ -87,12 +87,12 @@
 ####
  pm_droid_foundry:0 "Old Droid Foundry"
  pm_droid_foundry_desc:0 "This planet has an old droid foundry which seems to be still working."
- d_badlands_n'g'zi:0 "Badlands of N'g'zi"
- d_badlands_n'g'zi_desc:0 "The Badlands of N'g'zi is a vast plain, lying next to E'Y-Akh Desert. Scattered throughout the plains are hills and small mountains which are rich in minerals."
- d_e'y-akh_desert:0 "E'Y-Akh Desert"
- d_e'y-akh_desert_desc:0 "The E'Y-Akh Desert is one of many large deserts on the planet. Every year, heavy rainfall sweeps across the desert and overflows the underground aquifers. The subsequent flood kills many herds of merdeths that live in the desert. The Bedrock is filled with valuable minerals."
- d_im'g'twe_hills:0 "Im'g'twe Hills"
- d_im'g'twe_hills_desc:0 "The Im'g'twe Hills is an elevated region with deposits of minerals located near the Badlands of N'g'zi. The wide and flat plains between the elevated areas appear to be great landing spots for starships."
+ d_badlands_n_g_zi:0 "Badlands of N'g'zi"
+ d_badlands_n_g_zi_desc:0 "The Badlands of N'g'zi is a vast plain, lying next to E'Y-Akh Desert. Scattered throughout the plains are hills and small mountains which are rich in minerals."
+ d_e_y_akh_desert:0 "E'Y-Akh Desert"
+ d_e_y_akh_desert_desc:0 "The E'Y-Akh Desert is one of many large deserts on the planet. Every year, heavy rainfall sweeps across the desert and overflows the underground aquifers. The subsequent flood kills many herds of merdeths that live in the desert. The Bedrock is filled with valuable minerals."
+ d_im_g_twe_hills:0 "Im'g'twe Hills"
+ d_im_g_twe_hills_desc:0 "The Im'g'twe Hills is an elevated region with deposits of minerals located near the Badlands of N'g'zi. The wide and flat plains between the elevated areas appear to be great landing spots for starships."
 
 ## new locs
  BOM:0 "B'omarr Order Monk"
@@ -130,7 +130,7 @@
 
 ####
  swp_generic_event.50.name:0 "Spice Runners"
- swp_generic_event.50.desc:0 "Acting on an anoymous tip, [Root.Owner.GetAdjective] security forces on [Root.GetName] have intercepted a HWK-290 transport attempting to bypass a local customs checkpoint. While the light freighter's captain insisted that ship was hauling a perfectly legitimate cargo of Gherlian furs, a further investigation discovered a small fortune worth of §Yglitterstim§! £sr_sw_spice£ §Yspice§! sewn into the insulation of the freighter's lounge chairs. The vessel has been impounded, and the smugglers are currently being escorted to [Root.Owner.Capital.GetName] to await trial. The fate of the §Yglitterstim§! £sr_sw_spice£ §Yspice§!, however, remains an open question. Our accountants estimate that the cargo could fetch several million £energy£ §Ycredits§! if confiscated and sold into the underground economy, though some of [Root.Owner.GetRulerTitle] [Root.Owner.GetRulerName]'s senior advisors have urged us to destroy the £sr_sw_spice£ §Yspice§! to prevent it from falling into the wrong hands."
+ swp_generic_event.50.desc:0 "Acting on an anoymous tip, [Root.Owner.GetAdjective] security forces on [Root.GetName] have intercepted a HWK-290 transport attempting to bypass a local customs checkpoint. While the light freighter's captain insisted that ship was hauling a perfectly legitimate cargo of Gherlian furs, a further investigation discovered a small fortune worth of §Yglitterstim§! £sr_sw_spice£ §Yspice§! sewn into the insulation of the freighter's lounge chairs.\n\nThe vessel has been impounded, and the smugglers are currently being escorted to [Root.Owner.Capital.GetName] to await trial. The fate of the §Yglitterstim§! £sr_sw_spice£ §Yspice§!, however, remains an open question.\n\nOur accountants estimate that the cargo could fetch several million £energy£ §Ycredits§! if confiscated and sold into the underground economy, though some of [Root.Owner.GetRulerTitle] [Root.Owner.GetRulerName]'s senior advisors have urged us to destroy the £sr_sw_spice£ §Yspice§! to prevent it from falling into the wrong hands."
  swp_generic_event.50.a:0 "Confiscate the spice."
  swp_generic_event.50.b:0 "Destroy the spice."
 

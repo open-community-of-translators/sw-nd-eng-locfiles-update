@@ -1,0 +1,340 @@
+spriteTypes = {	
+	#Sprite sheet
+	spriteType = {
+		name = "GFX_planet_type"
+		texturefile = "gfx/interface/icons/planet_type_icons.dds"
+		noOfFrames = 86
+	}
+
+	#Individual sprites from it
+	spriteType = { 
+		name = "GFX_planet_type_desert"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 1
+	}
+	spriteType = { 
+		name = "GFX_planet_type_arid"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 2
+	}
+	spriteType = { 
+		name = "GFX_planet_type_tundra"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 3
+	}
+	spriteType = { 
+		name = "GFX_planet_type_continental"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 4
+	}
+	spriteType = { 
+		name = "GFX_planet_type_tropical"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 5
+	}
+	spriteType = { 
+		name = "GFX_planet_type_ocean"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 6
+	}
+	spriteType = { 
+		name = "GFX_planet_type_arctic"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 7
+	}
+	spriteType = { 
+		name = "GFX_planet_type_gaia"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 8
+	}
+	spriteType = { 
+		name = "GFX_planet_type_barren_cold"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 9
+	}
+	spriteType = { 
+		name = "GFX_planet_type_barren"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 10
+	}
+	spriteType = { 
+		name = "GFX_planet_type_toxic"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 11
+	}
+	spriteType = { 
+		name = "GFX_planet_type_molten"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 12
+	}
+	spriteType = { 
+		name = "GFX_planet_type_frozen"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 13
+	}
+	spriteType = { 
+		name = "GFX_planet_type_gas_giant"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 14
+	}
+	spriteType = { 
+		name = "GFX_planet_type_machine"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 15
+	}
+	spriteType = { 
+		name = "GFX_planet_type_hive"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 16
+	}
+	spriteType = { 
+		name = "GFX_planet_type_nuked"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 17
+	}
+	spriteType = { 
+		name = "GFX_planet_type_asteroid"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 18
+	}
+	spriteType = { 
+		name = "GFX_planet_type_alpine"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 19
+	}
+	spriteType = { 
+		name = "GFX_planet_type_savannah"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 20
+	}
+	spriteType = { 
+		name = "GFX_planet_type_ringworld"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 21
+	}
+	spriteType = { 
+		name = "GFX_planet_type_habitat"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 22
+	}
+	spriteType = { 
+		name = "GFX_planet_type_shrouded"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 23
+	}
+	spriteType = { 
+		name = "GFX_planet_type_city"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 25
+	}
+	spriteType = { 
+		name = "GFX_planet_type_m_star"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 26
+	}
+	spriteType = { 
+		name = "GFX_planet_type_f_g_star"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 27
+	}
+	spriteType = { 
+		name = "GFX_planet_type_k_star"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 28
+	}
+	spriteType = { 
+		name = "GFX_planet_type_a_b_star"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 29
+	}
+	spriteType = { 
+		name = "GFX_planet_type_pulsar"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 30
+	}
+	spriteType = { 
+		name = "GFX_planet_type_neutron_star"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 31
+	}
+	spriteType = { 
+		name = "GFX_planet_type_black_hole"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 32
+	}
+	spriteType = { 
+		name = "GFX_planet_type_crystalline"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 36
+	}
+	spriteType = { 
+		name = "GFX_planet_type_forest"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 37
+	}
+	spriteType = { 
+		name = "GFX_planet_type_d_star"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 43
+	}
+	spriteType = { 
+		name = "GFX_planet_type_oasis"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 45
+	}
+	spriteType = { 
+		name = "GFX_planet_type_mesa"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 46
+	}
+	spriteType = { 
+		name = "GFX_planet_type_swamp"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 47
+	}
+	spriteType = { 
+		name = "GFX_planet_type_frozen_desert"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 48
+	}
+	spriteType = { 
+		name = "GFX_planet_type_steppe"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 49
+	}
+	spriteType = { 
+		name = "GFX_planet_type_cascadian"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 50
+	}
+	spriteType = { 
+		name = "GFX_planet_type_geothermal"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 51
+	}
+	spriteType = { 
+		name = "GFX_planet_type_desertislands"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 52
+	}
+	spriteType = { 
+		name = "GFX_planet_type_hadesert"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 53
+	}
+	spriteType = { 
+		name = "GFX_planet_type_sandsea"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 56
+	}
+	spriteType = { 
+		name = "GFX_planet_type_glacial"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 57
+	}
+	spriteType = { 
+		name = "GFX_planet_type_hajungle"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 58
+	}
+	spriteType = { 
+		name = "GFX_planet_type_antarctic"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 59
+	}
+	spriteType = { 
+		name = "GFX_planet_type_subarctic"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 60
+	}
+	spriteType = { 
+		name = "GFX_planet_type_mangrove"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 61
+	}
+	spriteType = { 
+		name = "GFX_planet_type_tidallylocked"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 62
+	}
+	spriteType = { 
+		name = "GFX_planet_type_mushroom"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 66
+	}
+	spriteType = { 
+		name = "GFX_planet_type_boreal"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 68
+	}
+	spriteType = { 
+		name = "GFX_planet_type_biolumen"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 70
+	}
+	spriteType = { 
+		name = "GFX_planet_type_superhabitable"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 72
+	}
+	spriteType = { 
+		name = "GFX_planet_type_retinal"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 73
+	}
+	spriteType = { 
+		name = "GFX_planet_type_prairie"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 74
+	}
+	spriteType = { 
+		name = "GFX_planet_type_karst"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 76
+	}
+	spriteType = { 
+		name = "GFX_planet_type_megaflora"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 77
+	}
+	spriteType = { 
+		name = "GFX_planet_type_med"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 78
+	}
+	spriteType = { 
+		name = "GFX_planet_type_snow"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 79
+	}
+	spriteType = { 
+		name = "GFX_planet_type_primal"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 81
+	}
+	spriteType = { 
+		name = "GFX_planet_type_salt"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 82
+	}
+	spriteType = { 
+		name = "GFX_planet_type_wetswamp"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 83
+	}
+	spriteType = { 
+		name = "GFX_planet_type_outback"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 84
+	}
+	spriteType = { 
+		name = "GFX_planet_type_highland"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 85
+	}
+	spriteType = { 
+		name = "GFX_planet_type_lake"
+		sprite_sheet_sprite_type = "GFX_planet_type"
+		default_frame = 86
+	}
+}

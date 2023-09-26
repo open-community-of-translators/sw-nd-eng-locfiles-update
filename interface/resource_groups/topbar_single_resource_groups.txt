@@ -1,0 +1,225 @@
+tb_energy_group = {
+	resources = {
+		energy
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }		
+	}
+	onclick = market
+}
+
+tb_mineral_group = {
+	resources = {
+		minerals
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }	
+	}
+	onclick = market
+}
+
+tb_food_group = {
+	resources = {
+		food
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }	
+	}
+	onclick = market
+}
+
+tb_influence_group = {
+	resources = {
+		influence
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = edicts
+}
+
+tb_unity_group = {
+	resources = {
+		unity
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = traditions
+}
+
+tb_alloys_group = {
+	resources = {
+		alloys
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+
+tb_consumer_goods_group = {
+	resources = {
+		consumer_goods
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+
+tb_tibanna_group = {
+	resources = {
+		tibanna_gas
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+
+tb_electronics_group = {
+	resources = {
+		electronics
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+
+tb_ammunition_group = {
+	resources = {
+		ammunition
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+
+tb_hyperfuel_group = {
+	resources = {
+		hyperfuel
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+
+tb_science_physics_research_group = {
+	resources = { physics_research }
+	localization = { "RESOURCE_GROUP_BALANCE_ONLY" = default }
+	onclick = technology
+}
+tb_science_society_research_group = {
+	resources = { society_research }
+	localization = { "RESOURCE_GROUP_BALANCE_ONLY" = default }
+	onclick = technology
+}
+tb_science_engineering_research_group = {
+	resources = { engineering_research }
+	localization = { "RESOURCE_GROUP_BALANCE_ONLY" = default }
+	onclick = technology
+}
+
+tb_bacta_group = {
+	resources = { bacta }
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+tb_spice_group = {
+	resources = { spice }
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+tb_sr_agrocite_group = {
+	resources = { sr_agrocite }
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+tb_sr_kyber_group = {
+	resources = { sr_kyber }
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}
+tb_minor_artifacts_group = {
+	resources = { minor_artifacts }
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default	
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = relics
+}

@@ -83,143 +83,143 @@ guiTypes = {
 			alwaysTransparent = yes
 		}
 
-##############################################################      
-####                    EMPIRE GLOSSARY                   #### 
-##############################################################
+############################################################
+####					EMPIRE GLOSSARY				 	#### 
+############################################################
 if_resolution = {
 	min_height = 801
-        containerWindowType = {
-            name = "empire_glossary"
-            size = { width = 330 height = 210 }
-            
+		containerWindowType = {
+			name = "empire_glossary"
+			size = { width = 330 height = 210 }
+			
 			position = { x = 315 y = 0 }
 
-            clipping = no
+			clipping = no
 
-            background = {
-                name = "background"
-                spriteType = "GFX_plain_bg_tile"
-            }
+			background = {
+				name = "background"
+				spriteType = "GFX_plain_bg_tile"
+			}
 
-            instantTextBoxType = {
-                name = "empire_glossary_header"
-                font = "malgun_goth_24"
-                position = { x = 12  y = 8 }
-                maxWidth = 210
-                text =   "GLOSSARY"
-                format = left
-                alwaysTransparent = yes
-            }
+			instantTextBoxType = {
+				name = "empire_glossary_header"
+				font = "malgun_goth_24"
+				position = { x = 12 y = 8 }
+				maxWidth = 210
+				text = "GLOSSARY"
+				format = left
+				alwaysTransparent = yes
+			}
 
-            iconType = {
-                name = "empire_glossary_hex_bg"
-                spriteType = "GFX_hex_bg_corner"
-                position = { x = 0 y = 0 }
-                alwaysTransparent = yes
-            }   
-            iconType = {
-                name = "empire_glossary_header_line"
-                spriteType = "GFX_line_long"
-                position = { x = 2 y = 26 }
-            }
+			iconType = {
+				name = "empire_glossary_hex_bg"
+				spriteType = "GFX_hex_bg_corner"
+				position = { x = 0 y = 0 }
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "empire_glossary_header_line"
+				spriteType = "GFX_line_long"
+				position = { x = 2 y = 26 }
+			}
 
-            containerWindowType = {
-                name = "empire_glossary_description"
-                size = { width = 210 height = 117 }
-                position = { x = 10 y = 45 }
-                clipping = no
+			containerWindowType = {
+				name = "empire_glossary_description"
+				size = { width = 210 height = 117 }
+				position = { x = 10 y = 45 }
+				clipping = no
 
-                background = {
-                    name = "background"
-                    spriteType = "GFX_tiles_dark_area_cut_8"
-                }
-
-            containerWindowType = {
-                name = "empire_glossary_description"
-                size = { width = 150 height = 35 }
-                position = { x = 0 y = 125 }
-                clipping = no
-
-                background = {
-                    name = "background"
-                    spriteType = "GFX_tiles_dark_area_cut_8"
-                }
-				
-				instantTextBoxType = {
-                    name = "green_empire_faction"
-                    font = "cg_16b"
-					position = { x = 6  y = -125 }
-                    maxWidth = 230
-                    text =   "Imperial Faction"
-                    text_color_code = "G"
-                    format = left
-                    alwaysTransparent = yes
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
 
-				instantTextBoxType = {
-                    name = "red_republic_faction"
-                    font = "cg_16b"
-					position = { x = 6  y = -100 }
-                    maxWidth = 230
-                    text =   "Republic Loyalist Faction"
-                    text_color_code = "R"
-                    format = left
-                    alwaysTransparent = yes
-				}
+			containerWindowType = {
+				name = "empire_glossary_description"
+				size = { width = 150 height = 35 }
+				position = { x = 0 y = 125 }
+				clipping = no
 
-				instantTextBoxType = {
-                    name = "blue_separatist_faction"
-                    font = "cg_16b"
-					position = { x = 6  y = -75 }
-                    maxWidth = 230
-                    text =   "Separatist Faction"
-                    text_color_code = "B"
-                    format = left
-                    alwaysTransparent = yes
-				}
-
-				instantTextBoxType = {
-                    name = "orange_criminal_faction"
-                    font = "cg_16b"
-					position = { x = 6  y = -50 }
-                    maxWidth = 230
-                    text =   "Criminal Faction"
-                    text_color_code = "H"
-                    format = left
-                    alwaysTransparent = yes
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
 				
 				instantTextBoxType = {
-                    name = "purple_unique_faction"
-                    font = "cg_16b"
-					position = { x = 6  y = -25 }
-                    maxWidth = 230
-                    text =   "Unique Empires"
-                    text_color_code = "M"
-                    format = left
-                    alwaysTransparent = yes
-                }
+					name = "green_empire_faction"
+					font = "cg_16b"
+					position = { x = 6 y = -125 }
+					maxWidth = 230
+					text = "Imperial Faction"
+					text_color_code = "G"
+					format = left
+					alwaysTransparent = yes
+				}
+
+				instantTextBoxType = {
+					name = "red_republic_faction"
+					font = "cg_16b"
+					position = { x = 6 y = -100 }
+					maxWidth = 230
+					text = "Republic Loyalist Faction"
+					text_color_code = "R"
+					format = left
+					alwaysTransparent = yes
+				}
+
+				instantTextBoxType = {
+					name = "blue_separatist_faction"
+					font = "cg_16b"
+					position = { x = 6 y = -75 }
+					maxWidth = 230
+					text = "Separatist Faction"
+					text_color_code = "B"
+					format = left
+					alwaysTransparent = yes
+				}
+
+				instantTextBoxType = {
+					name = "orange_criminal_faction"
+					font = "cg_16b"
+					position = { x = 6 y = -50 }
+					maxWidth = 230
+					text = "Criminal Faction"
+					text_color_code = "H"
+					format = left
+					alwaysTransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "purple_unique_faction"
+					font = "cg_16b"
+					position = { x = 6 y = -25 }
+					maxWidth = 230
+					text = "Unique Empires"
+					text_color_code = "M"
+					format = left
+					alwaysTransparent = yes
+				}
 
 				# Missing Empires Link
 				instantTextBoxType = {
-                    name = "missing_empires"
-                    font = "cg_16b"
-					position = { x = 6  y = 10 }
-                    maxWidth = 230
-                    text =   "Missing Empires?"
+					name = "missing_empires"
+					font = "cg_16b"
+					position = { x = 6 y = 10 }
+					maxWidth = 230
+					text = "Missing Empires?"
 					#scale = 1.5
-                    #text_color_code = "B"
-                    format = left
-                    alwaysTransparent = yes
+					#text_color_code = "B"
+					format = left
+					alwaysTransparent = yes
 				}
 
 				buttonType = {
-                    name = "missing_empires_tooltip_hitbox"
-                    spriteType = "GFX_invisible"
-                    position = { x = 6  y = 10 }
-                    size = { x = 130 y = 20 }
-                    pdx_tooltip = "MISSING_EMPIRES_TOOLTIP"
-                }
+					name = "missing_empires_tooltip_hitbox"
+					spriteType = "GFX_invisible"
+					position = { x = 6 y = 10 }
+					size = { x = 130 y = 20 }
+					pdx_tooltip = "MISSING_EMPIRES_TOOLTIP"
+				}
 
 				buttonType =	{
 					name = "rmg_steam"
@@ -231,278 +231,278 @@ if_resolution = {
 				}
 
 				# Major Empires Explanation
-                iconType = {
-                    name = "empire_star"
-                    spriteType = "GFX_text_empire_star"
-                    position = { x = 174  y = -100 }
+				iconType = {
+					name = "empire_star"
+					spriteType = "GFX_text_empire_star"
+					position = { x = 174 y = -100 }
 					scale = 1.2
-                }
+				}
 
-                buttonType = {
-                    name = "star_tooltip_hitbox"
-                    spriteType = "GFX_invisible"
-                    position = { x = 196  y = -100 }
-                    size = { x = 130 y = 20 }
-                    pdx_tooltip = "GLOSSARY_MAJOR_TOOLTIP"
-                }
+				buttonType = {
+					name = "star_tooltip_hitbox"
+					spriteType = "GFX_invisible"
+					position = { x = 196 y = -100 }
+					size = { x = 130 y = 20 }
+					pdx_tooltip = "GLOSSARY_MAJOR_TOOLTIP"
+				}
 
-                instantTextBoxType = {
-                    name = "empire_star_text"
-                    font = "cg_16b"
-                    position = { x = 196  y = -100 }
-                    maxWidth = 230
-                    text =   "GLOSSARY_MAJOR"
-                    text_color_code = "A"
-                    format = left
-                    alwaysTransparent = yes
+				instantTextBoxType = {
+					name = "empire_star_text"
+					font = "cg_16b"
+					position = { x = 196 y = -100 }
+					maxWidth = 230
+					text = "GLOSSARY_MAJOR"
+					text_color_code = "A"
+					format = left
+					alwaysTransparent = yes
 				}
 				# Megacorp Explanation
-                iconType = {
-                    name = "mega_logo"
-                    spriteType = "GFX_megacorp"
-                    position = { x = 174 y = -125 }
-                    scale = 0.4
-                }
+				iconType = {
+					name = "mega_logo"
+					spriteType = "GFX_megacorp"
+					position = { x = 174 y = -125 }
+					scale = 0.4
+				}
 
-                buttonType = {
-                    name = "megacorp_tooltip_hitbox"
-                    spriteType = "GFX_invisible"
-                    position = { x = 196  y = -125 }
-                    size = { x = 120 y = 20 }
-                    pdx_tooltip = "GLOSSARY_MEGA_TOOLTIP"
-                }                
+				buttonType = {
+					name = "megacorp_tooltip_hitbox"
+					spriteType = "GFX_invisible"
+					position = { x = 196 y = -125 }
+					size = { x = 120 y = 20 }
+					pdx_tooltip = "GLOSSARY_MEGA_TOOLTIP"
+				}				
 
-                instantTextBoxType = {
-                    name = "empire_mega_text"
-                    font = "cg_16b"
-                    position = { x = 196  y = -125 }
-                    maxWidth = 230
-                    text =   "GLOSSARY_MEGA"              
-                    format = left
-                    alwaysTransparent = yes
-                }
-              }
-            }
-        }
+				instantTextBoxType = {
+					name = "empire_mega_text"
+					font = "cg_16b"
+					position = { x = 196 y = -125 }
+					maxWidth = 230
+					text = "GLOSSARY_MEGA"			 
+					format = left
+					alwaysTransparent = yes
+				}
+			 }
+			}
+		}
 }
 
 # if_resolution = {
 # 	max_height = 800
-#         containerWindowType = {
-#             name = "empire_glossary"
-#             size = { width = 160 height = 355 }
-            
+#		 containerWindowType = {
+#			 name = "empire_glossary"
+#			 size = { width = 160 height = 355 }
+			
 # 			position = { x = 212 y = 0 }
 
 
-#             clipping = no
+#			 clipping = no
 
-#             background = {
-#                 name = "background"
-#                 spriteType = "GFX_plain_bg_tile"
-#             }
+#			 background = {
+#				 name = "background"
+#				 spriteType = "GFX_plain_bg_tile"
+#			 }
 
-#             instantTextBoxType = {
-#                 name = "empire_glossary_header"
-#                 font = "malgun_goth_24"
-#                 position = { x = 48  y = 8 }
-#                 maxWidth = 230
-#                 text =   "GLOSSARY"
-#                 format = left
-#                 alwaysTransparent = yes
-#             }
+#			 instantTextBoxType = {
+#				 name = "empire_glossary_header"
+#				 font = "malgun_goth_24"
+#				 position = { x = 48 y = 8 }
+#				 maxWidth = 230
+#				 text = "GLOSSARY"
+#				 format = left
+#				 alwaysTransparent = yes
+#			 }
 
-#             iconType = {
-#                 name = "empire_glossary_hex_bg"
-#                 spriteType = "GFX_hex_bg_corner"
-#                 position = { x = 0 y = 0 }
-#                 alwaysTransparent = yes
-#             }
+#			 iconType = {
+#				 name = "empire_glossary_hex_bg"
+#				 spriteType = "GFX_hex_bg_corner"
+#				 position = { x = 0 y = 0 }
+#				 alwaysTransparent = yes
+#			 }
 
-#             #iconType = {
-#             #    name = "empire_glossary_header_line"
-#             #    spriteType = "GFX_line_short"
-#             #    position = { x = 2 y = 26 }
-#             #}
+#			 #iconType = {
+#			 #	name = "empire_glossary_header_line"
+#			 #	spriteType = "GFX_line_short"
+#			 #	position = { x = 2 y = 26 }
+#			 #}
 
-#             containerWindowType = {
-#                 name = "empire_glossary_description"
-#                 size = { width = 310 height = 117 }
-#                 position = { x = 10 y = 45 }
-#                 clipping = no
+#			 containerWindowType = {
+#				 name = "empire_glossary_description"
+#				 size = { width = 310 height = 117 }
+#				 position = { x = 10 y = 45 }
+#				 clipping = no
 
-#                # background = {
-#                #     name = "background"
-#                #     spriteType = "GFX_tiles_dark_area_cut_8"
-#                # }
+#				# background = {
+#				#	 name = "background"
+#				#	 spriteType = "GFX_tiles_dark_area_cut_8"
+#				# }
 
-#                 iconType = {
-#                     name = "quadrants"
-#                     spriteType = "GFX_text_quadrants"
-#                     position = { x = 18 y = 8 }
-#                 }
+#				 iconType = {
+#					 name = "quadrants"
+#					 spriteType = "GFX_text_quadrants"
+#					 position = { x = 18 y = 8 }
+#				 }
 
-#                # iconType = {
-#                #     name = "alpha_quadrant"
-#                #     spriteType = "GFX_text_alpha_quadrant"
-#                #     position = { x = 10 y = 135 }
-#                #     scale = 0.30
-#                # }
+#				# iconType = {
+#				#	 name = "alpha_quadrant"
+#				#	 spriteType = "GFX_text_alpha_quadrant"
+#				#	 position = { x = 10 y = 135 }
+#				#	 scale = 0.30
+#				# }
 
-#                 instantTextBoxType = {
-#                     name = "empire_alpha_text"
-#                     font = "cg_16b"
-#                     position = { x = 10  y = 159 }
-#                     maxWidth = 230
-#                     text =   "GLOSSARY_ALPHA"
-#                     format = left
-#                     text_color_code = "U"
-#                     alwaysTransparent = yes
-#                 }
+#				 instantTextBoxType = {
+#					 name = "empire_alpha_text"
+#					 font = "cg_16b"
+#					 position = { x = 10 y = 159 }
+#					 maxWidth = 230
+#					 text = "GLOSSARY_ALPHA"
+#					 format = left
+#					 text_color_code = "U"
+#					 alwaysTransparent = yes
+#				 }
 
-#                 #iconType = {
-#                 #    name = "beta_quadrant"
-#                 #    spriteType = "GFX_text_beta_quadrant"
-#                 #    position = { x = 116 y = 27 }
-#                 #    scale = 0.30
-#                 #}
+#				 #iconType = {
+#				 #	name = "beta_quadrant"
+#				 #	spriteType = "GFX_text_beta_quadrant"
+#				 #	position = { x = 116 y = 27 }
+#				 #	scale = 0.30
+#				 #}
 
-#                 instantTextBoxType = {
-#                     name = "empire_beta_text"
-#                     font = "cg_16b"
-#                     position = { x = 10  y = 179 }
-#                     maxWidth = 230
-#                     text =   "GLOSSARY_BETA"
-#                     format = left
-#                     text_color_code = "X"
-#                     alwaysTransparent = yes
-#                 }
+#				 instantTextBoxType = {
+#					 name = "empire_beta_text"
+#					 font = "cg_16b"
+#					 position = { x = 10 y = 179 }
+#					 maxWidth = 230
+#					 text = "GLOSSARY_BETA"
+#					 format = left
+#					 text_color_code = "X"
+#					 alwaysTransparent = yes
+#				 }
 
-#                 #iconType = {
-#                 #    name = "gamma_quadrant"
-#                 #    spriteType = "GFX_text_gamma_quadrant"
-#                 #    position = { x = 130 y = 60 }
-#                 #    scale = 0.30
-#                 #}
+#				 #iconType = {
+#				 #	name = "gamma_quadrant"
+#				 #	spriteType = "GFX_text_gamma_quadrant"
+#				 #	position = { x = 130 y = 60 }
+#				 #	scale = 0.30
+#				 #}
 
-#                 instantTextBoxType = {
-#                     name = "empire_gamma_text"
-#                     font = "cg_16b"
-#                     position = { x = 10  y = 199 }
-#                     maxWidth = 230
-#                     text =   "GLOSSARY_GAMMA"
-#                     format = left
-#                     text_color_code = "V"
-#                     alwaysTransparent = yes
-#                 }
+#				 instantTextBoxType = {
+#					 name = "empire_gamma_text"
+#					 font = "cg_16b"
+#					 position = { x = 10 y = 199 }
+#					 maxWidth = 230
+#					 text = "GLOSSARY_GAMMA"
+#					 format = left
+#					 text_color_code = "V"
+#					 alwaysTransparent = yes
+#				 }
 
-#                 #iconType = {
-#                 #    name = "delta_quadrant"
-#                 #    spriteType = "GFX_text_delta_quadrant"
-#                 #    position = { x = 116 y = 82 }
-#                 #    scale = 0.30
-#                 #}
+#				 #iconType = {
+#				 #	name = "delta_quadrant"
+#				 #	spriteType = "GFX_text_delta_quadrant"
+#				 #	position = { x = 116 y = 82 }
+#				 #	scale = 0.30
+#				 #}
 
-#                 instantTextBoxType = {
-#                     name = "empire_delta_text"
-#                     font = "cg_16b"
-#                     position = { x = 10  y = 219 }
-#                     maxWidth = 230
-#                     text =   "GLOSSARY_DELTA"
-#                     format = left
-#                     text_color_code = "Z"
-#                     alwaysTransparent = yes
-#                 }
+#				 instantTextBoxType = {
+#					 name = "empire_delta_text"
+#					 font = "cg_16b"
+#					 position = { x = 10 y = 219 }
+#					 maxWidth = 230
+#					 text = "GLOSSARY_DELTA"
+#					 format = left
+#					 text_color_code = "Z"
+#					 alwaysTransparent = yes
+#				 }
 
-#             containerWindowType = {
-#                 name = "empire_glossary_description"
-#                 size = { width = 310 height = 25 }
-#                 position = { x = 0 y = 125 }
-#                 clipping = no
+#			 containerWindowType = {
+#				 name = "empire_glossary_description"
+#				 size = { width = 310 height = 25 }
+#				 position = { x = 0 y = 125 }
+#				 clipping = no
 
-#                # background = {
-#                #     name = "background"
-#                #     spriteType = "GFX_tiles_dark_area_cut_8"
-#                # }
+#				# background = {
+#				#	 name = "background"
+#				#	 spriteType = "GFX_tiles_dark_area_cut_8"
+#				# }
 
-#                 buttonType = {
-#                     name = "star_tooltip_hitbox"
-#                     spriteType = "GFX_invisible"
-#                     position = { x = 31 y = 5 }
-#                     size = { x = 130 y = 20 }
-#                     pdx_tooltip = "GLOSSARY_MAJOR_TOOLTIP"
-#                 }
+#				 buttonType = {
+#					 name = "star_tooltip_hitbox"
+#					 spriteType = "GFX_invisible"
+#					 position = { x = 31 y = 5 }
+#					 size = { x = 130 y = 20 }
+#					 pdx_tooltip = "GLOSSARY_MAJOR_TOOLTIP"
+#				 }
 
-#                 iconType = {
-#                     name = "empire_star"
-#                     spriteType = "GFX_text_empire_star"
-#                     position = { x = 8 y = 6 }
-#                 }
+#				 iconType = {
+#					 name = "empire_star"
+#					 spriteType = "GFX_text_empire_star"
+#					 position = { x = 8 y = 6 }
+#				 }
 
-#                 instantTextBoxType = {
-#                     name = "empire_star_text"
-#                     font = "cg_16b"
-#                     position = { x = 31  y = 5 }
-#                     maxWidth = 230
-#                     text =   "GLOSSARY_MAJOR"
-#                     text_color_code = "A"
-#                     format = left
-#                     alwaysTransparent = yes
-#                 }
+#				 instantTextBoxType = {
+#					 name = "empire_star_text"
+#					 font = "cg_16b"
+#					 position = { x = 31 y = 5 }
+#					 maxWidth = 230
+#					 text = "GLOSSARY_MAJOR"
+#					 text_color_code = "A"
+#					 format = left
+#					 alwaysTransparent = yes
+#				 }
 
-#                 buttonType = {
-#                     name = "shipset_tooltip_hitbox"
-#                     spriteType = "GFX_invisible"
-#                     position = { x = 20 y = 124 }
-#                     size = { x = 130 y = 20 }
-#                     pdx_tooltip = "GLOSSARY_SHIPSET_TOOLTIP"
-#                 }
+#				 buttonType = {
+#					 name = "shipset_tooltip_hitbox"
+#					 spriteType = "GFX_invisible"
+#					 position = { x = 20 y = 124 }
+#					 size = { x = 130 y = 20 }
+#					 pdx_tooltip = "GLOSSARY_SHIPSET_TOOLTIP"
+#				 }
 
-#                 iconType = {
-#                     name = "shipset_logo2"
-#                     spriteType = "GFX_fleet_size_icon"
-#                     position = { x = 8 y = 124 }
-#                 }
+#				 iconType = {
+#					 name = "shipset_logo2"
+#					 spriteType = "GFX_fleet_size_icon"
+#					 position = { x = 8 y = 124 }
+#				 }
 
-#                 instantTextBoxType = {
-#                     name = "empire_shipset_text"
-#                     font = "cg_16b"
-#                     position = { x = 33  y = 125 }
-#                     maxWidth = 230
-#                     text =   "GLOSSARY_SHIPSET"
-#                     format = left
-#                     alwaysTransparent = yes
-#                 } 
+#				 instantTextBoxType = {
+#					 name = "empire_shipset_text"
+#					 font = "cg_16b"
+#					 position = { x = 33 y = 125 }
+#					 maxWidth = 230
+#					 text = "GLOSSARY_SHIPSET"
+#					 format = left
+#					 alwaysTransparent = yes
+#				 } 
 
-#                 iconType = {
-#                     name = "mega_logo2"
-#                     spriteType = "GFX_megacorp"
-#                     position = { x = 8 y = 149 }
-#                     scale = 0.4
-#                 }
+#				 iconType = {
+#					 name = "mega_logo2"
+#					 spriteType = "GFX_megacorp"
+#					 position = { x = 8 y = 149 }
+#					 scale = 0.4
+#				 }
 
-#                 buttonType = {
-#                     name = "megacorp_tooltip_hitbox2"
-#                     spriteType = "GFX_invisible"
-#                     position = { x = 31 y = 150 }
-#                     size = { x = 130 y = 20 }
-#                     pdx_tooltip = "GLOSSARY_MAJOR_TOOLTIP"
-#                 }                
+#				 buttonType = {
+#					 name = "megacorp_tooltip_hitbox2"
+#					 spriteType = "GFX_invisible"
+#					 position = { x = 31 y = 150 }
+#					 size = { x = 130 y = 20 }
+#					 pdx_tooltip = "GLOSSARY_MAJOR_TOOLTIP"
+#				 }				
 
-#                 instantTextBoxType = {
-#                     name = "empire_mega_text2"
-#                     font = "cg_16b"
-#                     position = { x = 31  y = 150 }
-#                     maxWidth = 230
-#                     text =   "GLOSSARY_MAJOR"
-#                     text_color_code = "A"
-#                     format = left
-#                     alwaysTransparent = yes
-#                 }
+#				 instantTextBoxType = {
+#					 name = "empire_mega_text2"
+#					 font = "cg_16b"
+#					 position = { x = 31 y = 150 }
+#					 maxWidth = 230
+#					 text = "GLOSSARY_MAJOR"
+#					 text_color_code = "A"
+#					 format = left
+#					 alwaysTransparent = yes
+#				 }
 
-#               }
-#             }
-#         }
+#			 }
+#			 }
+#		 }
 # }
 ###############################################################
 ###############################################################

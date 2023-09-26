@@ -1,0 +1,12 @@
+spriteTypes = {
+	##COUNCIL##
+	spriteType = { name = "GFX_council_room_rebellion" texturefile = "gfx/interface/council_view/council_rooms/council_room_rebellion.dds" }
+	spriteType = { name = "GFX_council_room_mandalorian" texturefile = "gfx/interface/council_view/council_rooms/council_room_mandalorian.dds" }
+	spriteType = { name = "GFX_council_room_separatist" texturefile = "gfx/interface/council_view/council_rooms/council_room_separatist.dds" }
+	spriteType = { name = "GFX_council_room_galactic_empire" texturefile = "gfx/interface/council_view/council_rooms/council_room_galactic_empire.dds" }
+	spriteType = { name = "GFX_council_room_imperial_loyalist" texturefile = "gfx/interface/council_view/council_rooms/council_room_imperial_loyalist.dds" }
+	spriteType = { name = "GFX_council_room_hutt" texturefile = "gfx/interface/council_view/council_rooms/council_room_hutt.dds" }
+	spriteType = { name = "GFX_council_room_banking_clan" texturefile = "gfx/interface/council_view/council_rooms/council_room_banking_clan.dds" }
+	#spriteType = { name = "GFX_council_room_fett_gotra" texturefile = "gfx/interface/council_view/council_rooms/council_room_fett_gotra.dds" }
+	spriteType = { name = "GFX_council_room_chiss_ascendancy" texturefile = "gfx/interface/council_view/council_rooms/council_room_chiss_ascendancy.dds"}
+}

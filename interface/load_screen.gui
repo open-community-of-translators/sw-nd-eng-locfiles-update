@@ -1,0 +1,109 @@
+guiTypes = {
+	
+
+	windowType = {
+		name = "load_screen"
+		backGround =""
+		position = { x = 0 y = 0 }
+		size = { x = 1024 y = 768 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = yes
+		Orientation = "UPPER_LEFT"
+			
+
+		
+		windowType = {
+			name = "tip"
+			backGround =""
+			position = { x = 0 y = 0 }
+			size = { x = 1024 y = 200 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "CENTER_DOWN"
+
+			iconType = {
+				name ="bg_load_screen"
+				spriteType = "GFX_loadingtip_bg"
+				#position = { x= -512 y = -174 }
+				position = { x= -554 y = -174 }
+			}	
+
+
+			instantTextBoxType = {
+				name = "text"
+				position = { x = -402 y = -125 }
+				#textureFile = "gfx/interface/tiles/small_tiles_dialog.dds"
+				font = "load_screen"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 800
+				maxHeight =200
+				fixedsize = no
+				format = centre
+				#text_color_code = "T"
+			}
+		}
+
+
+				
+		windowType = {
+			name = "status"
+			backGround =""
+			position = { x = 0 y = -280 }
+			size = { x = 1024 y = 768 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "CENTER_DOWN"
+						
+			iconType = {
+				name ="progress"
+				spriteType = "GFX_progressbar_933"
+				position = { x= -151 y = 118 }
+			}
+			
+			#instantTextBoxType = {
+			#	name = "text"
+			#	position = { x = -695 y = 111 }
+			#	textureFile = ""
+			#	font = "load_screen"
+			#	borderSize = {x = 0 y = 0}
+			#	text = ""	
+			#	maxWidth = 933
+			#	maxHeight =40
+			#	fixedsize = yes
+			#	format = centre
+			#	text_color_code = "i"		
+				
+			#}	
+
+			instantTextBoxType = {
+				name = "text"
+				position = { x = -465 y = 119 }
+				#position = { x = -423 y = 119 }
+				textureFile = ""
+				font = "load_screen"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 933
+				maxHeight =40
+				fixedsize = yes
+				format = centre
+					
+				
+			}	
+			
+		
+		}
+
+
+	}
+}

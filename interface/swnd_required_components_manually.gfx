@@ -1,0 +1,38 @@
+#Not in the Sheets stuff
+
+spriteTypes = {
+	#Deathstar
+	spriteType = { name = "GFX_ship_part_swp_death_star_armor" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_death_star_armor.dds" }
+	spriteType = { name = "GFX_ship_part_swp_death_star_computer" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_death_star_computer.dds" }
+	spriteType = { name = "GFX_ship_part_swp_death_star_thruster" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_death_star_thruster.dds" }
+	spriteType = { name = "GFX_ship_part_swp_death_star_shield_hp" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_death_star_shield_hp.dds" }
+	spriteType = { name = "GFX_ship_part_swp_death_star_architecture" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_death_star_architecture.dds" }
+
+	#Nihilus
+	spriteType = { name = "GFX_ship_part_swp_nihilus_architecture" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_nihilus_architecture.dds" }
+	spriteType = { name = "GFX_ship_part_swp_nihilus_computer" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_nihilus_computer.dds" }
+	spriteType = { name = "GFX_ship_part_swp_nihilus_thruster" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_nihilus_engine.dds" }
+	spriteType = { name = "GFX_ship_part_swp_nihilus_hyperdrive" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_nihilus_hyperdrive.dds" }
+	spriteType = { name = "GFX_ship_part_swp_nihilus_armor" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_nihilus_armor.dds" }
+	
+	#Rahm Kota
+	spriteType = { name = "GFX_ship_part_swp_rahmkota_architecture" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_rahm_kota_architecture.dds" }
+	spriteType = { name = "GFX_ship_part_swp_rahmkota_thruster" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_rahm_kota_engine.dds" }
+	spriteType = { name = "GFX_ship_part_swp_rahmkota_armor" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_rahm_kota_armor.dds" }
+	spriteType = { name = "GFX_ship_part_swp_rahmkota_shield" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_rahm_kota_shield.dds" }
+	
+	#Gaunt
+	spriteType = { name = "GFX_ship_part_swp_gaunt_architecture" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_gaunt_architecture.dds" }
+	
+	#Thrawn
+	spriteType = { name = "GFX_ship_part_swp_thrawn_architecture" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_thrawn_architecture.dds" }
+	
+	#Behaviour
+	spriteType = { name = "GFX_ship_part_swp_required_computer_carrier_1" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_carrier_1.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_computer_carrier_2" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_swp_required_computer_carrier_2.dds" }
+	
+	#Aura
+	spriteType = { name = "GFX_ship_part_swp_required_aura_fear" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_required_aura_fear.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_hope" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_required_aura_hope.dds" }
+	spriteType = { name = "GFX_ship_part_swp_required_aura_crusade" textureFile = "gfx/interface/icons/ship_parts/required_components/ship_part_required_aura_crusade.dds" }
+}

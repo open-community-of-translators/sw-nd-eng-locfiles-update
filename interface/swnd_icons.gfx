@@ -1,0 +1,857 @@
+spriteTypes = {
+
+	# RMG Stuff
+	spriteType = { name = "GFX_rmg_logo" texturefile = "gfx/interface/icons/logo_rmg.dds" }
+	spriteType = { name = "GFX_front_menu_rmg_steam" texturefile = "gfx/interface/buttons/main_menu_rmg_steam.dds" }
+	spriteType = { name = "GFX_front_menu_rmg_discord" texturefile = "gfx/interface/buttons/main_menu_rmg_discord.dds" }
+
+	## SW:ND Army Icons
+
+	spriteType = { name = "GFX_army_type_imp_arial_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 15 }
+	spriteType = { name = "GFX_army_type_imp_honorguard" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 16 }
+	spriteType = { name = "GFX_army_type_reb_inf_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 17 }
+	spriteType = { name = "GFX_army_type_reb_inf_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 18 }
+	spriteType = { name = "GFX_army_type_reb_inf_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 19 }
+	spriteType = { name = "GFX_army_type_reb_gar_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 20 }
+	spriteType = { name = "GFX_army_type_reb_sup_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 21 }
+	spriteType = { name = "GFX_army_type_reb_specops_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 22 }
+	spriteType = { name = "GFX_army_type_reb_specops_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 23 }
+	spriteType = { name = "GFX_army_type_reb_armor_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 24 }
+	spriteType = { name = "GFX_army_type_reb_armor_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 25 }
+	spriteType = { name = "GFX_army_type_reb_armor_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 26 }
+	spriteType = { name = "GFX_army_type_reb_arty_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 27 }
+	spriteType = { name = "GFX_army_type_reb_arty_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 28 }
+	spriteType = { name = "GFX_army_type_reb_arial_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 29 }
+	spriteType = { name = "GFX_army_type_reb_arial_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 30 }
+	spriteType = { name = "GFX_army_type_reb_bothan" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 31 }
+	spriteType = { name = "GFX_army_type_reb_wookie" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 32 }
+	spriteType = { name = "GFX_army_type_cor_gar_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 33 }
+	spriteType = { name = "GFX_army_type_cor_specops_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 34 }
+	spriteType = { name = "GFX_army_type_cor_arial_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 35 }
+	spriteType = { name = "GFX_army_type_hutt_inf_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 36 }
+	spriteType = { name = "GFX_army_type_hutt_inf_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 37 }
+	spriteType = { name = "GFX_army_type_hutt_inf_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 38 }
+	spriteType = { name = "GFX_army_type_hutt_occu_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 39 }
+	spriteType = { name = "GFX_army_type_hutt_specops_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 40 }
+	spriteType = { name = "GFX_army_type_hutt_sup_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 41 }
+	spriteType = { name = "GFX_army_type_hutt_armor_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 42 }
+	spriteType = { name = "GFX_army_type_hutt_arty_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 43 }
+	spriteType = { name = "GFX_army_type_hutt_arial_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 44 }
+	spriteType = { name = "GFX_army_type_man_gar_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 45 }
+	spriteType = { name = "GFX_army_type_man_inf_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 46 }
+	spriteType = { name = "GFX_army_type_man_inf_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 47 }
+	spriteType = { name = "GFX_army_type_man_inf_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 48 }
+	spriteType = { name = "GFX_army_type_man_sup_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 49 }
+	spriteType = { name = "GFX_army_type_man_specops_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 50 }
+	spriteType = { name = "GFX_army_type_man_specops_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 51 }
+	spriteType = { name = "GFX_army_type_man_armor_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 52 }
+	spriteType = { name = "GFX_army_type_man_armor_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 53 }
+	spriteType = { name = "GFX_army_type_man_arty_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 54 }
+	spriteType = { name = "GFX_army_type_man_arial_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 55 }
+	spriteType = { name = "GFX_army_type_csa_occu_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 56 }
+	spriteType = { name = "GFX_army_type_csa_gar_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 57 }
+	spriteType = { name = "GFX_army_type_csa_inf_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 58 }
+	spriteType = { name = "GFX_army_type_cis_armor_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 59 }
+	spriteType = { name = "GFX_army_type_cis_arial_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 60 }
+	spriteType = { name = "GFX_army_type_cis_magnaguard" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 61 }
+	spriteType = { name = "GFX_army_type_csa_inf_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 62 }
+	spriteType = { name = "GFX_army_type_csa_inf_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 63 }
+	spriteType = { name = "GFX_army_type_csa_inf_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 64 }
+	spriteType = { name = "GFX_army_type_csa_specops_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 65 }
+	spriteType = { name = "GFX_army_type_csa_arial_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 66 }
+	spriteType = { name = "GFX_army_type_hap_inf_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 67 }
+	spriteType = { name = "GFX_army_type_hap_inf_2"	sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 68 }
+	spriteType = { name = "GFX_army_type_hap_inf_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 69 }
+	spriteType = { name = "GFX_army_type_hap_sup_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 70 }
+	spriteType = { name = "GFX_army_type_hap_specops_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 71 }
+	spriteType = { name = "GFX_army_type_hap_specops_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 72 }
+	spriteType = { name = "GFX_army_type_hap_armor_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 73 }
+	spriteType = { name = "GFX_army_type_hap_arty_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 74 }
+	spriteType = { name = "GFX_army_type_hap_arial_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 75 }
+	spriteType = { name = "GFX_army_type_hap_royalguard" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 76 }
+	spriteType = { name = "GFX_army_type_dro_inf_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 77 }
+	spriteType = { name = "GFX_army_type_dro_inf_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 78 }
+	spriteType = { name = "GFX_army_type_dro_inf_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 79 }
+	spriteType = { name = "GFX_army_type_dro_occ_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 80 }
+	spriteType = { name = "GFX_army_type_dro_sup_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 81 }
+	spriteType = { name = "GFX_army_type_dro_specops_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 82 }
+	spriteType = { name = "GFX_army_type_dro_specops_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 83 }
+	spriteType = { name = "GFX_army_type_dro_specops_4" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 84 }
+	spriteType = { name = "GFX_army_type_dro_armor_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 85 }
+	spriteType = { name = "GFX_army_type_dro_armor_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 86 }
+	spriteType = { name = "GFX_army_type_dro_arty_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 87 }
+	spriteType = { name = "GFX_army_type_dro_arty_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 88 }
+	spriteType = { name = "GFX_army_type_dro_arial_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 89 }
+	spriteType = { name = "GFX_army_type_dro_arial_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 90 }
+	spriteType = { name = "GFX_army_type_geo_inf_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 91 }
+	spriteType = { name = "GFX_army_type_merc_heavy_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 92 }
+	spriteType = { name = "GFX_army_type_merc_mando_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 93 }
+	spriteType = { name = "GFX_army_type_clo_inf_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 94 }
+	spriteType = { name = "GFX_army_type_inf_sup_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 95 }
+	spriteType = { name = "GFX_army_type_inf_armor_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 96 }
+	spriteType = { name = "GFX_army_type_inf_bountyhunters" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 97 }
+	spriteType = { name = "GFX_army_type_inf_clonecommandos" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 98 }
+	spriteType = { name = "GFX_army_type_inf_armor_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 99 }
+	spriteType = { name = "GFX_army_type_inf_armor_3" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 100 }
+	spriteType = { name = "GFX_army_type_inf_arial_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 101 }	
+	spriteType = { name = "GFX_army_type_inf_arial_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 102 }
+	spriteType = { name = "GFX_army_type_fortification_1" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 103 }
+	spriteType = { name = "GFX_army_type_fortification_2" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 104 }
+	spriteType = { name = "GFX_army_type_rancor" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 105 }
+	spriteType = { name = "GFX_army_type_ancientrancor" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 106 }
+	spriteType = { name = "GFX_army_type_primalbeast" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 107 }
+	spriteType = { name = "GFX_army_type_acklay" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 108 }
+	spriteType = { name = "GFX_army_type_vong" sprite_sheet_sprite_type = "GFX_army_icons" default_frame = 109 }
+
+	#SWND Ship Sizes
+	##Corvettes
+	spriteType = { name = "GFX_text_ship_size_corv_cr90" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_cr90" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 14 }
+	spriteType = { name = "GFX_ship_size_corv_cr90_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 14 }
+	spriteType = { name = "GFX_ship_size_corv_cr90_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 14 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_jehaveyir" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_jehaveyir" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 15 }
+	spriteType = { name = "GFX_ship_size_corv_jehaveyir_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 15 }
+	spriteType = { name = "GFX_ship_size_corv_jehaveyir_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 15 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_lupus" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_lupus" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 16 }
+	spriteType = { name = "GFX_ship_size_corv_lupus_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 16 }
+	spriteType = { name = "GFX_ship_size_corv_lupus_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 16 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_early_asdroni" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_early_asdroni" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 17 }
+	spriteType = { name = "GFX_ship_size_corv_early_asdroni_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 17 }
+	spriteType = { name = "GFX_ship_size_corv_early_asdroni_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 17 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_customs" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_customs" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 18 }
+	spriteType = { name = "GFX_ship_size_corv_customs_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 18 }
+	spriteType = { name = "GFX_ship_size_corv_customs_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 18 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_hammerhead" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_hammerhead" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 19 }
+	spriteType = { name = "GFX_ship_size_corv_hammerhead_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 19 }
+	spriteType = { name = "GFX_ship_size_corv_hammerhead_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 19 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_scurge" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_scurge" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 20 }
+	spriteType = { name = "GFX_ship_size_corv_scurge_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 20 }
+	spriteType = { name = "GFX_ship_size_corv_scurge_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 20 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_krayt" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_krayt" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 21 }
+	spriteType = { name = "GFX_ship_size_corv_krayt_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 21 }
+	spriteType = { name = "GFX_ship_size_corv_krayt_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 21 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_diamond" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_diamond" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 22 }
+	spriteType = { name = "GFX_ship_size_corv_diamond_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 22 }
+	spriteType = { name = "GFX_ship_size_corv_diamond_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 22 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_etti" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_etti" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 23 }
+	spriteType = { name = "GFX_ship_size_corv_etti_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 23 }
+	spriteType = { name = "GFX_ship_size_corv_etti_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 23 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_vigil" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_vigil" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 25 }
+	spriteType = { name = "GFX_ship_size_corv_vigil_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 25 }
+	spriteType = { name = "GFX_ship_size_corv_vigil_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 25 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_dp20" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_dp20" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 26 }
+	spriteType = { name = "GFX_ship_size_corv_dp20_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 26 }
+	spriteType = { name = "GFX_ship_size_corv_dp20_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 26 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_raider" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_raider" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 28 }
+	spriteType = { name = "GFX_ship_size_corv_raider_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 28 }
+	spriteType = { name = "GFX_ship_size_corv_raider_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 28 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_dornean" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_dornean" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 29 }
+	spriteType = { name = "GFX_ship_size_corv_dornean_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 29 }
+	spriteType = { name = "GFX_ship_size_corv_dornean_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 29 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_crusader" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_crusader" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 30 }
+	spriteType = { name = "GFX_ship_size_corv_crusader_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 30 }
+	spriteType = { name = "GFX_ship_size_corv_crusader_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 30 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_marauder" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_marauder" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 31 }
+	spriteType = { name = "GFX_ship_size_corv_marauder_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 31 }
+	spriteType = { name = "GFX_ship_size_corv_marauder_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 31 }
+
+	spriteType = { name = "GFX_text_ship_size_corv_advanced_scout" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds" }
+	spriteType = { name = "GFX_ship_size_corv_advanced_scout" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 32 }
+	spriteType = { name = "GFX_ship_size_corv_advanced_scout_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 32 }
+	spriteType = { name = "GFX_ship_size_corv_advanced_scout_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 32 }
+
+	##Frigate
+	spriteType = { name = "GFX_text_ship_size_frig_arquitens" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_arquitens" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 40 }
+	spriteType = { name = "GFX_ship_size_frig_arquitens_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 40 }
+	spriteType = { name = "GFX_ship_size_frig_arquitens_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 40 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_kiltirin" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_kiltirin" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 41 }
+	spriteType = { name = "GFX_ship_size_frig_kiltirin_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 41 }
+	spriteType = { name = "GFX_ship_size_frig_kiltirin_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 41 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_pelta" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_pelta" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 42 }
+	spriteType = { name = "GFX_ship_size_frig_pelta_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 42 }
+	spriteType = { name = "GFX_ship_size_frig_pelta_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 42 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_pinnance" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_pinnance" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 43 }
+	spriteType = { name = "GFX_ship_size_frig_pinnance_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 43 }
+	spriteType = { name = "GFX_ship_size_frig_pinnance_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 43 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_nova" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_nova" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 44 }
+	spriteType = { name = "GFX_ship_size_frig_nova_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 44 }
+	spriteType = { name = "GFX_ship_size_frig_nova_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 44 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_vigilance" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_vigilance" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 45 }
+	spriteType = { name = "GFX_ship_size_frig_vigilance_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 45 }
+	spriteType = { name = "GFX_ship_size_frig_vigilance_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 45 }
+	
+	spriteType = { name = "GFX_text_ship_size_frig_neb_b" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_neb_b" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 46 }
+	spriteType = { name = "GFX_ship_size_frig_neb_b_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 46 }
+	spriteType = { name = "GFX_ship_size_frig_neb_b_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 46 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_cg273" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_cg273" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 47 }
+	spriteType = { name = "GFX_ship_size_frig_cg273_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 47 }
+	spriteType = { name = "GFX_ship_size_frig_cg273_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 47 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_kariek" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_kariek" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 48 }
+	spriteType = { name = "GFX_ship_size_frig_kariek_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 48 }
+	spriteType = { name = "GFX_ship_size_frig_kariek_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 48 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_escort_carrier" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_escort_carrier" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 49 }
+	spriteType = { name = "GFX_ship_size_frig_escort_carrier_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 49 }
+	spriteType = { name = "GFX_ship_size_frig_escort_carrier_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 49 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_quasar" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_quasar" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 50 }
+	spriteType = { name = "GFX_ship_size_frig_quasar_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 50 }
+	spriteType = { name = "GFX_ship_size_frig_quasar_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 50 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_lancer" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_lancer" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 51 }
+	spriteType = { name = "GFX_ship_size_frig_lancer_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 51 }
+	spriteType = { name = "GFX_ship_size_frig_lancer_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 51 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_teroch" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_teroch" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 52 }
+	spriteType = { name = "GFX_ship_size_frig_teroch_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 52 }
+	spriteType = { name = "GFX_ship_size_frig_teroch_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 52 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_velox" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_velox" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 56 }
+	spriteType = { name = "GFX_ship_size_frig_velox_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 56 }
+	spriteType = { name = "GFX_ship_size_frig_velox_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 56 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_mc30c" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_mc30c" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 57 }
+	spriteType = { name = "GFX_ship_size_frig_mc30c_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 57 }
+	spriteType = { name = "GFX_ship_size_frig_mc30c_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 57 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_vengeance" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_vengeance" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 58 }
+	spriteType = { name = "GFX_ship_size_frig_vengeance_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 58 }
+	spriteType = { name = "GFX_ship_size_frig_vengeance_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 58 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_cc7700" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_cc7700" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 60 }
+	spriteType = { name = "GFX_ship_size_frig_cc7700_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 60 }
+	spriteType = { name = "GFX_ship_size_frig_cc7700_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 60 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_ilfriil_man_nat" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_ilfriil_man_nat" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 61 }
+	spriteType = { name = "GFX_ship_size_frig_ilfriil_man_nat_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 61 }
+	spriteType = { name = "GFX_ship_size_frig_ilfriil_man_nat_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 61 }
+
+	spriteType = { name = "GFX_text_ship_size_frig_spore_ship" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds" }
+	spriteType = { name = "GFX_ship_size_frig_spore_ship" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 62 }
+	spriteType = { name = "GFX_ship_size_frig_spore_ship_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 62 }
+	spriteType = { name = "GFX_ship_size_frig_spore_ship_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 62 }
+
+	##Cruiser
+	spriteType = { name = "GFX_text_ship_size_crui_victory2" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_victory2" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 70 }
+	spriteType = { name = "GFX_ship_size_crui_victory2_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 70 }
+	spriteType = { name = "GFX_ship_size_crui_victory2_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 70 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_wavecrest" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_wavecrest" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 71 }
+	spriteType = { name = "GFX_ship_size_crui_wavecrest_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 71 }
+	spriteType = { name = "GFX_ship_size_crui_wavecrest_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 71 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_early_battledragon" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_early_battledragon" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 72 }
+	spriteType = { name = "GFX_ship_size_crui_early_battledragon_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 72 }
+	spriteType = { name = "GFX_ship_size_crui_early_battledragon_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 72 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_nuruodo" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_nuruodo" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 73 }
+	spriteType = { name = "GFX_ship_size_crui_nuruodo_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 73 }
+	spriteType = { name = "GFX_ship_size_crui_nuruodo_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 73 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_sabaoth" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_sabaoth" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 74 }
+	spriteType = { name = "GFX_ship_size_crui_sabaoth_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 74 }
+	spriteType = { name = "GFX_ship_size_crui_sabaoth_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 74 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_kontos" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_kontos" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 75 }
+	spriteType = { name = "GFX_ship_size_crui_kontos_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 75 }
+	spriteType = { name = "GFX_ship_size_crui_kontos_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 75 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_mc40" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_mc40" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 76 }
+	spriteType = { name = "GFX_ship_size_crui_mc40_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 76 }
+	spriteType = { name = "GFX_ship_size_crui_mc40_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 76 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_broadside" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_broadside" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 78 }
+	spriteType = { name = "GFX_ship_size_crui_broadside_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 78 }
+	spriteType = { name = "GFX_ship_size_crui_broadside_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 78 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_protector" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_protector" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 79 }
+	spriteType = { name = "GFX_ship_size_crui_protector_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 79 }
+	spriteType = { name = "GFX_ship_size_crui_protector_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 79 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_warlord" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_warlord" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 80 }
+	spriteType = { name = "GFX_ship_size_crui_warlord_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 80 }
+	spriteType = { name = "GFX_ship_size_crui_warlord_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 80 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_gladiator" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_gladiator" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 81 }
+	spriteType = { name = "GFX_ship_size_crui_gladiator_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 81 }
+	spriteType = { name = "GFX_ship_size_crui_gladiator_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 81 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_beviin" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_beviin" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 82 }
+	spriteType = { name = "GFX_ship_size_crui_beviin_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 82 }
+	spriteType = { name = "GFX_ship_size_crui_beviin_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 82 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_liberator" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_liberator" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 83 }
+	spriteType = { name = "GFX_ship_size_crui_liberator_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 83 }
+	spriteType = { name = "GFX_ship_size_crui_liberator_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 83 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_immobilizer418" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_immobilizer418" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 86 }
+	spriteType = { name = "GFX_ship_size_crui_immobilizer418_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 86 }
+	spriteType = { name = "GFX_ship_size_crui_immobilizer418_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 86 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_massias" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_massias" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 88 }
+	spriteType = { name = "GFX_ship_size_crui_massias_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 88 }
+	spriteType = { name = "GFX_ship_size_crui_massias_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 88 }
+
+	spriteType = { name = "GFX_text_ship_size_crui_suuv_ban_dkrid" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_crui_suuv_ban_dkrid" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 89 }
+	spriteType = { name = "GFX_ship_size_crui_suuv_ban_dkrid_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 89 }
+	spriteType = { name = "GFX_ship_size_crui_suuv_ban_dkrid_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 89 }
+
+	##Heavy Cruiser
+	spriteType = { name = "GFX_text_ship_size_h_crui_dreadnought" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_dreadnought" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 100 }
+	spriteType = { name = "GFX_ship_size_h_crui_dreadnought_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 100 }
+	spriteType = { name = "GFX_ship_size_h_crui_dreadnought_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 100 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_kyramud" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_kyramud" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 101 }
+	spriteType = { name = "GFX_ship_size_h_crui_kyramud_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 101 }
+	spriteType = { name = "GFX_ship_size_h_crui_kyramud_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 101 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_munificent" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_munificent" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 102 }
+	spriteType = { name = "GFX_ship_size_h_crui_munificent_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 102 }
+	spriteType = { name = "GFX_ship_size_h_crui_munificent_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 102 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_prosvoli" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_prosvoli" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 103 }
+	spriteType = { name = "GFX_ship_size_h_crui_prosvoli_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 103 }
+	spriteType = { name = "GFX_ship_size_h_crui_prosvoli_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 103 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_acclamator" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_acclamator" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 104 }
+	spriteType = { name = "GFX_ship_size_h_crui_acclamator_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 104 }
+	spriteType = { name = "GFX_ship_size_h_crui_acclamator_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 104 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_lictor" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_lictor" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 105 }
+	spriteType = { name = "GFX_ship_size_h_crui_lictor_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 105 }
+	spriteType = { name = "GFX_ship_size_h_crui_lictor_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 105 }
+	
+	spriteType = { name = "GFX_text_ship_size_h_crui_bulwark" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_bulwark" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 106 }
+	spriteType = { name = "GFX_ship_size_h_crui_bulwark_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 106 }
+	spriteType = { name = "GFX_ship_size_h_crui_bulwark_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 106 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_vsd1" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_vsd1" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 107 }
+	spriteType = { name = "GFX_ship_size_h_crui_vsd1_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 107 }
+	spriteType = { name = "GFX_ship_size_h_crui_vsd1_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 107 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_assault1" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_assault1" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 108 }
+	spriteType = { name = "GFX_ship_size_h_crui_assault1_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 108 }
+	spriteType = { name = "GFX_ship_size_h_crui_assault1_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 108 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_bulk" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_bulk" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 109 }
+	spriteType = { name = "GFX_ship_size_h_crui_bulk_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 109 }
+	spriteType = { name = "GFX_ship_size_h_crui_bulk_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 109 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_vindicator" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_vindicator" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 110 }
+	spriteType = { name = "GFX_ship_size_h_crui_vindicator_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 110 }
+	spriteType = { name = "GFX_ship_size_h_crui_vindicator_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 110 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_dauntless" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_dauntless" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 111 }
+	spriteType = { name = "GFX_ship_size_h_crui_dauntless_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 111 }
+	spriteType = { name = "GFX_ship_size_h_crui_dauntless_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 111 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_captor" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_captor" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 112 }
+	spriteType = { name = "GFX_ship_size_h_crui_captor_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 112 }
+	spriteType = { name = "GFX_ship_size_h_crui_captor_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 112 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_auriette" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_auriette" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 113 }
+	spriteType = { name = "GFX_ship_size_h_crui_auriette_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 113 }
+	spriteType = { name = "GFX_ship_size_h_crui_auriette_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 113 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_mc55" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_mc55" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 114 }
+	spriteType = { name = "GFX_ship_size_h_crui_mc55_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 114 }
+	spriteType = { name = "GFX_ship_size_h_crui_mc55_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 114 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_afthonia" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_afthonia" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 115 }
+	spriteType = { name = "GFX_ship_size_h_crui_afthonia_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 115 }
+	spriteType = { name = "GFX_ship_size_h_crui_afthonia_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 115 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_vsd2" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_vsd2" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 116 }
+	spriteType = { name = "GFX_ship_size_h_crui_vsd2_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 116 }
+	spriteType = { name = "GFX_ship_size_h_crui_vsd2_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 116 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_beroya" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_beroya" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 117 }
+	spriteType = { name = "GFX_ship_size_h_crui_beroya_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 117 }
+	spriteType = { name = "GFX_ship_size_h_crui_beroya_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 117 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_assault2" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_assault2" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 118 }
+	spriteType = { name = "GFX_ship_size_h_crui_assault2_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 118 }
+	spriteType = { name = "GFX_ship_size_h_crui_assault2_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 118 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_adv_prosvoli" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_adv_prosvoli" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 120 }
+	spriteType = { name = "GFX_ship_size_h_crui_adv_prosvoli_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 120 }
+	spriteType = { name = "GFX_ship_size_h_crui_adv_prosvoli_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 120 }
+
+	spriteType = { name = "GFX_text_ship_size_h_crui_vua_spar" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds" }
+	spriteType = { name = "GFX_ship_size_h_crui_vua_spar" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 121 }
+	spriteType = { name = "GFX_ship_size_h_crui_vua_spar_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 121 }
+	spriteType = { name = "GFX_ship_size_h_crui_vua_spar_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 121 }
+
+	##Star Destroyer
+	spriteType = { name = "GFX_text_ship_size_sd_venator" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_venator" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 140 }
+	spriteType = { name = "GFX_ship_size_sd_venator_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 140 }
+	spriteType = { name = "GFX_ship_size_sd_venator_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 140 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_centurion" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_centurion" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 141 }
+	spriteType = { name = "GFX_ship_size_sd_centurion_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 141 }
+	spriteType = { name = "GFX_ship_size_sd_centurion_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 141 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_mc75" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_mc75" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 142 }
+	spriteType = { name = "GFX_ship_size_sd_mc75_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 142 }
+	spriteType = { name = "GFX_ship_size_sd_mc75_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 142 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_kandosii" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_kandosii" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 143 }
+	spriteType = { name = "GFX_ship_size_sd_kandosii_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 143 }
+	spriteType = { name = "GFX_ship_size_sd_kandosii_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 143 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_corellian" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_corellian" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 144 }
+	spriteType = { name = "GFX_ship_size_sd_corellian_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 144 }
+	spriteType = { name = "GFX_ship_size_sd_corellian_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 144 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_providence" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_providence" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 145 }
+	spriteType = { name = "GFX_ship_size_sd_providence_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 145 }
+	spriteType = { name = "GFX_ship_size_sd_providence_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 145 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_syndic" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_syndic" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 146 }
+	spriteType = { name = "GFX_ship_size_sd_syndic_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 146 }
+	spriteType = { name = "GFX_ship_size_sd_syndic_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 146 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_recusant" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_recusant" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 147 }
+	spriteType = { name = "GFX_ship_size_sd_recusant_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 147 }
+	spriteType = { name = "GFX_ship_size_sd_recusant_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 147 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_invincible" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_invincible" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 148 }
+	spriteType = { name = "GFX_ship_size_sd_invincible_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 148 }
+	spriteType = { name = "GFX_ship_size_sd_invincible_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 148 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_imperial1" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_imperial1" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 149 }
+	spriteType = { name = "GFX_ship_size_sd_imperial1_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 149 }
+	spriteType = { name = "GFX_ship_size_sd_imperial1_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 149 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_procursator" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_procursator" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 151 }
+	spriteType = { name = "GFX_ship_size_sd_procursator_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 151 }
+	spriteType = { name = "GFX_ship_size_sd_procursator_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 151 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_mc80a" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_mc80a" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 152 }
+	spriteType = { name = "GFX_ship_size_sd_mc80a_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 152 }
+	spriteType = { name = "GFX_ship_size_sd_mc80a_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 152 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_dh_omni" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_dh_omni" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 153 }
+	spriteType = { name = "GFX_ship_size_sd_dh_omni_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 153 }
+	spriteType = { name = "GFX_ship_size_sd_dh_omni_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 153 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_aggressor" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_aggressor" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 154 }
+	spriteType = { name = "GFX_ship_size_sd_aggressor_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 154 }
+	spriteType = { name = "GFX_ship_size_sd_aggressor_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 154 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_mc80b" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_mc80b" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 156 }
+	spriteType = { name = "GFX_ship_size_sd_mc80b_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 156 }
+	spriteType = { name = "GFX_ship_size_sd_mc80b_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 156 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_keldabe" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_keldabe" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 157 }
+	spriteType = { name = "GFX_ship_size_sd_keldabe_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 157 }
+	spriteType = { name = "GFX_ship_size_sd_keldabe_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 157 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_chaf" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_chaf" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 159 }
+	spriteType = { name = "GFX_ship_size_sd_chaf_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 159 }
+	spriteType = { name = "GFX_ship_size_sd_chaf_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 159 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_imperial2" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_imperial2" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 160 }
+	spriteType = { name = "GFX_ship_size_sd_imperial2_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 160 }
+	spriteType = { name = "GFX_ship_size_sd_imperial2_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 160 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_ascendancy" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_ascendancy" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 162 }
+	spriteType = { name = "GFX_ship_size_sd_ascendancy_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 162 }
+	spriteType = { name = "GFX_ship_size_sd_ascendancy_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 162 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_interdictor" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_interdictor" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 164 }
+	spriteType = { name = "GFX_ship_size_sd_interdictor_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 164 }
+	spriteType = { name = "GFX_ship_size_sd_interdictor_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 164 }
+	
+	spriteType = { name = "GFX_text_ship_size_sd_matalok" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_matalok" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 165 }
+	spriteType = { name = "GFX_ship_size_sd_matalok_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 165 }
+	spriteType = { name = "GFX_ship_size_sd_matalok_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 165 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_miid_roik_db" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_miid_roik_db" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 166 }
+	spriteType = { name = "GFX_ship_size_sd_miid_roik_db_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 166 }
+	spriteType = { name = "GFX_ship_size_sd_miid_roik_db_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 166 }
+
+	spriteType = { name = "GFX_text_ship_size_sd_miid_roik_attacker" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds" }
+	spriteType = { name = "GFX_ship_size_sd_miid_roik_attacker" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 167 }
+	spriteType = { name = "GFX_ship_size_sd_miid_roik_attacker_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 167 }
+	spriteType = { name = "GFX_ship_size_sd_miid_roik_attacker_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 167 }
+
+	##Battlecruiser
+	spriteType = { name = "GFX_text_ship_size_bc_allegiance" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_16.dds" }
+	spriteType = { name = "GFX_ship_size_bc_allegiance" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 170 }
+	spriteType = { name = "GFX_ship_size_bc_allegiance_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 170 }
+	spriteType = { name = "GFX_ship_size_bc_allegiance_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 170 }
+
+	spriteType = { name = "GFX_text_ship_size_bc_lucrehulk" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_16.dds" }
+	spriteType = { name = "GFX_ship_size_bc_lucrehulk" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 171 }
+	spriteType = { name = "GFX_ship_size_bc_lucrehulk_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 171 }
+	spriteType = { name = "GFX_ship_size_bc_lucrehulk_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 171 }
+
+	spriteType = { name = "GFX_text_ship_size_bc_phalanx" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_16.dds" }
+	spriteType = { name = "GFX_ship_size_bc_phalanx" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 172 }
+	spriteType = { name = "GFX_ship_size_bc_phalanx_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 172 }
+	spriteType = { name = "GFX_ship_size_bc_phalanx_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 172 }
+
+	spriteType = { name = "GFX_text_ship_size_bc_titan" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_16.dds" }
+	spriteType = { name = "GFX_ship_size_bc_titan" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 173 }
+	spriteType = { name = "GFX_ship_size_bc_titan_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 173 }
+	spriteType = { name = "GFX_ship_size_bc_titan_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 173 }
+
+	spriteType = { name = "GFX_text_ship_size_bc_home1" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_16.dds" }
+	spriteType = { name = "GFX_ship_size_bc_home1" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 174 }
+	spriteType = { name = "GFX_ship_size_bc_home1_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 174 }
+	spriteType = { name = "GFX_ship_size_bc_home1_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 174 }
+
+	spriteType = { name = "GFX_text_ship_size_bc_star_home" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_16.dds" }
+	spriteType = { name = "GFX_ship_size_bc_star_home" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 175 }
+	spriteType = { name = "GFX_ship_size_bc_star_home_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 175 }
+	spriteType = { name = "GFX_ship_size_bc_star_home_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 175 }
+
+	##Super Star Destroyer
+	spriteType = { name = "GFX_text_ship_size_ssd_subjugator" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_32.dds" }
+	spriteType = { name = "GFX_ship_size_ssd_subjugator" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 176 }
+	spriteType = { name = "GFX_ship_size_ssd_subjugator_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 176 }
+	spriteType = { name = "GFX_ship_size_ssd_subjugator_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 176 }
+
+	spriteType = { name = "GFX_text_ship_size_ssd_bellator" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_32.dds" }
+	spriteType = { name = "GFX_ship_size_ssd_bellator" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 177 }
+	spriteType = { name = "GFX_ship_size_ssd_bellator_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 177 }
+	spriteType = { name = "GFX_ship_size_ssd_bellator_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 177 }
+
+	spriteType = { name = "GFX_text_ship_size_ssd_solyc_verd" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_32.dds" }
+	spriteType = { name = "GFX_ship_size_ssd_solyc_verd" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 178 }
+	spriteType = { name = "GFX_ship_size_ssd_solyc_verd_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 178 }
+	spriteType = { name = "GFX_ship_size_ssd_solyc_verd_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 178 }
+
+	spriteType = { name = "GFX_text_ship_size_ssd_executor" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_32.dds" }
+	spriteType = { name = "GFX_ship_size_ssd_executor" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 179 }
+	spriteType = { name = "GFX_ship_size_ssd_executor_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 179 }
+	spriteType = { name = "GFX_ship_size_ssd_executor_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 179 }
+
+	spriteType = { name = "GFX_text_ship_size_ssd_vong_dreadnought" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_32.dds" }
+	spriteType = { name = "GFX_ship_size_ssd_vong_dreadnought" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 180 }
+	spriteType = { name = "GFX_ship_size_ssd_vong_dreadnought_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 180 }
+	spriteType = { name = "GFX_ship_size_ssd_vong_dreadnought_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 180 }
+
+	spriteType = { name = "GFX_text_ship_size_ssd_worldship" texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_32.dds" }
+	spriteType = { name = "GFX_ship_size_ssd_worldship" sprite_sheet_sprite_type = "GFX_ship_sizes" default_frame = 181 }
+	spriteType = { name = "GFX_ship_size_ssd_worldship_top" sprite_sheet_sprite_type = "GFX_ship_sizes_top" default_frame = 181 }
+	spriteType = { name = "GFX_ship_size_ssd_worldship_top_damaged" sprite_sheet_sprite_type = "GFX_ship_sizes_top_damaged" default_frame = 181 }
+
+	# Factions
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_wren" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_wren.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_kryze" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_kryze.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_saxon" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_saxon.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_vizsla" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_vizsla.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_protectors" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_protectors.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_rook" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_rook.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_awaud" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_awaud.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_ordo" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_ordo.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_tribe" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_tribe.dds" noOfFrames = 1 }
+	spriteType = { name = "GFX_faction_icon_swnd_mando_cl_fett" textureFile = "gfx/interface/icons/faction_icons/faction_icons_clan_fett.dds" noOfFrames = 1 }
+
+	# Message
+	spriteType = { name = "GFX_message_mando_pops_recruit" texturefile = "gfx/interface/icons/message/message_mando_pops_recruit.dds" }
+	spriteType = { name = "GFX_message_disease_cure_progress" texturefile = "gfx/interface/icons/message/message_medical_sign.dds" }
+	spriteType = { name = "GFX_message_mando_protectors_army" texturefile = "gfx/interface/icons/message/message_mando_protectors.dds" }
+	spriteType = { name = "GFX_message_mando_civil_war" texturefile = "gfx/interface/icons/message/message_mando_civil_war.dds" }
+	spriteType = { name = "GFX_message_mando_clan_level_up" texturefile = "gfx/interface/icons/message/message_mando_clan_level_up.dds" }
+
+	# Subject
+	spriteType = { name = "GFX_specialist_tier_specialist_mando_clan_1_off" textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_mando_clan_1_off.dds" }
+	spriteType = { name = "GFX_specialist_tier_specialist_mando_clan_1_on" textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_mando_clan_1_on.dds" }
+	spriteType = { name = "GFX_specialist_tier_specialist_mando_clan_2_off" textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_mando_clan_2_off.dds" }
+	spriteType = { name = "GFX_specialist_tier_specialist_mando_clan_2_on" textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_mando_clan_2_on.dds" }
+	spriteType = { name = "GFX_specialist_tier_specialist_mando_clan_3_off" textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_mando_clan_3_off.dds" }
+	spriteType = { name = "GFX_specialist_tier_specialist_mando_clan_3_on" textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_mando_clan_3_on.dds" }
+
+### SWND Starbase Modules ###
+
+spriteType = {
+	name = "GFX_spaceport_module_asteroid_miner"
+	texturefile = "gfx/interface/icons/modules/asteroid_miner.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_module_hangar_bay"
+	texturefile = "gfx/interface/icons/modules/hangar_bay.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_module_missile_battery"
+	texturefile = "gfx/interface/icons/modules/missile_battery.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_module_orbital_defense"
+	texturefile = "gfx/interface/icons/modules/orbital_defense.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_module_orbital_factory"
+	texturefile = "gfx/interface/icons/modules/orbital_factory.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_module_orbital_foundry"
+	texturefile = "gfx/interface/icons/modules/orbital_foundry.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_module_shipyard"
+	texturefile = "gfx/interface/icons/modules/shipyard.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_module_solar_panel_network"
+	texturefile = "gfx/interface/icons/modules/solar_panel_network.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_module_trading_hub"
+	texturefile = "gfx/interface/icons/modules/trading_hub.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_module_anchorage"
+	texturefile = "gfx/interface/icons/modules/anchorage.dds"
+}
+
+### SWND Starbase Buildings ###
+
+spriteType = {
+	name = "GFX_spaceport_buildings_crew_quarters"
+	texturefile = "gfx/interface/icons/modules/buildings/crew_quarters.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_defence_grid"
+	texturefile = "gfx/interface/icons/modules/buildings/defence_grid.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_hydroponics_bay"
+	texturefile = "gfx/interface/icons/modules/buildings/hydroponics_bay.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_industrial_sector"
+	texturefile = "gfx/interface/icons/modules/buildings/industrial_sector.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_listening_post"
+	texturefile = "gfx/interface/icons/modules/buildings/listening_post.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_mining_headquarters"
+	texturefile = "gfx/interface/icons/modules/buildings/mining_headquarters.dds"
+}
+spriteType = {
+	name = "GFX_spaceport_buildings_naval_logistics_office"
+	texturefile = "gfx/interface/icons/modules/buildings/naval_logistics_office.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_nebula_refinery"
+	texturefile = "gfx/interface/icons/modules/buildings/nebula_refinery.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_observatory"
+	texturefile = "gfx/interface/icons/modules/buildings/observatory.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_orbital_prison"
+	texturefile = "gfx/interface/icons/modules/buildings/orbital_prison.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_orbital_research_lab"
+	texturefile = "gfx/interface/icons/modules/buildings/orbital_research_lab.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_ressource_silo"
+	texturefile = "gfx/interface/icons/modules/buildings/ressource_silo.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_security_center"
+	texturefile = "gfx/interface/icons/modules/buildings/security_center.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_solar_panel_relay"
+	texturefile = "gfx/interface/icons/modules/buildings/solar_panel_relay.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_mine_field"
+	texturefile = "gfx/interface/icons/modules/buildings/mine_field.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_starbase_armor"
+	texturefile = "gfx/interface/icons/modules/buildings/starbase_armor.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_starbase_shield"
+	texturefile = "gfx/interface/icons/modules/buildings/starbase_shield.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_starbase_structure"
+	texturefile = "gfx/interface/icons/modules/buildings/starbase_structure.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_synthetic_hyperfuel_refinery"
+	texturefile = "gfx/interface/icons/modules/buildings/synthetic_hyperfuel_refinery.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_target_uplink" 
+	texturefile = "gfx/interface/icons/modules/buildings/target_uplink.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_offworld_trading_company" 
+	texturefile = "gfx/interface/icons/modules/buildings/offworld_trading_company.dds"
+}
+
+spriteType = {
+	name = "GFX_spaceport_buildings_gravity_well" 
+	texturefile = "gfx/interface/icons/modules/buildings/gravity_well.dds"
+}
+
+
+##Hero System 
+
+spriteType = { 
+	name = "GFX_message_promising_candidate"
+	texturefile = "gfx/interface/icons/message/message_promising_candidate.dds"
+}
+
+spriteType = { 
+	name = "GFX_leader_trait_swnd_phoenix"
+	textureFile = "gfx/interface/icons/traits/leader_traits/leader_trait_swnd_phoenix.dds"
+}
+
+}

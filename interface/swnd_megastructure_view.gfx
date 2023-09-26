@@ -1,0 +1,16 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_megastructure_planet_shipyard_background"
+		textureFile = "gfx/interface/planetview/planet_shipyard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_megastructure_orbital_shipyard_background"
+		textureFile = "gfx/interface/planetview/orbital_shipyard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_megastructure_hyperspace_beacon"
+		textureFile = "gfx/interface/planetview/megastructure_hyperspace_beacon.dds"
+	}
+}

@@ -139,24 +139,24 @@ guiTypes = {
 		# Weapon Guide SWND
 		containerWindowType = {
 			name = "empire_glossary2"
-            size = { width = 230 height = 145 }
-            
+			size = { width = 230 height = 145 }
+			
 			position = { x = 270 y = 570 }
 			#orientation = "LOWER_LEFT"
-            clipping = no
+			clipping = no
 			#vertical_alignment = center
-            background = {
-                name = "background"
-                spriteType = "GFX_plain_bg_tile"
+			background = {
+				name = "background"
+				spriteType = "GFX_plain_bg_tile"
 			}
 			
 			instantTextBoxType = {
-                name = "empire_glossary_header"
-                font = "malgun_goth_24"
-                position = { x = 45  y = 8 }
-                maxWidth = 230
-                text =   "Weapon Guide"
-                alwaysTransparent = yes
+				name = "empire_glossary_header"
+				font = "malgun_goth_24"
+				position = { x = 45 y = 8 }
+				maxWidth = 230
+				text = "Weapon Guide"
+				alwaysTransparent = yes
 			}
 
 			iconType = {
@@ -169,9 +169,9 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "yellow_weapon"
 				font = "cg_16b"
-				position = { x = 25  y = 30 }
+				position = { x = 25 y = 30 }
 				maxWidth = 230
-				text =   "Light Weapon / Point Defence"
+				text = "Light Weapon / Point Defence"
 				text_color_code = "Y"
 				format = left
 				alwaysTransparent = yes
@@ -187,9 +187,9 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "orange_weapon"
 				font = "cg_16b"
-				position = { x = 25  y = 47 }
+				position = { x = 25 y = 47 }
 				maxWidth = 230
-				text =   "Medium Weapon"
+				text = "Medium Weapon"
 				text_color_code = "H"
 				format = left
 				alwaysTransparent = yes
@@ -205,9 +205,9 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "red_weapon"
 				font = "cg_16b"
-				position = { x = 25  y = 62 }
+				position = { x = 25 y = 62 }
 				maxWidth = 230
-				text =   "Heavy Weapon"
+				text = "Heavy Weapon"
 				text_color_code = "R"
 				format = left
 				alwaysTransparent = yes
@@ -223,9 +223,9 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "teal_weapon"
 				font = "cg_16b"
-				position = { x = 25  y = 77 }
+				position = { x = 25 y = 77 }
 				maxWidth = 230
-				text =   "Ion Weapon"
+				text = "Ion Weapon"
 				text_color_code = "E"
 				format = left
 				alwaysTransparent = yes
@@ -241,9 +241,9 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "blue_weapon"
 				font = "cg_16b"
-				position = { x = 25  y = 92 }
+				position = { x = 25 y = 92 }
 				maxWidth = 230
-				text =   "Special Weapon"
+				text = "Special Weapon"
 				text_color_code = "B"
 				format = left
 				alwaysTransparent = yes
@@ -259,9 +259,9 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "purple_weapon"
 				font = "cg_16b"
-				position = { x = 25  y = 107 }
+				position = { x = 25 y = 107 }
 				maxWidth = 230
-				text =   "Missile or Torpedo"
+				text = "Missile or Torpedo"
 				text_color_code = "M"
 				format = left
 				alwaysTransparent = yes
@@ -277,9 +277,9 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "green_weapon"
 				font = "cg_16b"
-				position = { x = 25  y = 122 }
+				position = { x = 25 y = 122 }
 				maxWidth = 230
-				text =   "Hangar"
+				text = "Hangar"
 				text_color_code = "G"
 				format = left
 				alwaysTransparent = yes
@@ -839,7 +839,7 @@ guiTypes = {
 				name = "upgrade_ship_components_label"
 				font = "cg_16b"
 				text = "SHIP_COMPONENTS_AUTO_GENERATE"
-				position = { x = 827  y = -70 }
+				position = { x = 827 y = -70 }
 				maxWidth = 220
 				maxHeight = 30
 				Orientation = "LOWER_LEFT"
@@ -857,7 +857,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "ship_role_container_window"
-				position = {  x = 790  y = -135 }
+				position = { x = 790 y = -135 }
 				size = { width = 195 height = 175 }
 				moveable = no
 
@@ -872,8 +872,8 @@ guiTypes = {
 
 				smoothListBoxType = {
 					name = "ship_roles"
-					position = {  x = 0  y = 0 }
-					offset = {  x = -5  y = 5 }
+					position = { x = 0 y = 0 }
+					offset = { x = -5 y = 5 }
 					orientation = upper_left
 					spacing = -7
 					size = { x = 180 y = 145 }
@@ -891,7 +891,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x= -45 y = 16  }
+			position = { x= -45 y = 16 }
 			Orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
@@ -945,7 +945,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x= -42 y = 3  }
+			position = { x= -42 y = 3 }
 			Orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 		}
@@ -982,7 +982,7 @@ guiTypes = {
 		buttonType = {
 			name = "choose_ship_type_button"
 			spriteType = "GFX_galactic_object_button"
-			position = { x= -12 y = -4  }
+			position = { x= -12 y = -4 }
 			oversound = mouse_over
 		}
 
@@ -1298,7 +1298,7 @@ guiTypes = {
 		buttonType = {
 			name = "background"
 			quadTextureSprite = "GFX_ship_designer_item_bg"
-			position = { x= 0 y = 0  }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -1624,8 +1624,8 @@ guiTypes = {
 			max_slots_horizontal = 5
 			max_slots_vertical = 5
 			Orientation = "LOWER_RIGHT"
-            size = { width = 12 height = 270 }
-            position = { x = -280 y = -10 }
+			size = { width = 12 height = 270 }
+			position = { x = -280 y = -10 }
 			if_resolution = {
 				min_width = 1920
 				max_slots_horizontal = 8
@@ -1685,7 +1685,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x= -45 y = 16  }
+			position = { x= -45 y = 16 }
 			Orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
@@ -1694,7 +1694,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "component_select_window"
-		position = { x = 0 y = 0  }
+		position = { x = 0 y = 0 }
 		size = { width = 265 height = 700 }
 
 
@@ -1792,7 +1792,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x= -45 y = 13  }
+			position = { x= -45 y = 13 }
 			Orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = "back_click"

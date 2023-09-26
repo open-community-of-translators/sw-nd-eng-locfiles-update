@@ -85,20 +85,20 @@ guiTypes = {
 			pdx_tooltip = "TOOLTIP_AMBIENT_OBJECT_FOCUS"
 			clicksound = "back_click"
 		}
-        
-        effectButtonType = {
-            id = "megastructureDemolishButtonType"
-            name = "megastructureDemolishButtonName"
-            position = { x = -118 y = 16 }
-            orientation = upper_right
-            clicksound = interface
-            spriteType = "GFX_fleetview_destroy_fleet"
-            clicksound = "megastructure_upgraded"
-            # buttonText = "MEGASTRUCTURE_DEMOLISH_BUTTON"
-            # pdx_tooltip = "TOOLTIP_MEGASTRUCTURE_DEMOLISH_BUTTON"
-            font = "cg_16b"
-            effect = "demolish_megastructure_effect"
-        }
+		
+		effectButtonType = {
+			id = "megastructureDemolishButtonType"
+			name = "megastructureDemolishButtonName"
+			position = { x = -118 y = 16 }
+			orientation = upper_right
+			clicksound = interface
+			spriteType = "GFX_fleetview_destroy_fleet"
+			clicksound = "megastructure_upgraded"
+			# buttonText = "MEGASTRUCTURE_DEMOLISH_BUTTON"
+			# pdx_tooltip = "TOOLTIP_MEGASTRUCTURE_DEMOLISH_BUTTON"
+			font = "cg_16b"
+			effect = "demolish_megastructure_effect"
+		}
 
 		iconType = {
 			name = "hex_bg"
@@ -187,34 +187,34 @@ guiTypes = {
 
 				alwaysTransparent = yes
 			}
-            
-            #buttonType = {
+			
+			#buttonType = {
 			#	name = "box_2"
 			#	spriteType = "GFX_tiles_frame"
 			#	position = { x = 155 y = 180 }
 			#	size = { x = 254 y = 50 }
 			#	alwaysTransparent = yes
 			#}
-            #buttonType = {
+			#buttonType = {
 			#	name = "box_3"
 			#	spriteType = "GFX_tiles_frame"
 			#	position = { x = 155 y = 180 }
 			#	size = { x = 254 y = 50 }
 			#	alwaysTransparent = yes
 			#}
-            #effectButtonType = {
-            #    id = "megastructureContactButtonType"
-            #    name = "megastructureContactButtonName"
-            #    position = { x = 150 y = 175 }
-            #    clicksound = interface
-            #    # spriteType = "GFX_standard_button_240_34_low_transp_button"
-            #    spriteType = "GFX_standard_button_240_34_button"
-            #    clicksound = "megastructure_upgraded"
-            #    buttonText = "MEGASTRUCTURE_CONTACT_BUTTON"
-            #    font = "cg_16b"
-            #    effect = "contact_megastructure_effect"
-            #}
-            
+			#effectButtonType = {
+			#	id = "megastructureContactButtonType"
+			#	name = "megastructureContactButtonName"
+			#	position = { x = 150 y = 175 }
+			#	clicksound = interface
+			#	# spriteType = "GFX_standard_button_240_34_low_transp_button"
+			#	spriteType = "GFX_standard_button_240_34_button"
+			#	clicksound = "megastructure_upgraded"
+			#	buttonText = "MEGASTRUCTURE_CONTACT_BUTTON"
+			#	font = "cg_16b"
+			#	effect = "contact_megastructure_effect"
+			#}
+			
 
 			### CONTENT ###
 			instantTextBoxType = {
@@ -244,7 +244,7 @@ guiTypes = {
 				font = "cg_16b"
 				position = { x = 25 y = 340 }
 				maxWidth = 520
-				maxHeight = 100
+				maxHeight = 70 #100 is pre 3.9 SWND value; may need to be reverted? - Bosmer
 				fixedSize = yes
 				#alwaysTransparent = yes
 				text = "EFFECTS"
@@ -277,7 +277,7 @@ guiTypes = {
 				instantTextBoxType={
 					name = "production_amount"
 					font = "cg_16b"
-					position = { x = 0  y = 20 }
+					position = { x = 0 y = 20 }
 					text = "10"
 					maxWidth = 125
 					maxHeight = 40
@@ -312,7 +312,7 @@ guiTypes = {
 				instantTextBoxType={
 					name = "upkeep_amount"
 					font = "cg_16b"
-					position = { x = 0  y = 20 }
+					position = { x = 0 y = 20 }
 					text = "10"
 					maxWidth = 125
 					maxHeight = 30
@@ -320,7 +320,7 @@ guiTypes = {
 					format = center
 				}		
 			}
-            
+			
 			containerWindowType = {
 				name = "possible_upgrades_content"
 				position = { x = 0 y = 347 }

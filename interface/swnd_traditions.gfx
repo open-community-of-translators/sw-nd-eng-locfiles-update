@@ -1,0 +1,245 @@
+spriteTypes = {
+	
+	# Updated by Bane
+	
+	#Imperial - COMPNOR
+	spriteType = { name = "GFX_tradition_category_bg_tradition_empire_compnor" textureFile = "gfx/interface/tiles/tradition_category_tile_empire_compnor.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_empire_compnor" textureFile = "gfx/interface/traditions/tradition_hex_bg_diplomacy.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_empire_compnor" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_diplomacy.dds" }
+
+	spriteType = { name = "GFX_tr_empire_compnor_enforcement" textureFile = "gfx/interface/icons/traditions/tr_compnor_enforcement.dds" }
+	spriteType = { name = "GFX_tr_empire_compnor_internal_ubiqtorate" textureFile = "gfx/interface/icons/traditions/tr_compnor_internal_ubiqtorate.dds" }
+	spriteType = { name = "GFX_tr_empire_compnor_frontier_initiative" textureFile = "gfx/interface/icons/traditions/tr_compnor_frontier_initiative.dds" }
+	spriteType = { name = "GFX_tr_empire_compnor_coalition_progress" textureFile = "gfx/interface/icons/traditions/tr_compnor_coalition_progress.dds" }
+	spriteType = { name = "GFX_tr_empire_compnor_security_bureau" textureFile = "gfx/interface/icons/traditions/tr_compnor_security_bureau.dds" }
+	
+	#Imperial - Imperial Research
+	spriteType = { name = "GFX_tradition_category_bg_tradition_empire_research" textureFile = "gfx/interface/tiles/tradition_category_tile_empire_research.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_empire_research" textureFile = "gfx/interface/traditions/tradition_hex_bg_discovery.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_empire_research" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_discovery.dds" }
+
+	spriteType = { name = "GFX_tr_empire_research_military" textureFile = "gfx/interface/icons/traditions/tr_imperial_research_military.dds" }
+	spriteType = { name = "GFX_tr_empire_research_academy" textureFile = "gfx/interface/icons/traditions/tr_imperial_research_academy.dds" }
+	spriteType = { name = "GFX_tr_empire_research_conviction" textureFile = "gfx/interface/icons/traditions/tr_imperial_research_conviction.dds" }
+	spriteType = { name = "GFX_tr_empire_research_projects" textureFile = "gfx/interface/icons/traditions/tr_imperial_military_admiralty.dds" }
+	spriteType = { name = "GFX_tr_empire_research_firepower" textureFile = "gfx/interface/icons/traditions/tr_imperial_designs_firepower.dds" }
+	
+	#Imperial - Moff Council
+	spriteType = { name = "GFX_tradition_category_bg_tradition_empire_moff_council" textureFile = "gfx/interface/tiles/tradition_category_tile_empire_moffcouncil.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_empire_moff_council" textureFile = "gfx/interface/traditions/tradition_hex_bg_prosperity.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_empire_moff_council" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_domination.dds" }
+
+	spriteType = { name = "GFX_tr_empire_moff_council_sector" textureFile = "gfx/interface/icons/traditions/tr_moff_council_sector.dds" }
+	spriteType = { name = "GFX_tr_empire_moff_council_grand" textureFile = "gfx/interface/icons/traditions/tr_moff_council_grand.dds" }
+	spriteType = { name = "GFX_tr_empire_moff_council_imperialization" textureFile = "gfx/interface/icons/traditions/tr_moff_council_imperialization.dds" }
+	spriteType = { name = "GFX_tr_empire_moff_council_bleed_them_dry" textureFile = "gfx/interface/icons/traditions/tr_moff_council_bleed_them_dry.dds" }
+	spriteType = { name = "GFX_tr_empire_moff_council_imperial_assimilation" textureFile = "gfx/interface/icons/traditions/tr_moff_council_imperial_assimilation.dds" }
+	
+	#Imperial - Imperial Designs
+	spriteType = { name = "GFX_tr_imperial_designs_firepower" textureFile = "gfx/interface/icons/traditions/tr_imperial_designs_firepower.dds" }
+	spriteType = { name = "GFX_tr_imperial_designs_admin" textureFile = "gfx/interface/icons/traditions/tr_imperial_designs_admin.dds" }
+	spriteType = { name = "GFX_tr_imperial_designs_logistics" textureFile = "gfx/interface/icons/traditions/tr_imperial_designs_logistics.dds" }
+	spriteType = { name = "GFX_tr_imperial_designs_tarkin" textureFile = "gfx/interface/icons/traditions/tr_imperial_designs_tarkin.dds" }
+	
+	#Imperial - Imperial Military
+	spriteType = { name = "GFX_tr_imperial_military_admiralty" textureFile = "gfx/interface/icons/traditions/tr_imperial_military_admiralty.dds" }
+	spriteType = { name = "GFX_tr_imperial_military_navy" textureFile = "gfx/interface/icons/traditions/tr_imperial_military_navy.dds" }
+	spriteType = { name = "GFX_tr_imperial_military_army" textureFile = "gfx/interface/icons/traditions/tr_imperial_military_army.dds" }
+	spriteType = { name = "GFX_tr_imperial_military_command_control" textureFile = "gfx/interface/icons/traditions/tr_imperial_military_command_control.dds" }
+	
+	#Rebel - Rebel Alliance
+	spriteType = { name = "GFX_tradition_category_bg_tradition_rebel_alliance" textureFile = "gfx/interface/tiles/tradition_category_tile_rebel_alliance.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_rebel_alliance" textureFile = "gfx/interface/traditions/tradition_hex_bg_diplomacy.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_rebel_alliance" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_diplomacy.dds" }
+
+	spriteType = { name = "GFX_tr_rebel_alliance_solidarity" textureFile = "gfx/interface/icons/traditions/tr_rebel_alliance_solidarity.dds" }
+	spriteType = { name = "GFX_tr_rebel_alliance_connections" textureFile = "gfx/interface/icons/traditions/tr_rebel_alliance_connections.dds" }
+	spriteType = { name = "GFX_tr_rebel_alliance_makeshift_armadas" textureFile = "gfx/interface/icons/traditions/tr_rebel_alliance_makeshift_armadas.dds" }
+	spriteType = { name = "GFX_tr_rebel_alliance_recruit_cause" textureFile = "gfx/interface/icons/traditions/tr_rebel_alliance_recruit_cause.dds" }
+	spriteType = { name = "GFX_tr_rebel_alliance_shared_supplylines" textureFile = "gfx/interface/icons/traditions/tr_rebel_alliance_shared_supplylines.dds" }
+	
+	#Rebel - Mobility
+	spriteType = { name = "GFX_tradition_category_bg_tradition_rebel_mobility" textureFile = "gfx/interface/tiles/tradition_category_tile_rebel_mobility.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_rebel_mobility" textureFile = "gfx/interface/traditions/tradition_hex_bg_expansion.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_rebel_mobility" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_expansion.dds" }
+
+	spriteType = { name = "GFX_tr_rebel_mobility_secret_hq" textureFile = "gfx/interface/icons/traditions/tr_rebel_mobility_secret_hq.dds" }
+	spriteType = { name = "GFX_tr_rebel_mobility_naturally_adaptable" textureFile = "gfx/interface/icons/traditions/tr_rebel_mobility_naturally_adaptable.dds" }
+	spriteType = { name = "GFX_tr_rebel_mobility_intelligence" textureFile = "gfx/interface/icons/traditions/tr_rebel_mobility_rebel_intelligence.dds" }
+	spriteType = { name = "GFX_tr_rebel_mobility_fleet_based_hq" textureFile = "gfx/interface/icons/traditions/tr_rebel_mobility_fleet_based_hq.dds" }
+	spriteType = { name = "GFX_tr_rebel_mobility_pocket_resistance" textureFile = "gfx/interface/icons/traditions/tr_rebel_mobility_pocket_resistance.dds" }
+	
+	#Rebel - Mon Calamari Construction
+	spriteType = { name = "GFX_tradition_category_bg_tradition_rebel_mon_cala" textureFile = "gfx/interface/tiles/tradition_category_tile_rebel_mon_cala.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_rebel_mon_cala" textureFile = "gfx/interface/traditions/tradition_hex_bg_prosperity.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_rebel_mon_cala" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_prosperity.dds" }
+
+	spriteType = { name = "GFX_tr_rebel_mon_cala_defenses" textureFile = "gfx/interface/icons/traditions/tr_rebel_mon_cala_defenses.dds" }
+	spriteType = { name = "GFX_tr_rebel_mon_cala_engineers" textureFile = "gfx/interface/icons/traditions/tr_rebel_mon_cala_engineers.dds" }
+	spriteType = { name = "GFX_tr_rebel_mon_cala_scraps" textureFile = "gfx/interface/icons/traditions/tr_rebel_mon_cala_scraps.dds" }
+	spriteType = { name = "GFX_tr_rebel_mon_cala_converted" textureFile = "gfx/interface/icons/traditions/tr_rebel_mon_cala_converted.dds" }
+	spriteType = { name = "GFX_tr_rebel_mon_cala_shields" textureFile = "gfx/interface/icons/traditions/tr_rebel_mon_cala_shields.dds" }
+
+
+	#Hutt - Hutt Cartel
+	spriteType = { name = "GFX_tr_cartel_self_reliance" textureFile = "gfx/interface/icons/traditions/tr_cartel_self_reliance.dds" }
+	spriteType = { name = "GFX_tr_cartel_puppet_govs" textureFile = "gfx/interface/icons/traditions/tr_cartel_puppet_govs.dds" }
+	spriteType = { name = "GFX_tr_cartel_inherently_distrustful" textureFile = "gfx/interface/icons/traditions/tr_cartel_inherently_distrustful.dds" }
+	spriteType = { name = "GFX_tr_cartel_saboteurs" textureFile = "gfx/interface/icons/traditions/tr_cartel_saboteurs.dds" }
+	
+	#Hapes - Hapes Construction
+	spriteType = { name = "GFX_tr_hapes_construction_numbers" textureFile = "gfx/interface/icons/traditions/tr_hapes_construction_numbers.dds" }
+	spriteType = { name = "GFX_tr_hapes_construction_navy" textureFile = "gfx/interface/icons/traditions/tr_hapes_construction_navy.dds" }
+	spriteType = { name = "GFX_tr_hapes_construction_independent" textureFile = "gfx/interface/icons/traditions/tr_hapes_construction_independent.dds" }
+
+	#######
+	#Mandalorian - MandalMotors
+	#######
+	spriteType = { name = "GFX_tradition_category_bg_tradition_mando_mandalmotors" textureFile = "gfx/interface/tiles/_mandalorians/tradition_category_tile_mandalmotors.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_mando_mandalmotors" textureFile = "gfx/interface/traditions/tradition_hex_bg_prosperity.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_mando_mandalmotors" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_mandalmotors.dds" }
+
+	spriteType = { name = "GFX_tr_mando_mandalmotors_1" textureFile = "gfx/interface/icons/traditions/tr_mando_mandalmotors_1.dds" }
+	spriteType = { name = "GFX_tr_mando_mandalmotors_2" textureFile = "gfx/interface/icons/traditions/tr_mando_mandalmotors_2.dds" }
+	spriteType = { name = "GFX_tr_mando_mandalmotors_3" textureFile = "gfx/interface/icons/traditions/tr_mando_mandalmotors_3.dds" }
+	spriteType = { name = "GFX_tr_mando_mandalmotors_4" textureFile = "gfx/interface/icons/traditions/tr_mando_mandalmotors_4.dds" }
+	spriteType = { name = "GFX_tr_mando_mandalmotors_5" textureFile = "gfx/interface/icons/traditions/tr_mando_mandalmotors_5.dds" }
+
+	# Bountyhunter
+	spriteType = { name = "GFX_tradition_category_bg_tradition_mando_bountyhunter" textureFile = "gfx/interface/tiles/_mandalorians/tradition_category_tile_bountyhunter.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_mando_bountyhunter" textureFile = "gfx/interface/traditions/tradition_hex_bg_subterfuge.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_mando_bountyhunter" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_bountyhunter.dds" }
+
+	spriteType = { name = "GFX_tr_mando_bountyhunter_1" textureFile = "gfx/interface/icons/traditions/tr_mando_bountyhunter_1.dds" }
+	spriteType = { name = "GFX_tr_mando_bountyhunter_2" textureFile = "gfx/interface/icons/traditions/tr_mando_bountyhunter_2.dds" }
+	spriteType = { name = "GFX_tr_mando_bountyhunter_3" textureFile = "gfx/interface/icons/traditions/tr_mando_bountyhunter_3.dds" }
+	spriteType = { name = "GFX_tr_mando_bountyhunter_4" textureFile = "gfx/interface/icons/traditions/tr_mando_bountyhunter_4.dds" }
+	spriteType = { name = "GFX_tr_mando_bountyhunter_5" textureFile = "gfx/interface/icons/traditions/tr_mando_bountyhunter_5.dds" }
+
+	# Children of the Watch
+	spriteType = { name = "GFX_tradition_category_bg_tradition_mando_children_watch" textureFile = "gfx/interface/tiles/_mandalorians/tradition_category_tile_children_watch.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_mando_children_watch" textureFile = "gfx/interface/traditions/tradition_hex_bg_adaptability.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_mando_children_watch" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_children_watch.dds" }
+
+	spriteType = { name = "GFX_tr_mando_children_watch_1" textureFile = "gfx/interface/icons/traditions/tr_mando_children_watch_1.dds" }
+	spriteType = { name = "GFX_tr_mando_children_watch_2" textureFile = "gfx/interface/icons/traditions/tr_mando_children_watch_2.dds" }
+	spriteType = { name = "GFX_tr_mando_children_watch_3" textureFile = "gfx/interface/icons/traditions/tr_mando_children_watch_3.dds" }
+	spriteType = { name = "GFX_tr_mando_children_watch_4" textureFile = "gfx/interface/icons/traditions/tr_mando_children_watch_4.dds" }
+	spriteType = { name = "GFX_tr_mando_children_watch_5" textureFile = "gfx/interface/icons/traditions/tr_mando_children_watch_5.dds" }
+
+	# Crusade
+	spriteType = { name = "GFX_tradition_category_bg_tradition_mando_crusade" textureFile = "gfx/interface/tiles/_mandalorians/tradition_category_tile_crusade.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_mando_crusade" textureFile = "gfx/interface/traditions/tradition_hex_bg_supremacy.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_mando_crusade" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_crusade.dds" }
+	
+	spriteType = { name = "GFX_tr_mando_crusade_1" textureFile = "gfx/interface/icons/traditions/tr_mando_crusade_1.dds" }
+	spriteType = { name = "GFX_tr_mando_crusade_2" textureFile = "gfx/interface/icons/traditions/tr_mando_crusade_2.dds" }
+	spriteType = { name = "GFX_tr_mando_crusade_3" textureFile = "gfx/interface/icons/traditions/tr_mando_crusade_3.dds" }
+	spriteType = { name = "GFX_tr_mando_crusade_4" textureFile = "gfx/interface/icons/traditions/tr_mando_crusade_4.dds" }
+	spriteType = { name = "GFX_tr_mando_crusade_5" textureFile = "gfx/interface/icons/traditions/tr_mando_crusade_5.dds" }
+
+	# Book of Boba
+	spriteType = { name = "GFX_tradition_category_bg_tradition_mando_book_boba" textureFile = "gfx/interface/tiles/_mandalorians/tradition_category_tile_book_boba.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_mando_book_boba" textureFile = "gfx/interface/traditions/tradition_hex_bg_domination.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_mando_book_boba" textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_book_boba.dds" }
+		
+	spriteType = { name = "GFX_tr_mando_book_boba_1" textureFile = "gfx/interface/icons/traditions/tr_mando_book_boba_1.dds" }
+	spriteType = { name = "GFX_tr_mando_book_boba_2" textureFile = "gfx/interface/icons/traditions/tr_mando_book_boba_2.dds" }
+	spriteType = { name = "GFX_tr_mando_book_boba_3" textureFile = "gfx/interface/icons/traditions/tr_mando_book_boba_3.dds" }
+	spriteType = { name = "GFX_tr_mando_book_boba_4" textureFile = "gfx/interface/icons/traditions/tr_mando_book_boba_4.dds" }
+	spriteType = { name = "GFX_tr_mando_book_boba_5" textureFile = "gfx/interface/icons/traditions/tr_mando_book_boba_5.dds" }
+	
+	#Separatist Traditions
+	spriteType = { name = "GFX_tr_separatist_droid_integration" textureFile = "gfx/interface/icons/traditions/tr_separatist_droid_integration.dds" }
+	spriteType = { name = "GFX_tr_separatist_cartelization" textureFile = "gfx/interface/icons/traditions/tr_separatist_cartelization.dds" }
+	spriteType = { name = "GFX_tr_separatist_automated_crews" textureFile = "gfx/interface/icons/traditions/tr_separatist_automated_crews.dds" }
+	spriteType = { name = "GFX_tr_separatist_conglomeration" textureFile = "gfx/interface/icons/traditions/tr_separatist_conglomeration.dds" }
+	
+	#Criminal Traditions
+	spriteType = { name = "GFX_tr_criminal_underworld_syndicates" textureFile = "gfx/interface/icons/traditions/tr_criminal_underworld_syndicates.dds" }
+	spriteType = { name = "GFX_tr_criminal_underworld_retrofitting" textureFile = "gfx/interface/icons/traditions/tr_criminal_underworld_retrofitting.dds" }
+	spriteType = { name = "GFX_tr_criminal_underworld_mercenary" textureFile = "gfx/interface/icons/traditions/tr_criminal_underworld_mercenary.dds" }
+	spriteType = { name = "GFX_tr_criminal_underworld_fleets" textureFile = "gfx/interface/icons/traditions/tr_criminal_underworld_fleets.dds" }
+	
+	#Council Traditions
+	spriteType = { name = "GFX_tr_council_leaders" textureFile = "gfx/interface/icons/traditions/tr_council_leaders.dds" }
+	spriteType = { name = "GFX_tr_council_assistance" textureFile = "gfx/interface/icons/traditions/tr_council_assistance.dds" }
+	spriteType = { name = "GFX_tr_council_centers" textureFile = "gfx/interface/icons/traditions/tr_council_centers.dds" }
+	spriteType = { name = "GFX_tr_council_wisdom" textureFile = "gfx/interface/icons/traditions/tr_council_wisdom.dds" }
+	
+	#The Force Traditions
+	spriteType = { name = "GFX_tr_the_force_1" textureFile = "gfx/interface/icons/traditions/tr_the_force_1.dds" }
+	spriteType = { name = "GFX_tr_the_force_2" textureFile = "gfx/interface/icons/traditions/tr_the_force_2.dds" }
+	spriteType = { name = "GFX_tr_the_force_3" textureFile = "gfx/interface/icons/traditions/tr_the_force_3.dds" }
+	spriteType = { name = "GFX_tr_the_force_4" textureFile = "gfx/interface/icons/traditions/tr_the_force_4.dds" }
+	spriteType = { name = "GFX_tr_the_force_5" textureFile = "gfx/interface/icons/traditions/tr_the_force_5.dds" }
+	
+	#Slave Trade Traditions
+	spriteType = { name = "GFX_tr_slave_trade_laborers" textureFile = "gfx/interface/icons/traditions/tr_slave_trade_laborers.dds" }
+	spriteType = { name = "GFX_tr_slave_trade_indentured_servitude" textureFile = "gfx/interface/icons/traditions/tr_slave_trade_indentured_servitude.dds" }
+	spriteType = { name = "GFX_tr_slave_trade_authoritarian_tendencies" textureFile = "gfx/interface/icons/traditions/tr_slave_trade_authoritarian_tendencies.dds" }
+	spriteType = { name = "GFX_tr_slave_trade_freedom_oppress" textureFile = "gfx/interface/icons/traditions/tr_slave_trade_freedom_oppress.dds" }
+	spriteType = { name = "GFX_tr_slave_trade_life_luxury" textureFile = "gfx/interface/icons/traditions/tr_slave_trade_life_luxury.dds" }
+	
+	#Subterfuge Traditions
+	spriteType = { name = "GFX_tr_subterfuge_self_reliance" textureFile = "gfx/interface/icons/traditions/tr_subterfuge_self_reliance.dds" }
+	spriteType = { name = "GFX_tr_subterfuge_societal_analysis" textureFile = "gfx/interface/icons/traditions/tr_subterfuge_societal_analysis.dds" }
+	spriteType = { name = "GFX_tr_subterfuge_inherently_distrustful" textureFile = "gfx/interface/icons/traditions/tr_subterfuge_inherently_distrustful.dds" }
+	spriteType = { name = "GFX_tr_subterfuge_saboteurs" textureFile = "gfx/interface/icons/traditions/tr_subterfuge_saboteurs.dds" }
+	
+	#Doctrine Traditions
+	spriteType = { name = "GFX_tr_doctrine_spiritual_attunement" textureFile = "gfx/interface/icons/traditions/tr_doctrine_spiritual_attunement.dds" }
+	spriteType = { name = "GFX_tr_doctrine_spiritual_assistance" textureFile = "gfx/interface/icons/traditions/tr_doctrine_spiritual_assistance.dds" }
+	spriteType = { name = "GFX_tr_doctrine_zen_pilgrimages" textureFile = "gfx/interface/icons/traditions/tr_doctrine_zen_pilgrimages.dds" }
+	spriteType = { name = "GFX_tr_doctrine_spiritual_centers" textureFile = "gfx/interface/icons/traditions/tr_doctrine_spiritual_centers.dds" }
+	spriteType = { name = "GFX_tr_doctrine_unity_mind_body" textureFile = "gfx/interface/icons/traditions/tr_doctrine_unity_mind_body.dds" }
+	
+	#Preservation Traditions
+	spriteType = { name = "GFX_tr_preservation_colonial_leadership" textureFile = "gfx/interface/icons/traditions/tr_preservation_colonial_leadership.dds" }
+	spriteType = { name = "GFX_tr_preservation_cultural_melting_pot" textureFile = "gfx/interface/icons/traditions/tr_preservation_cultural_melting_pot.dds" }
+	spriteType = { name = "GFX_tr_preservation_taming_land" textureFile = "gfx/interface/icons/traditions/tr_preservation_taming_land.dds" }
+	spriteType = { name = "GFX_tr_preservation_fight_last_man" textureFile = "gfx/interface/icons/traditions/tr_preservation_fight_last_man.dds" }
+	spriteType = { name = "GFX_tr_preservation_defenders_weak" textureFile = "gfx/interface/icons/traditions/tr_preservation_defenders_weak.dds" }
+	
+	#Roving Traditions
+	spriteType = { name = "GFX_tr_roving_force_projection" textureFile = "gfx/interface/icons/traditions/tr_roving_force_projection.dds" }
+	spriteType = { name = "GFX_tr_roving_space_wayfarers" textureFile = "gfx/interface/icons/traditions/tr_roving_space_wayfarers.dds" }
+	spriteType = { name = "GFX_tr_roving_affinity_dark" textureFile = "gfx/interface/icons/traditions/tr_roving_affinity_dark.dds" }
+	
+	#Innovation Traditions
+	spriteType = { name = "GFX_tr_innovation_assembly_lines" textureFile = "gfx/interface/icons/traditions/tr_innovation_assembly_lines.dds" }
+	spriteType = { name = "GFX_tr_innovation_droid_labor" textureFile = "gfx/interface/icons/traditions/tr_innovation_droid_labor.dds" }
+	spriteType = { name = "GFX_tr_innovation_droid_ex_machina" textureFile = "gfx/interface/icons/traditions/tr_innovation_droid_ex_machina.dds" }
+	spriteType = { name = "GFX_tr_innovation_manufactured_society" textureFile = "gfx/interface/icons/traditions/tr_innovation_manufactured_society.dds" }
+	
+	#Strength Traditions
+	spriteType = { name = "GFX_tr_strength_society" textureFile = "gfx/interface/icons/traditions/tr_strength_society.dds" }
+	spriteType = { name = "GFX_tr_strength_might" textureFile = "gfx/interface/icons/traditions/tr_strength_might.dds" }
+	spriteType = { name = "GFX_tr_strength_army_logistics" textureFile = "gfx/interface/icons/traditions/tr_strength_army_logistics.dds" }
+	spriteType = { name = "GFX_tr_strength_numbers" textureFile = "gfx/interface/icons/traditions/tr_strength_numbers.dds" }
+	spriteType = { name = "GFX_tr_strength_structural" textureFile = "gfx/interface/icons/traditions/tr_strength_structural.dds" }
+	
+	#Diversity Traditions
+	spriteType = { name = "GFX_tr_diversity_infrastructure_projects" textureFile = "gfx/interface/icons/traditions/tr_diversity_infrastructure_projects.dds" }
+	spriteType = { name = "GFX_tr_diversity_education_systems" textureFile = "gfx/interface/icons/traditions/tr_diversity_education_systems.dds" }
+	spriteType = { name = "GFX_tr_diversity_inspired_inventors" textureFile = "gfx/interface/icons/traditions/tr_diversity_inspired_inventors.dds" }
+	spriteType = { name = "GFX_tr_diversity_appealing_society" textureFile = "gfx/interface/icons/traditions/tr_diversity_appealing_society.dds" }
+	spriteType = { name = "GFX_tr_diversity_enlightened_ideals" textureFile = "gfx/interface/icons/traditions/tr_diversity_enlightened_ideals.dds" }
+
+	#Glory Traditions
+	spriteType = { name = "GFX_tr_glory_path_forward" textureFile = "gfx/interface/icons/traditions/tr_innovation_manufactured_society.dds" }
+	spriteType = { name = "GFX_tr_glory_citizenship" textureFile = "gfx/interface/icons/traditions/tr_preservation_defenders_weak.dds" }
+	spriteType = { name = "GFX_tr_glory_new_empire" textureFile = "gfx/interface/icons/traditions/tr_glory_new_empire.dds" }
+	spriteType = { name = "GFX_tr_glory_administrative" textureFile = "gfx/interface/icons/traditions/tr_council_leaders.dds" }
+
+	#Separatist Holdouts
+	spriteType = { name = "GFX_tradition_category_bg_tradition_holdouts" textureFile = "gfx/interface/tiles/tradition_category_tile_holdouts.dds" }
+	spriteType = { name = "GFX_tradition_hex_bg_tradition_holdouts" textureFile = "gfx/interface/traditions/tradition_hex_bg_domination.dds" }
+	spriteType = { name = "GFX_tradition_category_icon_tradition_holdouts" textureFile = "gfx/interface/icons/traditions/holdouts/tradition_icon_holdouts.dds" }
+		
+	spriteType = { name = "GFX_tr_holdouts_1" textureFile = "gfx/interface/icons/traditions/holdouts/tr_holdouts_1.dds" }
+	spriteType = { name = "GFX_tr_holdouts_2" textureFile = "gfx/interface/icons/traditions/holdouts/tr_holdouts_2.dds" }
+	spriteType = { name = "GFX_tr_holdouts_3" textureFile = "gfx/interface/icons/traditions/holdouts/tr_holdouts_3.dds" }
+	spriteType = { name = "GFX_tr_holdouts_4" textureFile = "gfx/interface/icons/traditions/holdouts/tr_holdouts_4.dds" }
+	spriteType = { name = "GFX_tr_holdouts_5" textureFile = "gfx/interface/icons/traditions/holdouts/tr_holdouts_5.dds" }
+}

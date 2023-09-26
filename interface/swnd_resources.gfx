@@ -1,0 +1,78 @@
+spriteTypes = {
+	#spriteType = {
+	#	name = "GFX_resource_sr_hypermatter_large"
+	#	textureFile = "gfx/interface/icons/resources/sr_hypermatter_large.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_resource_sr_hypermatter"
+	#	textureFile = "gfx/interface/icons/resources/sr_hypermatter.dds"
+	#}
+	spriteType = {
+		name = "GFX_resource_tibanna_gas_large"
+		textureFile = "gfx/interface/icons/resources/tibanna_gas_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_tibanna_gas"
+		textureFile = "gfx/interface/icons/resources/tibanna_gas.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_hyperfuel_large"
+		textureFile = "gfx/interface/icons/resources/hyperfuel_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_hyperfuel"
+		textureFile = "gfx/interface/icons/resources/hyperfuel.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_electronics_large"
+		textureFile = "gfx/interface/icons/resources/electronics_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_electronics"
+		textureFile = "gfx/interface/icons/resources/electronics.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_ammunition_large"
+		textureFile = "gfx/interface/icons/resources/ammunition_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_ammunition"
+		textureFile = "gfx/interface/icons/resources/ammunition.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_bacta"
+		textureFile = "gfx/interface/icons/resources/bacta.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_bacta_large"
+		textureFile = "gfx/interface/icons/resources/bacta_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_spice"
+		textureFile = "gfx/interface/icons/resources/spice.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_spice_large"
+		textureFile = "gfx/interface/icons/resources/spice_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_sr_agrocite"
+		textureFile = "gfx/interface/icons/resources/sr_agrocite.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_sr_agrocite_large"
+		textureFile = "gfx/interface/icons/resources/sr_agrocite_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_sr_kyber"
+		textureFile = "gfx/interface/icons/resources/sr_kyber.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_sr_kolto_large"
+		textureFile = "gfx/interface/icons/resources/sr_kolto_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_sr_holocrons_large"
+		textureFile = "gfx/interface/icons/resources/sr_holocrons_large.dds"
+	}
+}

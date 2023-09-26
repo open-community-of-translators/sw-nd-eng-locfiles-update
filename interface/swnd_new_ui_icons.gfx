@@ -1,0 +1,152 @@
+spriteTypes = {
+	
+## new UI
+
+	spriteType = {
+		name = "GFX_starbase_frame_starwars"
+		textureFile = "gfx/interface/icons/starbase_frame_starwars.dds"
+	}
+
+	spriteType = {
+		name = "GFX_startscreen_background_starwars"
+		textureFile = "gfx/interface/icons/startscreen_background_starwars.dds"
+	}
+	spriteType = {
+		name = "GFX_force_menu_button"
+		textureFile = "gfx/interface/icons/force_menu_button.dds"
+	}
+	
+	## tiny outliner
+	progressbarType = {
+		name = "GFX_outliner_planet_colonize_small_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colorTwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/icons/outliner_small_progressbar_full.dds"
+		textureFile2 = "gfx/interface/icons/outliner_small_progressbar_empty.dds"
+		size = { x = 99 y = 8 }
+		effectFile = "gfx/FX/progress.shader"
+	}
+	spriteType = {
+		name = "GFX_outliner_member_small_bg"
+		textureFile = "gfx/interface/icons/outliner_small_entry.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	spriteType = {
+		name = "GFX_outliner_member_small_bg_selected"
+		textureFile = "gfx/interface/icons/outliner_small_entry_selected.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	
+	#Megastructures Outliner
+	# Deathstar
+	spriteType = {
+		name = "GFX_deathstar_0_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/crisis_sphere.dds"
+	}
+	spriteType = {
+		name = "GFX_deathstar_1_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/crisis_sphere.dds"
+	}
+	spriteType = {
+		name = "GFX_deathstar_2_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/crisis_sphere.dds"
+	}
+	spriteType = {
+		name = "GFX_deathstar_3_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/crisis_sphere.dds"
+	}
+	spriteType = {
+		name = "GFX_deathstar_4_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/crisis_sphere.dds"
+	}
+	#Planet Shipyard
+	spriteType = {
+		name = "GFX_swp_planetary_shipyard_0_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/orbital_ring.dds"
+	}
+	spriteType = {
+		name = "GFX_swp_planetary_shipyard_1_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/orbital_ring.dds"
+	}
+	spriteType = {
+		name = "GFX_swp_planetary_shipyard_2_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/orbital_ring.dds"
+	}
+	spriteType = {
+		name = "GFX_swp_planetary_shipyard_d_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/orbital_ring.dds"
+	}
+	#Orbital Shipyard
+	spriteType = {
+		name = "GFX_swp_orbital_shipyard_0_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/mega_shipyard.dds"
+	}
+	spriteType = {
+		name = "GFX_swp_orbital_shipyard_1_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/mega_shipyard.dds"
+	}
+	spriteType = {
+		name = "GFX_swp_orbital_shipyard_2_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/mega_shipyard.dds"
+	}
+	spriteType = {
+		name = "GFX_swp_orbital_shipyard_d_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/mega_shipyard.dds"
+	}
+	#Xq Station
+	spriteType = {
+		name = "GFX_swnd_xq2_station_0_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/matter_decompressor.dds"
+	}
+	spriteType = {
+		name = "GFX_swnd_xq2_station_1_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/matter_decompressor.dds"
+	}
+	spriteType = {
+		name = "GFX_swnd_xq2_station_d_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/matter_decompressor.dds"
+	}
+	#Gateway
+	spriteType = {
+		name = "GFX_swp_gateway_0_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/gateway.dds"
+	}
+	spriteType = {
+		name = "GFX_swp_gateway_1_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/gateway.dds"
+	}
+	spriteType = {
+		name = "GFX_swp_gateway_d_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/gateway.dds"
+	}
+	# Starforge
+	spriteType = {
+		name = "GFX_star_forge_0_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/star_forge.dds"
+	}
+	spriteType = {
+		name = "GFX_star_forge_1_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/star_forge.dds"
+	}
+	spriteType = {
+		name = "GFX_star_forge_2_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/star_forge.dds"
+	}
+	spriteType = {
+		name = "GFX_star_forge_d_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/star_forge.dds"
+	}
+	# Hyperspace Relay
+	spriteType = {
+		name = "GFX_swnd_hyperspace_relay_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/hyper_relay.dds"
+	}
+	# Hyperroute Relay
+	spriteType = {
+		name = "GFX_swnd_hyperroute_relay_outliner_icon"
+		textureFile = "gfx/interface/icons/megastructures/hyper_relay.dds"
+	}
+
+}

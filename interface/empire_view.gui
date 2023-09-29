@@ -47,7 +47,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close_button_planet"
-			position = { x= -45 y = 16 }
+			position = { x= -45 y = 16  }
 			orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
@@ -339,7 +339,7 @@ guiTypes = {
 		buttonType = {
 			name = "dismiss"
 			quadTextureSprite = "GFX_close_button_planet"
-			position = { x= -45 y = 7 }
+			position = { x= -45 y = 7  }
 			orientation = "UPPER_RIGHT"
 		}
 	}
@@ -1204,7 +1204,7 @@ guiTypes = {
 		buttonType = {
 			name = "create_button"
 			quadTextureSprite = "GFX_standard_button_142_34_button"
-			position = { x = -170 y = -60 }
+			position = { x = -170 y = -60  }
 			orientation = "LOWER_RIGHT"
 			buttonFont = "cg_16b"
 			text = "CREATE_VASSAL"
@@ -1229,7 +1229,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x= -46 y = 16 }
+			position = { x= -46 y = 16  }
 			orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"

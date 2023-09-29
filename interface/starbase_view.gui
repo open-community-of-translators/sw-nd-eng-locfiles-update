@@ -3,7 +3,7 @@
 @tabs_pos_y = 230
 @tabs_size_h = -50
 @side_view_panel_width = 334
-@side_view_entry_width = 364 # ND
+@side_view_entry_width = 340
 
 guiTypes = {
 	containerWindowType = {

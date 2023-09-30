@@ -963,8 +963,8 @@ guiTypes = {
 					### Districts Container Window
 					containerWindowType = {
 						name = "districts_window"
-						size = { width = 410 height = 185 }
-						position = { x = 10 y = 30 }
+						size = { width = 410 height = 185 } # ND
+						position = { x = 10 y = 30 } # ND
 						background = {
 							position = { x = 0 y = 0 }
 							name = "districts_window_background"
@@ -1004,7 +1004,7 @@ guiTypes = {
 							instantTextBoxType={
 								name = "planet_districts_amount"
 								font = "cg_16b"
-								position = { x = 30 y = 10 }
+								position = { x = 30 y = 10 } # ND
 								text = "10"
 								maxWidth = 30
 								maxHeight = 40
@@ -1012,12 +1012,12 @@ guiTypes = {
 								format = center
 							}
 						}
-
-						#iconType = { disabled swnd
-						#	name = "districts_background"
-						#	spriteType = "GFX_districts_bg"
-						#	position = { x = 0 y = 44 }
-						#}
+						# ND
+						# iconType = {
+						# 	name = "districts_background"
+						# 	spriteType = "GFX_districts_bg"
+						# 	position = { x = 0 y = 44 }
+						# }
 
 						# Districts Buttons
 						gridBoxType = {
@@ -1273,8 +1273,8 @@ guiTypes = {
 							name = "buildings_box_background"
 							spriteType = "GFX_dark_area_cut"
 					}
-
-					#instantTextBoxType = { # ND
+					# ND
+					#instantTextBoxType = {
 					#	name = "title_text"
 					#	font = "malgun_goth_24"
 					#	position = { x = 22 y = 12 }
@@ -1289,7 +1289,7 @@ guiTypes = {
 
 				gridBoxType = {
 					name = "buildings_box"
-					position = { x = 15 y = 218 } # ND
+					position = { x = 15 y = 218 }
 					size = { width = 205 height = 205 }
 					format = "UPPER_LEFT"
 					slotsize = { width = 54 height = 54 } # ND
@@ -1310,14 +1310,14 @@ guiTypes = {
 						name = "designation_info_background"
 						spriteType = "GFX_tiles_frame"
 					}
-
-					iconType = {
-						name = "empire_header_line"
-						quadTextureSprite = "GFX_line_horizontal"
-						position = { x = 10 y = 42 } # ND
-						alwaysTransparent = yes
-						scale = .8
-					}
+					# ND
+					# iconType = {
+					# 	name = "empire_header_line"
+					# 	quadTextureSprite = "GFX_line_horizontal"
+					# 	position = { x = 10 y = 52 }
+					# 	alwaysTransparent = yes
+					# 	scale = .8
+					# }
 
 					containerWindowType = {
 						name = "designation_button_container"
@@ -1493,8 +1493,8 @@ guiTypes = {
 				# Build Queue
 				containerWindowType = {
 					name = "build_queue"
-					size = { width = 270 height = 210 }
-					position = { x = 569 y = 220 }
+					size = { width = 270 height = 245 } # ND
+					position = { x = 569 y = 184 } # ND
 
 					background = {
 						name = "build_queue_background"
@@ -1518,7 +1518,7 @@ guiTypes = {
 						name = "build_queue"
 						position = { x = 6 y = 40 }
 						orientation = upper_left
-						size = { x = 260 y = 167 } # ND
+						size = { x = 260 y = 160 }
 						borderSize = { x = 0 y = 0 }
 						scrollbartype = "standardlistbox_slider"
 					}
@@ -2642,7 +2642,7 @@ guiTypes = {
 					name = "general_portrait_container"
 					position = { x = 569 y = 92 }
 					size = { width = 270 height = 100 }
-
+		
 					background = {
 						name = "leader_background"
 						spriteType = "GFX_dark_area_cut"
@@ -3786,7 +3786,7 @@ guiTypes = {
 						fixedSize = yes
 						orientation = "UPPER_LEFT"
 						format = left
-						truncate = yes
+						# truncate = yes # ND
 					}
 
 					instantTextBoxType = {
@@ -3948,12 +3948,11 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "automation_settings_window"
-
 				smoothListboxType = {
 					name = "automation_settings_list"
-					position = { x = 10 y = 40 } # pre 3.9 SWND values are x = 5 and y = 60 - Bosmer
+					position = { x = 5 y = 60 } # ND
 					background = ""
-					size = { x = 280 y = 590 } # pre 3.9 SWND values are x = 280 and y = 560 - Bosmer
+					size = { x = 280 y = 560 } # ND
 					scrollbarType = "standardlistbox_slider"
 					borderSize = { x = 0 y = 0 }
 					orientation = "UPPER_LEFT"
@@ -4225,7 +4224,7 @@ guiTypes = {
 			name = "district_icon"
 			spriteType = "GFX_district_unknown"
 			position = { x=5 y=5 } # ND
-			scale = 0.65 # ND
+			scale = 0.65
 		}
 
 		buttonType = {
@@ -4380,7 +4379,7 @@ guiTypes = {
 		iconType = {
 			name = "clear_blocker_deposit_icon"
 			spriteType = "GFX_deposit_unknown"
-			position = { x=90 y=46 } # pre 3.9 value is x = 160 y = 25 - Bosmer
+			position = { x=160 y=25 } # ND
 			scale = 0.5
 		}
 
@@ -5639,12 +5638,12 @@ guiTypes = {
 		name = "planet_construction_entry"
 		position = { x= 0 y= 0 }
 		size = { width = 270 height = 124 }
-
-		# background = { SWND
+		# ND
+		# background = {
 		# 	name = "background"
 		# 	spriteType = "GFX_no_highlight_tile"
 		# }
-
+		# ND
 		# containerWindowType = {
 		# 	name = "entry_bg_gradient"
 		# 	size = { width = 268 height = 98 }
@@ -5865,8 +5864,8 @@ guiTypes = {
 			name = "army_name"
 			font = "malgun_goth_24"
 			text = "Army Name"
-			position = { x = 35 y = 4 } # ND
-			maxWidth = 250 # ND
+			position = { x = 35 y = 4 }
+			maxWidth = 250
 			maxHeight = 20
 			fixedSize = yes
 			format = left
@@ -6007,9 +6006,9 @@ guiTypes = {
 
 		iconType = {
 			name = "army_icon"
-			position = { x = 5 y = 9 } # ND
+			position = { x=1 y=4 } # ND
 			spriteType = "GFX_army_icons"
-			scale = 0.7 # ND
+			scale = 0.9 # ND
 		}
 
 		iconType = {

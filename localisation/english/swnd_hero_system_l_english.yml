@@ -236,6 +236,23 @@
  ja_fosk_catchphrase: "wip"
  ja_fosk_backstory: "Ja'fosk is a §HSupreme Admiral§! within the §HDefense Hiearchy Council§!."
 
+ ### Zann Consortium Heroes
+ PRESCRIPTED_leader_name_tyber_zann: "Tyber Zann"
+ zann_catchphrase: "There are always worlds that are ripe for corruption."
+ zann_backstory: "While languishing in prison, §Y[This.GetName]§! made plans to bring the Zann Consortium to power once more. With his newfound freedom, he aims to bring those plans into reality."
+ swnd_hero_name_jerid_sykes: "Jerid Sykes"
+ sykes_catchphrase: "Is this a secure channel?"
+ sykes_backstory: "§Y[This.GetName]§! once served in the Republic navy, deserting after the creation of the New Order. Now, he finds himself in service to the Zann Consortium."
+ swnd_hero_name_urai_fenn: "Urai Fen"
+ urai_fen_catchphrase: "wip"
+ urai_fen_backstory: "§Y[This.GetName]§! is Tyber Zann's bodyguard and second-in-command of the Zann Consortium."
+ swnd_hero_name_venlanna_sipal: "Venlanna Sipal"
+ sipal_catchphrase: "wip"
+ sipal_backstory: "§Y[This.GetName]§! serves as an underboss for the Zann Consortium. She is ambitious and prefers to use a guise of professionalism to hide her mercilessness."
+ swnd_hero_name_silri: "Silri"
+ silri_catchphrase: "I BRING DARKNESS!"
+ silri_backstory: "§Y[This.GetName]§! is a witch of Dathomir, one of the very few survivors of her kind. While very violent and prone to fits of rage, she remains an important part of Zann's criminal ambitions."
+
  ### Hero System Traits
  leader_trait_swnd_phoenix: "Phoenix Cell"
  leader_trait_swnd_phoenix_desc: "This leader is a member of Commander Jun Sato's Phoenix Cell."
@@ -247,6 +264,8 @@
  leader_trait_swnd_cuyval_dar_desc: "This leader trained clone troopers prior to the Battle of Geonosis."
  leader_trait_swnd_deathwatch_fanatic: "Death Watch Fanatic"
  leader_trait_swnd_deathwatch_fanatic_desc: "This leader is a devoted member of the splinter group Death Watch, vowing to return Mandalorians to their ancient crusader roots."
+ leader_trait_swnd_nightsister: "Nightsister"
+ leader_trait_swnd_nightsister_desc: "This leader is a dark side magick practitioner from Dathomir."
 
  ### Misc. Messages
  MESSAGE_TYPE_PROMISING_LEADER_MESSAGE: "$PROMISING_LEADER|Y$ has demonstrated exceptional talent. \n\nReview the leader candidates list to recruit $PROMISING_LEADER|Y$."

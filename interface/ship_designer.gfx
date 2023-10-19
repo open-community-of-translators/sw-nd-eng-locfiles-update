@@ -139,6 +139,14 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_dummy_ingame_3d_ship_view"
+		texturefile = "gfx/interface/transp_white.dds"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		alwaystransparent = no
+		transparencecheck = no
+	}
+
+	spriteType = {
 		name = "GFX_dummy_3d_design_entry"
 		texturefile = "gfx/interface/ship_designer/ship_design_entry_bg.dds"
 		effectFile = "gfx/FX/buttonstate_rendertarget.shader"

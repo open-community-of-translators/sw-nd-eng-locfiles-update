@@ -197,7 +197,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "swnd_version"
 				font = "cg_16b"
-				text = "SWND 0.8.10b"
+				text = "SWND 0.8.5b"
 				position = { x= 200 y = 630 }
 				maxWidth = 300
 				maxHeight = 20

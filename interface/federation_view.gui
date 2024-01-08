@@ -1,4 +1,4 @@
-#swp
+
 @entry_info_height = 17
 @entry_memberInfo_height = 20
 @entry_memberName_height = 13
@@ -265,10 +265,7 @@ guiTypes = {
 			name = "background"
 			spriteType = "GFX_centralization_bg"
 			position = { x = 0 y = 0 }
-			alwaysTransparent = yes
 		}
-
-		
 
 		gridBoxType = {
 			name = "top_laws_grid_box"
@@ -293,7 +290,6 @@ guiTypes = {
 				name = "background"
 				spriteType = "GFX_dark_area_cut"
 				position = { x = 0 y = -22 }
-				alwaysTransparent = yes
 			}
 		}
 
@@ -401,15 +397,13 @@ guiTypes = {
 			}
 		}
 
-		
-		
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "federation_name"
 			font = "cg_16b"
 			position = { x = 85 y = 60 }
 			maxWidth = 248
 			maxheight = 25
-			fixedSize = yes
+			fixedsize = yes
 			alwaysTransparent = yes
 		}
 		
@@ -420,12 +414,14 @@ guiTypes = {
 			size = { x = 250 y = 25 }
 		}
 		
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "federation_type"
 			font = "cg_16b"
 			position = { x = 85 y = 79 }
 			maxwidth = 300
-			text = "Alliance Type"
+			maxheight = 25
+			fixedsize = yes
+			text = "Federation Type"
 			text_color_code = "H" 
 			alwaysTransparent = yes
 		}
@@ -437,37 +433,45 @@ guiTypes = {
 			size = { x = 250 y = 25 }
 		}
 		
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "federation_formed"
 			font = "cg_16b"
 			position = { x = 85 y = 98 }
 			maxwidth = 250
+			maxheight = 25
+			fixedsize = yes
 		}
 		
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "federation_type_desc"
 			font = "cg_16b"
-			position = { x = 32 y = 145 }
+			position = { x = 32 y = 145 } # ND
 			maxwidth = 286
-			text = "Alliance Type"
+			maxheight = 60
+			fixedsize = yes
+			text = "Federation Type"
 		}
 		
 		instantTextBoxType={
 			name = "federation_perk_desc"
 			font = "cg_16b"
-			position = { x = 32 y = 250 }
+			position = { x = 32 y = 250 } # ND
 			maxwidth = 286
-			text = "Alliance Type"
+			maxheight = 115
+			fixedsize = yes
+			text = "Federation Type"
 		}
 		
 		instantTextBoxType={
 			name = "federation_law_desc"
 			font = "cg_16b"
-			position = { x = 32 y = 340 }
+			position = { x = 32 y = 340 } # ND
 			maxwidth = 286
-			text = "Alliance Type"
+			maxheight = 45
+			fixedsize = yes
+			text = "Federation Type"
 		}
-		
+
 		containerWindowType = {
 			name = "federation_members_small_window"
 			size = { width = 324 height = 200 }
@@ -552,7 +556,7 @@ guiTypes = {
 				iconType = {
 					name = "portrait"
 					quadTextureSprite = "GFX_portrait_character"
-					position = { x = 100 y = -13 }
+					position = { x = 100 y = -8 }
 					scale = 0.60
 					alwaysTransparent = yes
 				}
@@ -754,15 +758,17 @@ guiTypes = {
 
 					containerWindowType = {
 						name = "cohesion_infoBox"
-						position = { x = 20 y = 7 }
+						position = { x = 20 y = -50 }
 						size = { width=300 height= 30 }
+						orientation = center
 
 						## NEEDS CODE  --- Cohesion: Cohesion Icon & num, Envoy Icon & num
 
 						iconType = {
 							name = "cohesion_icon"
 							quadTextureSprite = "GFX_cohesion_icon"
-							position = { x = 0 y = -1 }
+							position = { x = 0 y = -15 }
+							orientation = center_left
 						}
 
 						instantTextBoxType={
@@ -770,8 +776,8 @@ guiTypes = {
 							font = "cg_16b"
 							position = { x = 35 y = 6 }
 							text = "Cohesion Numer"
-							maxWidth = 60
-							maxHeight = 40
+							maxWidth = 40
+							maxHeight = 25
 							fixedSize = yes
 							format = left
 						}
@@ -779,15 +785,16 @@ guiTypes = {
 
 						iconType = {
 							name = "envoy_icon"
-							quadTextureSprite = "GFX_envoy_icon"
-							position = { x = 112 y = 0 }
-							scale = .85
+							quadTextureSprite = "GFX_leader_icons"
+							frame=4
+							position = { x = 112 y = -13 }
+							orientation = center_left
 						}
 
 						instantTextBoxType={
 							name = "envoy_number"
 							font = "cg_16b"
-							position = { x = 140 y = 6 }
+							position = { x = 150 y = 6 }
 							text = "Envoy Number"
 							maxWidth = 40
 							maxHeight = 25
@@ -1160,7 +1167,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_members"
 			quadTextureSprite = "GFX_tab_2_inactive"
-			position = { x= 112 y = @tabHeight }
+			position = { x= 112 y = @tabHeight } # ND
 			font = "cg_16b"
 			buttonText = "FEDERATION_VIEW_MEMBERS_HEADER"
 			buttonFont = "cg_16b"
@@ -1172,7 +1179,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_members_active"
 			quadTextureSprite = "GFX_tab_2_active"
-			position = { x = 112 y = @tabHeight }
+			position = { x = 112 y = @tabHeight } # ND
 			font = "cg_16b"
 			buttonText = "FEDERATION_VIEW_MEMBERS_HEADER"
 			buttonFont = "cg_16b"
@@ -1184,7 +1191,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_fleets"
 			quadTextureSprite = "GFX_tab_2_inactive"
-			position = { x = -10248 y = @tabHeight } # disabled for SWFR x = 248
+			position = { x = -10238 y = @tabHeight } # ND hidden
 			font = "cg_16b"
 			buttonText = "FEDERATION_VIEW_FLEETS_HEADER"
 			buttonFont = "cg_16b"
@@ -1196,7 +1203,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_fleets_active"
 			quadTextureSprite = "GFX_tab_2_active"
-			position = { x = -10248 y = @tabHeight } # disabled for SWFR x = 248
+			position = { x = -10238 y = @tabHeight } # ND hidden
 			font = "cg_16b"
 			buttonText = "FEDERATION_VIEW_FLEETS_HEADER"
 			buttonFont = "cg_16b"
@@ -1208,7 +1215,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_laws"
 			quadTextureSprite = "GFX_tab_2_inactive"
-			position = { x= 248 y = @tabHeight } # x= 385
+			position = { x= 248 y = @tabHeight } # ND
 			font = "cg_16b"
 			buttonText = "FEDERATION_VIEW_LAWS_HEADER"
 			buttonFont = "cg_16b"
@@ -1220,7 +1227,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_laws_active"
 			quadTextureSprite = "GFX_tab_2_active"
-			position = { x = 248 y = @tabHeight } # x= 385
+			position = { x = 248 y = @tabHeight } # ND
 			font = "cg_16b"
 			buttonText = "FEDERATION_VIEW_LAWS_HEADER"
 			buttonFont = "cg_16b"
@@ -1228,27 +1235,85 @@ guiTypes = {
 			shortcut = "v"
 			Orientation = "LOWER_LEFT"
 		}
-	
-	buttonType={
-		name = "assign_envoy_button"
-		id = "leave_button"
-		font = "cg_16b"
-		spriteType = "GFX_button_150_24"
-		position = { x = -890 y =545 }
-		text = "ASSIGN_ENVOY"
-		orientation = upper_right
+		
+		containerWindowType = {
+			name = "delegates_container"
+			position = { x = 348 y = 545 }
+			size = { width = 800 height = 50 }
+
+			buttonType = {
+				name = "delegates_container_background"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+					position = { x = 0 y = 0 }
+					size = { x = 800 y = 50 }
+				alwaysTransparent = no
+				}
+
+			containerWindowType = {
+				name = "assigned_delegate"
+				position = { x = 0 y = 6 }
+				size = { width = 250 height = 40 }
+
+				background = {
+					name = "delegates_bg"
+					spriteType = "GFX_dark_area_cut"
+					alwaysTransparent = yes
+				}
+				iconType = {
+					name = "leader_type"
+					spriteType = "GFX_leader_icons"
+					position = { x = 5 y = 5 }
+				}
+				iconType = {
+					name = "leader_level"
+					spriteType = "GFX_leader_skill"
+					position = { x = 21 y = 18 }
+				}
+				overlappingElementsBoxType = {
+					name = "leader_traits"
+					position = { x=45 y=3 }
+					size = { x = 200 y = 24 }
+				}
+			}
+			instantTextBoxType = {
+				name = "leader_function"
+				font = "cg_16b"
+				text = "subclass_official_delegate"
+				position = { x = 258 y = 5 }
+				maxWidth = 300
+				maxHeight = 50
+				text_color_code = "H"
+			}
+			instantTextBoxType = {
+				name = "leader_name"
+				font = "cg_16b"
+				text = "Maximus Leaderus, the third of his name"
+				position = { x = 258 y = 26 }
+				maxWidth = 500
+				maxHeight = 50
+			}
+
+			buttonType = {
+				name = "assign_button"
+				position = { x = -10 y = -45 }
+				spriteType = "GFX_button_150_24"
+				buttonFont = "cg_16b"
+				text = "LEADER_ASSIGNMENT"
+				font = "cg_16b"
+				orientation = "LOWER_LEFT"
+			}
+		}
+		
+		buttonType={
+			name = "leave_federation_button"
+			id = "leave_button"
+			font = "cg_16b"
+			spriteType = "GFX_button_164_24"
+			position = { x = -190 y = 545 }
+			text = "FEDERATION_VIEW_LEAVE_FEDERATION"
+			orientation = upper_right
+		}
 	}
-	
-	buttonType={
-		name = "leave_federation_button"
-		id = "leave_button"
-		font = "cg_16b"
-		spriteType = "GFX_button_164_24"
-		position = { x = -190 y = 545 }
-		text = "FEDERATION_VIEW_LEAVE_FEDERATION"
-		orientation = upper_right
-	}
-}
 
 	containerWindowType = {
 		name = "federation_member_entry"
@@ -1450,7 +1515,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "federation_law_popup"
 		position = { x=-200 y=-216 }
-		size = { width = 500 height = 500 }
+		size = { width = 600 height = 500 }
 		moveable = yes
 		Orientation = center
 		
@@ -1470,14 +1535,14 @@ guiTypes = {
 		iconType = {
 			name = "empire_header_line"
 			quadTextureSprite = "GFX_line_center"
-			position = { x = -12 y = 38 }
+			position = { x = -12 y = 38 } # ND
 		}
 		
 		buttonType = {
 			name = "AgreeButton"
 			quadTextureSprite = "GFX_standard_button_142_34_button"
-			position = { x = 275 y = -60 }
-			orientation = "LOWER_LEFT"
+			position = { x = -275 y = -60 } # ND
+			orientation = "LOWER_LEFT" # ND
 			buttonText = "YES"
 			buttonFont = "cg_16b"
 			actionShortcut = "accept"
@@ -1497,11 +1562,11 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			position = { x = 25 y = 20 }
+			position = { x = 25 y = 20 } # ND
 			name = "title"
 			font = "malgun_goth_24"
 			borderSize = {x = 0 y = 0 }	
-			maxWidth = 400
+			maxWidth = 400 # ND
 			maxHeight = 20
 			text = ""	
 			orientation = "UPPER_LEFT"
@@ -1513,17 +1578,17 @@ guiTypes = {
 			font = "cg_16b"
 			format = center
 			orientation = center_up
-			maxWidth = 390
+			maxWidth = 390 # ND
 			maxHeight = 0
-			position = { x = -195 y = 70 }
+			position = { x = -195 y = 70 } # ND
 			alwaysTransparent = yes
 		}
 
 		containerWindowType = {
 			name = "vote_breakdown"
 			position = { x=15 y=150 }
-			size = { width = 420 height = 290 }
-
+			size = { width = 420 height = 290 } # ND
+			
 			background = {
 				name = "breakdown_bg"
 				spriteType = "GFX_tiled_window_transparent"
@@ -1546,13 +1611,13 @@ guiTypes = {
 				name = "votes_list_bg"
 				size = { width = 100% height = 260}
 				position = { x = 0 y = 40 }
-			
-			background = {
-				name = "breakdown_bg"
-				spriteType = "GFX_dark_area_cut"
-				alwaysTransparent = yes
+
+				background = {
+					name = "breakdown_bg"
+					spriteType = "GFX_dark_area_cut"
+					alwaysTransparent = yes
+				}
 			}
-		}
 
 			instantTextBoxType = {
 				name = "vote_type_text"
@@ -1561,7 +1626,7 @@ guiTypes = {
 				format = left
 				maxWidth = 200
 				maxHeight = 30
-				position = { x = 18 y = 10 }
+				position = { x = 18 y = 10 } # ND
 				text_color_code = "E"
 				#alwaysTransparent = yes
 			}
@@ -1573,7 +1638,8 @@ guiTypes = {
 				format = right
 				maxWidth = 200
 				maxHeight = 30
-				position = { x = 200 y = 10 }
+				position = { x = -220 y = 10 } # ND
+				orientation = upper_right
 				#alwaysTransparent = yes
 			}
 
@@ -1584,17 +1650,18 @@ guiTypes = {
 				format = right
 				maxWidth = 200
 				maxHeight = 30
-				position = { x = -350 y = 8 }
+				position = { x = -350 y = 8 } # ND
 				orientation = upper_right
 			}
 
 			smoothListBoxType = {
 				name = "voters_list"
-				position = { x = 25 y = 40 }
+				position = { x = 25 y = 40 } # ND
 				orientation = upper_left
-				size = { x = 450 y = 250 }
+				size = { x = 450 y = 250 } # ND
 				borderSize = { x = 0 y = 0 }
 				scrollbartype = "standardlistbox_slider"
+				alwaysTransparent = no
 			}
 		}
 	}
@@ -1602,7 +1669,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "federation_law_voter_entry"
 		position = { x = 0 y = 0 }
-		size = { width = 450 height = 50 }
+		size = { width = 450 height = 50 } # ND
 		moveable = no
 
 		background = {
@@ -1613,7 +1680,7 @@ guiTypes = {
 		buttonType = {
 			name = "flag"
 			quadTextureSprite = "GFX_empire_flag_32"
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 10 } # ND
 			orientation = upper_left
 		}
 
@@ -1624,14 +1691,14 @@ guiTypes = {
 			format = left
 			maxWidth = 200
 			maxHeight = 30
-			position = { x = 45 y = 17 }
+			position = { x = 45 y = 17 } # ND
 			#alwaysTransparent = yes
 		}
 
 		buttonType = {
 			name = "decrease_favors"
 			quadTextureSprite = "GFX_button_left"
-			position = { x = -250 y = 0 }
+			position = { x = -250 y = 0 } # ND
 			clicksound = "click"
 			pdx_tooltip = "DECREASE_FAVOR_TOOLTIP"
 			orientation = upper_right
@@ -1640,7 +1707,7 @@ guiTypes = {
 		buttonType = {
 			name = "increase_favors"
 			quadTextureSprite = "GFX_button_right"
-			position = { x = -150 y = 0 }
+			position = { x = -150 y = 0 } # ND
 			clicksound = "click"
 			pdx_tooltip = "INCREASE_FAVOR_TOOLTIP"
 			orientation = upper_right
@@ -1649,7 +1716,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "favors_amount"
 			font = "cg_16b"
-			position = { x = -210 y = 11 }
+			position = { x = -210 y = 11 } # ND
 			maxWidth = 60
 			maxHeight = 20
 			fixedSize = yes
@@ -1662,17 +1729,19 @@ guiTypes = {
 			name = "acceptance_text"
 			font = "cg_16b"
 			text = "-10000"
-			format = center
+			format = center # ND
 			maxWidth = 50
 			maxHeight = 30
-			position = { x = 345 y = 17 }
+			position = { x = 345 y = 17 } # ND
 			#alwaysTransparent = yes
+			orientation = upper_right
 		}
 
 		iconType = {
 			name = "acceptance_icon"
 			quadTextureSprite = "GFX_alliance_vote_status"
-			position = { x = 385 y = 5  }
+			position = { x = 385 y = 5  } # ND
+			orientation = upper_right
 		}
 	}
 }

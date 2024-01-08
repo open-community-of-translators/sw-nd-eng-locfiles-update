@@ -61,12 +61,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ap_understanding_galaxy"
-		texturefile = "gfx/interface/icons/ascension_perks/ap_understanding_galaxy.dds"
-		alwaystransparent = yes
-	}
-
-	spriteType = {
 		name = "GFX_ap_genetic_modifying"
 		texturefile = "gfx/interface/icons/ascension_perks/ap_genetic_modifying.dds"
 		alwaystransparent = yes
@@ -93,12 +87,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ap_starfighter_focus"
 		texturefile = "gfx/interface/icons/ascension_perks/ap_starfighter_focus.dds"
-		alwaystransparent = yes
-	}
-
-	spriteType = {
-		name = "GFX_ap_space_fortress"
-		texturefile = "gfx/interface/icons/ascension_perks/ap_space_fortress.dds"
 		alwaystransparent = yes
 	}
 

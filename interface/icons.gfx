@@ -87,7 +87,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_army_icons"
 		textureFile = "gfx/interface/planetview/army_icon.dds"
-		noOfFrames = 109
+		noOfFrames = 109 # ND
 	}
 
 
@@ -161,6 +161,11 @@ spriteTypes = {
 		sprite_sheet_sprite_type = "GFX_army_icons"
 		default_frame = 14
 	}
+	spriteType = {
+		name = "GFX_army_type_flamestorm"
+		sprite_sheet_sprite_type = "GFX_army_icons"
+		default_frame = 15
+	}
 
 	spriteType = {
 		name = "GFX_icon_council"
@@ -170,11 +175,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_leader"
 		texturefile = "gfx/interface/icons/icon_leader.dds"
-	}
-
-	spriteType = {
-		name = "GFX_assign_leader"
-		texturefile = "gfx/interface/leaders/leader_assign_icon.dds"
 	}
 
 	spriteType = {
@@ -322,11 +322,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_faction_mandate"
-		texturefile = "gfx/interface/icons/faction_mandate.dds"
-	}
-
-	spriteType = {
 		name = "GFX_election_vote_share"
 		texturefile = "gfx/interface/icons/election_vote_share.dds"
 	}
@@ -422,7 +417,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_component_slot_icons"
 		texturefile = "gfx/interface/icons/component_slot_icons.dds"
-		noOfFrames = 12
+		noOfFrames = 12 # ND
 	}
 
 	spriteType = {
@@ -470,9 +465,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_dimensional_lock"
+		textureFile = "gfx/interface/icons/dimensional_lock.dds"
+	}
+	spriteType = {
+		name = "GFX_dimensional_lock_open"
+		textureFile = "gfx/interface/icons/dimensional_lock_open.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ship_class_small"
 		textureFile = "gfx/interface/icons/ship_classes.dds"
-		noOfFrames = 49
+		noOfFrames = 53
 	}
 
 	spriteType = {
@@ -496,7 +500,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_class_medium"
 		textureFile = "gfx/interface/icons/ship_classes_medium.dds"
-		noOfFrames = 49
+		noOfFrames = 53
 	}
 
 	spriteType = {
@@ -517,19 +521,19 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_sizes"
 		textureFile = "gfx/interface/icons/ship_parts/ship_sizes.dds"
-		noOfFrames = 200
+		noOfFrames = 200 # ND
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_sizes_top"
 		textureFile = "gfx/interface/icons/ship_parts/ship_sizes_top.dds"
-		noOfFrames = 200
+		noOfFrames = 200 # ND
 	}
 
 	spriteType = {
 		name = "GFX_ship_sizes_top_damaged"
 		textureFile = "gfx/interface/icons/ship_parts/ship_sizes_top_damaged.dds"
-		noOfFrames = 200
+		noOfFrames = 200 # ND
 	}
 
 	## Icons from sprite sheets
@@ -854,6 +858,41 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_message_astral_rift_discovered"
+		texturefile = "gfx/interface/icons/message/message_astral_rift_discovered.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_astral_rift_started"
+		texturefile = "gfx/interface/icons/message/message_astral_rift_started.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_message_astral_rift_finished"
+		texturefile = "gfx/interface/icons/message/message_astral_rift_finished.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_astral_action_unlocked"
+		texturefile = "gfx/interface/icons/message/message_astral_action_unlocked.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_dimensional_fleet_destroyed"
+		texturefile = "gfx/interface/icons/message/message_dimensional_fleet_destroyed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_message_bypass_lock_expired"
+		texturefile = "gfx/interface/icons/message/message_bypass_lock_expired.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_restoring_the_balance_sacrifice"
+		texturefile = "gfx/interface/icons/message/message_restoring_the_balance.dds"
+	}
+
+	spriteType = {
 		name = "GFX_message_diplomatic_invite"
 		texturefile = "gfx/interface/icons/message/message_diplomatic_invite.dds"
 	}
@@ -928,11 +967,6 @@ spriteTypes = {
 		name = "GFX_message_diplomatic_alliance"
 		texturefile = "gfx/interface/icons/message/message_diplomatic_alliance.dds"
 	}
-
-
-
-
-
 
 	spriteType = {
 		name = "GFX_message_leader_experience_gain"
@@ -1030,7 +1064,7 @@ spriteTypes = {
 		name = "GFX_message_associate"
 		texturefile = "gfx/interface/icons/message/message_embassy.dds"
 	}
-	##
+
 	spriteType = {
 		name = "GFX_message_embassy"
 		texturefile = "gfx/interface/icons/message/message_embassy.dds"
@@ -1483,8 +1517,8 @@ spriteTypes = {
 #		texturefile = "gfx/interface/icons/message/message_diplomatic_alliance.dds"
 #	}
 
-
 	### SHIP PARTS ###
+
 #	spriteType = {
 #		name = "GFX_ship_part_core_bow"
 #		texturefile = "gfx/interface/icons/ship_parts/ship_part_core_bow.dds"
@@ -2208,7 +2242,7 @@ spriteTypes = {
 		name = "GFX_ship_part_curator_lab"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_curator_lab.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_subspace_drive"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_subspace_drive.dds"
@@ -2417,7 +2451,7 @@ spriteTypes = {
 		name = "GFX_ship_part_cloak_dark_matter"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_cloak_dark_matter.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_cloak_psi"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_cloak_psi.dds"
@@ -2924,6 +2958,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_cloak_detector"
 		texturefile = "gfx/interface/icons/modules/sb_cloak_detector.dds"
+	}
+
+	spriteType = {
+		name = "GFX_spaceport_module_dimensional_shrine"
+		texturefile = "gfx/interface/icons/modules/sb_dimensional_shrine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_spaceport_module_reloading_bay"
+		texturefile = "gfx/interface/icons/modules/sb_reloading_bay.dds"
 	}
 
 	spriteType = {
@@ -3772,7 +3816,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/terraforming_candidate.dds"
 		noOfFrames = 2
 	}
-	
+
 	### First Contact ###
 
 	spriteType = {
@@ -3855,5 +3899,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_navbar_presence_indicator"
 		texturefile = "gfx/interface/icons/navbar_presence_indicator_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_enemy_forcibly_decloaked"
+		texturefile = "gfx/interface/icons/message/message_enemy_forcibly_decloaked.dds"
 	}
 }

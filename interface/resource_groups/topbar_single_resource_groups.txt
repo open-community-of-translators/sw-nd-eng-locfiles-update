@@ -51,7 +51,7 @@ tb_influence_group = {
 		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
 		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
 	}
-	onclick = edicts
+	onclick = claims
 }
 
 tb_unity_group = {
@@ -95,7 +95,7 @@ tb_consumer_goods_group = {
 	}
 	onclick = market
 }
-
+# ND
 tb_tibanna_group = {
 	resources = {
 		tibanna_gas

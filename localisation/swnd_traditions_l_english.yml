@@ -109,7 +109,7 @@
 
  tr_empire_moff_council_sector: "Sector Moffs"
  tr_empire_moff_council_sector_delayed: "The continuing empowerment of the Moffs and the ongoing disenfranchisement of the Imperial Senate has created new opportunities for the ambitious and well-connected."
-#  tr_empire_moff_council_sector_desc: "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! increased by §Y2§!."
+#  tr_empire_moff_council_sector_desc: "§Y$MOD_LEADER_OFFICIAL_SKILL_LEVELS$§! increased by §Y2§!."
 
  tr_empire_moff_council_grand: "Grand Moffs"
  tr_empire_moff_council_grand_delayed: "With the dissolution of the Imperial Senate and the last remnants of the Old Republic swept away, none can deny or resist the influence of the Moffs."

@@ -23,10 +23,12 @@
  mon_mothma_backstory: "§Y[This.GetName]§! serves as §YChandrila's§! senator and is a vocal critic of the rapid militarization of the §HGalactic Empire§!."
  mon_mothma_catchphrase: "I show you the stone in my hand, you miss the knife at your throat."
  rebel_mon_mothma_backstory: "§Y[This.GetName]§! leads the fledgling §YRebel Alliance§! against the might of the §HGalactic Empire§!."
- bail_organa_backstory: "§Y[This.GetName]§! serves as §YAlderaan's§! senator and is a vocal critic of the §HGalactic Empire§!."
- bail_organa_catchphrase: "The simplest gesture of kindness can fill a galaxy with hope."
  raddus_backstory: "§Y[This.GetName]§! served as a mayor on his homeworld of §YDac§! and is an outspoken member of the §YRebel Alliance§! known for his blunt and practical approaches."
  raddus_catchphrase: "This is Admiral Raddus of the Rebel Alliance. All squadron leaders, report in."
+ swnd_hero_name_breha: "Breha Organa"
+ breha_backstory: "§Y[This.GetName]§! is the Queen of §YAlderaan§!. She rules with a kind and even hand, valuing diplomacy and fairness over conflict."
+ breha_catchphrase: "Authority can be given, but leadership must be earned."
+ cham_syndulla_backstory: "§Y[This.GetName]§!, also known as §HThe Hammer of Ryloth§!, is a renowned freedom fighter and revolutionary leader."
  ### Mandalorian ###
  bo_katan_backstory: "Despite being a princess of House Kryze, §Y[This.GetName]§!'s past is filled with connections to §HDeath Watch§! and the §HShadow Collective§!."
  bo_katan_catchprhase: "The enemy of my enemy is my friend."
@@ -44,7 +46,6 @@
  gar_saxon_catchphrase: "Victory or death!"
  tiber_saxon_backstory: "§Y[This.GetName]§! is §YGar Saxon's§! brother and is fiercely loyal to the Imperial cause. To him, unquestionable loyalty and service to the Empire will protect §YMandalore§!."
  tiber_saxon_catchphrase: "I am the Empire! Palpatine has shown me the way to true power."
-
  ## Chiss ##
  PRESCRIPTED_leader_name_admiralaralani: "Ar'alani"
  aralani_backstory: "§Y[This.GetName]§! served with §HSenior Captain Mitth'raw'nuruodo§! and a member of the Irizi family. Her military ability was showcased in her multiple encounters with the §HGrysk§!."
@@ -52,14 +53,18 @@
  PRESCRIPTED_leader_name_eli_vanto: "Eli Vanto"
  # eli_vanto_backstory: "§Y[This.GetName]§! is §YMitth'raw'nuruodo§!'s attaché to the §YChiss Ascendancy§!. He brings with him not only knowledge from the Imperial Academy, but wisdom and guidance taught by §YThrawn§! himself."
  # eli_vanto_catchphrase: "wip"
-
  ## Hutt ##
  PRESCRIPTED_leader_name_jabba: "Jabba Desilijic Tiure"
  jabba_backstory: "There are few crimelords as powerful and influential as §HHis Excellency §Y[This.GetName]§! of §YNal Hutta§!§!. He controls multiple smuggling, slaving, and piracy actions across the §BOuter Rim§!."
-
  ### Other - from formables or neutral ###
  lama_su_backstory: "Serving as the Prime Minister of Kamino, §Y[This.GetName]§! now leads his people in uncertain times."
  lama_su_catchphrase: "We must be cautious."
+ PRESCRIPTED_leader_name_tyber_zann: "Tyber Zann"
+ zann_catchphrase: "There are always worlds that are ripe for corruption."
+ zann_backstory: "While languishing in prison, §Y[This.GetName]§! made plans to bring the Zann Consortium to power once more. With his newfound freedom, he aims to bring those plans into reality."
+ PRESCRIPTED_leader_name_jerid_sykes: "Jerid Sykes"
+ sykes_catchphrase: "Need a really big gun?"
+ sykes_backstory: "§Y[This.GetName]§! is a former Republic Navy officer and a veteran of the Clone Wars. With the rise of the §YEmpire§!, he now serves the §YZann Consortium§!."
 
  #####Hero System#####
  ### Rebel Alliance Humans
@@ -84,6 +89,12 @@
  swnd_hero_name_gerrera: "Saw Gererra"
  gerrera_backstory: "Embittered from the death of his sister during the Clone Wars, §Y[This.GetName]§! is the notorious leader of the §HPartisan Cell§!."
  gerrera_catchphrase: "You can either adapt and survive, or die with the past."
+ swnd_hero_name_lando: "Lando Calrissian"
+ lando_backstory: "Many things can be said about §Y[This.GetName]§!. A ladies man, a cheat, but a bad sabacc player is not one of them."
+ lando_catchphrase: "Bad luck? No such thing."
+ swnd_hero_name_iblis: "Garm Bel-Iblis"
+ iblis_backstory: "§Y[This.GetName]§! embodies the independent §YCorellian§! spirit and fierce patriotism for the §HGalactic Republic§!. His tenure as senator earned him a reputation for his charisma and pragmatism, something that few fighting the §YEmpire§! have."
+ iblis_catchphrase: "..."
 
  ### Mon Calamari Heroes
  swnd_hero_name_ackbar: "Gial Ackbar"
@@ -135,6 +146,24 @@
  swnd_hero_name_daala: "Natasi Daala"
  daala_backstory: "A protegee of §YTarkin§! and a fierce loyalist to the Empire, §Y[This.GetName]§! is willing to go to great lengths to preserve the New Order."
  daala_catchphrase: "I cannot leave the Empire in the hands of fools like you."
+ swnd_hero_name_partagaz: "Lio Partagaz"
+ partagaz_backstory: "Major §Y[This.GetName]§! serves the §HImperial Security Bureau§! with the distinction of being level-headed and acting as mediator between intelligence officials."
+ partagaz_catchphrase: "We are healthcare providers. We treat sickness."
+ swnd_hero_name_declann: "Nial Declann"
+ declann_backstory: "§Y[This.GetName]§! served during the §HClone Wars§! and as a TIE pilot before being promoted to the rank of Grand Admiral."
+ declann_catchphrase: "It shall be done."
+ swnd_hero_name_gideon: "Gideon"
+ gideon_backstory: "Moff §Y[This.GetName]§! is a member of the §HImperial Security Bureau§! and has a reputation of being calcuating and ruthless."
+ gideon_catchphrase: "Long Live the Empire."
+ swnd_hero_name_grant: "Octavian Grant"
+ grant_backstory: "Grand Admiral §Y[This.GetName]§! is a §YTapani§! lord of §HHouse Mecetti§!. His sense of superiority over not only aliens and droids but those not of noble birth makes him a rather unpopular member of the §HImperial Navy§!."
+ grant_catchphrase: "..."
+ swnd_hero_name_quest: "Sarcev Quest"
+ quest_backstory: "§Y[This.GetName]§! serves as the Emperor's Hand - one of many of elite agents that answer to the §HEmperor§! directly."
+ quest_catchphrase: "..."
+ swnd_hero_name_maketh_tua: "Maketh Tua"
+ tua_backstory: "§Y[This.GetName]§! is a graduate of the §HImperial Academy§! and is an Imperial governor. Unlike other governors, she refrains from relying on barbaric and sadistic actions."
+ tua_catchphrase: "I am honored by your attention."
 
  ### Mandalorian Heroes (Non Empire)
  swnd_hero_name_skirata: "Kal Skirata"
@@ -153,12 +182,15 @@
  gedyc_catchphrase: "The aruetiise will learn to fear the Mandalorians once more."
 
  ### Alderaanian Heroes 
- swnd_hero_name_breha: "Breha Organa"
- breha_backstory: "§Y[This.GetName]§!, the wife of §YBail Organa§!, is the Queen of §YAlderaan§!. She rules with a kind and even hand, valuing diplomacy and fairness over conflict."
- breha_catchphrase: "Authority can be given, but leadership must be earned."
+ swnd_hero_name_bail: "Bail Organa"
+ bail_organa_backstory: "§Y[This.GetName]§! serves as §YAlderaan's§! senator and is a vocal critic of the §HGalactic Empire§!. He keeps close ties with Chandrillian senator §YMon Mothma§! and Corellian senator §YGarm Bel-Iblis§!."
+ bail_organa_catchphrase: "The simplest gesture of kindness can fill a galaxy with hope."
  swnd_hero_name_winter: "Winter Celchu"
  winter_catchphrase: "I never forget anything."
- winter_backstory: "§Y[This.GetName]§! is an Alderaanian. "
+ winter_backstory: "§Y[This.GetName]§! is an Alderaanian."
+ swnd_hero_name_omas: "Cal Omas"
+ omas_backstory: "§Y[This.GetName]§! is an Alderaanian statesman. He's known for being a good-natured man with a sense of humor, despite having a temper."
+ omas_catchphrase: "In these times, a smile from a Jedi is a hopeful sign."
 
  ### Sullustan Heroes
  swnd_hero_name_nunb: "Nien Nunb"
@@ -237,12 +269,6 @@
  ja_fosk_backstory: "Ja'fosk is a §HSupreme Admiral§! within the §HDefense Hiearchy Council§!."
 
  ### Zann Consortium Heroes
- PRESCRIPTED_leader_name_tyber_zann: "Tyber Zann"
- zann_catchphrase: "There are always worlds that are ripe for corruption."
- zann_backstory: "While languishing in prison, §Y[This.GetName]§! made plans to bring the Zann Consortium to power once more. With his newfound freedom, he aims to bring those plans into reality."
- swnd_hero_name_jerid_sykes: "Jerid Sykes"
- sykes_catchphrase: "Is this a secure channel?"
- sykes_backstory: "§Y[This.GetName]§! once served in the Republic navy, deserting after the creation of the New Order. Now, he finds himself in service to the Zann Consortium."
  swnd_hero_name_urai_fenn: "Urai Fen"
  urai_fen_catchphrase: "wip"
  urai_fen_backstory: "§Y[This.GetName]§! is Tyber Zann's bodyguard and second-in-command of the Zann Consortium."

@@ -1,6 +1,15 @@
 guiTypes = {
 	@main_menu_margin = 50
 
+	positionType = {
+		name = "frontend_buttons_no_acb_offset"
+		position = { x = 0 y = -50 }
+		if_scaled_resolution = {
+			min_height = 900
+			position = { x = 0 y = -75 }
+		}
+	}
+
 	containerWindowType = {
 		name = "frontend_background"
 		position = { x = 0 y = 0 }
@@ -128,7 +137,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "swnd_version"
 				font = "cg_16b"
-				text = "SW: New Dawn 0.8.10c This is the Way!" #### DO NOT FORGET TO UPDATE WHEN UPLOADING!
+				text = "SW: New Dawn 0.8.11 This is the Way!" #### DO NOT FORGET TO UPDATE WHEN UPLOADING!
 				position = { x = 310 y = -15  }
 				maxWidth = 400
 				maxHeight = 20
@@ -234,9 +243,9 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "buttons"
-				position = { x = 0 y = 120 }
+				position = { x = 0 y = 90 } # ND
 				# The height here is the Y position of the last button on small resolutions + the height of the last button.
-				size = { width = @button_large_width height = 400 } # pre 3.9.3 height = 350 - bosmer
+				size = { width = @button_large_width height = 400 }
 				origo = CENTER_LEFT
 				orientation = CENTER_LEFT
 
@@ -244,7 +253,7 @@ guiTypes = {
 					min_height = 900
 
 					# The height here is the Y position of the last button on large resolutions + the height of the last button.
-					size = { width = @button_large_width height = 575 } # pre 3.9.3 height = 500 - bosmer
+					size = { width = @button_large_width height = 575 }
 				}
 
 				@button_large_width = 340
@@ -391,45 +400,9 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
-				# TODO [AA]: [AUG-42271] Uncomment this and move the below buttons back down (both the normal position and if_scaled_resolution).
-				#containerWindowType = {
-				#	name = "additional_content_container"
-				#	position = { x = 0 y = 200 }
-				#	size = { width = @button_large_width height = @button_large_height }
-				#
-				#	if_scaled_resolution = {
-				#		min_height = 900
-				#
-				#		position = { x = 0 y = 300 }
-				#	}
-				#
-				#	buttonType = {
-				#		id = "additional_content"
-				#		name = "button"
-				#		quadTextureSprite = "GFX_main_menu_button"
-				#		position = { x = 0 y = 0 }
-				#		size = { x = @button_large_width y = @button_large_height }
-				#		oversound = mouse_over
-				#		clicksound = confirm_click
-				#	}
-				#
-				#	instantTextBoxType = {
-				#		name = "text"
-				#		font = "jura"
-				#		text = "FRONT_ADDITIONAL_CONTENT"
-				#		position = { x = 0 y = 0 }
-				#		maxWidth = @button_large_width
-				#		maxHeight = @button_large_height
-				#		fixedSize = yes
-				#		format = left
-				#		vertical_alignment = center
-				#		alwaysTransparent = yes
-				#	}
-				#}
-				
+
 				containerWindowType = {
-					name = "settings_container"
+					name = "additional_content_container"
 					position = { x = 0 y = 200 }
 					size = { width = @button_large_width height = @button_large_height }
 
@@ -437,6 +410,41 @@ guiTypes = {
 						min_height = 900
 
 						position = { x = 0 y = 300 }
+					}
+
+					buttonType = {
+						id = "additional_content"
+						name = "button"
+						quadTextureSprite = "GFX_main_menu_button"
+						position = { x = 0 y = 0 }
+						size = { x = @button_large_width y = @button_large_height }
+						oversound = mouse_over
+						clicksound = confirm_click
+					}
+
+					instantTextBoxType = {
+						name = "text"
+						font = "jura"
+						text = "FRONT_ADDITIONAL_CONTENT"
+						position = { x = 0 y = -5 }
+						maxWidth = @button_large_width
+						maxHeight = @button_large_height
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						alwaysTransparent = yes
+					}
+				}
+
+				containerWindowType = {
+					name = "settings_container"
+					position = { x = 0 y = 250 }
+					size = { width = @button_large_width height = @button_large_height }
+
+					if_scaled_resolution = {
+						min_height = 900
+
+						position = { x = 0 y = 375 }
 					}
 
 					buttonType = {
@@ -465,13 +473,13 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "credits_container"
-					position = { x = 0 y = 250 }
+					position = { x = 0 y = 300 }
 					size = { width = @button_large_width height = @button_large_height }
 
 					if_scaled_resolution = {
 						min_height = 900
 
-						position = { x = 0 y = 375 }
+						position = { x = 0 y = 450 }
 					}
 
 					buttonType = {
@@ -500,13 +508,13 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "quit_container"
-					position = { x = 0 y = 300 }
+					position = { x = 0 y = 350 }
 					size = { width = @button_large_width height = @button_large_height }
 
 					if_scaled_resolution = {
 						min_height = 900
 
-						position = { x = 0 y = 450 }
+						position = { x = 0 y = 525 }
 					}
 
 					buttonType = {
@@ -575,11 +583,11 @@ guiTypes = {
 			origo = center
 
 			instantTextBoxType = {
-				name ="title"
+				name = "title"
 				position = { x = 180 y = 40 }
 				textureFile = ""
 				font = "cg_16b"
-				borderSize = {x = 4 y = 4}
+				borderSize = { x = 4 y = 4 }
 				text = "FRONT_SAVE_GAMES"
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -605,9 +613,9 @@ guiTypes = {
 			}
 
 			listboxType = {
-				name ="list"
-				position = { x=100 y =80}
-				size = { x=220 y =260}
+				name = "list"
+				position = { x = 100 y = 80 }
+				size = { x = 220 y = 260}
 				horizontal = 0
 				scrollbartype = "standardlistbox_slider"
 				borderSize = { x = 20 y = 20 }
@@ -616,32 +624,31 @@ guiTypes = {
 		}
 
 		### Additional content browser "What's new"
-		# TODO [AA]: [AUG-42271] Uncomment
-		#containerWindowType = {
-		#	name = "additional_content_whats_new"
-		#	position = { x = 0 y = 0 }
-		#	size = { width = 250 height = 340 }
-		#	orientation = lower_right
-		#	origo = lower_right
-		#
-		#	instantTextBoxType = {
-		#		name = "title"
-		#		position = { x = 0 y = 0 }
-		#		maxWidth = 250
-		#		format = right
-		#		font = "large_title_font"
-		#		text = "ADDITIONAL_CONTENT_WHATS_NEW_TITLE"
-		#	}
-		#
-		#	gridBoxType = {
-		#		name = "items"
-		#		position = { x = 0 y = 45 }
-		#		size = { width = 100% }
-		#		slotSize = { width = 250 height = 155 }
-		#		max_slots_horizontal = 1
-		#		format = "UPPER_LEFT"
-		#	}
-		#}
+		containerWindowType = {
+			name = "additional_content_whats_new"
+			position = { x = 0 y = 0 }
+			size = { width = 250 height = 340 }
+			orientation = lower_right
+			origo = lower_right
+
+			instantTextBoxType = {
+				name = "title"
+				position = { x = 0 y = 0 }
+				maxWidth = 250
+				format = right
+				font = "large_title_font"
+				text = "ADDITIONAL_CONTENT_WHATS_NEW_TITLE"
+			}
+
+			gridBoxType = {
+				name = "items"
+				position = { x = 0 y = 45 }
+				size = { width = 100% }
+				slotSize = { width = 250 height = 155 }
+				max_slots_horizontal = 1
+				format = "UPPER_LEFT"
+			}
+		}
 
 		### DEBUG
 		buttonType = {
@@ -655,27 +662,27 @@ guiTypes = {
 			name = "portrait_planet"
 			spriteType = "GFX_portrait_planet_character"
 			Orientation = "CENTER"
-			position = { x = -100 y = -320 }
+			position = { x= -100 y= -320 }
 		}
 
 		buttonType = {
 			name ="portrait_character"
 			spriteType = "GFX_portrait_character"
 			Orientation = "CENTER"
-			position = { x = -500 y = -350 }
+			position = { x= -500 y= -350 }
 		}
 
 		buttonType = {
 			name ="portrait_character_large"
 			spriteType = "GFX_portrait_character_large"
 			Orientation = "CENTER"
-			position = { x = -500 y = -350 }
+			position = { x= -500 y= -350 }
 		}
 
 		containerWindowType = {
 			name = "blocker"
-			position = { x = 0 y = 0 }
-			size = { width = 100% height = 100% }
+			position = { x= 0 y= 0 }
+			size = { width = 100% height = 100%}
 
 			background = {
 				name = "hitbox"

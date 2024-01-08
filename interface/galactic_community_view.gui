@@ -1,9 +1,8 @@
 guiTypes = {
-	@tile_progress_bar_height = 7
 	# Dynamic positions and sizes for the members and council containers
 	positionType = {
 		name = "members_container_position_default"
-		position = { x = 940 y = 420 }
+		position = { x = 940 y = 420 } # ND
 	}
 	positionType = {
 		name = "members_container_position_large"
@@ -12,7 +11,7 @@ guiTypes = {
 
 	positionType = {
 		name = "members_container_size_default"
-		position = { x = 314 y = 112 }
+		position = { x = 314 y = 112 } # ND
 	}
 	positionType = {
 		name = "members_container_size_large"
@@ -21,32 +20,31 @@ guiTypes = {
 
 	positionType = {
 		name = "members_box_container_size_default"
-		position = { x = 280 y = 68 }
+		position = { x = 280 y = 68 } # ND
 	}
 	positionType = {
 		name = "members_box_container_size_large"
-		position = { x = 280 y = 192 }
+		position = { x = 280 y = 192 } # ND
 	}
 
 	# Button in the lower right of the main view, to open the Galactic Community
 	containerWindowType = {
 		name = "galactic_community_button_window"
-		position = { x=-135 y=160 }
-		size = { width= 70 height= 40 }
-		orientation = upper_left
-		moveable = yes
+		position = { x=-135 y=160 } # ND
+		size = { width= 70 height= 40 } # ND
+		orientation = upper_left # ND
 
 		buttonType = {
 			name = "galactic_community_button"
 			spriteType = "GFX_galactic_community_button"
-			position = { x= 193 y = 95 }
-			scale = 0.76
+			position = { x= 193 y = 95 } # ND
+			scale = 0.76 # ND
 		}
 
 		iconType = {
 			name = "unread_proposals_icon"
 			spriteType = "GFX_unread_bg"
-			position = { x= -24 y = -69 }
+			position = { x= -24 y = -69 } # ND
 			alwaysTransparent = yes
 		}
 		
@@ -55,7 +53,7 @@ guiTypes = {
 			font = "cg_16b"
 			maxWidth = 30
 			maxHeight = 20
-			position = { x= -22 y = -60 }
+			position = { x= -22 y = -60 } # ND
 			format = center
 			text = "20"
 		}
@@ -80,19 +78,19 @@ guiTypes = {
 		iconType = { 
 			name = "vote_balance_supporting_dot"
 			spriteType = "GFX_vote_balance_supporting_dot"
-			position = { x= 4 y = 53 }
+			position = { x= 4 y = 53 } # ND
 		}
 		
 		iconType = {
 			name = "vote_balance_opposing_dot"
 			spriteType = "GFX_vote_balance_opposing_dot"
-			position = { x= 52 y = 53 }
+			position = { x= 52 y = 53 } # ND
 		}
 		
 		iconType = {
 			name = "vote_balance_progressbar"
 			spriteType = "GFX_vote_balance_small_progressbar"
-			position = { x= 16 y = 55 }
+			position = { x= 16 y = 55 } # ND
 		}	
 	}
 	
@@ -118,10 +116,13 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "header"
+			position = { x = 40 y = 4 } # ND
 			font = "malgun_goth_24"
-			position = { x = 40 y = 4 }
 			text = "GALACTIC_COMMUNITY"
 			format = left
+			maxwidth = 260
+			maxheight = 20
+			fixedSize = yes
 		}
 
 		iconType = {
@@ -133,7 +134,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close_button_galaxy"
-			position = { x= -45 y = 12  }
+			position = { x= -45 y = 12  } # ND
 			Orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
@@ -224,7 +225,7 @@ guiTypes = {
 				iconType = {
 					name = "portrait"
 					quadTextureSprite = "GFX_portrait_character"
-					position = { x = 60 y = 16 }
+					position = { x = 60 y = 16 } # ND
 					scale = 0.65
 					alwaysTransparent = yes
 				}
@@ -700,8 +701,8 @@ guiTypes = {
 				# Galactic Focus - Emperor
 				containerWindowType = {
 					name = "focus_container"
-					size = { width = 224 height = 70 }
-					position = { x = -15 y = 130 }
+					position = { x = -15 y = 130 } # ND
+					size = { width = 224 height = 70 } # ND
 					
 
 					background = {
@@ -717,11 +718,11 @@ guiTypes = {
 
 					instantTextBoxType={
 						name = "focus_title"
-						position = { x = 52 y = 10}
+						position = { x = 52 y = 10} # ND
 						font = "cg_16b"
 						text = "GALACTIC_FOCUS"
 						format = left
-						maxWidth = 130
+						maxWidth = 130 # ND
 						maxHeight = 20
 						fixedSize = yes
 						text_color_code = "H"
@@ -740,7 +741,7 @@ guiTypes = {
 
 					buttonType = {
 						name = "change_focus_button"
-						position = { x = 182 y = 15 }
+						position = { x = 182 y = 15 } # ND
 						spriteType = "GFX_change_galactic_focus"
 						pdx_tooltip = "CHANGE_GALACTIC_FOCUS"
 					}
@@ -766,47 +767,34 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 
-				iconType = {
-					name = "envoy_icon"
-					spriteType = "GFX_envoy_icon"
-					position = { x = 42 y = 94 }
-					scale = 0.8
+				buttonType = {
+					name = "strengthen_empire"
+					quadTextureSprite = "GFX_envoy_action_strengthen_imperial_authority"
+					position = { x = -32 y = 88  }
+					orientation = center_up
+				}
+				buttonType = {
+					name = "strengthen_empire_selected"
+					quadTextureSprite = "GFX_glow_tile_orange"
+					size = {x=39 y=39}
+					position = { x = -33 y = 87  }
+					orientation = center_up
 					alwaysTransparent = yes
 				}
 
 				buttonType = {
-					name = "strengthen_empire"
-					quadTextureSprite = "GFX_envoy_action_strengthen_imperial_authority"
-					position = { x = 78 y = 92  }
-					scale = 1
-				}
-
-				instantTextBoxType={
-					name = "strengthen_authority_number"
-					font = "cg_16b"
-					position = { x = 108 y = 98 }
-					maxWidth = 25
-					maxHeight = 16
-					text = "XX" # Will be updated in code
-					format = left
-				}
-
-
-				buttonType = {
 					name = "undermine_empire"
 					quadTextureSprite = "GFX_envoy_action_undermine_imperial_authority"
-					position = { x = 128 y = 92  }
-					scale = 1
+					position = { x = 0 y = 88  }
+					orientation = center_up
 				}
-
-				instantTextBoxType={
-					name = "undermine_authority_number"
-					font = "cg_16b"
-					position = { x = 158 y = 98 }
-					maxWidth = 25
-					maxHeight = 16
-					text = "XX" # Will be updated in code
-					format = left
+				buttonType = {
+					name = "undermine_empire_selected"
+					quadTextureSprite = "GFX_glow_tile_orange"
+					size = {x=39 y=39}
+					position = { x = -1 y = 87  }
+					orientation = center_up
+					alwaysTransparent = yes
 				}
 
 			}
@@ -850,13 +838,13 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "council_container"
-				position = { x = 940 y = 340 }
-				size = { width = 314 height = 76 }
+				position = { x = 940 y = 340 } # ND
+				size = { width = 314 height = 76 } # ND
 
 				containerWindowType = {
 					name = "council_flag_bg"
 					position = { x = 0 y = 0 }
-					size = { width = 314 height = 76 }
+					size = { width = 314 height = 76 } # ND
 
 					background = {
 						name = "council_bg"
@@ -868,7 +856,7 @@ guiTypes = {
 				iconType ={
 					name ="council_bg"
 					quadTextureSprite = "GFX_hex_bg"
-					position = { x = -16 y = -12 }
+					position = { x = -16 y = -12 } # ND
 					alwaysTransparent = yes
 				}
 
@@ -945,28 +933,28 @@ guiTypes = {
 				buttonType = {
 					name = "leader_flag"
 					quadTextureSprite = "GFX_empire_flag_48"
-					position = { x = 6 y = 15  }
+					position = { x = 6 y = 15  } # ND
 				}
 
 				iconType ={
 					name ="custodian_frame"
 					quadTextureSprite = "GFX_custodian_frame_48"
-					position = { x = 1 y = 10 }
+					position = { x = 1 y = 10 } # ND
 					alwaysTransparent = yes
 				}
 
 				iconType ={
 					name ="emperor_frame"
 					quadTextureSprite = "GFX_emperor_frame_48"
-					position = { x = 1 y = 10 }
+					position = { x = 1 y = 10 } # ND
 					alwaysTransparent = yes
 				}
 
 				instantTextBoxType={
 					name = "leader_weight"
 					font = "cg_16b"
-					position = { x = 7 y = 55 }
-					maxWidth = 50
+					position = { x = 7 y = 55 } # ND
+					maxWidth = 50 # ND
 					maxHeight = 20
 					text = "2000"
 					format = center
@@ -975,7 +963,7 @@ guiTypes = {
 				instantTextBoxType={
 					name = "council_text"
 					font = "cg_16b"
-					position = { x = 75 y = -5 }
+					position = { x = 75 y = -5 } # ND
 					maxWidth = 150
 					maxHeight = 20
 					text = "GALACTIC_COUNCIL"
@@ -985,7 +973,7 @@ guiTypes = {
 				instantTextBoxType={
 					name = "council_abolished_text"
 					font = "cg_16b"
-					position = { x = 75 y = 15 }
+					position = { x = 75 y = 15 } # ND
 					maxWidth = 150
 					maxHeight = 20
 					text = "COUNCIL_ABOLISHED"
@@ -995,8 +983,8 @@ guiTypes = {
 				instantTextBoxType={
 					name = "council_number"
 					font = "cg_16b"
-					position = { x = 75 y = 10 }
-					maxWidth = 200
+					position = { x = 75 y = 10 } # ND
+					maxWidth = 200 # ND
 					maxHeight = 20
 					text = "NEXT COUNCIL ELECTION"
 					format = left
@@ -1005,7 +993,7 @@ guiTypes = {
 
 				gridBoxType = {
 					name = "council_gridbox"
-					position = { x = 75 y = 34 }
+					position = { x = 75 y = 34 } # ND
 					size = { width = 256 height = 32 }
 					slotsize = { width = 36 height = 40 }
 					max_slots_horizontal = 8
@@ -1031,7 +1019,7 @@ guiTypes = {
 				instantTextBoxType={
 					name = "community_text"
 					font = "cg_16b"
-					position = { x = 10 y = -2 }
+					position = { x = 10 y = -2 } # ND
 					maxWidth = 250
 					maxHeight = 20
 					text = "GALACTIC_COMMUNITY"
@@ -1040,7 +1028,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "members_box_container"
-					position = { x = 10 y = 17 }
+					position = { x = 10 y = 17 } # ND
 					size = { width = 280 height = 150 }
 					clipping = yes
 					verticalScrollBar = "right_vertical_slider_s"
@@ -1053,8 +1041,8 @@ guiTypes = {
 					gridBoxType = {
 						name = "members_gridbox"
 						position = { x = 0 y = 0 }
-						size = { width = 280 height = 150 }
-						slotsize = { width = 34 height = 34 }
+						size = { width = 280 height = 150 } # ND
+						slotsize = { width = 34 height = 34 } # ND
 						max_slots_horizontal = 8
 						format = UPPER_LEFT
 					}
@@ -1064,46 +1052,68 @@ guiTypes = {
 			containerWindowType = {
 				name = "delegates_container"
 				position = { x = 338 y = 534 }
-				size = { width = 235 height = 44 }
+				size = { width = 800 height = 50 }
+
+				buttonType = {
+					name = "delegates_container_background"
+ 					quadTextureSprite = "GFX_tiled_window_transparent"
+ 					position = { x = 0 y = 0 }
+ 					size = { x = 800 y = 50 }
+					alwaysTransparent = no
+  				}
 
 				containerWindowType = {
-					name = "delegates_bg"
+					name = "assigned_delegate"
 					position = { x = 0 y = 6 }
-					size = { width = 70 height = 34 }
+					size = { width = 250 height = 40 }
 
 					background = {
 						name = "delegates_bg"
 						spriteType = "GFX_dark_area_cut"
 						alwaysTransparent = yes
 					}
+					iconType = {
+						name = "leader_type"
+						spriteType = "GFX_leader_icons"
+						position = { x = 5 y = 5 }
+					}
+					iconType = {
+						name = "leader_level"
+						spriteType = "GFX_leader_skill"
+						position = { x = 21 y = 18 }
+					}
+					overlappingElementsBoxType = {
+						name = "leader_traits"
+						position = { x=45 y=3 }
+						size = { x = 200 y = 24 }
+					}
 				}
-
 				instantTextBoxType = {
-					name = "delegates_text"
+					name = "leader_function"
 					font = "cg_16b"
-					position = { x = 38 y = 15 }
-					maxWidth = 175
-					maxHeight = 20
-					text = "DELEGATES: ##"
-					format = left
+					text = "subclass_official_delegate"
+					position = { x = 258 y = 5 }
+					maxWidth = 300
+					maxHeight = 50
+					text_color_code = "H"
 				}
-
-				iconType = {
-					name = "envoy_icon"
-					quadTextureSprite = "GFX_envoy_icon"
-					position = { x = 12 y = 11 }
-					scale = .8
-					alwaysTransparent = yes
+				instantTextBoxType = {
+					name = "leader_name"
+					font = "cg_16b"
+					text = "Maximus Leaderus, the third of his name"
+					position = { x = 258 y = 26 }
+					maxWidth = 500
+					maxHeight = 50
 				}
 
 				buttonType = {
 					name = "assign_button"
-					position = { x = -168 y = -45 }
+					position = { x = -10 y = -45 }
 					spriteType = "GFX_button_150_24"
 					buttonFont = "cg_16b"
-					text = "ASSIGN_ENVOY"
+					text = "LEADER_ASSIGNMENT"
 					font = "cg_16b"
-					orientation = "LOWER_RIGHT"
+					orientation = "LOWER_LEFT"
 				}
 			}
 
@@ -1316,11 +1326,11 @@ guiTypes = {
 	
 					smoothListBoxType = {
 						name = "decisions_list"
-						position = { x = -4 y = 3 }
-						size = { x = 252 y = 216 }
+						position = { x = -4 y = 3 } # ND
+						size = { x = 252 y = 216 } # ND
 						scrollbartype = "standardlistbox_slider"
 						orientation = "UPPER_LEFT"
-						spacing = 7
+						spacing = 7 # ND
 						defaultSelection = yes
 					}	
 				}	
@@ -1633,7 +1643,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "abstaining_container"
 				position = { x = 443 y = 522 }
-				size = { width = 690 height = 60 }
+				size = { width = 690 height = 60 } # ND
 
 				background = {
 					name = "background"
@@ -1644,7 +1654,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "abstaining_text"
 					font = "cg_16b"
-					position = { x = 0 y = 6 }
+					position = { x = 0 y = 6 } # ND
 					maxWidth = 690
 					maxHeight = 20
 					text = "ABSTAINING"
@@ -1654,7 +1664,7 @@ guiTypes = {
 
 				gridBoxType = {
 					name = "abstaining_gridbox"
-					position = { x = 40 y = 22 }
+					position = { x = 40 y = 22 } # ND
 					size = { width = 32 height = 70 }
 					slotsize = { width = 32 height = 32 }
 					add_horizontal = yes
@@ -1869,8 +1879,8 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "set_gal_focus_desc_container"
-				position = { x = 1025 y = 60 }
-				size = { width = 214 height = 74 }
+				position = { x = 1025 y = 60 } # ND
+				size = { width = 214 height = 74 } # ND
 
 				background = {
 					name = "gal_focus_text_bg"
@@ -1927,8 +1937,10 @@ guiTypes = {
 		# Galactic Focus - no custodian / emperor
 		containerWindowType = {
 			name = "focus_container"
-			position = { x = 1010 y = 65 }
-			size = { width = 224 height = 74 }
+			# orientation = upper_right # ND
+			# origo = upper_right # ND
+			position = { x = 1010 y = 65 } # ND
+			size = { width = 224 height = 74 } # ND
 
 			background = {
 				name = "focus_frame"
@@ -1938,16 +1950,16 @@ guiTypes = {
 			iconType ={
 				name ="focus_icon"
 				quadTextureSprite = "GFX_tile_production_error" # TODO!
-				position = { x = 10 y = 24 }
+				position = { x = 10 y = 24 } # ND
 			}
 
 			instantTextBoxType={
 				name = "focus_title"
-				position = { x = 20 y = 6}
+				position = { x = 20 y = 6} # ND
 				font = "cg_16b"
 				text = "GALACTIC_FOCUS"
 				format = left
-				maxWidth = 200
+				maxWidth = 200 # ND
 				maxHeight = 20
 				fixedSize = yes
 				text_color_code = "H"
@@ -1955,13 +1967,13 @@ guiTypes = {
 
 			instantTextBoxType={
 				name = "focus_text"
-				position = { x = 60 y = 35 }
+				position = { x = 60 y = 35 } # ND
 				font = "cg_16b"
 				text = "STOPPA DUVAN, STOPPA DUVAN!"
 				format = left
-				maxWidth = 130
-				maxHeight = 20
-				vertical_alignment = center
+				maxWidth = 130 # ND
+				maxHeight = 20 # ND
+				vertical_alignment = center # ND
 			}
 		}
 
@@ -2007,7 +2019,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_senate"
 			quadTextureSprite = "GFX_tab_2_inactive"
-			position = { x= 112 y = @tabheight }
+			position = { x= 112 y = @tabheight } # ND
 			font = "cg_16b"
 			buttonText = "SENATE_FLOOR"
 			buttonFont = "cg_16b"
@@ -2019,7 +2031,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_senate_active"
 			quadTextureSprite = "GFX_tab_2_active"
-			position = { x= 112 y = @tabheight }
+			position = { x= 112 y = @tabheight } # ND
 			font = "cg_16b"
 			buttonText = "SENATE_FLOOR"
 			buttonFont = "cg_16b"
@@ -2032,7 +2044,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_resolutions"
 			quadTextureSprite = "GFX_tab_2_inactive"
-			position = { x= 250 y = @tabheight }
+			position = { x= 250 y = @tabheight } # ND
 			font = "cg_16b"
 			buttonText = "RESOLUTIONS"
 			buttonFont = "cg_16b"
@@ -2044,7 +2056,7 @@ guiTypes = {
 		buttonType = {
 			name = "tab_resolutions_active"
 			quadTextureSprite = "GFX_tab_2_active"
-			position = { x= 250 y = @tabheight }
+			position = { x= 250 y = @tabheight } # ND
 			font = "cg_16b"
 			buttonText = "RESOLUTIONS"
 			buttonFont = "cg_16b"
@@ -2136,7 +2148,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "up_next"
 			font = "cg_16b"
-			position = { x = 50 y = 8 }
+			position = { x = 50 y = 8 } # ND
 			text = "UP_NEXT"
 			maxWidth = 100
 			maxHeight = 20
@@ -2148,7 +2160,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "member_country_entry"
 		position = { x = 0 y = 0 }
-		size = { width = 30 height = 30 }
+		size = { width = 30 height = 30 } # ND
 
 		buttonType = {
 			name = "flag"
@@ -2349,21 +2361,21 @@ guiTypes = {
 	containerWindowType = {
 		name = "proposal_decision_entry"
 		position = { x = 0 y = 0 }
-		size = { width = 230 height = 34 }
+		size = { width = 230 height = 34 } # ND
 		clipping = no
 
 		buttonType = {
 			name = "proposal_decision_button"
 			quadTextureSprite = "GFX_standard_button_230_34_button"
-			position = { x = 0 y = 0  }
+			position = { x = 0 y = 0  } # ND
 			clicksound = "select_click"
 		}
 
 		containerWindowType = {
 			name = "selected_overlay"
-			position = { x = 12 y = 12 }
+			position = { x = 12 y = 12 } # ND
 
-			size = { width = 100% height = 110% }
+			size = { width = 100% height = 110% } # ND
 			background = {
 				name = "selected_bg"
 				spriteType = "GFX_glow_tile_orange_no_padding"
@@ -2374,7 +2386,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "proposal_decision_text"
 			font = "cg_16b"
-			position = { x = 10 y = 20 }
+			position = { x = 10 y = 20 } # ND
 			maxWidth = 230
 			maxHeight = 20
 			format = center
@@ -2385,7 +2397,7 @@ guiTypes = {
 		iconType = {
 			name ="proposal_decision_icon"
 			quadTextureSprite = "GFX_abstain"
-			position = { x = 20 y = 14 }
+			position = { x = 20 y = 14 } # ND
 			alwaysTransparent = yes
 			scale = 0.6
 		}
@@ -2423,6 +2435,23 @@ guiTypes = {
 			position = { x = 10 y = -1 }
 			alwaysTransparent = yes
 			scale = 0.6
+		}
+	}
+
+	containerWindowType = {
+		name = "leader_trait_box_entry"
+		size = { width = 32 height = 32 }
+		iconType = {
+			name = "trait_bg"
+			spriteType = "GFX_trait_bg"
+		}
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_traits"
+		}
+		containerWindowType = {
+			name = "trait_layered_icon_locator"
+			position = { x = 0 y = 0 }
 		}
 	}
 }

@@ -78,7 +78,7 @@ guiTypes = {
 			name = "fade_bottom"
 			spriteType = "GFX_faded_border_bottom"
 			orientation = lower_left
-			size = { x = 301 y = 180 }
+			size = { x = 301 y = 18 }
 			position = { x = 0 y = -80 }
 			alwaysTransparent = yes
 		}
@@ -521,6 +521,7 @@ if_resolution = {
 			orientation = CENTER
 			clicksound = confirm_click
 		}
+
 		buttonType = {
 			name = "delete"
 			font = "cg_16b"
@@ -536,9 +537,9 @@ if_resolution = {
 			buttonText = "SELECT"
 			position = { x = 301 y = 9999 }
 			orientation = CENTER
-			shortcut = "RETURN"
 			clicksound = "confirmation"
 		}
+
 		buttonType = {
 			name = "quick_start"
 			font = "malgun_goth_24"
@@ -548,13 +549,15 @@ if_resolution = {
 			orientation = CENTER
 			clicksound = "confirmation"
 		}
+
 		buttonType = {
 			name = "next"
 			font = "malgun_goth_24"
 			spriteType = "GFX_select_button"
 			buttonText = "SELECT"
-			position = { x = 311 y = 356 }
+			position = { x = 321 y = 290 }
 			orientation = CENTER
+			shortcut = "RETURN"
 			clicksound = "confirm_click"
 			actionShortcut = "accept"
 		}
@@ -570,7 +573,7 @@ if_resolution = {
 			actionShortCut = "cancel"
 			clicksound = back_click
 		}
-		
+
 		instantTextBoxType = {
 			name = "back_button_gamepad_indicator"
 			format = center
@@ -581,7 +584,7 @@ if_resolution = {
 			font = "malgun_goth_24"
 			text = "BACK_TO_MENU_GAMEPAD_INDICATOR"
 		}
-		
+
 		instantTextBoxType = {
 			name = "edit_button_gamepad_indicator"
 			format = left
@@ -592,7 +595,7 @@ if_resolution = {
 			font = "malgun_goth_24"
 			text = "CUSTOMIZE_GAMEPAD_INDICATOR"
 		}
-		
+
 		instantTextBoxType = {
 			name = "delete_button_gamepad_indicator"
 			format = center
@@ -603,7 +606,7 @@ if_resolution = {
 			font = "malgun_goth_24"
 			text = "DELETE_GAMEPAD_INDICATOR"
 		}
-		
+
 		instantTextBoxType = {
 			name = "next_button_gamepad_indicator"
 			format = right
@@ -624,7 +627,7 @@ if_resolution = {
 			clicksound = "back_click"
 		}
 	}
-	
+
 	### OBSERVER MODE
 	containerWindowType = {
 		name = "observer_empire_design_entry"
@@ -734,7 +737,7 @@ if_resolution = {
 			font = "malgun_goth_24"
 			position = { x = 34 y = 27 }
 			maxWidth = 200
-			text = "QUICK_START"
+			text =	 "CREATE_NEW"
 			format = center
 			alwaysTransparent = yes
 		}
@@ -908,7 +911,7 @@ if_resolution = {
 		}
 		iconType = {
 			name = "portrait"
-			quadTextureSprite = "GFX_portrait_character"
+			quadTextureSprite = "GFX_portrait_character_close_up"
 			position = { x = -25 y = -8 }
 			scale = 0.19
 			alwaysTransparent = yes

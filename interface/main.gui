@@ -1,5 +1,5 @@
 guiTypes = {
-
+	
 	@topbar_amount_pos_y = 17
 
 	positionType = {
@@ -17,38 +17,7 @@ guiTypes = {
 
 	positionType = {
 		name = "main_presence_resolution_switch"
-		position = { x = 1600 y = -1 } #X is the minimum scaled X resolution for which to use the loose style main gui presence element
-	}
-
-	## Lives in leaders_grid
-	containerWindowType = {
-		name = "topbar_leader_gridbox_entry"
-		size = { width = 100 height = 28 }
-
-		iconType = {
-			name = "leader_class_icon"
-			spriteType = "GFX_leader_icons"
-			position = { x = 17 y = 14 }
-			scale = 0.6
-			centerPosition = yes
-			alwaysTransparent = yes
-		}
-
-		instantTextBoxType={
-			name = "class_name"
-			position = { x = 34 y = 6 }
-			font = "cg_16b"
-			maxWidth = 100
-			maxHeight = 30
-			text_color_code = "E"
-			alwaysTransparent = yes
-		}
-
-		buttonType ={
-			name = "button"
-			size = { x = 160 y = 28 }
-			quadTextureSprite = "GFX_invisible"
-		}
+		position = { x = 1600 y = -1 }  #X is the minimum scaled X resolution for which to use the loose style main gui presence element
 	}
 
 	containerWindowType = {
@@ -189,7 +158,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "topbar"
 			position = { x=0 y=0 }
-			size = { width=842 height=40 }
+			size = { width=842 height=40 } # ND
 
 			background = {
 				name ="background"
@@ -208,7 +177,7 @@ guiTypes = {
 
 		# containerWindowType = {
 		# 	name = "topbar_bar_03"
-		# 	size = { width = 650 height = 29 }
+		# 	size = { width = 564 height = 25 }
 		# 	position = { x = 65 y = 13 }
 
 		# 		background = {
@@ -220,7 +189,7 @@ guiTypes = {
 
 		# containerWindowType = {
 		# 	name = "topbar_bar_04"
-		# 	size = { width = 138 height = 29 }
+		# 	size = { width = 138 height = 25 }
 		# 	position = { x = 750 y = 13 }
 
 		# 		background = {
@@ -233,7 +202,7 @@ guiTypes = {
 		####################
 		# Resources and Stuff
 		####################
-
+		# ND - too many changes to mark until the time stuff way below
 		@col1 = 3
 		@col2 = 92
 		@col3 = 184
@@ -256,18 +225,21 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "topbar_extended"
-			position = { x=842 y=0 }
-			size = { width=100%% height=40 }
+			position = { x = 842 y = 0 }
+			size = { width = 100%% height = 40 }
 			hide_position = { x = 0 y = 0 }
 			show_position = { x = 842 y = 0 }
 			show_animation_type = decelerated
 			hide_animation_type = accelerated
 			animation_time = 200
+			clipping = no
+
 			background = {
 				name ="background"
 				quadTextureSprite = "GFX_topbar_background"
-				position = { x = 0 y = 0 }
+				position = { x= 0 y = 0 }
 			}
+
 			containerWindowType = {
 				name = "empire_size_group"
 				size = { width = 64 height = 35 }
@@ -277,6 +249,7 @@ guiTypes = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_empire_sprawl_icon"
@@ -285,25 +258,29 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
 					position = { x = 0 y = 18 }
 					maxWidth = 64
 					maxHeight = 16
-					text = "250"
+					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
 			}
+
 			containerWindowType = {
 				name = "pop_group"
 				size = { width = 64 height = 35 }
 				position = { x = @ext_col2 y = @row3 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_pop"
@@ -312,6 +289,7 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
@@ -323,14 +301,17 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			
 			containerWindowType = {
 				name = "starbase_group"
 				size = { width = 64 height = 35 }
 				position = { x = @ext_col3 y = @row3 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_station_icon"
@@ -338,6 +319,7 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
@@ -349,14 +331,17 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+
 			containerWindowType = {
 				name = "navy_group"
 				size = { width = 84 height = 35 }
 				position = { x = @ext_col4 y = @row3 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_fleet_size_icon"
@@ -364,23 +349,23 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
 					position = { x = 2 y = 18 }
 					maxWidth = 80
 					maxHeight = 16
-					text = "0 / 0"
+					text = "250"
 					format = center
 					alwaysTransparent = yes
 				}
 			}
 
-
 			# containerWindowType = {
 			# 	name = "topbar_bar_05"
-			# 	size = { width = 190 height = 29 }
-			# 	position = { x = 0 y = 13 }
+			# 	size = { width = 190 height = 25 }
+			# 	position = { x = 616 y = 12 }
 
 			# 	background = {
 			# 		name = "topbar_bar_03"
@@ -388,54 +373,24 @@ guiTypes = {
 			# 		alwaysTransparent = yes
 			# 	}
 			# }
-	
-			#containerWindowType = {
-			#	name = "envoys_group"
-			#	size = { width = 100 height = 35 }
-			#	position = { x = 80 y = 2 }
-
-			#	background = {
-			#		name = "background"
-			#		spriteType = "GFX_invisible"
-			#	}
-
-			#	iconType = {
-			#		name = "icon"
-			#		spriteType = "GFX_envoy_icon"
-			#		position = { x = 15 y = 0 }
-			#		scale = 0.7
-			#		tooltip_mode_enabled = yes
-			#		alwaysTransparent = yes
-			#	}
-
-			#	instantTextBoxType={
-			#		name = "amount"
-			#		font = "cg_16b"
-			#		position = { x = -35 y = 16 }
-			#		maxWidth = 120
-			#		maxHeight = 16
-			#		text = "250"
-			#		format = center
-			#		alwaysTransparent = yes
-			#	}
-			#}
 		}
 
 		containerWindowType = {
 			name = "topbar_static"
-			position = { x= 70 y = 0 }
-			size = { width=200 height=200 }
+			position = { x = 70 y = 0 }
+			size = { width = 200 height = 200 }
 			Orientation = UPPER_LEFT
-
 			### ROW 1
 			containerWindowType = {
 				name = "tb_energy_group"
 				size = { width = 86 height = 18 }
 				position = { x = @col1 y = @row1 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_resource_energy"
@@ -443,6 +398,7 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
@@ -454,14 +410,17 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+
 			containerWindowType = {
 				name = "tb_mineral_group"
 				size = { width = 86 height = 18 }
 				position = { x = @col2 y = @row1 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_resource_minerals"
@@ -469,6 +428,7 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
@@ -480,14 +440,17 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+
 			containerWindowType = {
 				name = "tb_food_group"
 				size = { width = 86 height = 18 }
 				position = { x = @col3 y = @row1 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_resource_food"
@@ -495,6 +458,7 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
@@ -506,14 +470,17 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+
 			containerWindowType = {
 				name = "tb_consumer_goods_group"
 				size = { width = 86 height = 18 }
 				position = { x = @col4 y = @row1 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_resource_consumer_goods"
@@ -521,6 +488,7 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
@@ -532,14 +500,17 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+
 			containerWindowType = {
 				name = "tb_alloys_group"
 				size = { width = 86 height = 18 }
 				position = { x = @col5 y = @row1 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_resource_alloys"
@@ -547,6 +518,7 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
@@ -558,14 +530,17 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+
 			containerWindowType = {
 				name = "tb_influence_group"
 				size = { width = 86 height = 18 }
 				position = { x = @col6 y = @row1 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_resource_influence"
@@ -937,6 +912,7 @@ guiTypes = {
 				}
 			}
 
+
 			containerWindowType = {
 				name = "leaders_group"
 				size = { width = 80 height = 36 }
@@ -944,51 +920,27 @@ guiTypes = {
 				clipping = no
 				background = {
 					name = "background"
-					spriteType = "GFX_topbar_button_hover"
-					frame = 1
+					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_icon_leader"
-					position = { x = 38 y = 12 }
+					position = { x = 16 y = 1 }
 					scale = 0.65
 					tooltip_mode_enabled = yes
-					centerPosition = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType = {
 					name = "amount"
 					font = "cg_16b"
-					position = { x = 3 y = @topbar_amount_pos_y }
-					maxWidth = 80
+					position = { x = -35 y = @topbar_amount_pos_y }
+					maxWidth = 120
 					maxHeight = 16
 					text = "250"
 					format = center
 					alwaysTransparent = yes
-				}
-				containerWindowType = {
-					name = "leader_dropdown"
-					size = { width = 160 height = 160 }
-
-					hide_position = { x = 0 y = -100 }
-					show_position = { x = 0 y = 35 }
-
-					show_animation_type = decelerated
-					hide_animation_type = accelerated
-					animation_time = 100
-
-					background = {
-						name = "background"
-						quadTextureSprite = "GFX_subwindow_tile_plain_solid"
-					}
-
-					gridBoxType = {
-						name = "leaders_grid"
-						position = { x = 0 y = 10 }
-						slotSize = { width = 100% height = 28 }
-						max_slots_horizontal = 1
-						format = "UPPER_LEFT"
-					}
 				}
 			}
 
@@ -997,10 +949,12 @@ guiTypes = {
 				name = "tb_research_group"
 				size = { width = 64 height = 35 }
 				position = { x = @hidden y = 3 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_research_icon"
@@ -1009,6 +963,7 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
@@ -1019,6 +974,7 @@ guiTypes = {
 					format = center
 					alwaysTransparent = yes
 				}
+
 				expandedWindow = {
 					name = "expanded_window"
 					position = { x = 0 y = -100 }
@@ -1028,30 +984,33 @@ guiTypes = {
 					show_animation_type = decelerated
 					hide_animation_type = accelerated
 					animation_time = 200
-			
+
 					background = {
 						name = "bg"
 						spriteType = "GFX_subwindow_tile_plain_solid"
 					}
-			
+
 					gridBoxType = {
 						name = "resources"
 						format = "UPPER_LEFT"
 						size = { width = 100% height = 100% }
 						slotsize = { width = 25 height = 25 }
 						max_slots_horizontal = 1
+						resizeparent = yes
 					}
 				}
 			}
-			# hidden
+
 			dropDownBoxType = {
 				name = "tb_others_group"
 				size = { width = 80 height = 35 }
 				position = { x = @hidden y = 3 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_resource_strategic_top_bar"
@@ -1059,6 +1018,7 @@ guiTypes = {
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
+
 				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
@@ -1069,20 +1029,28 @@ guiTypes = {
 					format = center
 					alwaysTransparent = yes
 				}
+
 				expandedWindow = {
 					name = "expanded_window"
 					hide_position = { x = 0 y = -190 }
 					show_position = { x = 0 y = 36 }
-					size = { width = 100 height = 325 }
+					size = { width = 100 height = 325 } # Dynamic in topbar_other_resource_groups.txt
 					show_animation_type = decelerated
 					hide_animation_type = accelerated
 					animation_time = 200
-			
+
 					background = {
 						name = "bg"
 						spriteType = "GFX_subwindow_tile_plain_solid"
 					}
-			
+
+					# iconType = {
+					# 	name = "bg_separator"
+					# 	position = { x = 50 y = 175 }
+					# 	quadTextureSprite = "GFX_subwindow_tile_plain_solid_separator"
+					# 	alwaysTransparent = yes
+					# }
+
 					gridBoxType = {
 						name = "resources"
 						format = "UPPER_LEFT"
@@ -1090,17 +1058,11 @@ guiTypes = {
 						size = { width = 100% height = 100% }
 						slotsize = { width = 25 height = 25 }
 						max_slots_horizontal = 1
+						resizeparent = yes
 					}
 				}
 			}
 		}
-
-		#buttonType = {
-		#	name = "toggle_topbar_extended"
-		#	spriteType = "GFX_topbar_date_plus"
-		#	position = { x = 855 y = 10 }
-		#	oversound = "no_sound"
-		#}
 
 		####################
 		# Time stuff
@@ -1114,13 +1076,13 @@ guiTypes = {
 			buttonType ={
 				name ="pause_bg"
 				spriteType = "GFX_topbar_running"
-				position = { x= -76 y = 3}
+				position = { x= -76 y = 3} # ND
 			}
 
 			buttonType ={
 				name ="pause_bg_stop"
 				spriteType = "GFX_topbar_paused"
-				position = { x= -76 y = 3}
+				position = { x= -76 y = 3} # ND
 				oversound = no_sound
 			}
 
@@ -1148,7 +1110,7 @@ guiTypes = {
 			buttonType = {
 				name = "decrease_speed"
 				quadTextureSprite = "GFX_topbar_date_minus"
-				position = { x= 125 y = 9 }
+				position = { x= 125 y = 9 } # ND
 				clicksound = ui_speed_down_time_click
 				oversound = no_sound
 			}
@@ -1156,7 +1118,7 @@ guiTypes = {
 			buttonType = {
 				name = "increase_speed"
 				quadTextureSprite = "GFX_topbar_date_plus"
-				position = { x= 100 y = 9 }
+				position = { x= 100 y = 9 } # ND
 				clicksound = ui_speed_up_time_click
 				oversound = no_sound
 			}
@@ -1164,18 +1126,17 @@ guiTypes = {
 			instantTextBoxType={
 				name = "time"
 				font = "cg_16b"
-				position = { x= -8 y= 4 }
+				position = { x= -8 y= 4 } # ND
 				maxWidth = 100
 				maxHeight = 16
 				text = "0000.00.00"
-				format = centre
 				alwaystransparent = yes
 			}
 
 			buttonType = {
 				name = "start_stop_icons"
 				quadTextureSprite = "GFX_start_stop_icons"
-				position = { x = -50 y = 8 }
+				position = { x = -50 y = 8 } # ND
 				frame = 1
 				clicksound = ui_click_pause
 				oversound = no_sound
@@ -1183,7 +1144,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "time_description"
-				position = { x = -32 y = 18 }
+				position = { x = -32 y = 18 } # ND
 				font = "cg_16b"
 				text = "GAME_SPEED_3"
 				maxWidth = 150
@@ -1212,6 +1173,7 @@ guiTypes = {
 	##########################
 	# Main coop presence view
 	##########################
+
 	#Used if scaled X resolution is >= "main_presence_resolution_switch"
 	containerWindowType = {
 		name = "main_gui_presence_loose"
@@ -1293,7 +1255,7 @@ guiTypes = {
 		background = {
 			name = "bg"
 			quadTextureSprite = "GFX_tile_outliner_bg"
-			position = { x= 0 y = 0 }
+			position = { x= 0 y = 0  }
 		}
 
 		instantTextBoxType={
@@ -1308,7 +1270,8 @@ guiTypes = {
 			text_color_code = "H"
 		}
 
-		smoothListboxType = {
+		smoothListboxType =
+		{
 			name ="orders"
 			position = { x=10 y=25 }
 			priority = 100
@@ -1326,7 +1289,7 @@ guiTypes = {
 		buttonType = {
 			name = "message_icon_button"
 			quadTextureSprite = "GFX_test_message_icon"
-			position = { x= -2 y = 12 }
+			position = { x= -2 y = 12  }
 			clicksound = "confirmation"
 			oversound = no_sound
 		}
@@ -1365,7 +1328,7 @@ guiTypes = {
 		buttonType = {
 			name = "background"
 			quadTextureSprite = "GFX_event_button_452"
-			position = { x= -25 y = 0 }
+			position = { x= -25 y = 0  }
 			clicksound = confirmation
 		}
 
@@ -1400,7 +1363,7 @@ guiTypes = {
 				name = "background"
 				quadTextureSprite = "GFX_ship_army_outliner"
 				size = { x = 300 y = 50 }
-				position = { x = 0 y = 0 }
+				position = { x = 0 y = 0  }
 			}
 
 			instantTextBoxType = {
@@ -1447,27 +1410,27 @@ guiTypes = {
 
 		iconType = {
 			name = "icon"
-			position = { x=0 y=0 }
+			position = { x = 0 y = 0 }
 			quadTextureSprite = "GFX_topbar_situation_button"
 		}
 
 		iconType = {
 			name = "right_icon"
-			position = { x=218 y=8 }
+			position = { x = 218 y = 8 }
 			scale = 0.6
 			quadTextureSprite = "GFX_topbar_situation_button"
 		}
 
 		iconType = {
 			name = "dot"
-			position = { x=233 y=-3 }
+			position = { x = 233 y = -3 }
 			quadTextureSprite = "GFX_dot_yellow_icon"
 		}
 
 		instantTextBoxType = {
 			name = "text"
 			font = "cg_16b"
-			position = { x = 60 y = 8 }
+			position = { x = 60  y = 8 }
 			maxWidth = 140
 			maxHeight = 30
 			fixedSize = yes
@@ -1478,7 +1441,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "hotkey"
 			font = "cg_16b"
-			position = { x = 195 y = 8 }
+			position = { x = 195  y = 8 }
 			maxWidth = 40
 			maxHeight = 30
 			fixedSize = yes
@@ -1538,7 +1501,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "maingui_left_bar_buttons"
-		size = { width = 250 height = 650 }
+		size = { width = 250 height = 690 }
 		position = { x = -225 y = 35 }
 		hide_position = { x = -225 y = 35 }
 		show_position = { x = -5 y = 35 }
@@ -1552,9 +1515,9 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "background"
-			size = { width = 340 height = 610 }
-			position = { x = 5 y = 5 }
-	
+			size = { width = 320 height = 610 }
+			position = { x = 5 y = 5 } # OFFE TODO Set x = -60 when minimized
+
 			background = {
 				name = "navbar_bg"
 				spriteType = "GFX_navbar_bg_wide"
@@ -1584,7 +1547,7 @@ guiTypes = {
 		buttonType = {
 			name = "lock"
 			quadTextureSprite = "GFX_navbar_lock_less"
-			position = { x = -26 y = -26 }
+			position = { x = -26 y = -26 } # ND
 			Orientation = "LOWER_RIGHT"
 			clicksound = interface
 			oversound = mouse_over

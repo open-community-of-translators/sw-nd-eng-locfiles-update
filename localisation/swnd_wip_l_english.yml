@@ -595,16 +595,12 @@
  edict_leader_bacta_treatments: "Upper Class Bacta Treatment"
  edict_leader_bacta_treatments_desc: "Unrestricted Bacta usage allows our Leaders to surpass their projected age and continue to support our Empire."
 
- leader_trait_swp_cw_tactical_droid_admiral: "old Tactical Droid"
- leader_trait_swp_cw_tactical_droid_admiral_desc: "Tactical droids were a type of battle droid designed to plan battle strategies. Baktoid Combat Automata manufactured several models of tactical droid."
-
- leader_trait_swp_cw_tactical_droid_general: "old Tactical Droid"
- leader_trait_swp_cw_tactical_droid_general_desc: "Tactical droids were a type of battle droid designed to plan battle strategies. Baktoid Combat Automata manufactured several models of tactical droid."
+ leader_trait_swp_cw_tactical_droid: "old Tactical Droid"
+ leader_trait_swp_cw_tactical_droid_desc: "Tactical droids were a type of battle droid designed to plan battle strategies. Baktoid Combat Automata manufactured several models of tactical droid."
 
  swnd_ascension_perk_events.10.name: "Old Tactical Droid found"
- swnd_ascension_perk_events.10.desc: "Through alot of effort, our teams managed to find an intact Tactical Droid from the Clone Wars. After some initial programming and upgrades he is now capable of learning basic new manouvers. Should we prepare him for the role of an Admiral or General?"
- swnd_ascension_perk_events.10.a: "Prepare him as an Admiral."
- swnd_ascension_perk_events.10.b: "Prepare him as a General."
+ swnd_ascension_perk_events.10.desc: "Through alot of effort, our teams managed to find an intact Tactical Droid from the Clone Wars. After some initial programming and upgrades he is now capable of learning basic new manouvers."
+ swnd_ascension_perk_events.10.a: "Prepare him as a Commander."
 
  edict_tactical_droid_search_campaign: "Tactical Droid Search"
  edict_tactical_droid_search_campaign_desc: "After some intial research, some of our people believe to have found the location of an old CIS Tactical Droid from the Clone Wars. We could repurpose him as a new General or Admiral."

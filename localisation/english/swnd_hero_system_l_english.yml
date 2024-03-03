@@ -57,6 +57,9 @@
  PRESCRIPTED_leader_name_jabba: "Jabba Desilijic Tiure"
  jabba_backstory: "There are few crimelords as powerful and influential as §HHis Excellency §Y[This.GetName]§! of §YNal Hutta§!§!. He controls multiple smuggling, slaving, and piracy actions across the §BOuter Rim§!."
  ### Other - from formables or neutral ###
+ PRESCRIPTED_leader_name_jocasta: "Jocasta Nu"
+ jocasta_nu_backstory: "Madame §Y[This.GetName]§! once served as §HChief Librarian§! in the Jedi Archives."
+ jocasta_nu_catchphrase: "Don't let our deaths have been in vain."
  lama_su_backstory: "Serving as the Prime Minister of Kamino, §Y[This.GetName]§! now leads his people in uncertain times."
  lama_su_catchphrase: "We must be cautious."
  PRESCRIPTED_leader_name_tyber_zann: "Tyber Zann"
@@ -162,7 +165,7 @@
  quest_backstory: "§Y[This.GetName]§! serves as the Emperor's Hand - one of many of elite agents that answer to the §HEmperor§! directly."
  quest_catchphrase: "..."
  swnd_hero_name_maketh_tua: "Maketh Tua"
- tua_backstory: "§Y[This.GetName]§! is a graduate of the §HImperial Academy§! and is an Imperial governor. Unlike other governors, she refrains from relying on barbaric and sadistic actions."
+ tua_backstory: "§Y[This.GetName]§! is a graduate of the §HImperial Academy§! and serves the Empire as a planetary governor. Unlike her colleagues, she refrains from relying on barbaric and sadistic actions."
  tua_catchphrase: "I am honored by your attention."
 
  ### Mandalorian Heroes (Non Empire)
@@ -280,6 +283,13 @@
  silri_backstory: "§Y[This.GetName]§! is a witch of Dathomir, one of the very few survivors of her kind. While very violent and prone to fits of rage, she remains an important part of Zann's criminal ambitions."
 
  ### Hero System Traits
+ leader_trait_swnd_hero_leader_important: "Important Character"
+ leader_trait_swnd_hero_leader_important_desc: "This leader is vital to galactic affairs."
+ leader_trait_swnd_hero_leader_notable: "Notable Character"
+ leader_trait_swnd_hero_leader_notable_desc: "This leader is a notable figure in galactic affairs."
+ leader_trait_swnd_hero_leader_relevant: "Relevant Character"
+ leader_trait_swnd_hero_leader_relevant_desc: "This leader is a relevant figure in galactic affairs."
+
  leader_trait_swnd_phoenix: "Phoenix Cell"
  leader_trait_swnd_phoenix_desc: "This leader is a member of Commander Jun Sato's Phoenix Cell."
  leader_trait_swnd_cw_vet_general_rep: "Veteran General"

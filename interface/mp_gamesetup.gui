@@ -1,7 +1,28 @@
 guiTypes = {
 	@SettingEntrySizeX = 434
 	@SettingEntrySizeY = 34
-
+	@ND_hidden = 9999
+	@row_1 = 60
+	@row_2 = 100
+	@row_3 = 140
+	@row_4 = 180
+	@row_5 = 220
+	@row_6 = 260
+	@row_7 = 300
+	@row_8 = 340
+	@row_9 = 380
+	@row_10 = 420
+	@row_11 = 460
+	@row_12 = 500
+	@row_13 = 540
+	@row_14 = 580
+	@row_15 = 620
+	@row_16 = 660
+	@row_17 = 700
+	@row_18 = 740
+	@row_19 = 780
+	@row_20 = 820
+	
 	positionType = {
 		name = "gamesetup_mp_chat_input_stt_off_size"
 		position = { x = 371 y = 20 }
@@ -104,7 +125,6 @@ guiTypes = {
 				position = { x = 18 y = 40 }
 				size = { x = 340 y = 550 }
 				scrollbarType = "standardlistbox_slider"
-				borderSize = { x = 0 y = 0 }
 				orientation = "UPPER_LEFT"
 				autohide_scrollbar = no
 			}
@@ -184,14 +204,14 @@ guiTypes = {
 				verticalScrollbar = "right_vertical_slider"
 				background = {
 					name = "background"
-					spriteType="GFX_invisible"
+					spriteType = "GFX_invisible"
 				}
 
 				# Size
 				containerWindowType = {
 					name = "pick_size"
 					position = { x = 25 y = 40 } # ND
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "pick_size_label"
@@ -199,7 +219,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						text = "GALAXY_SIZE"
 						orientation = "UPPER_LEFT"
 						pdx_tooltip = "FE_GALAXY_SIZE_TOOLTIP"
@@ -234,7 +253,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -247,8 +266,8 @@ guiTypes = {
 				# Shape
 				containerWindowType = {
 					name = "pick_shape"
-					position = { x = 10000 y = 50 } # ND hidden
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 50 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "pick_shape_label"
@@ -256,7 +275,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "GALAXY_SHAPE"
 						pdx_tooltip = "FE_GALAXY_SHAPE_TOOLTIP"
@@ -292,7 +310,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -304,9 +322,9 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "num_ai_countries"
-					position = { x = 10000 y = 90
-					 } # ND hidden
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 90
+					 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "pick_empires_label"
@@ -341,7 +359,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "empires_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 220 y = 30 }
@@ -357,9 +375,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -385,8 +400,8 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "num_advanced_ai_countries"
-					position = { x = 10000 y = 130 } # ND hidden
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 130 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "pick_empires_label"
@@ -394,7 +409,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "NUM_ADVANCED_EMPIRES"
 						pdx_tooltip = "FE_ADVANCED_EMPIRES_TOOLTIP"
@@ -402,7 +416,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "pick_empires_value"
-						position = { x = 25 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -416,18 +430,18 @@ guiTypes = {
 						name = "randomize_checkbox"
 						spriteType = "GFX_checkbox_20_20_01"
 						pdx_tooltip = "FE_RANDOMIZE_ADVANCED_EMPIRES_TOOLTIP"
-						position = { x = 392
+						position = { x = 455
 						 y = 0 }
 					}
 
 					scrollbarType = {
 						name = "empires_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
-						size = { x = 204 y = 30 }
-						position = { x = 230 y = 0 }
+						size = { x = 220 y = 30 }
+						position = { x = 235 y = 0 }
 						priority = 100
 						borderSize = { x = 16 y = 16 }
 						maxValue = 100
@@ -439,9 +453,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -467,8 +478,8 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "num_fallen_empires"
-					position = { x = 10000 y = 170 } # ND hidden
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 170 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "pick_empires_label"
@@ -476,7 +487,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "NUM_FALLEN_EMPIRES"
 						pdx_tooltip = "FE_FALLEN_EMPIRES_TOOLTIP"
@@ -505,7 +515,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "empires_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 220 y = 30 }
@@ -521,9 +531,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -550,8 +557,8 @@ guiTypes = {
 				### Marauder Empires
 				containerWindowType = {
 					name = "num_marauder_empires"
-					position = { x = 10000 y = 210 } # ND hidden
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 210 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "pick_empires_label"
@@ -580,59 +587,53 @@ guiTypes = {
 						name = "randomize_checkbox"
 						spriteType = "GFX_checkbox_20_20_01"
 						pdx_tooltip = "FE_RANDOMIZE_MARAUDER_EMPIRES_TOOLTIP"
-						position = { x=1117 y =0}
+						position = { x = 1117 y = 0 }
 					}
 
 					scrollbarType = {
 						id = "num_fallen_empires_slider"
 						name = "empires_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 220 y = 30 }
 						position = { x = 235 y = 0 }
 						priority = 100
-						borderSize = {x =16 y = 16}
+						borderSize = {x = 16 y = 16 }
 						maxValue = 100
 						minValue = 0
-						stepSize =1
+						stepSize = 1
 						startValue = 20
 						horizontal = 1
 
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "scrollbar_TrackButton"
 							quadTextureSprite = "scrollbar_background"
-							position = { x=30 y =20}
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
+							position = { x = 30 y = 20 }
 						}
 						guiButtonType = {
 							name = "scrollbar_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "scrollbar_downButton"
 							quadTextureSprite = "scrollbar_rightbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 					}
 				}
 
 				containerWindowType = {
 					name = "tech_cost"
-					position = { x = 25 y = 140 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_4 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "tech_cost_label"
@@ -640,7 +641,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_TECH_SPEED"
 						pdx_tooltip = "FE_TECH_SPEED_TOOLTIP"
@@ -661,7 +661,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
@@ -677,9 +677,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -704,9 +701,79 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "num_habitable_worlds" # ND hidden
-					position = { x = 10000 y = 280 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					name = "tradition_cost"
+					position = { x = 25 y = @row_5 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
+
+					instantTextBoxType = {
+						name = "tradition_cost_label"
+						position = { x = 10 y = 5 }
+						font = "cg_16b"
+						maxWidth = 204
+						maxHeight = 52
+						orientation = "UPPER_LEFT"
+						text = "FE_TRADITION_SPEED"
+						pdx_tooltip = "FE_TRADITION_SPEED_TOOLTIP"
+					}
+
+					instantTextBoxType = {
+						name = "pick_amount_value"
+						position = { x = 25 y = 5 }
+						font = "cg_16b"
+						maxWidth = 204
+						maxHeight = 52
+						format = right
+						alwaysTransparent = yes
+						orientation = "UPPER_LEFT"
+						text = "100%"
+					}
+
+					scrollbarType = {
+						name = "amount_slider"
+						slider = "scrollbar_SliderButton"
+						track = "scrollbar_TrackButton"
+						leftbutton = "scrollbar_upButton"
+						rightbutton = "scrollbar_downButton"
+						size = { x = 204 y = 30 }
+						position = { x = 230 y = 0 }
+						priority = 100
+						borderSize = { x = 16 y = 16 }
+						maxValue = 100
+						minValue = 0
+						stepSize = 1
+						startValue = 20
+						horizontal = 1
+
+						guiButtonType = {
+							name = "scrollbar_SliderButton"
+							quadTextureSprite = "GFX_settings_scroll_drager"
+							position = { x = 30 y = 0 }
+						}
+
+						guiButtonType = {
+							name = "scrollbar_TrackButton"
+							quadTextureSprite = "scrollbar_background"
+							position = { x = 30 y = 20 }
+						}
+
+						guiButtonType = {
+							name = "scrollbar_upButton"
+							quadTextureSprite = "scrollbar_leftbutton"
+							position = { x = 30 y = 0 }
+						}
+
+						guiButtonType = {
+							name = "scrollbar_downButton"
+							quadTextureSprite = "scrollbar_rightbutton"
+							position = { x = 30 y = 120 }
+						}
+					}
+				}
+
+				containerWindowType = {
+					name = "num_habitable_worlds"
+					position = { x = @ND_hidden y = 330 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "habitable_worlds_label"
@@ -714,7 +781,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "NUM_HABITABLE_WORLDS"
 						pdx_tooltip = "FE_HABITABLE_WORLDS_TOOLTIP"
@@ -735,7 +801,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 220 y = 30 }
@@ -751,9 +817,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -779,8 +842,8 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "num_primitive_worlds"
-					position = { x = 10000 y = 320 } # ND hidden
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 370 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "primitive_worlds_label"
@@ -788,7 +851,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_PRIMITIVE_WORLDS"
 						pdx_tooltip = "FE_PRIMITIVE_WORLDS_TOOLTIP"
@@ -809,7 +871,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 220 y = 30 }
@@ -825,9 +887,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -853,8 +912,8 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "crises"
-					position = { x = 25 y = 540 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_13 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "crises_label"
@@ -862,7 +921,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_CRISES"
 						pdx_tooltip = "FE_CRISES_TOOLTIP"
@@ -883,7 +941,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
@@ -899,9 +957,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -928,8 +983,8 @@ guiTypes = {
 				# Crisis Type
 				containerWindowType = {
 					name = "crisis_type"
-					position = { x = 9999 y = 400 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 400 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "crisis_type_label"
@@ -937,14 +992,13 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "CRISIS_TYPE_LABEL"
 						pdx_tooltip = "CRISIS_TYPE_LABEL_TOOLTIP"
 						tooltip_mode_enabled = yes
 					}
 
-					instantTextBoxType={
+					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
 						text = "CRISIS_TYPE_ANY"
@@ -971,7 +1025,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -982,8 +1036,8 @@ guiTypes = {
 				}
 				containerWindowType = {
 					name = "mid_game"
-					position = { x = 25 y = 180 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_7 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "mid_game_label"
@@ -991,7 +1045,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_MID_GAME"
 						pdx_tooltip = "FE_MID_GAME_TOOLTIP"
@@ -1012,7 +1065,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
@@ -1028,9 +1081,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -1056,9 +1106,8 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "end_game"
-					position = { x = 25 y = 220
-					 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_8 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "end_game_label"
@@ -1066,7 +1115,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_END_GAME"
 						pdx_tooltip = "FE_END_GAME_TOOLTIP"
@@ -1087,7 +1135,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
@@ -1103,9 +1151,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -1131,8 +1176,8 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "victory"
-					position = { x = 25 y = 260 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_9 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "victory_label"
@@ -1140,7 +1185,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_VICTORY"
 						pdx_tooltip = "FE_VICTORY_TOOLTIP"
@@ -1161,7 +1205,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
@@ -1177,9 +1221,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -1206,8 +1247,8 @@ guiTypes = {
 				# Difficulty
 				containerWindowType = {
 					name = "difficulty"
-					position = { x = 25 y = 300 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_14 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "difficulty_label"
@@ -1215,16 +1256,15 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_DIFFICULTY"
 						pdx_tooltip = "FE_DIFFICULTY_TOOLTIP"
 						tooltip_mode_enabled = yes
 					}
 
-					instantTextBoxType={
+					instantTextBoxType = {
 						name = "value"
-						font = "malgun_goth_24"
+						font = "cg_16b"
 						text = "DIFFICULTY_NORMAL"
 						position = { x = 230 y = 0 }
 						maxWidth = 204
@@ -1249,7 +1289,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -1262,8 +1302,8 @@ guiTypes = {
 				# Scaling Difficulty
 				containerWindowType = {
 					name = "scaling_difficulty"
-					position = { x = 25 y = 340 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_15 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "scaling_difficulty_label"
@@ -1271,16 +1311,15 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_SCALING_DIFFICULTY"
 						pdx_tooltip = "FE_SCALING_DIFFICULTY_TOOLTIP"
 						tooltip_mode_enabled = yes
 					}
 
-					instantTextBoxType={
+					instantTextBoxType = {
 						name = "value"
-						font = "malgun_goth_24"
+						font = "cg_16b"
 						text = "FTL_WARP"
 						position = { x = 230 y = 0 }
 						maxWidth = 204
@@ -1305,7 +1344,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -1318,7 +1357,7 @@ guiTypes = {
 				# Difficutly Adjusted AI Modifiers
 				containerWindowType = {
 					name = "difficulty_adjusted_ai_bonus_container"
-					position = { x = 25 y = 380 }
+					position = { x = 25 y = @row_16 }
 
 					instantTextBoxType = {
 						name = "difficulty_adjusted_ai_bonus_label"
@@ -1332,17 +1371,15 @@ guiTypes = {
 						tooltip_mode_enabled = yes
 					}
 
-					instantTextBoxType={
+					instantTextBoxType = {
 						name = "value"
-						font = "malgun_goth_24"
+						font = "cg_16b"
 						text = "ON"
-						position = { x = 235 y = 0 }
+						position = { x = 230 y = 0 }
 						maxWidth = 204
-
 						maxHeight = 35
 						fixedSize = yes
 						format = center
-						alwaysTransparent = yes
 					}
 
 					spinnerType = {
@@ -1351,7 +1388,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 235 y = 0 }
+						position = { x = 230 y = 0 }
 						priority = 100
 						borderSize = { x = 16 y = 16 }
 						horizontal = 1
@@ -1361,7 +1398,60 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
+						}
+						guiButtonType = {
+							name = "spinner_downButton"
+							quadTextureSprite = "scrollbar_rightbutton"
+							position = { x = 30 y = 120 }
+						}
+					}
+				}
+
+				containerWindowType = {
+					name = "tech_cost_difficulty_scale"
+					position = { x = 25 y = @row_6 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
+
+					instantTextBoxType = {
+						name = "tech_cost_difficulty_scale_label"
+						position = { x = 10 y = 4 }
+						font = "cg_16b"
+						maxWidth = 204
+						maxHeight = 52
+						orientation = "UPPER_LEFT"
+						text = "FE_TECH_SPEED_DIFFICULTY_SCALE"
+						pdx_tooltip = "FE_TECH_SPEED_DIFFICULTY_SCALE_TOOLTIP"
+					}
+
+					instantTextBoxType = {
+						name = "value"
+						font = "cg_16b"
+						text = "DIFFICULTY_NORMAL"
+						position = { x = 230 y = 6 }
+						maxWidth = 204
+						maxHeight = 35
+						fixedSize = yes
+						format = center
+					}
+
+					spinnerType = {
+						id = "tech_cost_difficulty_scale_spinner"
+						name = "tech_cost_difficulty_scale_spinner"
+						leftbutton = "spinner_upButton"
+						rightbutton = "spinner_downButton"
+						size = { x = 204 y = 30 }
+						position = { x = 230 y = 0 }
+						priority = 100
+						borderSize = { x = 16 y = 16 }
+						horizontal = 1
+						maxValue = 100
+						startValue = 0
+
+						guiButtonType = {
+							name = "spinner_upButton"
+							quadTextureSprite = "scrollbar_leftbutton"
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -1374,8 +1464,8 @@ guiTypes = {
 				# Aggressiveness
 				containerWindowType = {
 					name = "aggressiveness"
-					position = { x = 25 y = 420 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_10 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "aggressiveness_label"
@@ -1383,7 +1473,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_AGGRESSIVENESS"
 						pdx_tooltip = "FE_AGGRESSIVENESS_TOOLTIP"
@@ -1392,7 +1481,7 @@ guiTypes = {
 
 					instantTextBoxType={
 						name = "value"
-						font = "malgun_goth_24"
+						font = "cg_16b"
 						text = "DIFFICULTY_NORMAL"
 						position = { x = 230 y = 0 }
 						maxWidth = 204
@@ -1417,7 +1506,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -1430,9 +1519,9 @@ guiTypes = {
 				# Advanced empires near player
 				containerWindowType = {
 					name = "advanced_near_player"
-					position = { x = 10000 y = 640
+					position = { x = @ND_hidden y = 810
 					 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "advanced_near_player_label"
@@ -1440,19 +1529,18 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_ADVANCED_NEAR_PLAYER"
 						pdx_tooltip = "FE_ADVANCED_NEAR_PLAYER_TOOLTIP"
 						tooltip_mode_enabled = yes
 					}
 
-					instantTextBoxType={
+					instantTextBoxType = {
 						name = "value"
-						font = "malgun_goth_24"
+						font = "cg_16b"
 						text = "FTL_WARP"
-						position = { x = 230 y = 0 }
-						maxWidth = 204
+						position = { x = 235 y = 0 }
+						maxWidth = 220
 						maxHeight = 35
 						fixedSize = yes
 						format = center
@@ -1463,8 +1551,8 @@ guiTypes = {
 						name = "galaxy_advanced_empires_near_player_spinner"
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
-						size = { x = 204 y = 30 }
-						position = { x = 230 y = 0 }
+						size = { x = 220 y = 30 }
+						position = { x = 235 y = 0 }
 						priority = 100
 						borderSize = { x = 16 y = 16 }
 						horizontal = 1
@@ -1474,7 +1562,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -1487,28 +1575,27 @@ guiTypes = {
 				# Player positions
 				containerWindowType = {
 					name = "pick_player_locations"
-					position = { x = 10000 y = 680 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 850 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "galaxy_player_locations_lable"
 						position = { x = 10 y = 4 }
 						font = "cg_16b"
-						maxWidth = 204
+						maxWidth = 220
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "PLAYER_LOCATIONS"
 						pdx_tooltip = "FE_CLUSTERED_STARTS_TOOLTIP"
 						tooltip_mode_enabled = yes
 					}
 
-					instantTextBoxType={
+					instantTextBoxType = {
 						name = "value"
-						font = "malgun_goth_24"
+						font = "cg_16b"
 						text = "PLAYER_LOCATIONS_NORMAL"
-						position = { x = 230 y = 0 }
-						maxWidth = 204
+						position = { x = 235 y = 0 }
+						maxWidth = 220
 						maxHeight = 35
 						fixedSize = yes
 						format = center
@@ -1519,8 +1606,8 @@ guiTypes = {
 						name = "galaxy_player_locations_spinner"
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
-						size = { x = 204 y = 30 }
-						position = { x = 230 y = 0 }
+						size = { x = 220 y = 30 }
+						position = { x = 235 y = 0 }
 						priority = 100
 						borderSize = { x = 16 y = 16 }
 						horizontal = 1
@@ -1530,7 +1617,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -1543,8 +1630,8 @@ guiTypes = {
 				### Number of hyperlanes generated
 				containerWindowType = {
 					name = "hyperlanes"
-					position = { x = 10000 y = 720 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 890 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "pick_hyperlanes_label"
@@ -1558,7 +1645,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "pick_value"
-						position = { x = 25 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -1572,43 +1659,37 @@ guiTypes = {
 						id = "hyperlanes_slider"
 						name = "value_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
-						size = { x = 204 y = 30 }
-						position = { x = 230 y = 0 }
+						size = { x = 220 y = 30 }
+						position = { x = 235 y = 0 }
 						priority = 100
 						maxValue = 100
 						minValue = 0
-						stepSize =1
+						stepSize = 1
 						startValue = 20
 						horizontal = 1
 
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "scrollbar_TrackButton"
 							quadTextureSprite = "scrollbar_background"
-							position = { x=30 y =20}
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
+							position = { x = 30 y = 20 }
 						}
 						guiButtonType = {
 							name = "scrollbar_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "scrollbar_downButton"
 							quadTextureSprite = "scrollbar_rightbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 					}
 				}
@@ -1616,8 +1697,8 @@ guiTypes = {
 				### Pregenerated Gateways - Used as Habitability slider
 				containerWindowType = {
 					name = "gateways"
-					position = { x = 25 y = 100 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_3 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "pick_gateways_label"
@@ -1645,44 +1726,38 @@ guiTypes = {
 						id = "gateways_slider"
 						name = "value_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
 						position = { x = 230 y = 0 }
 						priority = 100
-						borderSize = {x =16 y = 16}
+						borderSize = {x = 16 y = 16 }
 						maxValue = 100
 						minValue = 0
-						stepSize =1
+						stepSize = 1
 						startValue = 20
 						horizontal = 1
 
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "scrollbar_TrackButton"
 							quadTextureSprite = "scrollbar_background"
-							position = { x=30 y =20}
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
+							position = { x = 30 y = 20 }
 						}
 						guiButtonType = {
 							name = "scrollbar_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "scrollbar_downButton"
 							quadTextureSprite = "scrollbar_rightbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 					}
 				}
@@ -1690,8 +1765,8 @@ guiTypes = {
 				### Number of natural wormhole pairs generated
 				containerWindowType = {
 					name = "wormholes"
-					position = { x = 10000 y = 800 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 970 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "pick_wormholes_label"
@@ -1705,7 +1780,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "pick_value"
-						position = { x = 25 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -1719,52 +1794,46 @@ guiTypes = {
 						id = "wormholes_slider"
 						name = "value_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
-						size = { x = 204 y = 30 }
-						position = { x = 230 y = 0 }
+						size = { x = 220 y = 30 }
+						position = { x = 235 y = 0 }
 						priority = 100
-						borderSize = {x =16 y = 16}
+						borderSize = {x = 16 y = 16 }
 						maxValue = 100
 						minValue = 0
-						stepSize =1
+						stepSize = 1
 						startValue = 20
 						horizontal = 1
 
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "scrollbar_TrackButton"
 							quadTextureSprite = "scrollbar_background"
-							position = { x=30 y =20}
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
+							position = { x = 30 y = 20 }
 						}
 						guiButtonType = {
 							name = "scrollbar_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "scrollbar_downButton"
 							quadTextureSprite = "scrollbar_rightbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 					}
 				}
 
 				containerWindowType = {
 					name = "guaranteed_colonies"
-					position = { x = 10000 y = 840 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 1010 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "guaranteed_colonies_label"
@@ -1772,7 +1841,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 164
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_GUARANTEED_COLONIES"
 						pdx_tooltip = "FE_GUARANTEED_COLONIES_TOOLTIP"
@@ -1780,7 +1848,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "pick_amount_value"
-						position = { x = 25 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -1793,12 +1861,13 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
-						size = { x = 204 y = 30 }
-						position = { x = 230 y = 0 }
+						size = { x = 220 y = 30 }
+						position = { x = 235 y = 0 }
 						priority = 100
+						borderSize = { x = 16 y = 16 }
 						maxValue = 100
 						minValue = 0
 						stepSize = 1
@@ -1808,9 +1877,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -1837,8 +1903,8 @@ guiTypes = {
 				# Caravaneers - Used to set on/off the First Galactic Empire
 				containerWindowType = {
 					name = "caravaneer"
-					position = { x = 20 y = 580 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_2 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "caravaneers_label"
@@ -1846,16 +1912,15 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "CARAVANEERS_LABEL"
 						pdx_tooltip = "CARAVANEERS_LABEL_TOOLTIP_MULTIPLAYER"
 						tooltip_mode_enabled = yes
 					}
 
-					instantTextBoxType={
+					instantTextBoxType = {
 						name = "value"
-						font = "malgun_goth_24"
+						font = "cg_16b"
 						text = "FTL_WARP"
 						position = { x = 230 y = 0 }
 						maxWidth = 204
@@ -1880,7 +1945,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -1892,8 +1957,8 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "lgate_enabled"
-					position = { x = 10000 y = 1010 } # ND hidden
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 1090 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "lgate_label"
@@ -1901,7 +1966,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "LGATE_LABEL"
 						pdx_tooltip = "LGATE_LABEL_TOOLTIP"
@@ -1935,7 +1999,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -1945,11 +2009,11 @@ guiTypes = {
 					}
 				}
 
-				# Xeno Compatibility
+				# Xeno Compatibility - hyper relays
 				containerWindowType = {
 					name = "xeno_compatibility"
-					position = { x = 10000 y = 1050 } # ND hidden
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = @ND_hidden y = 1130 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "xeno_compatibility_label"
@@ -1957,14 +2021,13 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "XENO_COMPATIBILITY_LABEL"
 						pdx_tooltip = "XENO_COMPATIBILITY_LABEL_TOOLTIP"
 						tooltip_mode_enabled = yes
 					}
 
-					instantTextBoxType={
+					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
 						text = "FTL_WARP"
@@ -1991,7 +2054,7 @@ guiTypes = {
 						guiButtonType = {
 							name = "spinner_upButton"
 							quadTextureSprite = "scrollbar_leftbutton"
-							position = { x=30 y =0}
+							position = { x = 30 y = 0 }
 						}
 						guiButtonType = {
 							name = "spinner_downButton"
@@ -2003,8 +2066,8 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "logistic_ceiling"
-					position = { x = 25 y = 460 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_11 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "logistic_ceiling_label"
@@ -2012,7 +2075,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_LOGISTIC_CEILING"
 						pdx_tooltip = "FE_LOGISTIC_CEILING_TOOLTIP"
@@ -2033,7 +2095,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
@@ -2049,9 +2111,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -2077,8 +2136,8 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "growth_scale"
-					position = { x = 25 y = 500 }
-					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+					position = { x = 25 y = @row_12 }
+					size = { width = @SettingEntrySizeX height = @SettingEntrySizeY }
 
 					instantTextBoxType = {
 						name = "growth_scale_label"
@@ -2086,7 +2145,6 @@ guiTypes = {
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
-						#alwaysTransparent = yes
 						orientation = "UPPER_LEFT"
 						text = "FE_GROWTH_SCALE"
 						pdx_tooltip = "FE_GROWTH_SCALE_TOOLTIP"
@@ -2107,7 +2165,7 @@ guiTypes = {
 					scrollbarType = {
 						name = "amount_slider"
 						slider = "scrollbar_SliderButton"
-						track= "scrollbar_TrackButton"
+						track = "scrollbar_TrackButton"
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
@@ -2123,9 +2181,6 @@ guiTypes = {
 						guiButtonType = {
 							name = "scrollbar_SliderButton"
 							quadTextureSprite = "GFX_settings_scroll_drager"
-							tooltip = ""
-							tooltipText =""
-							delayedTooltipText = ""
 							position = { x = 30 y = 0 }
 						}
 
@@ -2222,7 +2277,6 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 					spriteType = "GFX_button_75_24"
 					buttonFont = "cg_16b"
-					text = ""
 					font = "cg_16b"
 				}
 
@@ -2275,7 +2329,6 @@ guiTypes = {
 			name = "connection_status"
 			position = { x = -390 y = -55 }
 			font = "cg_16b"
-			text = ""
 			maxWidth = 780
 			maxHeight = 80
 			format = centre
@@ -2288,7 +2341,7 @@ guiTypes = {
 			position = { x = -390 y = -55 }
 			spriteType = "GFX_invisible"
 			size = { x = 780 y = 80 }
-			web_link="https://support.paradoxplaza.com/hc/en-us/articles/115007925347-Firewall-Connectivity-Issues"	
+			web_link = "https://support.paradoxplaza.com/hc/en-us/articles/115007925347-Firewall-Connectivity-Issues"
 			orientation = "CENTER_DOWN"
 		}
 
@@ -2308,7 +2361,7 @@ guiTypes = {
 			name = "version_button"
 			spriteType = "GFX_invisible"
 			size = { x = 300 y = 20 }
-			position = { x= -125 y = -20 }
+			position = { x = -125 y = -20 }
 			orientation = "CENTER_DOWN"
 		}
 
@@ -2419,7 +2472,7 @@ guiTypes = {
 		buttonType = {
 			name = "inspect"
 			spriteType = "GFX_explore_empire"
-			position = { x = 7 y = 7}
+			position = { x = 7 y = 7 }
 		}
 
 		buttonType = {
@@ -2642,7 +2695,7 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 		}
 
-		instantTextBoxType={
+		instantTextBoxType = {
 			position = { x = 37 y = 35 }
 			name = "name"
 			font = "cg_16b"

@@ -302,3 +302,19 @@
  d_jedha_catacombs_cadera_desc: "The Catacombs of Cadera served as a burial ground for the skeletal remains of thousands of generations of NiJedhan monks, adherents of a vanished faith, whose name and history have been long forgotten. Their humanoid skulls lined the catacomb walls, a revered but morbid presence. The site had a reputation for being haunted by spirits of the departed and was generally avoided by the locals."
  d_jedha_jedha_city: "The Holy City"
  d_jedha_jedha_city_desc: "Jedha was an ancient city located on the cold, desert Mid Rim moon of Jedha. Standing atop a rocky mesa, the city was surrounded by a large wall and contained various temples and adorned buildings. Jedha City was divided into two sections by a Division Wall, one section was known as the Old City and the other known as the New City. The most notable structure in the Holy City was the ancient Temple of the Kyber a great temple protruding high above the city wall that was held sacred by those who followed the teachings of the Church of the Force. Considered a holy site for followers of the mystical energy field known as the Force, the Holy City's streets were filled with priests, scholars, and holy men and women, many of them pilgrims, who could be recognized by their distinctive and often ornate robes."
+
+ ### 31 Jan 2024 ###
+ d_bracca_scrapyards: "Bracca Scrapyards"
+ d_bracca_scrapyards_desc: "Established during the Clone Wars, the Scrapper Guild is responsible for the dismantling and salvage of severely damaged capital ships and the repurpose of any salavaged technology and components."
+ d_nevarro_lava_fields: "Nevarro Lava Fields"
+ d_nevarro_lava_fields_desc: "Nevarro's volcanic surface is dotted with vast fields of lava, making some parts of the planet uninhabitable."
+ d_tomb_of_eilram: "Tomb of Eilram"
+ d_tomb_of_eilram_desc: "The final resting place of the Zeffonian sage Eilram, a master of the Life Wind. Their tomb is decorated with an ornate carving of a wroshyr tree."
+ d_tomb_of_miktrull: "Tomb of Miktrull"
+ d_tomb_of_miktrull_desc: "The final resting place of the Zeffonian sage Miktrull, a master of the Life Wind. Their tomb is ornate and filled with offerings."
+ d_mount_izukika: "Mount Izukika"
+ d_mount_izukika_desc: "Mount Izukika is home to both Kijimi City and Kijimi Spaceport. The buildings and streets of the city are made from granitic rock quarried from the snow capped mountain."
+
+ ### 14 Feb 2024 ###
+ d_aki_ktura: "Aki-Ktura"
+ d_aki_ktura_desc: "Aki-Ktura is a populous Aki-Aki farming village."

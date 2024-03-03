@@ -1767,7 +1767,7 @@ l_english:
  swp_thrawn_events.31.name: "§YIntergalactic Banking Clan§! Suppy Yard"
  swp_thrawn_events.31.desc: "After a short fight, our forces succesfully pacified any resistance to our presence. One of the smugglers have stepped forward and presented himself as the manager of the facility.\n\nIt turns out that we have found a supply yard for smuggling operations funded by the §YIntergalactic Banking Clan.§! Their local representative has approached Admiral [Root.Leader.GetName] with a generous amount of credits, hoping to persuade us to leave them alone and continue on with our seach elsewhere. However, their supposed affiliation with the §YIGBC§! raises suspicions - especially with §HSan Hill§! dead on §YMustafar§!."
  swp_thrawn_events.31.a: "Take the bribe."
- swp_thrawn_events.31.b: "Confiscate evertyhing and bring it along. But leave this scum where we found them."
+ swp_thrawn_events.31.b: "Leave this scum where we found them."
  swp_thrawn_events.31.c: "Blast them!"
  swp_thrawn_events.40.name: "The Campsite"
  swp_thrawn_events.40.desc: "After scouring the campsite, we've found little to no sign of any smuggler activity. However, there are odd symbols on a few of the crates. When compared to symbols used by known criminal organizations, there is no match. The same goes for symbols used by pockets of insurgency throughout the known galaxy.\n\nHowever, a young cadet named §HEli Vanto§! points out that the symbols are associated with a trade language used within an isolationist power in the §BUnknown Regions§! - the §YChiss Ascendancy§!. With this new information in mind, the landing party assumes it best to set up a landing site near by and prepare for a 'first contact' situation."

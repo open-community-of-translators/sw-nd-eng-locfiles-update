@@ -135,3 +135,8 @@
  infernal_world_desc: "The huge cavities and tunnels beneath the surface of the molten planet are likely a result of the activity of the hydrosphere of this world, which once occupied a significant part of it. As a result of tectonic changes and a sharp overheating of the surface, a network of closed caves was formed. Surprisingly, under the surface of this blazing hell, there is a hidden world with a nitrogen-oxygen atmosphere. The extremophilic biosphere is mainly composed of the simplest forms that maintain the delicate balance of this world."
  subglacial_world: "Subglacial World"
  subglacial_world_desc: "Under the ice of this frozen world lies a hidden network of giant caves and oceans reaching deep into the planet's crust. This impressive but structurally unstable world has a nitrogen-oxygen atmosphere and a poor but fully developed and stable biosphere."
+
+ scrapyard_world: "Scrapyard World"
+ scrapyard_world_desc: "Rocky world with a polluted nitrogen-oxygen atmosphere. This world has been used as a dumping ground for generations and every inch is covered in industrial and starship scrap. What few plants and animals survive here have adapted to dangerous conditions."
+ antarctic_world: "Antarctic World"
+ antarctic_desc: "Frigid, rocky world with a nitrogen-oxygen atmosphere. Hydrosphere is mostly frozen, with diamond dust being as common as snow. While winds can reach speeds of over 250 km per hour in the winter months, life can be found in isolated pockets under sea ice, in caves, and in protected valleys."

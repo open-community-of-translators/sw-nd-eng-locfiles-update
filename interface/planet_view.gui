@@ -2271,7 +2271,7 @@ guiTypes = {
 					format = "UPPER_LEFT"
 					slotsize = { width = 35 height = 35 }
 					max_slots_horizontal = 4
-					max_slots_vertical = 8 # ND
+					max_slots_vertical = 7
 					add_horizontal = yes
 				}
 
@@ -2340,7 +2340,7 @@ guiTypes = {
 					name = "frontline"
 					font = "cg_16b"
 					text = "GROUND_COMBAT_FRONTLINE"
-					position = { x = 225 y = 140 } # ND
+					position = { x = 255 y = 140 }
 					maxWidth = 200
 					maxHeight = 20
 					fixedSize = yes

@@ -4517,6 +4517,11 @@
  NAME_Valgauth_P2: "Valgauth"
  NAME_Valgauth_P3: "Yielev"
 
+ #Bracca
+ NAME_Bracca: "Bracca"
+ NAME_Bracca_S: "Bracca"
+ NAME_Bracca_P1: "Bracca"
+
  ### Nath'ri Route ###
  
  #Antar
@@ -4967,6 +4972,11 @@
  NAME_Chroma_Zed: "Chroma Zed"
  NAME_Chroma_Zed_S: "Chroma Zed"
  NAME_Chroma_Zed_P1: "Chroma Zed"
+
+ #Pasaana
+ NAME_Pasaana: "Pasaana"
+ NAME_Pasaana_S: "Middian"
+ NAME_Pasaana_P1: "Pasaana"
  
  ### Botan Run + Manda Merchant Route ###
  
@@ -6167,6 +6177,11 @@
  NAME_Metalorn: "Metalorn"
  NAME_Metalorn_S: "Metalorn"
  NAME_Metalorn_P1: "Metalorn"
+
+ #Kijimi
+ NAME_Kijimi: "Kijimi"
+ NAME_Kijimi_S: "Kijimi"
+ NAME_Kijimi_P1: "Kijimi"
  
  #Bryx
  NAME_Bryx: "Bryx"
@@ -7377,6 +7392,11 @@
  NAME_Ord_Trasi_P1: "Ord Trasi"
  NAME_Ord_Trasi_P1_1: "Ord Trasi I"
  NAME_Ord_Trasi_P1_2: "Ord Trasi II"
+
+ #Zeffo
+ NAME_Zeffo: "Zeffo"
+ NAME_Zeffo_S: "Zeffo"
+ NAME_Zeffo_P1: "Zeffo"
  
  ### Western New Territories ###
  
@@ -9235,8 +9255,13 @@
  NAME_Kinooine: "Kinooine"
  NAME_Kinooine_S: "Kinooine"
  NAME_Kinooine_P1: "Kinooine"
+
+ #Nevarro
+ NAME_Nevarro: "Nevarro"
+ NAME_Nevarro_S: "Nevarro"
+ NAME_Nevarro_P1: "Nevarro"
  
- ##### Unknown Systems #####
+ ##### Unknown Regions Systems #####
  
  ### Shiritoku Way ###
  

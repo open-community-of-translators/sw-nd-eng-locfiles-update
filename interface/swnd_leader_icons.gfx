@@ -1,0 +1,15 @@
+spriteTypes = {
+    ## Tiered hero Icon ##
+    spriteType = { 
+        name = "GFX_leader_trait_swnd_hero_leader_1"
+        textureFile = "gfx/interface/icons/traits/leader_trait_icons/swnd_hero_leader.dds"
+    }
+    spriteType = { 
+        name = "GFX_leader_trait_swnd_hero_leader_2"
+        textureFile = "gfx/interface/icons/traits/leader_trait_icons/swnd_hero_leader.dds"
+    }
+    spriteType = { 
+        name = "GFX_leader_trait_swnd_hero_leader_3"
+        textureFile = "gfx/interface/icons/traits/leader_trait_icons/swnd_hero_leader.dds"
+    }
+}

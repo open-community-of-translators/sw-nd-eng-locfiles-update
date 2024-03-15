@@ -135,7 +135,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "swnd_version"
 				font = "cg_16b"
-				text = "SW: New Dawn 0.8.11 This is the Way!" #### DO NOT FORGET TO UPDATE WHEN UPLOADING!
+				text = "SW: New Dawn 0.8.12a This is the Way!" #### DO NOT FORGET TO UPDATE WHEN UPLOADING!
 				position = { x = 310 y = -15  }
 				maxWidth = 400
 				maxHeight = 20

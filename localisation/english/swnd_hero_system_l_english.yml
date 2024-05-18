@@ -19,6 +19,8 @@
  PRESCRIPED_leader_name_pestage: "Sate Pestage"
  pestage_backstory: "§Y[This.GetName]§! is an ambitious ruler serving at the §HEmperor's§! side."
  pestage_catchphrase: "Without power, one dies."
+ pensar_luc_backstory: "§Y[This.GetName]§! is a Grand Moff appointed to rule over the §YCiutric Hegemony§!."
+ pensar_luc_catchphrase: "..."
  ### Rebel ###
  mon_mothma_backstory: "§Y[This.GetName]§! serves as §YChandrila's§! senator and is a vocal critic of the rapid militarization of the §HGalactic Empire§!."
  mon_mothma_catchphrase: "I show you the stone in my hand, you miss the knife at your throat."
@@ -29,6 +31,11 @@
  breha_backstory: "§Y[This.GetName]§! is the Queen of §YAlderaan§!. She rules with a kind and even hand, valuing diplomacy and fairness over conflict."
  breha_catchphrase: "Authority can be given, but leadership must be earned."
  cham_syndulla_backstory: "§Y[This.GetName]§!, also known as §HThe Hammer of Ryloth§!, is a renowned freedom fighter and revolutionary leader."
+ lee_char_backstory: "§Y[This.GetName]§! rules from Dac as the 83rd King of Mon Cala. Defiant in the face of the growing Empire, he continues to preserve the independence of his people."
+ borsk_feylya_backstory: "§Y[This.GetName]§! wip"
+ ## Separatist ##
+ marath_vooro_backstory: "§Y[This.GetName]§! oversees the remaining Confederate holdouts following the death of the several Separatist leaders on §YMustafar§! at the hands of §HDarth Vader§!."
+ marath_vooro_catchphrase: "..."
  ### Mandalorian ###
  bo_katan_backstory: "Despite being a princess of House Kryze, §Y[This.GetName]§!'s past is filled with connections to §HDeath Watch§! and the §HShadow Collective§!."
  bo_katan_catchprhase: "The enemy of my enemy is my friend."
@@ -56,6 +63,8 @@
  ## Hutt ##
  PRESCRIPTED_leader_name_jabba: "Jabba Desilijic Tiure"
  jabba_backstory: "There are few crimelords as powerful and influential as §HHis Excellency §Y[This.GetName]§! of §YNal Hutta§!§!. He controls multiple smuggling, slaving, and piracy actions across the §BOuter Rim§!."
+ ## Black Sun ##
+ ziton_moj_backstory: "§Y[This.GetName]§! rules as a Vigo for §YBlack Sun§! as well as a collaborator with §YMaul's§! §HShadow Collective§!."
  ### Other - from formables or neutral ###
  PRESCRIPTED_leader_name_jocasta: "Jocasta Nu"
  jocasta_nu_backstory: "Madame §Y[This.GetName]§! once served as §HChief Librarian§! in the Jedi Archives."

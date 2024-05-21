@@ -12,7 +12,7 @@ guiTypes = {
 			size = { width = 100% height = 50 }
 			orientation = lower_left
 			origo = lower_left
-			
+
 			buttonType = {
 				name = "megastructure_tab"
 				quadTextureSprite = "GFX_tab_1_inactive"
@@ -32,7 +32,7 @@ guiTypes = {
 				clicksound = "tab_click"
 				shortcut = "z"
 			}
-			
+
 			buttonType = {
 				name = "shipyard_tab"
 				quadTextureSprite = "GFX_tab_2_inactive"
@@ -57,7 +57,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "background"
 			size = { width = 100% height = -43 }
-			
+
 			background = {
 				name = "bg"
 				spriteType = "GFX_tile_outliner_bg"
@@ -187,34 +187,6 @@ guiTypes = {
 
 				alwaysTransparent = yes
 			}
-			
-			#buttonType = {
-			#	name = "box_2"
-			#	spriteType = "GFX_tiles_frame"
-			#	position = { x = 155 y = 180 }
-			#	size = { x = 254 y = 50 }
-			#	alwaysTransparent = yes
-			#}
-			#buttonType = {
-			#	name = "box_3"
-			#	spriteType = "GFX_tiles_frame"
-			#	position = { x = 155 y = 180 }
-			#	size = { x = 254 y = 50 }
-			#	alwaysTransparent = yes
-			#}
-			#effectButtonType = {
-			#	id = "megastructureContactButtonType"
-			#	name = "megastructureContactButtonName"
-			#	position = { x = 150 y = 175 }
-			#	clicksound = interface
-			#	# spriteType = "GFX_standard_button_240_34_low_transp_button"
-			#	spriteType = "GFX_standard_button_240_34_button"
-			#	clicksound = "megastructure_upgraded"
-			#	buttonText = "MEGASTRUCTURE_CONTACT_BUTTON"
-			#	font = "cg_16b"
-			#	effect = "contact_megastructure_effect"
-			#}
-			
 
 			### CONTENT ###
 			instantTextBoxType = {
@@ -254,7 +226,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "production_box"
 				size = { width = 125 height = 60 }
-				position = { x = 25 y = 370 }	
+				position = { x = 25 y = 370 }
 
 				background = {
 					name = "background"
@@ -277,19 +249,19 @@ guiTypes = {
 				instantTextBoxType={
 					name = "production_amount"
 					font = "cg_16b"
-					position = { x = 0 y = 20 }
+					position = { x = 0  y = 20 }
 					text = "10"
 					maxWidth = 125
 					maxHeight = 40
 					fixedSize = yes
 					format = center
-				}		
+				}
 			}
 
 			containerWindowType = {
 				name = "upkeep_box"
 				size = { width = 125 height = 60 }
-				position = { x = 410 y = 370 }	
+				position = { x = 410 y = 370 }
 
 				background = {
 					name = "background"
@@ -312,20 +284,20 @@ guiTypes = {
 				instantTextBoxType={
 					name = "upkeep_amount"
 					font = "cg_16b"
-					position = { x = 0 y = 20 }
+					position = { x = 0  y = 20 }
 					text = "10"
 					maxWidth = 125
 					maxHeight = 30
 					fixedSize = yes
 					format = center
-				}		
+				}
 			}
-			
+
 			containerWindowType = {
 				name = "possible_upgrades_content"
 				position = { x = 0 y = 347 }
 				size = { width = 100% height = 40% }
-				
+
 				instantTextBoxType = {
 					name = "title"
 					font = "malgun_goth_24"
@@ -349,7 +321,7 @@ guiTypes = {
 				name = "upgrading_content"
 				position = { x = 0 y = 325 }
 				size = { width = 100% height = 40% }
-				
+
 				instantTextBoxType = {
 					name = "upgrade_remaining"
 					font = "cg_16b"
@@ -364,7 +336,7 @@ guiTypes = {
 					name = "upgrade_progress"
 					spriteType = "GFX_queue_progressbar_229"
 					position = { x = 166 y = 70 }
-				}			
+				}
 			}
 		}
 
@@ -372,7 +344,7 @@ guiTypes = {
 			name = "shipyard_tab"
 			position = { x = 0 y = 30 }
 			size = { width = 100% height = -50 }
-			
+
 			containerWindowType = {
 				name = "capacity_info"
 				position = { x = 10 y = 27 }
@@ -389,7 +361,7 @@ guiTypes = {
 					spriteType = "GFX_starbase_shipyard"
 					position = { x = 8 y = -65 }
 					orientation = LOWER_LEFT
-				}				
+				}
 
 				instantTextBoxType = {
 					name = "shipyard_capacity"
@@ -528,9 +500,8 @@ guiTypes = {
 	containerWindowType = {
 		name = "megastructure_side_view"
 		position = { x = 564 y = 9 }
-		# size = { width = 338 height = 470 }
-		size = { width = 420 height = 470 }
-	
+		size = { width = 420 height = 470 } # size = { width = 338 height = 470 }
+
 
 		background = {
 			name = "planet_view_spaceport_construction_panel_background"
@@ -564,7 +535,7 @@ guiTypes = {
 		smoothListboxType = {
 			name = "entries_list"
 			position = { x = 12 y = 53 }
-			size = { x = 390 y = 402 }			
+			size = { x = 390 y = 402 }
 			scrollbarType = "standardlistbox_slider"
 			borderSize = { x = 0 y = 0 }
 			orientation = "UPPER_LEFT"
@@ -573,16 +544,16 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "megastructure_upgrade_entry"			
+		name = "megastructure_upgrade_entry"
 		size = { width = 316 height = 50 }
 		position = { x = 0 y = 0 }
-		
+
 		background = {
 			name = "bg"
 			spriteType = "GFX_standard_button_240_34_button"
 			clicksound = "megastructure_upgraded"
 		}
-		
+
 		instantTextBoxType = {
 			name = "title"
 			font = "cg_16b"

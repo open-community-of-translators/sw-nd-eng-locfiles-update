@@ -43,6 +43,7 @@ bitmapfonts = {
 		A = { 255 230 50 } # Used in Major Empires Explanation
 		i = { 0 0 0 }
 		_ = { 255 0 255 }	# _ Placeholder magenta, used for placeholders.
+		U = { 204 179 255 } # U = Mauve, used for the Crisis Tab
 
 		# Trait Rarity Colors
 		c = { 60 208 146 }

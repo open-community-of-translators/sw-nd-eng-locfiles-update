@@ -46,10 +46,10 @@ spriteTypes = {
 			animationlooping = yes
 			animationtime = 40.0
 			animationdelay = 0.0
-			animationblendmode = "overlay" #add, multiply, overlay
-			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationblendmode = "overlay"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
 			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 }	
+			animationtexturescale = { x = 1.0 y = 1.0 } 
 			animationframes = { 1 2 3 }
 		}
 	}
@@ -544,14 +544,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/espionage/assetCard_GRD.dds"
 	}
 
-	# TODO: discuss if it's needed
 	#spriteType = {
 	#	name = "GFX_spyPowerBar_threshold"
 	#	texturefile = "gfx/interface/espionage/spyPowerBar_threshold.dds"
 	#}
 
 	## Intel Ledger and Assets Icons
-	## 1. Military 2. Science 3. Gov 4. Diplomacy 5. Commerce
+	## 1. Military  2. Science  3. Gov  4. Diplomacy 5. Commerce
 
 	spriteType = {
 		name = "GFX_intel_ledger_icons"
@@ -563,8 +562,8 @@ spriteTypes = {
 	### Intel GFX
 	###########################################
 
-	## Intel level icon	
-	## 1. low 2. medium 3. high
+	## Intel level icon 
+	## 1. low  2. medium  3. high
 
 	spriteType = {
 		name = "GFX_intel_level"
@@ -597,7 +596,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/intel/intel_icon_intel_level_full.dds"
 	}
 
-	## Unknown icons when there's not enough intel	
+	## Unknown icons when there's not enough intel 
 	spriteType = {
 		name = "GFX_unknown_civics"
 		texturefile = "gfx/interface/intel/intel_icon_unknown_civics.dds"
@@ -760,6 +759,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
 		type = character
 		character = yes
+		alternate_configurations = {
+			holographic
+		}
 	}
 
 	###########################################
@@ -789,7 +791,6 @@ spriteTypes = {
 		name = "GFX_diplomacy_specialist_subject_prospectorium_large"
 		texturefile = "gfx/interface/subjugation/specialists_icons/specialist_subject_prospectorium_icon.dds"
 	}
-	
 
 	###########################################
 	### PreFTL Tech ages GFX

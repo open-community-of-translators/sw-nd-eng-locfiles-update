@@ -45,6 +45,8 @@
  
  unlocks_armageddon_bombardment: "§YBase Delta Zero Stance§! is unlocked.\n"
 
+ CRISIS_TAB_DISABLED: "Only available with $TRAD|Y$ or §Y$mando_crusader_chain$§! Ascension Perk"
+
  #Traditions
  tr_unyielding_resistance_is_frugal_desc: "£building£ §Y$building_stronghold$§! buildings and §YFortress Districts§! now produce §Y3§! £unity£ Unity. In addition, §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! is incresed by §G+25%§!."
 

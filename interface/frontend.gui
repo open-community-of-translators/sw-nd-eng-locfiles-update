@@ -135,7 +135,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "swnd_version"
 				font = "cg_16b"
-				text = "SW: New Dawn 0.8.12b This is the Way!" #### DO NOT FORGET TO UPDATE WHEN UPLOADING!
+				text = "SW: New Dawn 0.8.13 This is the Way!" #### DO NOT FORGET TO UPDATE WHEN UPLOADING!
 				position = { x = 310 y = -15  }
 				maxWidth = 400
 				maxHeight = 20
@@ -654,7 +654,21 @@ guiTypes = {
 			Orientation = "CENTER"
 			position = { x = -476 y = -10 }
 		}
-
+		
+		buttonType = {
+			name ="portrait_empty_room"
+			spriteType = "GFX_portrait_gamesetup_mask_empty_room"
+			Orientation = "CENTER"
+			position = { x= -950 y= -700 }
+		}
+		
+		buttonType = {
+			name ="character_without_room"
+			spriteType = "GFX_portrait_gamesetup_mask_character_without_room"
+			Orientation = "CENTER"
+			position = { x= 50 y= -700 }
+		}
+		
 		buttonType = {
 			name = "portrait_planet"
 			spriteType = "GFX_portrait_planet_character"

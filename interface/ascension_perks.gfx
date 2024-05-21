@@ -52,7 +52,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ap_evolutionary_mastery"
-		texturefile = "gfx/interface/icons/ascension_perks/ap_evolutionary_mastery.dds"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_engineered_evolution.dds"
 		alwaystransparent = yes
 	}
 
@@ -267,6 +267,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ap_cosmogenesis"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_cosmogenesis.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
 		name = "GFX_ap_lord_of_war"
 		texturefile = "gfx/interface/icons/ascension_perks/ap_lord_of_war.dds"
 		alwaystransparent = yes
@@ -286,7 +292,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ap_mechromancy"
-		texturefile = "gfx/interface/icons/ascension_perks/ap_mechromancy.dds" # TODO Placeholder Art to be replaced with AUG-39747
+		texturefile = "gfx/interface/icons/ascension_perks/ap_mechromancy.dds"
 		alwaystransparent = yes
 	}
 }

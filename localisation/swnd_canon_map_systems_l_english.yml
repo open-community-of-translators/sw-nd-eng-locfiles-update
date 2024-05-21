@@ -1029,7 +1029,12 @@
  NAME_Listehol: "Listehol"
  NAME_Listehol_S: "Listehol"
  NAME_Listehol_P1: "Listehol"
- 
+
+ #Seelos
+ NAME_Seelos: "Seelos"
+ NAME_Seelos_S: "Seelos"
+ NAME_Seelos_P1: "Seelos"
+
  #Ruuria
  NAME_Ruuria: "Ruuria"
  NAME_Ruuria_S: "Ruuria"
@@ -7008,6 +7013,12 @@
  NAME_Cademimu: "Cademimu"
  NAME_Cademimu_S: "Cademimu"
  NAME_Cademimu_P1: "Cademimu V"
+
+ #Ajan Kloss
+ NAME_Ajan_Kloss: "Ajara"
+ NAME_Ajan_Kloss_S: "Ajara"
+ NAME_Ajan_Kloss_P1: "Ajara"
+ NAME_Ajan_Kloss_P1_1: "Ajan Kloss"
  
  #Agamar
  NAME_Agamar: "Mirgoshir"

@@ -1905,7 +1905,7 @@ guiTypes = {
 					size = { x = 210 y = 30 }
 					position = { x = 747 y = 0 }
 					priority = 100
-					borderSize = {x =16 y = 16}
+					borderSize = { x =16 y = 16}
 					horizontal = 1
 					maxValue = 100
 					startValue = 0

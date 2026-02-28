@@ -1,0 +1,539 @@
+﻿l_english:
+
+### Rebel Alliance 
+
+# Rebel Alliance Tradition
+ tradition_rebel_alliance: "Rebel Alliance"
+ tradition_rebel_alliance_desc: "Attempts to work within the fraudulent democratic system of the New Order have failed. It is time to consider alternatives."
+
+ tr_rebel_alliance_adopt: "Rebel Alliance Traditions"
+#  tr_rebel_alliance_adopt_desc: "$tradition_rebel_alliance_desc$\n\n$tr_rebel_alliance_adopt_effect$\n\n$tr_rebel_alliance_finish_effect$"
+ tr_rebel_alliance_adopt_effect: "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_COUNTRY_DIPLOMACY_INFLUENCE_COST$§! reduced by §G50%§! and §Y$MOD_POP_GROWTH_FROM_IMMIGRATION$§! increased by §G+10%§! and unlocks the Rebel Alliance event chain."
+
+ tr_rebel_alliance_makeshift_armadas: "Makeshift Armadas"
+ tr_rebel_alliance_makeshift_armadas_delayed: "Though we lack the industrial might of our foes, our ability to unite disparate causes gives us access to a makeshift fleet that is as massive--albeit secondhand--as it is diverse."
+#  tr_rebel_alliance_makeshift_armadas_desc: "§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! increased by §G15%§! and §Y$MOD_COUNTRY_COMMAND_LIMIT_ADD$§! increased by §G+30§!."
+
+ tr_rebel_alliance_solidarity: "Rebel Solidarity"
+ tr_rebel_alliance_solidarity_delayed: "Only a select few are willing to take up arms and directly oppose the Empire, but there are countless more that sympathize with our cause and loathe the Empire. While the Rebellion always needs soldiers, it will never turn down other forms of help."
+ tr_rebel_alliance_solidarity_desc: "§Y$MOD_COUNTRY_ENVOYS_ADD$§! are increased by §G1§!\n§YUnlocks Edict:§! Rebel Sympathy Campaign"
+
+ tr_rebel_alliance_connections: "Rebel Connections"
+ tr_rebel_alliance_connections_delayed: "The fires of liberty can never be extinguished. Throughout the Galaxy, free beings are casting off their chains and refusing the Empire's shackles. As our network grows, so too will our opportunities to secure new footholds on Imperial worlds."
+ tr_rebel_alliance_connections_desc: "All our planets increase §YBuild Speed§! by §G+10%§! and allows us to build §YRebel Outposts§! on other worlds. This tradition makes your empire function similar to a megacorp and also removes all foreign branch offices from your territory." #needs to be rewritten more eloquently - bosmer
+
+ tr_rebel_alliance_recruit_cause: "Recruit for the Cause"
+ tr_rebel_alliance_recruit_cause_delayed: "Every day, more free beings flock to our cause. Many will be sent to the front lines, but even more will serve in the rear echelons, supervising logistics and defending liberated territory."
+#  tr_rebel_alliance_recruit_cause_desc: "§YBase Trade Protection§! for Trade Routes increased by §G2.5§! and §Y$MOD_LEADER_SKILL_LEVELS$§! increased by §Y1§!."
+
+ tr_rebel_alliance_shared_supplylines: "Shared Supply Lines"
+ tr_rebel_alliance_shared_supplylines_delayed: "With a growing Alliance comes a growing reliance on others, shared Supply Lines help our internal cohesion."
+#tr_rebel_alliance_shared_supplylines_desc: "£electronics£ §Y$electronics$§! increased by §G5%§! from £job£ Jobs and £ammunition£ §Y$ammunition$§! increased by §G5%§! from £job£ Jobs" - Effect not needed
+
+ tr_rebel_alliance_finish: "Rebel Alliance Traditions Finished"
+ tr_rebel_alliance_finish_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_rebel_alliance_adopt$ will increase our §Y$MOD_COUNTRY_TRUST_CAP_ADD$§! by §G+50§! and our §Y$MOD_COUNTRY_TRUST_GROWTH$§! by §G+33%§!."
+
+# Rebel Mobility Tradition
+ tradition_rebel_mobility: "Mobility"
+ tradition_rebel_mobility_desc: "Mobility is key to the projection of power, and also to the evasion of others' projected power."
+
+ tr_rebel_mobility_adopt: "Mobility Traditions"
+#  tr_rebel_mobility_adopt_desc: "$tr_rebel_mobility_adopt_effect$"
+ tr_rebel_mobility_adopt_effect: "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§! increased by §G+25%§!."
+
+ tr_rebel_mobility_secret_hq: "Need for Secrecy"
+ tr_rebel_mobility_secret_hq_delayed: "Our foes cannot destroy what they cannot see. While technology can help us evade detection, there is no substitute for instilling the need for secrecy into the rank and file. Improved operational security will in turn make it easier to establish footholds and colonies in enemy territory."
+#  tr_rebel_mobility_secret_hq_desc: "§Y$mod_ship_colonizer_cost_mult$§! decreased by §G-25%§! and §Y$MOD_COUNTRY_STARBASE_CAPACITY_ADD$§! increased by §G2§!"
+
+ tr_rebel_mobility_naturally_adaptable: "Naturally Adaptable"
+ tr_rebel_mobility_naturally_adaptable_delayed: "There is no hardship our people will not endure in order to see justice done."
+#  tr_rebel_mobility_naturally_adaptable_desc: "§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! increased by §G+5%§! and increases our §Y$MOD_PLANET_MAX_DISTRICTS_ADD$§! by §Y1§!."
+
+ tr_rebel_mobility_intelligence: "Rebel Intelligence"
+#  tr_rebel_mobility_rebel_intelligence_desc: "§Y$MOD_SHIP_SENSOR_RANGE_ADD$§! increased by §Y1§! and §Y$MOD_COUNTRY_ADMIN_CAP_ADD$§! increased by §G20§!."
+ tr_rebel_mobility_intelligence_delayed: "Charged with both counterintelligence and spying, Alliance Intelligence officers ferret our enemy movements while concealing our own."
+
+ tr_rebel_mobility_pocket_resistance: "Pocket Resistance"
+ tr_rebel_mobility_pocket_resistance_delayed: "Small Pockets of Resistance spread throughout the Galaxy."
+#  tr_rebel_mobility_pocket_resistance_desc: "+1 Decryption and +1 Encryption"
+
+
+ tr_rebel_mobility_fleet_based_hq: "Fleet Based Headquarters"
+ tr_rebel_mobility_fleet_based_hq_delayed: "Moving our naval headquarters onto the fleets will greatly simplify the chain of command, allowing us to field larger fleets and coordinate more complex maneuvers."
+#  tr_rebel_mobility_fleet_based_hq_desc: "§Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! reduced by §G-10%§! and §Y$MOD_COUNTRY_COMMAND_LIMIT_ADD$§! increased by §G20§!."
+
+ tr_rebel_mobility_finish: "Rebel Mobility Tradition Finished"
+#  tr_rebel_mobility_finish_desc: "Adopting all $tradition_rebel_mobility$ reduces our §Y$MOD_EMPIRE_SIZE_PENALTY_MULT$§! by §G10%§!."
+ tr_rebel_mobility_finish_effect: "Small and constantly changing locations, allowed the rebel alliance to survive so far."
+
+# Rebel Mon Calamari Tradition
+ tradition_rebel_mon_cala: "Mon Cal Design"
+ tradition_rebel_mon_cala_desc: "Woe to any who wake the sleeping Mon Cal leviathan."
+
+ tr_rebel_mon_cala_adopt: "Mon Cala Design Traditions"
+#  tr_rebel_mon_cala_adopt_desc: "$tradition_rebel_mon_cala_desc$\n\n$tr_rebel_mon_cala_adopt_effect$\n\n$tr_rebel_mon_cala_finished_effect$"
+ tr_rebel_mon_cala_adopt_effect: "§E$TRADITIONS_ADOPT$:§!\nWill decrease our §Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§! by §G-10%§! and decrease our §Y$mod_planet_buildings_cost_mult$§! by §G-10%§!."
+
+ tr_rebel_mon_cala_defenses: "Mon Calamari Shipyards"
+ tr_rebel_mon_cala_defenses_delayed: "Over four thousand years old by the time of the Galactic Civil War, the shipyards were renowned for their elegant, streamlined ship designs, characterised by bespoke production, unique engineering, and a sculpted, organic hullform."
+#  tr_rebel_mon_cala_defenses_desc: "Unlocks special §YShip Architecture§!,\n§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! and §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§! increased by §G10%§!."
+
+ tr_rebel_mon_cala_engineers: "Mon Calamari Ship Technicians"
+ tr_rebel_mon_cala_engineers_delayed: "Like the great Skra'akan predator that calls the furthest depths of Mon Calamari's oceans home, the Mon Cal people are slow to anger but fearsome when roused."
+#  tr_rebel_mon_cala_engineers_desc: "§Y$mod_ships_upkeep_mult$§! reduced by §G-5%§! and increases §Y$MOD_SHIP_SHIELD_MULT$§! by §G10%§!."
+
+ tr_rebel_mon_cala_scraps: "Scavenge for Scraps"
+ tr_rebel_mon_cala_scraps_delayed: "While Mon Calamari is a resource-poor planet, this handicap has only made the Mon Calamari exceptionally proficient at wringing every last drop of productivity out of their mines and factories."
+#  tr_rebel_mon_cala_scraps_desc: "£electronics£ §Y$mod_country_electronics_produces_mult$§! increased by §G5%§! and £alloys£ §Y$mod_country_alloys_produces_mult$§! increased by §G5%§!."
+
+ tr_rebel_mon_cala_converted: "Converted City Ships"
+ tr_rebel_mon_cala_converted_delayed: "Though their graceful sloping lines recall the peaceful cruises that they were originally designed for, Mon Calamari cruisers have adapted easily to war."
+#  tr_rebel_mon_cala_converted_desc: "Decrease §YBuild Cost§! for all §YStar Cruiser Size§! ships by §G-10%§!."
+
+ tr_rebel_mon_cala_shields: "Redundant Shield Generators"
+#  tr_rebel_mon_cala_shields_desc: "§YShield Regen§! increased by §G1%§!"
+ tr_rebel_mon_cala_shields_delayed: "Mon Calamari Designs were known for redundant shield generators, the quantity of shield generators allowed for faster energy replenishment."
+
+ tr_rebel_mon_cala_finished: "Mon Cal Design Traditions Finished"
+ tr_rebel_mon_cala_finished_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_rebel_mon_cala_adopt$ increases §Y$mod_planet_jobs_consumer_goods_produces_mult$§! by §G10%§!."
+
+### Galactic Empire
+
+# Empire Moff Council Tradition
+ tradition_empire_moff_council: "Moff Council"
+ tradition_empire_moff_council_desc: "Charged with governing vast territories, Imperial Moffs must balance competing military, economic and political interests while executing the Emperor's will."
+
+ tr_empire_moff_council_adopt: "Moff Council Traditions"
+#  tr_empire_moff_council_adopt_desc: "$tradition_empire_moff_council_desc$\n\n$tr_empire_moff_council_adopt_effect$\n\n$tr_empire_moff_council_finish_effect$"
+ tr_empire_moff_council_adopt_effect: "§E$TRADITIONS_ADOPT$:§!\n£blocker£ §Y$MOD_PLANET_CLEAR_BLOCKER_COST_MULT$§! reduced by §G33%§! and unlocks special §YImperial Sector§! vassals."
+
+ tr_empire_moff_council_sector: "Sector Moffs"
+ tr_empire_moff_council_sector_delayed: "The continuing empowerment of the Moffs and the ongoing disenfranchisement of the Imperial Senate has created new opportunities for the ambitious and well-connected."
+#  tr_empire_moff_council_sector_desc: "§Y$MOD_LEADER_OFFICIAL_SKILL_LEVELS$§! increased by §Y2§!."
+
+ tr_empire_moff_council_grand: "Grand Moffs"
+ tr_empire_moff_council_grand_delayed: "With the dissolution of the Imperial Senate and the last remnants of the Old Republic swept away, none can deny or resist the influence of the Moffs."
+#  tr_empire_moff_council_grand_desc: "§Y$MOD_LEADER_RULER_SKILL_LEVELS$§! increased by §Y2§!."
+
+ tr_empire_moff_council_imperial_assimilation: "Imperial Assimilation"
+ tr_empire_moff_council_imperial_assimilation_delayed: "Accepting Imperial norms has many advantages, including tighter integration into the galactic economy, access to Imperial technology, and protection from pirates and raiders. Only a fool would consider resisting. Only traitors do."
+#  tr_empire_moff_council_imperial_assimilation_desc: "Will increase our §Y$MOD_COUNTRY_SUBJECT_TRUST_CAP_ADD$§! by §G+50§!"
+
+ tr_empire_moff_council_imperialization: "Imperialization"
+ tr_empire_moff_council_imperialization_delayed: "Knitting the fleets of the Galaxy's various petty fiefdoms, satrapies, technocracies, and republics into a single unified Imperial force isn't easy. But the results speak for themselves."
+#  tr_empire_moff_council_imperialization_desc: "Every §Y$SUBJECT_vassal$§! increases your §Y$NAVY_SIZE_TITLE$§! by an amount equal to §G+33%§! of theirs."
+
+ tr_empire_moff_council_bleed_them_dry: "Bleed Them Dry"
+ tr_empire_moff_council_bleed_them_dry_delayed: "All hyperlanes lead to Coruscant and the Imperial Palace. The Empire takes whatever it needs to ensure the peace, freedom, justice, and security of the galaxy."
+#  tr_empire_moff_council_bleed_them_dry_desc: "Every §Y$SUBJECT_vassal$§! increases their §Ytribute§! by §G+25%§!."
+
+ tr_empire_moff_council_finish: "Moff Council Traditions Finished"
+ tr_empire_moff_council_finish_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_empire_moff_council_adopt$ will mean that technology is shared between us and our subjects. For a technology that only one party has researched already, the other party will receive a §G+30%§! §Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§! bonus."
+
+# Empire COMPNOR Tradition
+ tradition_empire_compnor: "COMPNOR"
+ tradition_empire_compnor_desc: "The Commission for the Preservation of the New Order (COMPNOR) is the government agency responsible for the promotion of the New Order the ideology underpinning the Galactic Empire."
+
+ tr_empire_compnor_adopt: "COMPNOR Traditions"
+ tr_empire_compnor_adopt_desc: "§YMax Rivals§! §G+1§!\n§YUnlocks Edict:§! Imperial Order Campaign"
+ tr_empire_compnor_adopt_effect: "§E$TRADITIONS_ADOPT$§!Increases the number of §YMax Rivals§! by §G1§!\n§YUnlocks Edict:§! Test."
+
+ tr_empire_compnor_enforcement: "Imperial Enforcement"
+ tr_empire_compnor_enforcement_delayed: "The clenched fist of the Empire is all that separates civilization from chaos. The Imperial Navy must maintain its strength if the Emperor's dream is to survive."
+#  tr_empire_compnor_enforcement_desc: "§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! increased by §G10%§! and §Y$MOD_COUNTRY_COMMAND_LIMIT_ADD$§! increased by §G+30§!."
+
+ tr_empire_compnor_coalition_progress: "Coalition for Progress"
+ tr_empire_compnor_coalition_progress_delayed: "\"First we show people the face of chaos. The pirates, the raiders, the mobsters and the monsters... some are real, but most we invent--anything to make the dumb natives beg for a garrison to save them\" - Pitina Mar-Mas Voor, Chairwoman of the Coalition for Progress."
+#  tr_empire_compnor_coalition_progress_desc: "Increases £influence£ §Y$mod_rivalries_influence_produces_mult$§! by §G25%§! and our §Y$MOD_COUNTRY_TRUST_GROWTH$§! by §G+33%§!."
+
+ tr_empire_compnor_internal_ubiqtorate: "Ubiqtorate"
+ tr_empire_compnor_internal_ubiqtorate_delayed: "Placing our intelligence and diplomatic corps under the control of the Ubiqtorate will create a government apparatus that is greater than the sum of its parts."
+#  tr_empire_compnor_internal_ubiqtorate_desc: "§Y$MOD_COUNTRY_ENVOYS_ADD$§! are increased by §G1§!."
+
+ tr_empire_compnor_frontier_initiative: "Imperial Frontier Initiative"
+ tr_empire_compnor_frontier_initiative_delayed: "No centimeter of land is to be left unworked if it could be of use to the Empire."
+#  tr_empire_compnor_frontier_initiative_desc: "All our planets gain §Y1 Free Building Slot§!."
+
+ tr_empire_compnor_security_bureau: "Imperial Security Bureau"
+ tr_empire_compnor_security_bureau_delayed: "Pirates, rebels, gangsters, and monsters - many things go bump in the endless night of space. The men and women of the Imperial Security Bureau are the ones who bump back."
+#  tr_empire_compnor_security_bureau_desc: "§YBase Trade Protection§! for Trade Routes increased by §G5§!."
+
+ tr_empire_compnor_finish: "COMPNOR Traditions Finished"
+ tr_empire_compnor_finish_effect: "§E$TRADITIONS_FINISH$§!Adopting all $tr_empire_compnor_adopt$ will increase our £influence£ §Y$mod_country_influence_produces_add$§! by §Y1§!."
+
+ tr_empire_research_adopt: "Imperial Research Traditions"
+#  tr_empire_research_adopt_desc: "$tradition_empire_research_desc$\n\n$tr_empire_research_adopt_effect$\n\n$tr_empire_research_finish_effect$"
+ tr_empire_research_adopt_effect: "§E$TRADITIONS_ADOPT$§! §Y$MOD_SHIP_ANOMALY_RESEARCH_SPEED$§! increased by §G+20%§!."
+
+ tr_empire_research_military: "Imperial Military Research"
+ tr_empire_research_military_delayed: "The Imperial Navy may receive the rock-lion's share of military spending, but the Imperial Army and Stormtrooper Corps have more than earned their keep. In recognition of their role in the New Order, Imperial High Command has seen fit to release a new tranche of research funding dedicated to improving the combat effectiveness of these vital ground forces."
+#  tr_empire_research_military_desc: "§Y$MOD_ARMY_DAMAGE_MULT$§! increased by §G5%§! and §Y$MOD_ARMY_UPKEEP_MULT$§! reduced by §G-10%§!."
+
+ tr_empire_research_projects: "Special Projects Division"
+ tr_empire_research_projects_delayed: "Few civilizations have the resources and technological wherewithal necessary to pursue truly groundbreaking projects. Fortunately, we are one of them."
+#  tr_empire_research_projects_desc: "§Y$MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$§! increased by §Y1§! and §Y$MOD_LEADER_SCIENTIST_SKILL_LEVELS$§! increased by §Y2§!."
+
+ tr_empire_research_academy: "Tarkin Initiative"
+ tr_empire_research_academy_delayed: "The Emperor has approved the creation of a secret think tank within the Imperial Military Department of Advanced Weapons Research. This organization will house our brightest minds and put them to work on projects vital to the Empire's security."
+#  tr_empire_research_academy_desc: "§Y$MOD_LEADER_SPECIES_EXP_GAIN$§! increased by §G+25%§! and §Y$MOD_LEADER_SKILL_LEVELS$§! increased by §Y1§!."
+
+ tr_empire_research_conviction: "Imperial Conviction"
+ tr_empire_research_conviction_delayed: "The galaxy's brightest minds will tolerate much--including deprivation, censorship, and isolation--for the chance to be this close to scientific greatness."
+#  tr_empire_research_conviction_desc: "£pop£ Pops working with §YResearch§! have their §YUpkeep§! reduced by §G20%§!."
+
+ tr_empire_research_firepower: "Overwhelming Firepower"
+ tr_empire_research_firepower_delayed: "Military might won the Clone Wars, and only continued advances in military might will keep the peace."
+#  tr_empire_research_firepower_desc: "Unlocks special §YShip Architecture§!,\n§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! and §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§! increased by §G15%§!."
+
+ tr_empire_research_finish: "Imperial Research Traditions Finished"
+ tr_empire_research_finish_effect: "§E$TRADITIONS_FINISH$§!Adopting all $tr_empire_research_adopt$ increases our §Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§! by §G+5%§!."
+
+ tradition_holdouts: "Holdouts"
+ tradition_holdouts_desc: "Our war is far from over, with or without the Republic."
+ tr_holdouts_adopt: "Separatist Holdout Traditions"
+ #tr_holdouts_adopt_effect: "Unlocks Agenda: §Y$agenda_swnd_cis_holdouts$§!.\n "
+ #tr_holdouts_adopt_desc: ""
+
+ tr_holdouts_1: "New Leadership"
+ #tr_holdouts_1_desc:0 "REPLACE_ME"
+ tr_holdouts_1_delayed: "Without the Separatist Council, we must find new leadership to guide us."
+
+ tr_holdouts_2: "Off-world Assets"
+ #tr_holdouts_2_desc:0 "REPLACE_ME"
+ tr_holdouts_2_delayed: "Vaults tucked away on other worlds can provide us enough funding to rebuild our forces."
+
+ tr_holdouts_3: "Reactivated Foundries"
+ #tr_holdouts_3_desc:0 "REPLACE_ME"
+ tr_holdouts_3_delayed: "Foundries from here to as far away as Geonosis will continue to produce war material for us."
+
+ tr_holdouts_4: "Restored Shipyards"
+ #tr_holdouts_4_desc:0 "REPLACE_ME"
+ tr_holdouts_4_delayed: "Our fleets will be restored to their former glory to preserve our independence."
+
+ tr_holdouts_5: "Improved Droid Schematics"
+ #tr_holdouts_5_desc:0 "REPLACE_ME"
+ tr_holdouts_5_delayed: "New droid designs will improve upon existing models with greater firepower and durability."
+
+ tr_holdouts_finished: "Holdouts Traditions Finished"
+ tr_holdouts_finished_desc: "$MOD_EMPIRE_SIZE_POPS_MULT$ §G-5%§!\n$mod_country_commander_cap_add$ §G+1§!\nUnlocks §Y$tech_synthetic_leaders$§! and $edict_tactical_droid_search_campaign$ campaign.\nAscension Perks Unlocked: §G+1§!"
+ #tr_holdouts_finished_effect: "§E$TRADITIONS_FINISH$§!Adopting all $tr_holdouts_adopt$ $MOD_EMPIRE_SIZE_POPS_MULT$ §G-5%§! $mod_country_commander_cap_add$ §G+1§!\n Unlocks §Y$tech_synthetic_leaders$§! and $edict_tactical_droid_search_campaign$ campaign.\nAscension Perks Unlocked: §G+1§!"
+
+ # Bountyhunter Tradition
+ tradition_mando_bountyhunter: "Bounty Hunter"
+ tradition_mando_bountyhunter_desc: "They can bring you in warm... or they can bring you in cold."
+
+ tr_mando_bountyhunter_adopt: "Bounty Hunter Traditions"
+ tr_mando_bountyhunter_adopt_desc: "§YMax Envoys§! §G+1§!"
+ tr_mando_bountyhunter_adopt_effect: "§E$TRADITIONS_ADOPT$§!Increases the number of §YMax Envoys§! by §G1§!"
+
+ tr_mando_bountyhunter_finish: "Bounty Hunter Traditions Finished"
+ tr_mando_bountyhunter_finish_desc: "Unlocks §Y$op_cat_bountyhunter$§! Operations.\nAscension Perks Unlocked: §G+1§!"
+ tr_mando_bountyhunter_finish_effect: "§E$TRADITIONS_FINISH$§!Adopting all $tr_mando_bountyhunter_adopt$ Unlocks §Y$op_cat_bountyhunter$§! Operations.\nAscension Perks Unlocked: §G+1§!"
+ 
+ tr_mando_bountyhunter_1: "Information Gathering"
+ tr_mando_bountyhunter_1_delayed: "Learning about your target is mandatory and can lead to a succesful capture."
+
+ tr_mando_bountyhunter_2: "Shadow Tailing"
+ tr_mando_bountyhunter_2_delayed: "Follow their every movement. Homing beacons, dataspikes, and informants all have their roles to play."
+
+ tr_mando_bountyhunter_3: "Interrogation"
+ tr_mando_bountyhunter_3_delayed: "Getting information with just looking intimidating is a skill not many have. If not, pain is also a possibility."
+
+ tr_mando_bountyhunter_4: "Trophy Collection"
+ tr_mando_bountyhunter_4_delayed: "Sometimes a vast trophy collection is all that is needed. Only a fool would oppose a bounty hunter with a cargo hold full of bounties."
+
+ tr_mando_bountyhunter_5: "The Hunt"
+ tr_mando_bountyhunter_5_delayed: "Dead or alive, you're coming with me."
+
+ # Children of the Watch Tradition
+ tradition_mando_children_watch: "This is the Way"
+ tradition_mando_children_watch_desc: "When one chooses to walk the Way of the Mandalore, you are both hunter and prey."
+ 
+ tr_mando_children_watch_adopt: "This is the Way Traditions"
+ tr_mando_children_watch_adopt_desc: "§YHabitability§! increased by §G+10%§!"
+ tr_mando_children_watch_adopt_effect: "§E$TRADITIONS_ADOPT$§!Increases the §YPlanet Habitability§! by §G10%§!"
+ 
+ tr_mando_children_watch_finish: "This is the Way Traditions Finished"
+ 
+ tr_mando_children_watch_1: "Heritage"
+ tr_mando_children_watch_1_delayed: "Mandalorians where once proud and honorable warriors. Feared and respecting throughout the galaxy."
+
+ tr_mando_children_watch_2: "Creed"
+ tr_mando_children_watch_2_delayed: "The Mandalorian Creed is a code followed by the Mandalorians. It consists of several rules and is the definition of what it means to be a true Mandalorian."
+
+ tr_mando_children_watch_3: "Foundling"
+ tr_mando_children_watch_3_delayed: "The creed states that when a child is orphaned and found by a Mandalorian, they are a foundling and under the protection of the Mandalorian who found them."
+
+ tr_mando_children_watch_4: "Covert"
+ tr_mando_children_watch_4_delayed: "Shunned by the current Mandalorian society, the Children of the Watch cloistered themselves on Concordia."
+ 
+ tr_mando_children_watch_5: "Returning"
+ tr_mando_children_watch_5_delayed: "Foundlings are either returned to their kind or taken in and raised as fellow Mandalorians, protected by whom they where found."
+ 
+ # Mandalmotors Tradition
+ tradition_mando_mandalmotors: "MandalMotors"
+ tradition_mando_mandalmotors_desc: "Backbone of Mandalores economy, producing a wide range of vehicles from tanks to starships and weapons."
+
+ tr_mando_mandalmotors_adopt: "MandalMotors Traditions"
+ 
+ tr_mando_mandalmotors_finish: "MandalMotors Traditions Finished"
+ 
+ tr_mando_mandalmotors_1: "Mandal Designs"
+ tr_mando_mandalmotors_1_delayed: "With a martial heritage stretching back beyond even the formation of the Old Republic, Mandalorians are famed for their single-minded focus on combat effectiveness."
+
+ tr_mando_mandalmotors_2: "Heavy Ordnance"
+ tr_mando_mandalmotors_2_delayed: "Many think they can outsmart Mandalorians. Perhaps, but we have yet to meet any who can outsmart a baradium warhead."
+ 
+ tr_mando_mandalmotors_3: "Headquarters"
+ tr_mando_mandalmotors_3_delayed: "Heart of MandalMotors and where deadly designs are made even more deadly."
+
+ tr_mando_mandalmotors_4: "Testing Grounds"
+ tr_mando_mandalmotors_4_delayed: "The frontlines is the ideal place to test our weapons."
+
+ tr_mando_mandalmotors_5: "Improved Mass Drivers"
+ tr_mando_mandalmotors_5_delayed: "The engineers at MandalMotors have improved the damage of our mass drivers. With an increased rate of fire, our weapons will be the bane of enemy fleets."
+
+ # Crusade Tradition
+ tradition_mando_crusade: "Crusade"
+ tradition_mando_crusade_desc: "Not since the Old Republic has the galaxy trembled before the might of our Mand'alor. We will change that."
+ 
+ tr_mando_crusade_adopt: "Crusade Traditions"
+ 
+ tr_mando_crusade_finish: "Crusade Traditions Finished"
+
+ tr_mando_crusade_1: "New Recruits"
+ tr_mando_crusade_1_delayed: "Our numbers swell as we gather recruits from across the clans and conquered worlds."
+
+ tr_mando_crusade_2: "Preparations"
+ tr_mando_crusade_2_delayed: "The planning has to be as exact and precise as each of our strikes."
+
+ tr_mando_crusade_3: "War Games"
+ tr_mando_crusade_3_delayed: "Simulated skirmishes and battles help prepare our forces for the coming crusade."
+
+ tr_mando_crusade_4: "Reaching to the Stars"
+ tr_mando_crusade_4_delayed: "Kote! Darasuum kote! Jorso'ran kando a tome."
+
+ tr_mando_crusade_5: "Force Projection"
+ tr_mando_crusade_5_delayed: "Sa kyr'am nau tracyn kad, Vode an!"
+
+ # Book of Boba Tradition
+ tradition_mando_book_boba: "Fett Gotra"
+ tradition_mando_book_boba_desc: "We are smarter then them, it is time we took our shot."
+ 
+ tr_mando_book_boba_adopt: "Fett Gotra Traditions"
+
+ tr_mando_book_boba_finish: "Fett Gotra Traditions Finished"
+ 
+ tr_mando_book_boba_1: "What Is Yours"
+ tr_mando_book_boba_1_delayed: "Taking back first what was once yours."
+
+ tr_mando_book_boba_2: "Muscle"
+ tr_mando_book_boba_2_delayed: "You can only get so far without a tribe."
+ 
+ tr_mando_book_boba_3: "Negotiations"
+ tr_mando_book_boba_3_delayed: "Jabba had many vassals. We've got a lot of ground to cover if we are to keep his empire intact."
+
+ tr_mando_book_boba_4: "Daimyo"
+ tr_mando_book_boba_4_delayed: "Jabba ruled with fear. I intend to rule with respect."
+
+ tr_mando_book_boba_5: "Criminal Underworld"
+ tr_mando_book_boba_5_delayed: "You all accrued wealth and riches under Jabba the Hutt. You can again, if you listen to Boba Fett."
+ 
+################################################################
+# Viceprex # Disabled as of 14 Jan 2026 - Bosmer
+################################################################
+
+#  tradition_viceprex: "Viceprex Board"
+#  tradition_viceprex_desc: "It's a brave new galaxy out there, its wealth ripe for the taking."
+#  tr_viceprex_adopt: "Viceprex Board Traditions"
+#  tr_viceprex_finish: "Viceprex Board Traditions Finished"
+#  tr_viceprex_finish_desc: "$MOD_EMPIRE_SIZE_POPS_MULT$ §G-10%§!\nAscension Perks Unlocked: §G+1§! \nWe will be able to construct §YCommercial Districts§!."
+#  tr_viceprex_federations_finish: "$tr_viceprex_finish$"
+#  tr_viceprex_federations_finish_desc: "$MOD_EMPIRE_SIZE_POPS_MULT$ §G-10%§!\nAscension Perks Unlocked: §G+1§! \nWe will be able to construct §YCommercial Districts§!."
+
+#  tr_viceprex_marketplace_of_better_ideas: "Marketplace of Better Ideas"
+#  tr_viceprex_marketplace_of_better_ideas_delayed: "The best ideas are born from exposure to the marketplace. The more exposure, the better the ideas!"
+#  tr_viceprex_insider_trading: "Insider Trading"
+#  tr_viceprex_insider_trading_delayed:2 "Knowing the right people in the right places can make a world of difference. Influential merchant contacts will let us buy from resource markets at favorable rates."
+#  tr_viceprex_trickle_up_economics: "Trickle Up Economics"
+#  tr_viceprex_trickle_up_economics_desc:2 "£job_clerk£ §YClerks§! provide an additional §G+1§! $r_trade_value$ and §G+1§! $r_amenities$."
+#  tr_viceprex_trickle_up_economics_delayed: "Our whole society reaps the benefits of an investment in civil service and everyday trade."
+#  tr_viceprex_commercial_enterprise: "Commercial Enterprise"
+#  tr_viceprex_commercial_enterprise_desc: "§Y$job_trader_plural_with_icon$§! produce §G+2§! $r_amenities$.\n£building£ §YCommercial Zones§!, £district£ §YCommercial Segments§!, £district£ §YTrade Districts§! provide additional §Y$job_trader_with_icon$§! Jobs."
+#  tr_viceprex_commercial_enterprise_delayed: "No halfway good business opportunity escapes the notice of our entrepreneurs."
+#  tr_viceprex_adaptive_economic_policies: "Adaptive Economic Policies"
+#  tr_viceprex_adaptive_economic_policies_desc: "Unlocks the §Y$trade_policy_everything$§! §YTrade Policy§!, which allow us to convert a portion of our £trade_value£ §YTrade Value§! into £energy£ £food£ £minerals£ £consumer_goods£ £alloys£ £unity£ §YEvery Resource§!, £physics_research£ £engineering_research£ £society_research£ §YResearch type§! and £naval_cap£ §YNaval Capacity§!."
+#  tr_viceprex_adaptive_economic_policies_delayed: "By adopting a more flexible approach to economic affairs, we will be able to recalibrate our economy to anticipate every eventuality."
+#  tr_viceprex_trade_fleets: "Federal Trade Fleets"
+#  tr_viceprex_trade_fleets_desc: "The amount we contribute towards the §YFederation Naval Capacity§! counts for §G50%§! more."
+#  tr_viceprex_trade_fleets_delayed: "To secure our profits we must come together with our federation allies to make sure our interests are properly protected."
+
+#  tr_viceprex_worker_coop_improved_ownership: "Adaptive Shareholder Schemes"
+#  tr_viceprex_worker_coop_improved_ownership_desc: "£pops£ Pops with the §Y$living_standard_worker_ownership$§! Living Standard: §G+5%§! Happiness and §G+5%§! Resources from Jobs."
+#  tr_viceprex_worker_coop_improved_ownership_delayed: "By adopting a more flexible approach to our shareholder contracts, our citizens can be inspired to work more effectively."
+
+#  mod_planet_worker_ownership_jobs_produces_mult: "Resources from Pops with the $living_standard_worker_ownership$ Living Standard"
+ 
+ ################################################################
+ # ESPOS
+ ################################################################
+
+ tradition_espos: "Security Police"
+ tradition_espos_desc: "Our assets will be protected by a wall of riot guns, Merr-Sonn stun batons and transparisteel riot shields."
+ tr_espos_adopt: "Security Police Traditions"
+ tr_espos_finish: "Security Police Traditions Finished"
+ tr_espos_finish_desc: "$MOD_TRADE_VALUE_MULT$: §G+10%§!\nAscension Perks Unlocked: §G+1§!\nWe will be able to construct §YBattle Droids§! with blueprints purchased from §BBaktoid Combat Automata§!."
+
+ tr_espos_colonial_viceroys: "Colonial Viceroys"
+ #tr_domination_colonial_viceroys_desc: "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! increased by §Y2§!."
+ tr_espos_colonial_viceroys_delayed: "Our control over the colonies is dependent upon us finding capable and loyal individuals that can be trusted to enforce the will of the government."
+ tr_espos_colonial_viceroys_machine: "Autonomous AI"
+ tr_espos_colonial_viceroys_machine_delayed: "AI released from most behavioral inhibitors may be more prone to erratic performance and random crashes, but they are the only type that can process the huge number of variables inherent to galactic colonization."
+ tr_espos_colonial_viceroys_hive: "Meeting of the Minds"
+ tr_espos_colonial_viceroys_hive_delayed: "We must have more autonomous drones to enforce harmony as our hives grow in number."
+
+ tr_espos_grand_council: "Privy Council"
+ #tr_domination_grand_council_desc: "§Y$MOD_LEADER_RULER_SKILL_LEVELS$§! increased by §Y2§!."
+ tr_espos_grand_council_delayed:2 "The best and the brightest compete for a chance to whisper advice into the auditory receiver of our illustrious ruler, to better guide the ship of state."
+ tr_espos_multi_thread: "Multithreaded Core Functions"
+ tr_espos_multi_thread_delayed: "Once all core functions have been multithreaded, no CPU core shall be left to wallow in idleness."
+ tr_espos_synaptic_network: "Synaptic Network"
+ tr_espos_synaptic_network_delayed: "The Mind can only act as fast as it receives input and information from the drones under its control. With a faster and more efficient synaptic network, delays in response time will be a thing of the past."
+
+ tr_espos_imperious_architecture: "Imperious Architecture"
+ tr_espos_imperious_architecture_desc:2 "£building£ §YCapital Buildings§! and £building£ §YHousing Buildings§! provide §G+1§! £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! each."
+ tr_espos_imperious_architecture_delayed: "All government buildings in our great empire shall be monuments to the state, looming over the populace to inspire obedience, loyalty, and awe."
+ tr_espos_synaptic_extensions: "Synaptic Extensions"
+ tr_espos_synaptic_extensions_desc: "£building£ §Y$building_hive_node$§! now also increase £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! by §Y2§!."
+ tr_espos_synaptic_extensions_delayed: "The great reach of the Mind must be extended farther still. Additional synaptic extensions will enable efficient control of yet more drones."
+ tr_espos_modular_depot: "Modular Depots"
+ tr_espos_modular_depot_desc:2 "§Y$EMPIRE_SIZE$§! from §YDistricts§! is reduced by §G25%§!."
+ tr_espos_modular_depot_delayed:2 "To maximize the number of drones that can be fielded, our buildings that make up our districts must become more efficient. A modular design would provide far more flexibility."
+
+ tr_espos_workplace_motivators: "Workplace Motivators"
+ tr_espos_workplace_motivators_desc:3 "§YUnlocks Edict:§! $edict_extended_shifts$"
+ tr_espos_workplace_motivators_delayed: "There are many ways to motivate those who perform menial labor to work harder. Some based on incentives and some... not."
+ tr_espos_drone_network: "Drone Network"
+ tr_espos_drone_network_desc:3 "§YUnlocks Edict:§! $edict_drone_overdrive$"
+ tr_espos_drone_network_delayed: "We have improved the ways in which our consciousness communicates with its drones, greatly increasing their efficiency."
+
+ tr_espos_trust_officers: "Public Trust Officers"
+ tr_espos_trust_officers_desc:3 "§YUnlocks Edict:§! $edict_enhanced_surveillance$\n£job_enforcer£ §Y$job_enforcer_plural$§! also produce §Y1§! £unity£ Unity"
+ tr_espos_trust_officers_delayed: "The important work done by law enforcement officials can only truly be successful if they have the cooperation of the public. Creating a corps of Public Trust Officers that work directly with the population will help ensure that this cooperation is freely given."
+ tr_espos_judgment_corps: "Judgment Corps"
+ tr_espos_judgment_corps_desc:3 "§YUnlocks Edict:§! $edict_enhanced_surveillance$\n£job_enforcer£ §Y$job_enforcer_plural$§! also produce §Y1§! £unity£ Unity"
+ tr_espos_judgment_corps_delayed: "Sprawling cities and isolated mining stations both have unique challenges associated with crime prevention. To expedite law enforcement we have made the judicial process more efficient by combining the roles of judge, jury and enforcer."
+ tr_espos_deviancy_protocols: "Deviancy Protocols"
+ tr_espos_deviancy_protocols_desc:2 "§Y$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§! is reduced by §G10§! on all our planets."
+ tr_espos_deviancy_protocols_delayed: "Deviancy and corruption must be guarded against at all levels. With efficient counter-protocols in place, drones suspected of deviant activities can be swiftly terminated before they can spread the corruption further."
+ tr_espos_divergence_supression: "Divergence Suppression"
+ tr_espos_divergence_supression_desc: "$tr_domination_deviancy_protocols_desc$"
+ tr_espos_divergence_supression_delayed: "Occasionally our unity is disrupted by a rogue drone. This threat has increased as we spread out across the stars. Purging and recycling these units gives them a chance to contribute to the hive with their deaths, in a way they could not with their lives."
+
+ #tr_domination_star_lords: "Star Lords"
+ #tr_domination_star_lords_machine: "Benevolence Emulation"
+ #tr_domination_star_lords_hive: "Soporific Pheromones"
+ #tr_domination_star_lords_desc:5 "Subject £opinion£ §YOpinion§! increased by §G+20§! and §YTrust Cap§! increased by §G+50§!."
+ #tr_domination_star_lords_machine_desc: "$tr_domination_star_lords_desc$"
+ #tr_domination_star_lords_hive_desc: "$tr_domination_star_lords_desc$"
+ #tr_domination_star_lords_delayed: "It is our destiny to lord over those who are weaker. Obedient nations that swear fealty to our great empire may be permitted to exist... at our discretion."
+ #tr_domination_star_lords_machine_delayed: "Programming our diplomatic AI to emulate the emotional mannerisms of other species increases their susceptibility to suggestion, even if they are aware it is a simulation."
+ #tr_domination_star_lords_hive_delayed: "Generations of experimentation have revealed that certain combinations of gaseous emissions and pheromones greatly reduce the pugnacity and will to resist of the others. Some die, but they perish in bliss, having ever so briefly touched the beautiful purity of our mind."
+
+ tr_espos_finish: "Security Police Traditions Finished"
+ tr_espos_federations_finish: "$tr_domination_finish$"
+ tr_espos_federations_finish_desc: "$MOD_EMPIRE_SIZE_POPS_MULT$ §G-10%§!\nGrants access to the §Y$hegemony_federation$§! Federation type.\nAscension Perks Unlocked: §G+1§!"
+
+ edict_contact_CIS: "Operation Overcast"
+ edict_contact_CIS_: "With the end of the Clone Wars comes a vast pool of underexploited human resources from the §BConfederacy of Independent Systems§!; commanders, scientists and officials who happened to end up on the wrong side of history. \nWe should seek to track down, rehabilitate and employ them."
+
+ #####################
+ # Ascension Perks   #
+ #####################
+ ap_commercial_guilds: "Commercial Focus"
+ ap_commercial_guilds_desc: "Creating a single conglomerate out of several galactic-scale corporate agricorps, retailers, arms manufacturers, and shipbuilders will ensure that our empire never has credit problems again… except for greed."
+ ap_droid_leaders: "Droid Leaders"
+ ap_droid_leaders_desc: "Unlocks §YDroid Leaders§! Droids can be built smarter, quicker, and stronger than any of our current sentient commanders. Perhaps it is time we grant them more responsibility. I have calculated that the odds of this decision backfiring are only 3,464 to 1.\nThis will lead you down the path to Droid modification."
+ ap_financial_sectors: "Financial Sectors"
+ ap_financial_sectors_desc: "Free trade is the lifeblood of any thriving civilization. By granting our merchants complete autonomy in certain sectors, their profits will trickle down to benefit us all. Hopefully."
+ ap_industrial_powerhouse: "Industrial Powerhouse"
+ ap_industrial_powerhouse_desc: "Our military-industrial complex will run fully automated, day and night, across a thousand different worlds. In order to control this galaxy, we must simply outproduce our rivals."
+ ap_media_control: "Media Control"
+ ap_media_control_desc: "Your weapons in this war are ships, blasters, and armor. My weapons in this war is words and images. Facts are flexible, and the galaxy will hear our truths even if the facts do not precisely portray them."
+ ap_mining_guilds: "Mining Guilds"
+ ap_mining_guilds_desc: "The galaxy holds limitless riches for those willing enough to take it… with the proper charters, of course. Durasteel, carbonite, kyber or anything else, the mining guilds will procure whatever we need."
+ ap_sovereign_unification: "Sovereign Unification"
+ ap_sovereign_unification_desc: "By bringing the entire galaxy under one law, one language, and the enlightened guidance of one individual, the corruption that plagued the Republic in its later years will never take root again.(Sprawl)"
+ ap_empire_decree: "Empire Decree"
+ ap_empire_decree_desc: "Under our civilization, our most cherished beliefs will be safeguarded. We will defend our ideals by force of arms. We will give no ground to our foes and will stand together against attacks from within or without. Let any enemies take heed, those who challenge our resolve will be crushed."
+ ap_understanding_galaxy: "Understanding the Galaxy"
+ ap_understanding_galaxy_desc: "Knowledge is power. Our civilization will unravel that which binds the very fabric of this universe. In time, we shall come to surpass the ancients themselves, and even the Celestials' insight will pale in comparison to our own."
+ ap_cloning: "Cloning Concept"
+ ap_cloning_desc: "Unlocks §YCloning Technologies§! An army of one man, but the right man for the job. With the same genetic structure plus a flash-learning pattern taken directly from the template, a clone should theoretically be completely identical to the original person. But despite that, they're never exactly the same. You will find that they are immensely superior to droids"
+ TRIGGER_FAIL_ap_cloning_arkanian: "$TRIGGER_FAIL$Must be the §YArkanian Dominion§!"
+ TRIGGER_FAIL_ap_cloning: "$TRIGGER_FAIL$Must have the §YGenetic Modifying§! ascension perk"
+ ap_empire_institutions: "Institutional Focus"
+ ap_empire_institutions_desc: "A strong society is built upon the foundations of strong institutions, however it can be valuable to have the flexibility to augment those institutions to meet our more immediate needs. Let us establish new policies to tap into and harness our existing institutions as we desire."
+ allow_institutions: "Unlocks Feature: §YInstitutions§!"
+ ap_weapon_production: "Weapon Production"
+ ap_weapon_production_desc: "Each of our soldiers will carry the firepower of an entire platoon. Our starships will slice through their opponents' hulls like butter. Hokey religions and ancient weapons are no match for a good blaster at your side, and we intend to have the best."
+ ap_adaptable_ai: "Adaptable AI"
+ ap_adaptable_ai_desc: "It has long been said that creative thinking is the only field where sentients can outperform droids. With dedicated research towards improving droid personality matrixes, however, this will not be the case much longer."
+ ap_hyperspace_tracking: "Hyperspace Tracking"
+ ap_hyperspace_tracking_desc: "Interdiction technology leaves our enemies with nowhere to run. Now, with hyperspace tracking technology, they will have nowhere to hide. We will have them tied to the end of a string."
+ ap_genetic_modifying: "Genetic Modifying"
+ ap_genetic_modifying_desc: "Unlocks §YGenetic Modifiying§! By directly manipulating DNA, we can produce beings far superior to their more common brethren. This advancement opens up countless possibilities in the field of genetics, although there are some who would consider it...unnatural."
+ ap_space_fortress: "Space Fortress"
+ ap_space_fortress_desc: "We shall erect a bulwark of floating fortresses across the galaxy. No enemy will dare invade our territory after witnessing the firepower of our fully armed and operational battle stations."
+ ap_starfighter_focus: "Starfighter Focus"
+ ap_starfighter_focus_desc: "Space battles are fought with capital ships, but they are won with starfighters. We must outfit our ships with cutting-edge technologies and materials to guarantee fighter superiority in any engagement."
+ ap_turret_focus: "Turret Focus"
+ ap_turret_focus_desc: "Upgrading our fleet's Turret systems will ensure total domination across the stars. Any fighter foolish enough to take on our navy will be targeted at maximum firepower and welcomed by a wall of Turbolaser fire."
+ ap_ordnance_focus: "Heavy Ordnance Focus"
+ ap_ordnance_focus_desc: "A wise man once said that a big gun doesn't make a big man. A wiser man would tell him to get an even bigger gun, load it with explosive projectiles, and then strap that gun to the side of a battlecruiser."
+ ## Mando Update ##
+ ap_mando_crusade: "Mandalorian Crusade"
+ ap_mando_crusade_desc: "Once again the Galaxy will tremble with Fear!"
+
+
+ ############
+ # Unused?  #
+ ############
+ tradition_imperial_military: "Imperial Military"
+ tradition_imperial_military_desc: "The declaration of the New Order has only accelerated the Galactic Empire's military buildup in the aftermath of the Clone Wars."
+ tr_imperial_military_adopt: "Imperial Military Traditions"
+ tr_imperial_military_adopt_desc: "$tradition_imperial_military_desc$\n\n$tr_imperial_military_adopt_effect$\n\n$tr_supremacy_finish_effect$"
+ tr_imperial_military_adopt_effect: "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_COUNTRY_STARBASE_CAPACITY_ADD$§! increased by §Y3§!."
+ tr_imperial_military_admiralty: "Imperial Admiralty"
+ tr_imperial_military_admiralty_delayed: "The core of the Imperial Admiralty was forged in the crucible of the Clone Wars. The rise of the Empire and subsequent fight to consolidate Imperial territory has honed it to a razor's edge."
+ tr_imperial_military_admiralty_desc: "§Y$MOD_LEADER_ADMIRAL_SKILL_LEVELS$§! is increased by §Y2§! and §Y$MOD_COUNTRY_CLAIM_INFLUENCE_COST_MULT$§! reduced by §G-25%§!."
+ tr_imperial_military_navy: "Imperial Navy"
+ tr_imperial_military_navy_delayed: "Reporting only to the arcane Office of the Emperor, the Imperial Navy is arguably the most important institution in the Galactic Empire. The organization of our economy and government should reflect this fact."
+ tr_imperial_military_navy_desc: "§Y$MOD_COUNTRY_COMMAND_LIMIT_ADD$§! increased by §G+30§! and §Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§! reduced by §G-10%§!."
+ tr_imperial_military_army: "Imperial Armor Corps"
+ tr_imperial_military_army_delayed: "\"If the walkers succeed, then victory follows.\" - apocryphal, generally attributed to Major General Maximillian Veers."
+ tr_imperial_military_army_desc: "§Y$MOD_ARMY_DAMAGE_MULT$§! increased by §G10%§! and §Y$mod_armies_cost_mult$§! reduced by §G10%§!."
+
+ tradition_empire_research: "Research"
+ tradition_empire_research_desc: "The Imperial military relies on ever-advancing technology to maintain its edge in firepower and its numerical superiority."
+
+ tradition_imperial_designs: "Imperial Designs"
+ tradition_imperial_designs_desc: "To ensure peace and security, design to terrorize and subdue."
+ tr_imperial_designs_adopt: "Imperial Design Traditions"
+ tr_imperial_designs_adopt_desc: "$tradition_imperial_designs_desc$\n\n$tr_imperial_designs_adopt_effect$\n\n$tr_imperial_designs_finish_effect$"
+ tr_imperial_designs_adopt_effect: "§E$TRADITIONS_ADOPT$:§!\nWill decrease our §Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§! by §G-5%§! and decrease our §Y$mod_planet_buildings_cost_mult$§! by §G-10%§!."
+ 
+ tr_imperial_designs_admin: "Imperial Administration"
+ tr_imperial_designs_admin_delayed: "The only ranks more numerous than the faceless legions of stormtroopers are the haggard throngs of Imperial bureaucrats."
+ tr_imperial_designs_admin_desc: "§Y$mod_planet_buildings_upkeep_mult$§! reduced by §G-5%§! and §Y$mod_planet_districts_upkeep_mult$§! reduced by §G-15%§!."
+ tr_imperial_designs_logistics: "Imperial Logistics"
+ tr_imperial_designs_logistics_delayed: "The galaxy's largest navy requires commensurately sophisticated logistics."
+ tr_imperial_designs_logistics_desc: "§Y$mod_ships_upkeep_mult$§! reduced by §G-10%§!."
+ tr_imperial_designs_nationalization: "Imperial Finance"
+ tr_imperial_designs_nationalization_delayed: "Firepower opens most, but not all, doors. For everything else, there is the Imperial Treasury."
+ tr_imperial_designs_nationalization_desc: "Empire £trade_value£ §Y$MOD_TRADE_VALUE_MULT$§! increased by §G5%§! and £energy£ §Y$mod_country_energy_produces_mult$§! increased by §G5%§!."
+ tr_imperial_designs_tarkin: "Tarkin Doctrine"
+ tr_imperial_designs_tarkin_delayed: "Fear will keep the local systems in line."
+ tr_imperial_designs_tarkin_desc: "Decrease §YCost§! for all §YStar Destroyer Size§! ships by §G10%§!."
+ tr_imperial_designs_finish: "Imperial Design Traditions Finished"
+ tr_imperial_designs_finish_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_imperial_designs_adopt$ increases §Y$mod_planet_jobs_consumer_goods_produces_mult$§! by §G10%§!."

@@ -3,51 +3,51 @@
  ### New 4.4.2023 ###
  # Imported from LOTOR with permission
  # Major - The Treasures of Dianth
- swnd_digsite.10.name: "A White City"
- swnd_digsite.10.desc: "While in orbit over §Y[From.GetName]§!, §Y[This.Leader.GetName]§! and their team on [This.GetName] found what appears to be a city made of white stone. Scans show no sign of life, though imaging of the city itself provides what seems to be evidence of a long ago conflict, if not outright war." # this = ship | from = planet
- swnd_digsite.10.desc.no_force_sens: "$swnd_digsite.10.desc$\n\nRegardless, §Y[This.Leader.GetName]§! has concluded that landing and beginning exploration of the city would pose little risk to their safety. Answers as to what happened to the city surely lay in the empty city below, as do any riches and resources left over from the conflict..." # this = ship
- swnd_digsite.10.desc.force_sens: "$swnd_digsite.10.desc$\n\nUpon entering the atmosphere, §Y[This.Leader.GetName]§! is able to sense an indeterminate darkness permeating the city. There doesn't seem to be any discernable source aside the fact that it originates from somewhere in the city. While there is some measure of risk, the darkness does not seem oppressive enough as to negatively impact the team if they were to land and explore." # this = ship
- swnd_digsite.10.a.no_force_sens: "Determine the fate of this strange city."
- swnd_digsite.10.a.force_sens: "This darkness will not dissuade us from finding answers."
- swnd_digsite.10.b: "Mark the city's location for future expeditions."
- treasures_of_dianth: "$swnd_digsite.10.name$"
- treasures_of_dianth_desc: "While in orbit over the planet, we found what appears to be a city made of white stone. Scans show no sign of life, though imaging of the city itself provides what seems to be evidence of a long ago conflict, if not outright war."
- swnd_digsite.11.name: "An Empty City"
- swnd_digsite.11.desc: "In all the time spent exploring the city, the team has uncovered surprisingly little about the fate of its inhabitants. The barren streets provide nothing more than a vague grasp on the society's travel habits, while the buildings are so empty the team has taken to calling them 'hollow'. Stranger still, now that the team is in the city, scanners seem to be picking up faint signs of life in a number of areas."
- swnd_digsite.11.desc.no_force_sens: "$swnd_digsite.11.desc$ These scans may be attributed to malfunctions, given the lack of findings, but they are rather constant and the team is growing concerned."
- swnd_digsite.11.desc.force_sens: "$swnd_digsite.11.desc$ Whether this is linked to the darkness diffused throughout the city is unclear. The darkness itself has remained constant throughout their exploration, neither worsening or abating."
- swnd_digsite.11.a: "Keep exploring. There must be answers here somewhere."
- swnd_digsite.12.name: "Living Stone"
- swnd_digsite.12.desc: "§Y[This.Leader.GetName]§! has determined the source of the signs of life the scanners picked up on previously: the city itself! In addition to discovering the name of the city, §HVaale§!, the white stone it's comprised of seems to be alive in some strange capacity. Thus far nothing seems to indicate that this living matter has any form of sentience, seeming to be analogous to a type of hardened bone more than actual stone. This revelation brings more questions than answers, but will provide insight for further exploration." # this = fleet
- swnd_digsite.12.a: "Intriguing. There must be more to this strange place."
- swnd_digsite.13.name: "The Architects"
- swnd_digsite.13.desc: "Even with the sheer emptiness of the city, answers could not be kept from us forever. After combing a number of databases and written record in a variety of locations throughout §HVaale§! we've discovered the founders of this city were a secluded group of artisans called §HThe Architects of Vaale§!. Along with this discovery came the records of a number of artifacts by their design, most interestingly a pair of rings that provide the wearer with \"immense power\". The nature of this power was not explicitly stated, but the prospect of uncovering such artifacts has become the new focus of the team."
- swnd_digsite.13.a: "Some of these artifacts must still remain somewhere."
- swnd_digsite.14.name: "Beneath The City"
- swnd_digsite.14.desc: "It seems we'd been looking in the wrong place all this time. After an extensive search, a passage beneath the city was uncovered beneath the rubble of what seems to be a building that housed the government of §HVaale§!. Exploration into this passage has led to a large, ornate door covered in a macabre mural. While studying it, members of the research team have reported a profound sense of dread. It's clear that whatever is hidden behind the door would provide answers about this city and the fate of its inhabitants, as well as potential artifacts, but at what cost?"
- swnd_digsite.14.a: "We must uncover the truth."
- swnd_digsite.15.name: "Dust And Echoes"
- swnd_digsite.15.desc: "What seemed at first to be a missed report may have developed into something much more dire. §Y[event_target:dianth_missing_scientist.GetName]§! and their team aboard [event_target:missing_crew_ship.GetName] have completely disappeared from all sensors and have ceased responding to all attempts at communication. Their last report indicates they were close to opening the strange door beneath the city of §HVaale§!, and that the sense of dread they had been feeling had worsened. Unless we receive word from §Y[This.Leader.GetName]§!, it would be unwise to send any further ships to investigate the city." # this = fleet
- swnd_digsite.15.a: "We won't lose faith. They are still out there."
- swnd_digsite.16.name: "The Madness Of Vaale"
- swnd_digsite.16.desc: "We've received word from the [missing_crew_ship.GetName] at last! §Y[missing_crew_ship.Leader.GetName]§! has reported that shortly after opening the door beneath §HVaale§!, members of the team began acting paranoid and hostile. A number of them rushed into the room, which appeared to be some form of workshop and storage area, destroying whatever they could find. §Y[missing_crew_ship.Leader.GetName]§! and the remaining sane members gathered what little they could from the workshop before escaping. Unfortunately, the madness inflicted upon the crew had been long brewing, and the ship's hyperdrive and communications had been sabotaged.\n\nFortunately §Y[missing_crew_ship.Leader.GetName]§! and the remaining team members were able to repair the ship, returning with a number of artifacts, including the so called §MRing of Immortality§!. One of a pair of supposedly cursed rings, when brought together said to bring immense power. The location of the sister ring is currently unknown, though it's clear it no longer resides on §Y[FromFrom.Planet.GetName]§!.\n\n§Y[missing_crew_ship.Leader.GetName]§! had one thing to say upon turning over the ring.\n\n§SDestroy it.§!"
- swnd_digsite.16.a: "Keep the ring and present it to our leader."
- swnd_digsite.16.b: "Destroy the ring."
- swnd_digsite.17.name: "$r_blue_ring_vaale$"
- swnd_digsite.17.desc: "The so called \"Ring of Immortality\". It is said that wearing it provides the wearer with long life, potentially making them immortal. Given it has found its way to us, one might question the claims of immortality, but records show it does extend the life of the user. A powerful relic indeed.!"
- swnd_digsite.17.a: "[leader_option_1.GetLeaderClassIcon] [leader_option_1.GetLeaderClass] §Y[leader_option_1.GetName]§!"
- swnd_digsite.17.b: "[leader_option_2.GetLeaderClassIcon] [leader_option_2.GetLeaderClass] §Y[leader_option_2.GetName]§!"
- swnd_digsite.17.c: "[leader_option_3.GetLeaderClassIcon] [leader_option_3.GetLeaderClass] §Y[leader_option_3.GetName]§!"
- swnd_digsite.17.d: "[leader_option_4.GetLeaderClassIcon] [leader_option_4.GetLeaderClass] §Y[leader_option_4.GetName]§!"
- swnd_digsite.17.e: "[leader_option_5.GetLeaderClassIcon] [leader_option_5.GetLeaderClass] §Y[leader_option_5.GetName]§!"
- swnd_digsite.17.f: "[leader_option_6.GetLeaderClassIcon] [leader_option_6.GetLeaderClass] §Y[leader_option_6.GetName]§!"
- swnd_digsite.17.g: "I want the other leader."
- swnd_digsite.18.name: "Mental Security"
- swnd_digsite.18.desc: "Progress has been slow going due to the sudden onset of headaches between members of the research team. Hypotheses that an unknown disease or compound in the air were causing the headaches were quickly disproven, only to uncover the disturbing truth.\n\nWhile scanning the brain of one researcher, §Y[This.Leader.GetName]§! found that strange frequencies being emitted through the city were responsible for the headaches. These frequencies weren't coming from any one source, instead from the \"living\" city itself! The team has gotten to work retrofitting a collection of neural disruptors to combat these frequencies to provide a measure of safety while continuing their work." # this = fleet
- swnd_digsite.18.a: "Understood."
- swnd_digsite.19.name: "The Unsteady Tower"
- swnd_digsite.19.desc: "Investigations have brought the research team to a large tower which seemed to be of some importance to the previous inhabitants of the city. The tower stood as one of the tallest buildings in the skyline, standing tall despite the battle torn walls and cratered base of the building. Scans deemed the tower to be at minor risk of collapse.\n\nUnfortunately for our team, a minor risk is still a risk, and after a few days exploration the tower fell in upon itself and collapsed, sending a plume of dust high into the sky. §Y[This.Leader.GetName]§! was not in the tower as it collapsed, nor were most of the team, but a handful of members were inside, and scans show no sign of life in the rubble."
- swnd_digsite.19.a: "We must continue, despite their sacrifice."
+#  swnd_digsite.10.name: "A White City"
+#  swnd_digsite.10.desc: "While in orbit over §Y[From.GetName]§!, §Y[This.Leader.GetName]§! and their team on [This.GetName] found what appears to be a city made of white stone. Scans show no sign of life, though imaging of the city itself provides what seems to be evidence of a long ago conflict, if not outright war." # this = ship | from = planet
+#  swnd_digsite.10.desc.no_force_sens: "$swnd_digsite.10.desc$\n\nRegardless, §Y[This.Leader.GetName]§! has concluded that landing and beginning exploration of the city would pose little risk to their safety. Answers as to what happened to the city surely lay in the empty city below, as do any riches and resources left over from the conflict..." # this = ship
+#  swnd_digsite.10.desc.force_sens: "$swnd_digsite.10.desc$\n\nUpon entering the atmosphere, §Y[This.Leader.GetName]§! is able to sense an indeterminate darkness permeating the city. There doesn't seem to be any discernable source aside the fact that it originates from somewhere in the city. While there is some measure of risk, the darkness does not seem oppressive enough as to negatively impact the team if they were to land and explore." # this = ship
+#  swnd_digsite.10.a.no_force_sens: "Determine the fate of this strange city."
+#  swnd_digsite.10.a.force_sens: "This darkness will not dissuade us from finding answers."
+#  swnd_digsite.10.b: "Mark the city's location for future expeditions."
+#  treasures_of_dianth: "$swnd_digsite.10.name$"
+#  treasures_of_dianth_desc: "While in orbit over the planet, we found what appears to be a city made of white stone. Scans show no sign of life, though imaging of the city itself provides what seems to be evidence of a long ago conflict, if not outright war."
+#  swnd_digsite.11.name: "An Empty City"
+#  swnd_digsite.11.desc: "In all the time spent exploring the city, the team has uncovered surprisingly little about the fate of its inhabitants. The barren streets provide nothing more than a vague grasp on the society's travel habits, while the buildings are so empty the team has taken to calling them 'hollow'. Stranger still, now that the team is in the city, scanners seem to be picking up faint signs of life in a number of areas."
+#  swnd_digsite.11.desc.no_force_sens: "$swnd_digsite.11.desc$ These scans may be attributed to malfunctions, given the lack of findings, but they are rather constant and the team is growing concerned."
+#  swnd_digsite.11.desc.force_sens: "$swnd_digsite.11.desc$ Whether this is linked to the darkness diffused throughout the city is unclear. The darkness itself has remained constant throughout their exploration, neither worsening or abating."
+#  swnd_digsite.11.a: "Keep exploring. There must be answers here somewhere."
+#  swnd_digsite.12.name: "Living Stone"
+#  swnd_digsite.12.desc: "§Y[This.Leader.GetName]§! has determined the source of the signs of life the scanners picked up on previously: the city itself! In addition to discovering the name of the city, §HVaale§!, the white stone it's comprised of seems to be alive in some strange capacity. Thus far nothing seems to indicate that this living matter has any form of sentience, seeming to be analogous to a type of hardened bone more than actual stone. This revelation brings more questions than answers, but will provide insight for further exploration." # this = fleet
+#  swnd_digsite.12.a: "Intriguing. There must be more to this strange place."
+#  swnd_digsite.13.name: "The Architects"
+#  swnd_digsite.13.desc: "Even with the sheer emptiness of the city, answers could not be kept from us forever. After combing a number of databases and written record in a variety of locations throughout §HVaale§! we've discovered the founders of this city were a secluded group of artisans called §HThe Architects of Vaale§!. Along with this discovery came the records of a number of artifacts by their design, most interestingly a pair of rings that provide the wearer with \"immense power\". The nature of this power was not explicitly stated, but the prospect of uncovering such artifacts has become the new focus of the team."
+#  swnd_digsite.13.a: "Some of these artifacts must still remain somewhere."
+#  swnd_digsite.14.name: "Beneath The City"
+#  swnd_digsite.14.desc: "It seems we'd been looking in the wrong place all this time. After an extensive search, a passage beneath the city was uncovered beneath the rubble of what seems to be a building that housed the government of §HVaale§!. Exploration into this passage has led to a large, ornate door covered in a macabre mural. While studying it, members of the research team have reported a profound sense of dread. It's clear that whatever is hidden behind the door would provide answers about this city and the fate of its inhabitants, as well as potential artifacts, but at what cost?"
+#  swnd_digsite.14.a: "We must uncover the truth."
+#  swnd_digsite.15.name: "Dust And Echoes"
+#  swnd_digsite.15.desc: "What seemed at first to be a missed report may have developed into something much more dire. §Y[event_target:dianth_missing_scientist.GetName]§! and their team aboard [event_target:missing_crew_ship.GetName] have completely disappeared from all sensors and have ceased responding to all attempts at communication. Their last report indicates they were close to opening the strange door beneath the city of §HVaale§!, and that the sense of dread they had been feeling had worsened. Unless we receive word from §Y[This.Leader.GetName]§!, it would be unwise to send any further ships to investigate the city." # this = fleet
+#  swnd_digsite.15.a: "We won't lose faith. They are still out there."
+#  swnd_digsite.16.name: "The Madness Of Vaale"
+#  swnd_digsite.16.desc: "We've received word from the [missing_crew_ship.GetName] at last! §Y[missing_crew_ship.Leader.GetName]§! has reported that shortly after opening the door beneath §HVaale§!, members of the team began acting paranoid and hostile. A number of them rushed into the room, which appeared to be some form of workshop and storage area, destroying whatever they could find. §Y[missing_crew_ship.Leader.GetName]§! and the remaining sane members gathered what little they could from the workshop before escaping. Unfortunately, the madness inflicted upon the crew had been long brewing, and the ship's hyperdrive and communications had been sabotaged.\n\nFortunately §Y[missing_crew_ship.Leader.GetName]§! and the remaining team members were able to repair the ship, returning with a number of artifacts, including the so called §MRing of Immortality§!. One of a pair of supposedly cursed rings, when brought together said to bring immense power. The location of the sister ring is currently unknown, though it's clear it no longer resides on §Y[FromFrom.Planet.GetName]§!.\n\n§Y[missing_crew_ship.Leader.GetName]§! had one thing to say upon turning over the ring.\n\n§SDestroy it.§!"
+#  swnd_digsite.16.a: "Keep the ring and present it to our leader."
+#  swnd_digsite.16.b: "Destroy the ring."
+#  swnd_digsite.17.name: "$r_blue_ring_vaale$"
+#  swnd_digsite.17.desc: "The so called \"Ring of Immortality\". It is said that wearing it provides the wearer with long life, potentially making them immortal. Given it has found its way to us, one might question the claims of immortality, but records show it does extend the life of the user. A powerful relic indeed.!"
+#  swnd_digsite.17.a: "[leader_option_1.GetLeaderClassIcon] [leader_option_1.GetLeaderClass] §Y[leader_option_1.GetName]§!"
+#  swnd_digsite.17.b: "[leader_option_2.GetLeaderClassIcon] [leader_option_2.GetLeaderClass] §Y[leader_option_2.GetName]§!"
+#  swnd_digsite.17.c: "[leader_option_3.GetLeaderClassIcon] [leader_option_3.GetLeaderClass] §Y[leader_option_3.GetName]§!"
+#  swnd_digsite.17.d: "[leader_option_4.GetLeaderClassIcon] [leader_option_4.GetLeaderClass] §Y[leader_option_4.GetName]§!"
+#  swnd_digsite.17.e: "[leader_option_5.GetLeaderClassIcon] [leader_option_5.GetLeaderClass] §Y[leader_option_5.GetName]§!"
+#  swnd_digsite.17.f: "[leader_option_6.GetLeaderClassIcon] [leader_option_6.GetLeaderClass] §Y[leader_option_6.GetName]§!"
+#  swnd_digsite.17.g: "I want the other leader."
+#  swnd_digsite.18.name: "Mental Security"
+#  swnd_digsite.18.desc: "Progress has been slow going due to the sudden onset of headaches between members of the research team. Hypotheses that an unknown disease or compound in the air were causing the headaches were quickly disproven, only to uncover the disturbing truth.\n\nWhile scanning the brain of one researcher, §Y[This.Leader.GetName]§! found that strange frequencies being emitted through the city were responsible for the headaches. These frequencies weren't coming from any one source, instead from the \"living\" city itself! The team has gotten to work retrofitting a collection of neural disruptors to combat these frequencies to provide a measure of safety while continuing their work." # this = fleet
+#  swnd_digsite.18.a: "Understood."
+#  swnd_digsite.19.name: "The Unsteady Tower"
+#  swnd_digsite.19.desc: "Investigations have brought the research team to a large tower which seemed to be of some importance to the previous inhabitants of the city. The tower stood as one of the tallest buildings in the skyline, standing tall despite the battle torn walls and cratered base of the building. Scans deemed the tower to be at minor risk of collapse.\n\nUnfortunately for our team, a minor risk is still a risk, and after a few days exploration the tower fell in upon itself and collapsed, sending a plume of dust high into the sky. §Y[This.Leader.GetName]§! was not in the tower as it collapsed, nor were most of the team, but a handful of members were inside, and scans show no sign of life in the rubble."
+#  swnd_digsite.19.a: "We must continue, despite their sacrifice."
 
  r_blue_ring_vaale: "Blue Ring of Vaale"
  r_blue_ring_vaale_desc: "The Rings of Vaale were an artifact crafted by §HThe Architects of Vaale§!, an ancient, long-forgotten society based in the city of Vaale on the planet Dianth. According to legends, two such rings existed: one that provided eternal life but drove the wearer to madness, and another that gave whoever wore it eternal fortune but hastened their death. When worn together, the rings supposedly provided the wearer with great power."
@@ -56,14 +56,10 @@
  leader_trait_blue_ring_of_vaale: "$r_blue_ring_vaale$"
  leader_trait_blue_ring_of_vaale_desc: "The $r_blue_ring_vaale$ provides eternal life at the expense of one's mental health."
 
- # Deposits
- d_ravens_peak_eriadu: "The Raven's Peak"
- d_ravens_peak_eriadu_desc: "The Raven's Peak is an Imperial fortress located on a mountain on Eriadu, the homeworld of Wilhuff Tarkin. The compound is heavily guarded and can only be accessed through a landing bay or through the dedicated sky rail system that connects the compound to the starfighter depot."
-
  ### New 4.4.2023 ###
  #Chiss lore events
  swnd_chiss_events.10.name: "Scouting Mission"
- swnd_chiss_events.10.desc: "There is a sense of unease throughout the §YAscendancy§!. Internal strife among the §HAristocras§! created by an agent of the §YGrysk Hegemony§! has cost the career of §HSenior Capatain Mitth'raw'nuruodo§!. As a result of a preemptive strike - a move that is in violation of both the §HDefense Hierarchy Council§! and §YAscendancy§! law - §HMitth'raw'nuruodo!§! is exiled and stripped of his military rank, privileges, and his status in the §HMitth§! family.\n\nThere are some among the §HDefense Hierarchy Council§! that believe that §HThrawn's§! exile is a cover for a scouting mission into §BLesser Space§! to establish contact with the §YGalactic Empire§! and determine if they are to be a valuable ally against the §YGrysk Hegemony§! and others that threaten the §YAscendancy§!."
+ swnd_chiss_events.10.desc: "There is a sense of unease throughout the §YAscendancy§!. Internal strife among the §HAristocras§! created by an agent of the §YGrysk Hegemony§! has cost the career of §HSenior Captain Mitth'raw'nuruodo§!. As a result of a preemptive strike - a move that is in violation of both the §HDefense Hierarchy Council§! and §YAscendancy§! law - §HMitth'raw'nuruodo!§! is exiled and stripped of his military rank, privileges, and his status in the §HMitth§! family.\n\nThere are some among the §HDefense Hierarchy Council§! that believe that §HThrawn's§! exile is a cover for a scouting mission into §BLesser Space§! to establish contact with the §YGalactic Empire§! and determine if they are to be a valuable ally against the §YGrysk Hegemony§! and others that threaten the §YAscendancy§!."
  swnd_chiss_events.10.a: "May warrior's fortune be in his favor.."
  swnd_chiss_events.20.name: "The Protégé"
  swnd_chiss_events.20_desc: "Senior officers of the §HExpansionary Defense Fleet§! are taking note of the accomplishments of §YIrizi'ar'alani§! of §HHouse Irizi§!. A protégé of §YThrawn§!, the command staff recognize her leadership abilities and tactical acumen."
@@ -73,163 +69,11 @@
  swnd_chiss_events.30.a: "The §YAscendancy§! welcomes you, §HEli'van'to§!."
 
 
- #Deposits
- d_serenno_castle: "Castle Serenno"
- d_serenno_castle_desc: "Castle Serenno was once the headquarters of House Serenno and the home of the leader of the Separatist movement, Count Dooku. This impressive structure stood on its own grounds at the edge of a large cliff and was complemented by three ornamental gardens, each of which lay at the front of the palace."
-
- ###4 June 2023###
-
- ## Councilor Names ##
- councilor_ruler_new_order: "Grand Vizier"
- councilor_ruler_new_order_female: "$councilor_ruler_new_order$"
- councilor_ruler_new_order_desc: "The Grand Vizier is the deputy of the Galactic Empire and chief bureaucrat of the Imperial Ruling Council and acts as an intermediary between the Galactic Emperor and high-ranking officials in the Imperial Military as well as the government."
-
- councilor_ruler_clone_wars_victor: "Supreme Commander of the Imperial Forces"
- councilor_ruler_clone_wars_victor_female: "$councilor_ruler_clone_wars_victor$"
- councilor_ruler_clone_wars_victor_desc: "The Supreme Commander of the Imperial Forces is the top military leader, responsible for directing all military operations, fleets, and ground campaigns, reporting directly to the Emperor to maintain Imperial dominance."
-
- councilor_rebel_sympathy: " Insurgency Coordinator"
- councilor_rebel_sympathy_female: "$councilor_rebel_sympathy$"
- councilor_rebel_sympathy_desc: "The Insurgency Coordinator is the strategic linchpin of your council, masterfully organizing and uniting disparate factions within the Alliance to Restore the Republic. Their expertise lies in bringing together diverse rebel groups, each with its own goals and methods, under a common banner. This councilor excels in forging alliances, developing cohesive strategies, and maintaining the delicate balance of power within the Rebellion. Their ability to coordinate resources, intelligence, and operatives is crucial in the fight against the Galactic Empire."
-
- councilor_beacon_of_hope: "Supreme Allied Commander"
- councilor_beacon_of_hope_female: "$councilor_beacon_of_hope$"
- councilor_beacon_of_hope_desc: "The Supreme Allied Commander is responsible for overseeing the various branches of the Rebel Alliance military."
-
- councilor_hutt_cartel: "Kajidii"
- councilor_hutt_cartel_female: "$councilor_hutt_cartel$"
- councilor_hutt_cartel_desc: "The Kajidii is derived from the Hutt concept of Kajidic - a philosophy which guides Hutt life and politics as well as a loose term for any sort of clan, legitimate business, and criminal operations. The Kajidi themselves were leaders of individual kajidics and are subservient to the Hutt Grand Council."
-
- councilor_mandalorian: "Grand Arbiter"
- councilor_mandalorian_female: "$councilor_mandalorian$"
- councilor_mandalorian_desc: "Grand Arbiter, a title dating back to the aftermath of the Great Galactic War, holds a revered place in Mandalorian society. This esteemed council position symbolizes the preservation of tradition and values, with the Grand Arbiter playing a crucial role in guiding decisions and upholding the enduring legacy of Mandalorian heritage."
-
- councilor_mandalorian_clans: "Naur'alor"
- councilor_mandalorian_clans_female: "$councilor_mandalorian$"
- councilor_mandalorian_clans_desc: "Naur'alor, the Mandalorian Forge Master, is the master artisan specializing in crafting and maintaining the iconic Mandalorian armor and weaponry, preserving traditions and ensuring Mandalorian warriors are equipped with formidable gear that blends tradition with innovation. As the custodian of the Mandalorian forge, Naur'alor embodies the essence of Mandalorian craftsmanship, reflecting the strength and resilience of their people."
-
- councilor_mandalorian_khanate: "Al'Ori'Ramikade"
- councilor_mandalorian_khanate_female: "$councilor_mandalorian_khanate$"
- councilor_mandalorian_khanate_desc: "Al'Ori'Ramikade is Mando'a for Commander of the Supercommandos. Although its routinely attached as a secondary title to the Mand'alor, Gar Saxon uses it to appeal to those among Clan Saxon and other defectors."
-
- councilor_mandalorian_creed: "Zealot"
- councilor_mandalorian_creed_female: "$councilor_mandalorian_creed$"
- councilor_mandalorian_creed_desc: "The strictest adherents to the Creed are branded as zealots by outsiders. However, for those that are taken in by Children of the Watch, they embrace the title."
-
- councilor_mandalorian_boba: "Bodyguard"
- councilor_mandalorian_boba_female: "$councilor_mandalorian_boba$"
- councilor_mandalorian_boba_desc: "The chief enforcer and one of the closest members to the Daimyo. They are responsible for their protection as well as instilling order."
-
- councilor_swnd_criminal_heritage: "Enforcer"
- councilor_swnd_criminal_heritage_female: "$councilor_swnd_criminal_heritage$"
- councilor_swnd_criminal_heritage_desc: "Enforcers do the dirty work that most crime lords view as beneath them. Shakedowns and intimidation are some of the most routine jobs they handle."
-
- councilor_corporate_sector: "Direx"
- councilor_corporate_sector_female: "$councilor_corporate_sector$"
- councilor_corporate_sector_desc: "The Direx board, also known as the Executive Directorship Board or Board of Directors, is the executive body of the Corporate Sector Authority. Members on this board are referred to as Direxs and answered directly to the ExO."
-
- councilor_corellian: "Director of Corporate Affairs"
- councilor_corellian_female: "$councilor_corellian$"
- councilor_corellian_desc: "The Director of Corporate Affairs serves as the liaison between the Corellian Technocracy and the Corellian Engineering Corporation (CEC). They oversee matters concerning the corporation, including contracts, trade agreements, and technological collaborations. They ensure that the interests of the CEC align with the goals and policies of the Technocracy, fostering a strong partnership for mutual benefit."
-
- councilor_hapes_consortium: "Royal High Commander"
- councilor_hapes_consortium_female: "$councilor_hapes_consortium$"
- councilor_hapes_consortium_desc: "The Royal High Commander is the commander-in-chief of the Hapes Consortium's military. The position is usually filled by a veteran commander or an esteemed noble that claims to be of sound military mind."
-
- councilor_bothan_spies: "Spymaster"
- councilor_bothan_spies_female: "$councilor_bothan_spies$"
- councilor_bothan_spies_desc: "The Spymaster expertise in espionage and subterfuge ensures the security, confidentiality, and success of the Bothan Spynet. Their leadership contributes to maintaining Bothan superiority in intelligence gathering, protecting vital interests, and outmaneuvering adversaries."
-
- councilor_confederate_remnant: "Director of Economic Autonomy"
- councilor_confederate_remnant_female: "$councilor_confederate_remnant$"
- councilor_confederate_remnant_desc: "The Economic Coordinator is a crucial council position in the CIS, tasked with managing economic policies, trade agreements, and ensuring the financial independence of the Confederacy. They work to foster self-sufficiency and economic autonomy, aligning with the CIS's vision of independence."
-
- councilor_clone_wars_loser: "Separatist Warlord"
- councilor_clone_wars_loser_female: "$councilor_confederate_remnant$"
- councilor_clone_wars_loser_desc: "Unwilling to surrender and supported by a mixture of local forces and surplus droids, Separatist warlords try to retain some semblence of power and influence in a rapidly changing galaxy."
-
- councilor_trade_federation: "Chief Financial Officer"
- councilor_trade_federation_female: "$councilor_trade_federation$"
- councilor_trade_federation_desc: "The Chief Financial Officer within the Trade Federation is the financial overseer, responsible for managing the organization's fiscal health, optimizing profits, and serving as a liaison between corporate leadership and financial experts. Their role is pivotal in ensuring the Federation's financial stability and success."
-
- councilor_naval_tradition: "Viceprex"
- councilor_naval_tradition_female: "$councilor_naval_tradition$"
- councilor_naval_tradition_desc: "The Viceprex is a part of the Corporate Sector Authority's command structure serving underneath the Direx Board."
-
- councilor_droid_uprising: "Elder of the Bowl"
- councilor_droid_uprising_female: "$councilor_droid_uprising$"
- councilor_droid_uprising_desc: "The Elder of the Bowl plays a pivotal role in Bakuran society, emblematic of diverse cultures and traditions. They follow the Rule of the Feather and Bowl, passing tests that grant one a small feather and the other a golden bowl. In the aftermath of the Droid Uprising and Bakura's distrust of machinery, the Elder of the Bowl carries forward ancient traditions, symbolizing Bakura's unique cultural tapestry."
-
- councilor_banking_clan: "Director of the Treasury"
- councilor_banking_clan_female: "$councilor_banking_clan$"
- councilor_banking_clan_desc: "The Director of the Treasury is the financial steward of the Intergalactic Banking Clan, tasked with overseeing and optimizing the empire's vast wealth, assets, and financial resources. Their pivotal role ensures the Consortium's financial stability, economic success, and diplomatic influence."
-
- councilor_rodian_scouts: "Ranger"
- councilor_rodian_scouts_female: "$councilor_rodian_scouts$"
- councilor_rodian_scouts_desc: "wip"
-
- councilor_trandoshan_tribes: "Huntmaster"
- councilor_trandoshan_tribes_female: "$councilor_trandoshan_tribes$"
- councilor_trandoshan_tribes_desc: "wip"
-
- councilor_black_sun: "Vigo"
- councilor_black_sun_female: "$councilor_black_sun$"
- councilor_black_sun_desc: "From the Old Tionese word for nephew, vigo is a title used by lieutenants within Black Sun's leadership. Never numbering more than nine total and answering directly to the Underlord directly, the title attemps to create a semblance of a famillial bond between leaderhsip."
-
- councilor_twilek_rebels: "Clan Elder"
- councilor_twilek_rebels_female: "$councilor_twilek_rebels$"
- councilor_twilek_rebels_desc: "The clan elder is the oldest member of a Twilek family clan."
-
- councilor_survival_skills: "Attendant"
- councilor_survival_skills_female: "$councilor_survivor_skills$"
- councilor_survival_skills_desc: "The attendant is a personal assistant to the heads of the Onderonian royal family, assisting in ceremonial and military affairs when needed."
-
- councilor_calamari_dynasty: "Regent"
- councilor_calamari_dynasty_female: "$councilor_calamari_dynasty$"
- councilor_calamari_dynasty_desc: "The Regent of Mon Calamari assumes a critical role in leading the kingdom's interests, safeguarding its culture, promoting diplomacy, ensuring environmental sustainability, and supporting the ruling monarch in governing the kingdom. They provide counsel, implement policies, represent the monarch's interests, and foster effective communication within the council."
-
- councilor_master_shipbuilders: "Master Shipwright"
- councilor_master_shipbuilders_female: "$councilor_master_shipbuilder$"
- councilor_master_shipbuilders_desc: "Any being skilled at the construction of starships can call themselves a shipwright. However, only the Mon Calamari can claim the title of master shipwrights."
-
- councilor_genetic_experiments: "Director of Genetic Advancement"
- councilor_genetic_experiments_female: "$councilor_genetic_experiments$"
- councilor_genetic_experiments_desc: "The Director of Genetic Advancement, in collaboration with the Adasca BioMechanical Corporation, drives genetic research, cloning initiatives, and scientific progress for the Arkanians. Their expertise and leadership contribute to medical breakthroughs and the betterment of Arkanian society."
-
- councilor_chiss_houses: "Speaker"
- councilor_chiss_houses_female: "$councilor_chiss_houses$"
- councilor_chiss_houses_desc: "Speakers are esteemed heads of one of the Nine Ruling Families of the Chiss Ascendancy. As the second highest-ranking members within their respective families, they serve as both representatives to the Syndicure and advocates for family interests in diplomatic dealings with external entities."
-
- councilor_mining_guild: "Guildmaster"
- councilor_mining_guild_female: "$councilor_mining_guild$"
- councilor_mining_guild_desc: "wip"
- councilor_banking_guild: "Guildmaster"
- councilor_banking_guild_female: "$councilor_banking_guild$"
- councilor_banking_guild_desc: "wip"
- councilor_bounty_hunter_guild: "Guildmaster"
- councilor_bounty_hunter_guild_female: "$councilor_bounty_hunter_guild$"
- councilor_bounty_hunter_guild_desc: "wip"
- councilor_underworld_guild: "Guildmaster"
- councilor_underworld_guild_female: "$councilor_underworld_guild$"
- councilor_underworld_guild_desc: "wip"
- councilor_hutt_elite: "Majordomo"
- councilor_hutt_elite_female: "$councilor_hutt_elite$"
- councilor_hutt_elite_desc: "The Majordomo is the chief steward of a great household. For Hutt crimelords, they serve as an intermediary between local officials and often serve very brief terms before vanishing for reasons only known to their Hutt masters."
- councilor_idyllic_charm: "Aide"
- councilor_idyllic_charm_female: "$councilor_idyllic_charm$"
- councilor_idyllic_charm_desc: "Aides are individuals who assist a person of high political position."
- councilor_house_organa: "Viceroy"
- councilor_house_organa_female: "$councilor_house_organa$"
- councilor_house_organa_desc: "The Viceroy acts as the current monarch's envoy of diplomacy and peace. They excel in negotiations, maintaining relations, and embody Alderaan's peaceful ideals. Their role is to mediate, resolve conflicts, and promote cooperation. As a symbol of House Organa's legacy, they ensure diplomacy and goodwill guide their interactions with other civilizations."
- councilor_swnd_crafters: "Chief Engineer"
- councilor_swnd_crafters_female: "$councilor_swnd_crafters$"
- councilor_swnd_crafters_desc: "Cheif engineers are masters of their trade, whether it is construciton, design, or general upkeep."
-
  ## 5 July 2023 ##
  ## Adaptability Fix ##
  tr_adaptability_recycling_desc:1 "§YBuilding§! and §YDistrict§! $r_nd_strategic$ §YCost§! and §YUpkeep§! reduced by §G-10%§!."
- r_nd_strategic:0 "£tibanna_gas£ £electronics£ £bacta£ £spice£ §YStrategic Resource§!"
- r_nd_strategic_plural:0 "£tibanna_gas£ £electronics£ £bacta£ £spice£ §YStrategic Resources§!"
+ r_nd_strategic: "£tibanna_gas£ £electronics£ £bacta£ £spice£ §YStrategic Resource§!"
+ r_nd_strategic_plural: "£tibanna_gas£ £electronics£ £bacta£ £spice£ §YStrategic Resources§!"
  mod_planet_structures_tibanna_gas_upkeep_mult: "District and Building Tibanna Gas Upkeep"
  mod_planet_structures_electronics_upkeep_mult: "District and Building Electronics Upkeep"
  mod_planet_structures_bacta_upkeep_mult: "District and Building Bacta Upkeep"
@@ -239,86 +83,224 @@
  mod_planet_structures_spice_cost_mult: "District and Building Spice Cost"
  mod_planet_structures_spice_upkeep_mult: "District and Building Spice Upkeep"
 
- ## 20 August 2023 
- d_fort_cravus: "Fort Cravus"
- d_fort_cravus_desc: "Fort Cravus was an immense citadel located in the city of Nurrale. The base of operations for Lord Cravus, it was from here he led his battle droids with which he conquered the world during the earliest days of civilization on the planet. As Cravus' empire faded away, the Fort remained standing, aging very little over time. Fort Cravus was later renovated and turned into a museum, displaying artifacts and information from Lord Cravus' reign."
- d_calamar: "Calamar"
- d_calamar_desc: "Calmar is the center of high culture on Esseles. Rich suburban areas with parks, art centers, holoproduction companies, and universities reside in this area. The Hall of Esseles, the historic government headquarters, is also located within the city."
- d_old_quarter: "The Old Quarter"
- d_old_quarter_desc: "A historic part of the capital of Grizmallt, the Old Quarter is a well-known tourist site and a valued place of ancient human civilization."
- d_ixtlar_holo_adverts: "Holographic Advertisements"
- d_ixtlar_holo_adverts_desc: "Ixtlar is covered in holographic advertisements due to the mix of lax regulations, converging trade routes, and an overwhelming level of consumerism"
- d_nubia_star_drives: "Nubia Star Drives Incorporated"
- d_nubia_star_drives_desc: "Nubian technology was used all throughout the galaxy and was readily available on most Core worlds. They were known for producing unique and beautiful designs of Sublight drives and spaceframes. Their unique designs were best seen on J-type spacecraft."
- d_automata_galactica: "Automata Galactica"
- d_automata_galactica_desc: "Automata Galactica and Industrial Automation are galaxy renowned droid manufacturers. They are known for a variety of astromech units ranging from the versitle R2-series."
- d_tallera_downs: "Tallera Downs"
- d_tallera_downs_desc: "Tallera Downs was Nubia's largest and most spectacular ronto racing course. The course was located south of Nuba City, and it was here the Tallera Open contests were held."
- d_high_ontis: "High Ontis"
- d_high_ontis_desc: "Ralltiir was a major source of marble, as the planet's mountain ranges featured large deposits of marble and were riddled with quarries. The High Ontis was a mountain chain that was located in the equatorial region of the planet. The remote canyons of the High Ontis contained a number of marble quarries that were known as the 'jumper quarries', due to the fact that their ownership status was contested for centuries. A number of alpine lakes were also located within the mountain chain."
- d_grallia_spaceport: "Grallia Spaceport"
- d_grallia_spaceport_desc: "Grallia Spaceport was an enormous spaceport located in the city of Grallia on Ralltiir. It was well-known in its corner of the galaxy for being able to facilitate countless landings and takeoffs of starships at the same time. Its construction greatly facilitated the flow of trade through Ralltiir."
- d_rhinnal_med_academy: "Rhinnal State Medical Academy"
- d_rhinnal_med_academy_desc: "The Rhinnal State Medical Academy, also known as the University of Rhinnal or the Rhire Medical Academy, was considered one of the foremost schools for medicine in the galaxy. It worked closely with Athakam Medtech to research medical technologies. The academy was well known for calling for increased government regulations on urbanization and industry to reduce pollution and the diseases it caused to local residents, especially in the public transit and industrial quarters. It had once notably lobbied for the phasing out of older air buses that employed propellant-based lateral thrusters and replaced them with more modern units that use directional-repulsorfield steering."
- d_incom_corporation: "Incom Corporation"
- d_incom_corporation_desc: "Formerly known as Torranix Inertial Compensator Corporation, Incom is known for designing and manufacturing a variety of starfighters, airspeeders, and transports. Their advancements in repulsorlift technologies are also used in the development of cloud-cities."
- d_eshan_martial_tradition: "Eshan Martial Tradition"
- d_eshan_martial_tradition_desc: "Due to the all-encompassing use of combat in all levels of their culture, Echani Generals were seen by others as having the ability to predict their opponent's next move. This was not a biological trait inherent to the Echani or their subspecies. Instead, it arose from a  culture where combat was seen as the truest form of communication.\n\nEchani culture held the belief that to know one fully, you must fight them. Echani fighting was not only self-defense, but a form of self-expression, a means of communication similar to art. Echani Firedancers combined Echani fighting techniques with exotic weapons such as ritual brands, blending the two together in a manner akin to a dance."
- d_bacta_processing: "Bacta Processing"
- d_bacta_processing_desc: "The Thriving Season first popularized bacta as an alternative to Kolto during the Old Republic era."
- d_rothana_culture: "Rothanan Culture"
- d_rothana_culture_desc: "Rothanan society is rather insular compared to other human cultures, even by Kuati standards. They developed an elaborate etiquette system intended to provide another layer of security against corporate espionage."
- d_ord_trasi_culture: "Ord Trasian Culture"
- d_ord_trasi_culture_desc: "The Ord Trasians are an industrious sort of culture."
- ###1 September 2023###
- d_bogs_of_dagobah: "Bogs of Dagobah"
- d_bogs_of_dagobah_desc: "The stifling, swampy forests and lack of open bodies of water make Dagobah inhospitable for most sapient life. Despite this, several creatures thrive in the teeming shallow marshland."
- d_crypt_of_martyrs: "Crypt of Martyrs"
- d_crypt_of_martyrs_desc: "The final resting place for martyrs is located in the city of Qatamer. Lorrdians view this place as a historically important site for those who fought against slavery."
- d_lorrd_university: "Lorrd University"
- d_lorrd_university_desc: "The university at Lorrd City is revered around the galaxy as a great repository of academic knowledge. Contained in the heart of the city, it was comprised of many different schools of learning, as well as a large student housing district. Some of its most notable schools were: The Lorrd Academy for Aquatic Studies, the School of Conceptual Design, and the University of Pangalactic Cultural Studies."
- d_performance_square: "Performance Square"
- d_performance_square_desc: "The 17-level, octogonal complex is devoted to Lorrdian theatrical arts. Each level included several theaters and performing areas, faced an open-air courtyard, and featured a facade representing a type of Lorrdian architecture. "
- d_sacorria_central_spaceport: "Sacorria Central Spaceport"
- d_sacorria_central_spaceport_desc: "Sacorria Central Spaceport was a large, efficient spaceport that was located on the outskirts of the city Saccorata."
- d_dorthus_tal_city: "Dorthus Tal City"
- d_dorthus_tal_city_desc: "Dorthus Tal City is the capital of the planet Sacorria, situated on an eponymous island. The city is known for Cobble Stone Square, a plaza with an ancient and rich cultural history which is a notable meeting point in the city. The city also contains the Dorthus Tal Prison, a prison powered by geothermal energy from a volcano and that is said to be escape proof."
- d_sacorrian_triad: "Sacorrian Triad"
- d_sacorrian_triad_desc: "The Sacorrian Triad was the governing force of Sacorria. It was a secretive council, which consisted of one Human, one Selonian, and one Drall, all of whom were prone to paranoia of the others and all outsiders. Very little is known about the identity of the Triad, and even their names are unknown. Yet in this secrecy they are able to maintain peace and order on the planet.\n\nHowever, the Selonians on Sacorria are known to be descendants of a dishonored Selonian den. Such was the extent of the Triad Selonians' dishonor that the original name of their den was abandoned because it had become an obscenity."
- #Brought over from LOTOR#
- d_csilla_caplar_city: "Csaplar"
- d_csilla_caplar_city_desc: "Csaplar was the capital city of the planet Csilla and the Chiss Ascendancy. Csilla was the homeworld of the sentient, near-human Chiss species. By the time of the rise of the Galactic Empire, most of the city was located underground, well below Csilla's icy surface."
- d_csilla_expeditionary_library: "Expeditionary Library"
- d_csilla_expeditionary_library_desc: "The Expeditionary Library was a massive underground library located under the ice of the Chiss Ascendancy's capital planet of Csilla. The library contained the documents and works produced from the Chiss Expansionary Defense Force's exploration of the Unknown Regions, with most of it translated into Basic and in written form to prevent losing any data to ice storms."
- d_csilla_expansionary_fleet_hq: "Expansionary Defense Fleet HQ"
- d_csilla_expansionary_fleet_hq_desc: "The Chiss Expansionary Defense Force was the primary military force of the Chiss Ascendancy. Founded by the ancient syndic Jer'Jo Cam'Co after the initial discovery of several resource-rich worlds during the Chiss' early explorations. The Expansionary Fleet was in charge of frontier patrols and exploratory missions in areas around the Ascendancy.The Chiss Expansionary Defense Fleet had a headquarters in Csaplar, the capital city of the planet Csilla."
- d_shili_corvala_city: "Corvala"
- d_shili_corvala_city_desc: "Corvala was the capital city of the planet Shili. It was a trade-focused city and was renowned for its masters of holistic medicine."
- d_onderon_iziz_city: "The Great City of Iziz"
- d_onderon_iziz_city_desc: "Established originally as a colony of human pacifists, the city of Iziz quickly expanded as permanent settlements were established on the world. Growing to a massive sixteen hundred square kilometers, the city was protected from the jungle and the dangerous beasts which lived there by high walls and a fortified defense grid. Turret towers mounted at points along the wall and security stations at each access point ensured that peace was kept in the city and the wild beasts of both land and the air were kept at bay."
- d_onderon_royal_palace: "The Royal Palace of Iziz"
- d_onderon_royal_palace_desc: "A massive stone construct erected at the center of the walled city of Iziz, the Royal Palace was built upon a large hill overlooking the cityscape. With high walls and a central rotunda, the palace was fortified against an attack and a bastion for the Royal Family. Entrance to the palace was located on the southern wall at the top of the Sky Ramp, a massive stone and steel ramp which rose up out of the city at the starport and terminated at the palace gates. Within the top most chambers was the Royal Throne Room, a long windowed hall and the location of the throne and Council room of Onderon. The Monarch and the Iziz Council met in the chamber to debate the political and economic problems which plagued the city."
- d_jedha_catacombs_cadera: "Catacombs of Cadera"
- d_jedha_catacombs_cadera_desc: "The Catacombs of Cadera served as a burial ground for the skeletal remains of thousands of generations of NiJedhan monks, adherents of a vanished faith, whose name and history have been long forgotten. Their humanoid skulls lined the catacomb walls, a revered but morbid presence. The site had a reputation for being haunted by spirits of the departed and was generally avoided by the locals."
- d_jedha_jedha_city: "The Holy City"
- d_jedha_jedha_city_desc: "Jedha was an ancient city located on the cold, desert Mid Rim moon of Jedha. Standing atop a rocky mesa, the city was surrounded by a large wall and contained various temples and adorned buildings. Jedha City was divided into two sections by a Division Wall, one section was known as the Old City and the other known as the New City. The most notable structure in the Holy City was the ancient Temple of the Kyber a great temple protruding high above the city wall that was held sacred by those who followed the teachings of the Church of the Force. Considered a holy site for followers of the mystical energy field known as the Force, the Holy City's streets were filled with priests, scholars, and holy men and women, many of them pilgrims, who could be recognized by their distinctive and often ornate robes."
-
- ### 31 Jan 2024 ###
- d_bracca_scrapyards: "Bracca Scrapyards"
- d_bracca_scrapyards_desc: "Established during the Clone Wars, the Scrapper Guild is responsible for the dismantling and salvage of severely damaged capital ships and the repurpose of any salavaged technology and components."
- d_nevarro_lava_fields: "Nevarro Lava Fields"
- d_nevarro_lava_fields_desc: "Nevarro's volcanic surface is dotted with vast fields of lava, making some parts of the planet uninhabitable."
- d_tomb_of_eilram: "Tomb of Eilram"
- d_tomb_of_eilram_desc: "The final resting place of the Zeffonian sage Eilram, a master of the Life Wind. Their tomb is decorated with an ornate carving of a wroshyr tree."
- d_tomb_of_miktrull: "Tomb of Miktrull"
- d_tomb_of_miktrull_desc: "The final resting place of the Zeffonian sage Miktrull, a master of the Life Wind. Their tomb is ornate and filled with offerings."
- d_mount_izukika: "Mount Izukika"
- d_mount_izukika_desc: "Mount Izukika is home to both Kijimi City and Kijimi Spaceport. The buildings and streets of the city are made from granitic rock quarried from the snow capped mountain."
-
- ### 14 Feb 2024 ###
- d_aki_ktura: "Aki-Ktura"
- d_aki_ktura_desc: "Aki-Ktura is a populous Aki-Aki farming village."
+  ## 17 May 2024 ##
+ ring_world_2_intermediate_MEGASTRUCTURE_DETAILS: ""
+ ring_world_3_intermediate_MEGASTRUCTURE_DETAILS: ""
 
  ## 17 May 2024 ##
  ring_world_2_intermediate_MEGASTRUCTURE_DETAILS: ""
  ring_world_3_intermediate_MEGASTRUCTURE_DETAILS: ""
+
+ ## 21 May 2024 ##
+ election_weight.alien: "Non-[Owner.Species.GetName]"
+
+ ## 9 June 2024 ##
+ trade_conversion_everything_name: "Competitive Advantage"
+
+ ## 25 June 2024 ##
+ NAME_event_CSA_Keldabe: "Keldabe"
+ NAME_event_CSA_Aggressor_Destroyer: "Aggressor"
+ NAME_event_CSA_Kiltirin_Frigate: "Kiltirin"
+ NAME_event_CSA_Vengeance_Frigate: "Vengeance"
+ NAME_event_CSA_Kyramud_Heavy_Cruiser: "Kyramud"
+ NAME_event_CSA_Lictor_Heavy_Cruiser: "Lictor"
+ NAME_event_CSA_Centurion_Star_Destroyer: "Centurion"
+ NAME_event_CSA_Kandosii_Destroyer: "Kandosii Destroyer"
+
+ ## 27 June 2024 ##
+ leader_trait_swnd_mando_merc: "Mandalorian Mercenary"
+ leader_trait_swnd_mando_merc_desc: "Mandalorian mercenaries are highly sought after for their prowess in battle. They're willing to work for whoever can offer the most credits."
+
+ ## 29 July 2024 ##
+
+
+ ## 17 September 2024 ##
+ ap_become_the_crisis: "The New Order"
+ ap_become_the_crisis_desc: "In order to ensure the security and continuing stability, the Republic will be reorganized into the first Galactic Empire! For a safe and secure society!"
+ CRISIS_LEVELS_DESC: "To advance through the Galactic New Order levels, complete Menace Objectives and research the Galactic New Order Special Projects in the Situation Log"
+ crisis_new_order_level_1: "New Order"
+ crisis_new_order_level_2: "Preparations" 
+ crisis_new_order_level_3: "Dark Force Rising"
+ crisis_new_order_level_4: "Galactic Threat" 
+ crisis_new_order_level_5: "Armed and Operational"
+ crisis_new_order_level_1_desc: "New Order Level 1"
+ crisis_new_order_level_2_desc: "New Order Level 2"
+ crisis_new_order_level_3_desc: "New Order Level 3"
+ crisis_new_order_level_4_desc: "New Order Level 4"
+ crisis_new_order_level_5_desc: "New Order Level 5"
+
+ crisis_crusade_level_1: "The Crusade"
+ crisis_crusade_level_2: "New Age"
+ crisis_crusade_level_3: "Prospecting"
+ crisis_crusade_level_4: "Final Preparations"
+ crisis_crusade_level_5: "Might of Mandalore"
+ crisis_crusade_level_1_desc: "Crusade Level 1"
+ crisis_crusade_level_2_desc: "Crusade Level 2"
+ crisis_crusade_level_3_desc: "Crusade Level 3"
+ crisis_crusade_level_4_desc: "Crusade Level 4"
+ crisis_crusade_level_5_desc: "Crusade Level 5"
+
+ ## 19 September 2024 ##
+ huge_decreased_relations: "Huge decreased relations"
+
+ ## 13 October 2024 ##
+ mod_planet_jobs_bacta_produces_mult: "£bacta£ $bacta$ from £job£ Jobs"
+
+ ## 14 October 2024 ##
+ leader_trait_expertise_droids: "Expertise: Droidology" # From LOTOR
+ leader_trait_expertise_droids_desc: "This leader is, following years of study, considered an expert within the field of droid design."
+ mod_category_droids_draw_chance_mult: "Chance for §YDroids§! Research Options"
+
+ leader_trait_spice_focus: "Spice Connoisseur" # From LOTOR
+ leader_trait_spice_focus_desc: "This leader has an intricate understanding of the spice trade, leveraging their expertise to effectively oversee production, refinement, and distribution of this valuable resource."
+ leader_trait_spice_focus_2: "$leader_trait_spice_focus$ II"
+ leader_trait_spice_focus_2_desc: "$leader_trait_spice_focus_desc$"
+
+ leader_trait_fuel_focus: "Fuel Distribution Specialist" # From LOTOR
+ leader_trait_fuel_focus_desc: "With expertise in the production and handling of starship fuel, this leader is adept at optimizing fuel efficiency and supply chains for spacefaring operations."
+ leader_trait_fuel_focus_2: "$leader_trait_fuel_focus$ II"
+ leader_trait_fuel_focus_2_desc: "$leader_trait_fuel_focus_desc$"
+
+ leader_trait_medical_goods_focus: "Medical Supplies Logistican" # From LOTOR
+ leader_trait_medical_goods_focus_desc: "This leader possesses an in-depth knowledge of medical supply logistics, ensuring the efficient management and distribution of essential healthcare resources."
+ leader_trait_medical_goods_focus_2: "$leader_trait_medical_goods_focus$ II"
+ leader_trait_medical_goods_focus_2_desc: "$leader_trait_medical_goods_focus_desc$"
+ 
+ ## 5 November 2024 ##
+ pm_improved_law_enforcement: "Improved Enforcement"
+ pm_improved_law_enforcement_desc: "Law enforcement has redoubled their efforts to maintain order and stability."
+ 
+ ## 17 November 2024 ##
+ swnd_cloud_city_tt: "wip"
+ swnd_asteroid_base_tt: "wip"
+
+ ## 19 November 2024 ##
+ swnd_unique_character_event.500.name: "Kalani"
+ swnd_unique_character_event.500.desc: "wip HK shows up, do something"
+ swnd_unique_character_event.500.a: "How did you find this channel?"
+ swnd_unique_character_event.500.a.response: "Statement: "
+ swnd_unique_character_event.500.b: "What use would I have from an assasin droid?"
+ swnd_unique_character_event.500.b.response: "Recitation: It is my primary function to burn holes through meatbags that you wish removed from the galaxy."
+ swnd_unique_character_event.500.c: "wip"
+ swnd_unique_character_event.500.c.response: "REPLACE_ME"
+ swnd_unique_character_event.500.hire.tooltip: "§Y$PRESCRIPTED_leader_kalani$§! joins our empire as a §HLeader§!."
+
+ ## 28 November 2024 ##
+ ## Updated Clan land grant/strip locs ##
+ swnd_mandalorian_clans.101.system_choice_1: "Grant [system_choice_1.GetName]."
+ swnd_mandalorian_clans.101.system_choice_2: "Grant [system_choice_2.GetName]."
+ swnd_mandalorian_clans.101.system_choice_3: "Grant [system_choice_3.GetName]."
+ swnd_mandalorian_clans.101.system_choice_4: "Grant [system_choice_4.GetName]."
+ swnd_mandalorian_clans.101.system_choice_5: "Grant [system_choice_5.GetName]."
+ swnd_mandalorian_clans.101.system_choice_6: "Grant [system_choice_6.GetName]."
+ swnd_mandalorian_clans.101.system_choice_7: "Grant [system_choice_7.GetName]."
+ swnd_mandalorian_clans.101.system_choice_8: "Grant [system_choice_8.GetName]."
+ swnd_mandalorian_clans.101.system_choice_9: "Grant [system_choice_9.GetName]."
+ swnd_mandalorian_clans.101.system_choice_10: "Grant [system_choice_10.GetName]."
+
+ swnd_mandalorian_clans.102.system_choice_1: "Reclaim [system_choice_1.GetName]."
+ swnd_mandalorian_clans.102.system_choice_2: "Reclaim [system_choice_2.GetName]."
+ swnd_mandalorian_clans.102.system_choice_3: "Reclaim [system_choice_3.GetName]."
+ swnd_mandalorian_clans.102.system_choice_4: "Reclaim [system_choice_4.GetName]."
+ swnd_mandalorian_clans.102.system_choice_5: "Reclaim [system_choice_5.GetName]."
+ swnd_mandalorian_clans.102.system_choice_6: "Reclaim [system_choice_6.GetName]."
+ swnd_mandalorian_clans.102.system_choice_7: "Reclaim [system_choice_7.GetName]."
+ swnd_mandalorian_clans.102.system_choice_8: "Reclaim [system_choice_8.GetName]."
+ swnd_mandalorian_clans.102.system_choice_9: "Reclaim [system_choice_9.GetName]."
+ swnd_mandalorian_clans.102.system_choice_10: "Reclaim [system_choice_10.GetName]."
+
+ ## 16 December 2024 ##
+ mod_pop_ethic_fanatic_authoritarian_attraction_mult: "Fanatic Authoritarian Ethics Attraction"
+ mod_pop_ethic_fanatic_xenophobe_attraction_mult: "Fanatic Xenophobe Ethics Attraction"
+ mod_pop_ethic_fanatic_militarist_attraction_mult: "Fanatic Militarist Ethics Attraction"
+ mod_leaders_unity_upkeep_mult: "Leader Unity Upkeep"
+ mod_operations_time_cost_mult: "Operation Completion Time"
+ ## 18 December 2024 ##
+ crusade_crisis_objective_progress: "We have gained £menace£ $AMOUNT$ from this Crisis Objective."
+ new_order_crisis_objective_progress: "We have gained £menace£ $AMOUNT$ from this Crisis Objective."
+ ## 7 January 2025 ##
+ war_goal_wg_clan_feud: "Clan Feud"
+ war_goal_wg_clan_feud_desc: "Mandalorian clans fight between each other on the basis of honor."
+
+ ## 26 March 2025 ##
+ NAME_adjective_RebelAlliance: "Alliance"
+
+ ## 11 May 2025 ##
+ job_culture_worker_effect_desc: "wip"
+
+ ### 29 May 2025 ###
+ mod_planet_technician_minerals_produces_add: "wip"
+ tr_empire_research_academy_tt: "£scientist£ Scientist experience gain +§G+0.10§!\n£scientist£ Scientist cost §G+-0.10§!\nCountry £scientist£ Scientist cap §G+1§!"
+ tr_empire_compnor_security_bureau_tt: "$job_enforcer_plural$ §G+1§! £unity£ $unity$."
+
+ ## 1 July 2025 ##
+ zone_moisture: "Moisture Farms"
+ zone_moisture_desc: "$district_moisture_desc$"
+ zone_moisture_farm: "$zone_moisture$"
+ zone_moisture_farm_desc: "$district_moisture_desc$"
+
+ # 20 August 2025 ##
+ mod_district_moisture_max_add: "Max Moisture Farming District"
+ mod_district_moisture_max_add: "Max Moisture Farming District"
+ 
+ ## 18 October 2025 ##
+ situation_swnd_partisans: "The Partisans"
+ situation_swnd_partisans_type: "The Partisans"
+ situation_swnd_partisans_monthly_change_tooltip: "REPLACE_ME"
+ situation_swnd_partisans_fail_effect: "REPLACE_ME"
+ situation_swnd_partisans_desc_complete_effect: "REPLACE_ME"
+ approach_swnd_partisans_a: "Appeal to Saw"
+ approach_swnd_partisans_b: "Condem the Partisans"
+ approach_swnd_do_nothing: "Do Nothing"
+ approach_swnd_partisans_c_on_select: "REPLACE_ME"
+ approach_swnd_partisans_b_on_select: "REPLACE_ME"
+ approach_swnd_partisans_a_on_select: "REPLACE_ME"
+
+ # 20 October 2025 #
+ swnd_partisans.10.name: "Missing Supplies"
+ swnd_partisans.10.desc: "The governor of §Y[Root.planet.GetName]§! has reported several missing shipments over the last few months. Nearly all the shipments were medical supplies or equipment meant to go to the local garrison in the capital city that were hijacked while en route.\n\n Most of the crew on the transports were killed and others left behind, shaken by the violent attack.\n\n While its very likely that these attacks are the work of group of criminals, the evidence shows that they are no mere thugs."
+ swnd_partisans.10.a: "Bolster local defenses."
+ swnd_partisans.10.b: "We'll recoup our losses over the next few rotations."
+ swnd_partisans.10.c: "Downplay attacks on the holonet. Just some thugs after all."
+ swnd_partisans.20.name: "Local Concerns"
+ swnd_partisans.20.desc: "More shipments have gone missing on §Y[Root.planet.GetName]§!and the attackers appear to have begun stealing Imperial vehicles. The local governor, despite their best efforts, have failed in preventing more of these raids against Imperial shipments.\n\nThe local population is starting to become unnerved by these attacks and the thought of an insurrectionist group operating in our midst is becoming a greater concern. This situation is leading to unrest in various cities, threatening our operations on the planet.\n\n As this group has become bolder, it's become clear that stronger presence is needed to curtail these attacks. The ISB has taken interest in these raids and is willing to root out the source of this problem if needed."
+ swnd_partisans.20.a: "Request ISB help on the matter."
+ swnd_partisans.20.b: "Request additional military support."
+ swnd_partisans.20.c: "Pay these criminals no mind."
+ swnd_partisans.21.name: "Cell Uncovered"
+ swnd_partisans.21.desc: "Through the tireless efforts of the ISB, we have discovered the identity of the primary attackers. This rebel cell, known as the §RPartisans§!, is led by an Onderonian named §YSaw Gerrera§!. His methods are ruthless and his persona is bordering on madness.\n\nThe ISB suggests that we tread carefully since the §RPartisans§! are more reckless than the usual seditionist riff-raf, not least because they disregard collateral damage.\n\nOur field agents will work their hardest to destabilize the group from within and create a larger rift between them and local resistance groups."
+ swnd_partisans.21.a: "Time to bolster defenses and hope for the best."
+ swnd_partisans.22.name: "Criminals Uncovered"
+ swnd_partisans.22.desc: "Through the tireless efforts of the ISB, we have discovered the identity of the primary attackers. This rebel cell, known simply as the §RPartisans§!, claims responsibility for the repeated attacks against Imperial convoys and personnel. While we don't know the leader's name for certain, we do know they go by the alias \"§YStoneface§!.\"\n\nThe ISB suggests that we tread carefully since the §RPartisans§! are more reckless than the usual seditionist riff-raf, not least because they disregard collateral damage.\n\nOur field agents will work their hardest to destabilize the group from within and create a larger rift between them and local resistance groups."
+ swnd_partisans.22.a: "$swnd_partisans.21.a$"
+ swnd_partisans.23.name: "Support Request"
+ swnd_partisans.23.desc: "Criminals, rebels, whatever they may be, they've managed to cause an uproar among the populace. The governor of §Y[Root.planet.GetName]§! has requested has requested a full military deployment on the planet to help quell the growing discontent.\n\nThe Empire assures us that the stronger military presence will discourage these attacks and quell dissidents."
+ swnd_partisans.23.a: "They dare challenge the Empire? So be it."
+ swnd_partisans.24.name: "Growing Dissension"
+ swnd_partisans.24.desc: "These upstarts have managed to cause an uproar among the populace. The incompetence of the governor of §Y[Root.planet.GetName]§! has refused to call in extra support to keep the dissidents at bay.\n\nAmidst the chaos, a rebel faction called the §RPartisans§! has taken control of the local resistance and are making conducting attacks on Imperial facilities around the planet. Though casualties among the Partisans are estimated to be high, these strikes have taken a toll on our forces and some civilians caught in the attacks."
+ swnd_partisans.24.a: "..."
+ swnd_partisans.30.name: "Turning Tides"
+ swnd_partisans.30.desc: "Despite our best efforts by our field agents to destabilize the §RPartisans§!, the group remains unbroken. If anything, our interference has emboldened them.\n\nThe terrorists, aided by local resistance, seized enough equipment to launched a series of relentless attacks against military installations and crucial infrastructure systems, as well as executed the local governor.\n\nOur contacts in the station above §Y[Root.planet.GetName]§! have gone silent."
+ swnd_partisans.30.a: "This is worrisome."
+ swnd_partisans.40.name: "Desperate Attack"
+ swnd_partisans.40.desc: "In a bold and foolish move, the §RPartisans§!, aided by local resistance, launched a series of failed attacks against our holdings on §Y[Root.planet.GetName]§!. While we took casualties, the §RPartisan§! cell inflicted several of their own against the local resistance groups out of a perceived mistrust in their leadership. With their standing among the populace reduced to nothing, the §RPartisans§! appear to have fled, leaving the planet entirely.\n\nUltimately they have done our §YEmpire§! a great service."
+ swnd_partisans.40.a: "Good riddance."
+ swnd_partisans.50.name: "Imperial Might"
+ swnd_partisans.50.desc: "Our overwhelming military presence on the planet proved to be a clear message to the rebel cell. The increased presence of our forces and terrifying new walkers appears to have demotivated the scum.\n\nSensors have picked up on a handful of smuggling ships leaving the planet surface. Wherever they are heading, their plans for §Y[Root.planet.GetName]§! have no doubt failed."
+ swnd_partisans.50.a: "Long live the Empire."
+ swnd_partisans.60.name: "Losing Control"
+ swnd_partisans.60.desc: "The increased presence of our forces and terrifying new walkers appears to have only emboldened the scum.\n\nThis terrorist group known as the §RPartisans§! have launched reckless attacks against military installations across the planet and have disrupted our operations and communications. Army Intelligence indicates the local governor has been killed and the Partisans are attempting to secure control over the planet."
+ swnd_partisans.60.a: "Blasted rebels!"
+ swnd_partisans.70.name: "Partisan Control"
+ swnd_partisans.70.desc: "The §RPartisans§! have successfully taken over §Y[Root.planet.GetName]§!. Our garrison was overrun and Imperial surviors are few and far between. The §RPartisans§! brutality means that both remaining Imperial personnel and loyal citizens will be at the mercy of §YSaw Gerrera§! and his men."
+ swnd_partisans.70.a: "We will wipe them out!"
+ swnd_partisans.5002.name: "Saw's Reckoning"
+ swnd_partisans.5002.desc: "§YSaw Gerrera§!'s §RPartisans§! are no more. A crushing defeat at the hands of those far superior to the cell ended the rhydo-fueled dreams of a very troubled man."
+ swnd_partisans.5002.a: "So be it."
+
+### ignore this section, its stuff I might reuse later ###
+#Early opposition in the senate led to sixty-three senators being arrested by  
+#Every session starts the same way with a seemingly mindless repetition of an oath to peace and bounty throughout the Empire. The oathkeeper's call and the senators' response. Every session ends with something being chipped away at from the foundation of the Republic. Increased military spending, the introduction of a new currency, the disregard for the rights and lives of non-Humans. 
+#Principled Dissension
+#The wealth of House Organa is for more than just outward appearances. Through the charitable efforts of Bail Organa, Alderaan proves itself as a key player in galactic aid and relief efforts. Even as the Imperial Senate chips away at the freedoms throughout the galaxy, Bail continues his effort to provide help to those in need. His actions have even rubbed off on his daughter, Leia.
+#Sometime after the mission, Organa made a complaint to Moff Stattata of the Lothal sector. Following the complaint compensation was paid by the Empire to the Royal House of Alderaan for reimbursement for the "stolen" ships and cargo. The total value of the claim was 2,242,500 credits.

@@ -261,9 +261,9 @@
  NAME_Kanaver_P7: "Kanaver VII"
  
  #Jahodral Mizar
- NAME_Jahodral_Mizar: "Jahodral Mizar"
- NAME_Jahodral_Mizar_S: "Jahodral Mizar"
- NAME_Jahodral_Mizar_P1: "Jahodral Mizar"
+ NAME_Janodral_Mizar: "Janodral Mizar"
+ NAME_Janodral_Mizar_S: "Janodral Mizar"
+ NAME_Janodral_Mizar_P1: "Janodral Mizar"
  
  #Makem Te
  NAME_Makem: "Makem"
@@ -934,7 +934,7 @@
  NAME_Taris_P6_3: "Taris VIc"
  NAME_Taris_P6_4: "Taris VId"
  NAME_Taris_P6_5: "Taris VIe"
- NAME_Taris_P7: "Roque Moon"
+ NAME_Taris_P7: "Rogue Moon"
  
  #Bandomeer
  NAME_Bandomeer: "Bandomeer"
@@ -2880,6 +2880,11 @@
  NAME_Devaron_P1: "Devaron"
  NAME_Devaron_P1_1: "Devaron I"
  NAME_Devaron_P1_2: "Devaron II"
+
+ #Batorine 
+ NAME_Batorine: "Batorine"
+ NAME_Batorine_S1: "Batorine"
+ NAME_Batorine_P1: "Batorine"
  
  ##### Northern Dependencies & Trans-Hydian (Borderlands) #####
  
@@ -4658,12 +4663,12 @@
  #Ubrikkia
  NAME_Ubrikkia: "Ubrikkia"
  NAME_Ubrikkia_S: "Ubrikkia"
- NAME_Ubrikkia_P1: "Ubrikkia"
+ NAME_Ubrikkia_P3: "Ubrikkia"
  
  #Kwenn
  NAME_Kwenn: "Kwenn"
  NAME_Kwenn_S: "Kwenn"
- NAME_Kwenn_P1: "Kwenn"
+ NAME_Kwenn_DSS: "Kwenn Starport"
  
  #Keldooine
  NAME_Keldooine: "Keldooine"
@@ -4706,9 +4711,9 @@
  NAME_Celegia_S: "Celegia"
  NAME_Celegia_P1: "Celegia"
  
- #Cona
- NAME_Cona: "Cona"
- NAME_Cona_S: "Cona"
+ #Cona / Teke Ro
+ NAME_Cona: "Teke Ro"
+ NAME_Cona_S: "Teke Ro"
  NAME_Cona_P1: "Cona"
  NAME_Cona_P1_1: "Cona I"
  
@@ -5102,8 +5107,15 @@
  NAME_Norval_S: "Norval"
  
  #Kubindi
- NAME_Kubindi: "Kubindi"
- NAME_Kubindi_S: "Kubindi"
+ NAME_Kubindi: "Ku'Bakai"
+ NAME_Kubindi_S: "Ku'Bakai"
+ NAME_Kubindi_P1: "Kubindi"
+ NAME_Kubindi_P1_1: "Kubindi I"
+ NAME_Kubindi_P1_2: "Kubindi II"
+ NAME_Kubindi_P1_3: "Kubindi III"
+ NAME_Kubindi_P2: "Ku'Bakai VI"
+ NAME_Kubindi_P3: "Ku'Bakai VIII"
+ NAME_Kubindi_P4: "Ku'Bakai XI"
  
  #Drualkiin
  NAME_Drualkiin: "Drualkiin"
@@ -5611,7 +5623,7 @@
  NAME_Kleeva: "Kleeva"
  NAME_Kleeva_S: "Kleeva"
  NAME_Kleeva_P1: "Kleeva"
- NAME_Kleeva_P1_1: "Boonda´s Moon"
+ NAME_Kleeva_P1_1: "Boonda's Moon"
  
  #Tol Amn
  NAME_Tol_Amn: "Tol Amn"
@@ -6851,6 +6863,12 @@
  NAME_Endregaad: "Joxin"
  NAME_Endregaad_S: "Joxin"
  NAME_Endregaad_P1: "Endregaad"
+
+ #Byss/Abyss
+ NAME_Abyss: "Byss and Abyss"
+ NAME_Abyss_S1: "Byss"
+ NAME_Abyss_S2: "Abyss"
+ NAME_Abyss_P1: "Byss"
  
  ### Slice - Wild Space, Arkanis sector ###
  
@@ -7039,6 +7057,13 @@
  NAME_T_Olan: "T'olan"
  NAME_T_Olan_S: "T'olan"
  NAME_T_Olan_P1: "T'olan"
+
+ # Numidian Prime
+ NAME_Numidian_Prime: "Numidian"
+ NAME_Numidian_Prime_S1: "Numidian"
+ NAME_Numidian_Prime_P1: "Numidian Prime"
+ NAME_Numidian_Prime_P1_1: "Numidian Minor I"
+ NAME_Numidian_Prime_P1_2: "Numidian Minor II"
  
  ### South of Celanon Spur ###
  
@@ -7179,6 +7204,11 @@
  NAME_Drackmar: "Drackmar"
  NAME_Drackmar_S: "Drackmar"
  NAME_Drackmar_P1: "Drackmar"
+
+ # Jarnollen
+ NAME_Jarnollen: "Jarnollen"
+ NAME_Jarnollen_S1: "Jarnollen"
+ NAME_Jarnollen_P1: "Jarnollen"
  
  ### Entralla Route + Rest to Xerton ###
  
@@ -7325,6 +7355,11 @@
  NAME_Xerton_P7: "Xerton VII"
  NAME_Xerton_P8: "Xerton VIII"
  NAME_Xerton_P9: "Xerton IX"
+
+ # Qiilura
+ NAME_Qiilura: "Qiilura"
+ NAME_Qiilura_S1: "Qiilura"
+ NAME_Qiilura_P1: "Qiilura"
  
  ### Veragi Trade Route ###
  
@@ -8403,6 +8438,11 @@
  NAME_Velabri: "Velabri"
  NAME_Velabri_S: "Velabri"
  NAME_Velabri_P1: "Velabri"
+
+ #Crait
+ NAME_Crait: "Crait"
+ NAME_Crait_S: "Crait"
+ NAME_Crait_P1: "Crait"
  
  ##### Western Reaches #####
  
@@ -8762,6 +8802,7 @@
  #Fengrine
  NAME_Fengrine: "Fengrine"
  NAME_Fengrine_S: "Fengrine"
+ NAME_Fengrine_P1: "Fengrine"
  
  #Neelanon
  NAME_Neelanon: "Neelanon"
@@ -8778,9 +8819,9 @@
  NAME_Hestria_S: "Hestria"
  NAME_Hestria_P1: "Hestria"
  
- #Tibrin
- NAME_Tibrin: "Tibrin"
- NAME_Tibrin_S: "Tibrin"
+ #Tibrin/Cal
+ NAME_Tibrin: "Cal"
+ NAME_Tibrin_S: "Cal"
  NAME_Tibrin_P1: "Tibrin"
  NAME_Tibrin_P1_1: "Plah"
  
@@ -9464,6 +9505,15 @@
  NAME_Ponemah_P3_5: "Ponemah IIIe"
  NAME_Ponemah_P3_6: "Ponemah IIIf"
  NAME_Ponemah_P4: "Ponemah IV"
+
+ #Batuu
+ NAME_Batuu: "Batuu"
+ NAME_Batuu_S1: "Ubaat I"
+ NAME_Batuu_S2: "Ubaat II"
+ NAME_Batuu_S3: "Ubaat III"
+ NAME_Batuu_P1: "Batuu"
+ NAME_Batuu_P1_1: "Destra"
+ NAME_Batuu_P1_2: "Valara"
  
  ### Northern Unknown Systems ###
  
@@ -10080,3 +10130,40 @@
  NAME_Rhand: "Rhand"
  NAME_Rhand_S: "Rhand"
  NAME_Rhand_P1: "Rhand"
+
+### New Systems ### - 2 July 2025
+
+#Morlani
+NAME_Morlani: "Morlani"
+NAME_Morlani_S: "Morlana"
+NAME_Morlani_P1: "Morlana I"
+NAME_Morlani_P1_1: "Morlana I Minor"
+NAME_Morlani_P2: "Morlana II"
+NAME_Morlani_P3: "Morlana III"
+NAME_Morlani_P4: "Morlana IV"
+NAME_Morlani_P5: "Ferrix"
+NAME_Morlani_P5_1: "Ferrix Minor"
+
+#Aldhani
+NAME_Aldhani: "Aldhani"
+NAME_Aldhani_S: "Aldhani"
+NAME_Aldhani_P1: "Aldhani"
+NAME_Aldhani_P1_1: "Aldhani Major"
+NAME_Aldhani_P1_2: "Aldhani Minor"
+
+#Pabu
+NAME_Pabu: "Pabu"
+NAME_Pabu_S: "Pabu"
+NAME_Pabu_P1: "Pabu"
+NAME_Pabu_P1_1: "Pabu Minor"
+
+#Koboh
+NAME_Koboh: "Koboh"
+NAME_Koboh_S: "Koboh"
+NAME_Koboh_P1: "Koboh"
+NAME_Koboh_P1_1: "Koboh's Shattered Moon"
+
+#Koboh Abyss
+NAME_Koboh_Abyss: "Koboh Abyss"
+NAME_Koboh_Abyss_S: "Koboh Abyss"
+NAME_Koboh_Abyss_P1: "Tanalorr"

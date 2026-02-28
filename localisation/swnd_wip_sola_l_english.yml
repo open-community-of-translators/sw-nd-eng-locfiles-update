@@ -1,0 +1,431 @@
+﻿l_english:
+
+ ### July 11 District Stuff
+ # Polis Massa
+ planet_districts_polis_massa: "Asteroid Districts"
+ district_polis_massa_housing: "Asteroid Habitation District"
+ district_polis_massa_housing_plural: "Asteroid Habitation Districts"
+ district_polis_massa_housing_desc: "Compact living quarters are carved into stable rock, providing shelter and life support in an otherwise uninhabitable environment."
+ district_polis_massa_generator: "Asteroid Generator District"
+ district_polis_massa_generator_plural: "Asteroid Generator Districts"
+ district_polis_massa_generator_desc: "Thin or absent atmospheres permit direct solar harvesting, offering a dependable energy source on asteroids."
+ district_polis_massa_mining: "Asteroid Mining District"
+ district_polis_massa_mining_plural: "Asteroid Mining Districts"
+ district_polis_massa_mining_desc: "Low gravity and exposed crust layers make asteroid mining an efficient source of raw minerals."
+ district_polis_massa_hydroponic: "Asteroid Agriculture District"
+ district_polis_massa_hydroponic_plural: "Asteroid Agriculture District"
+ district_polis_massa_hydroponic_desc: "Microbes and lichens, supplemented by hydroponics, enable limited food production on asteroids."
+
+ ### July 12
+ # Deposit Stuff
+ d_hyperfuel_isotopes: "Hyperfuel Isotopes"
+ d_hyperfuel_isotopes_desc: "Our survey teams have confirmed this planet holds the rare precursors necessary for the refinement of hyperfuel-an essential volatile for faster-than-light travel. While dangerous to handle and unstable in raw form, with the proper containment and refinement, these compounds can be transformed into high-grade starship fuel. The crust is laced with trace veins of hyper-reactive isotopes and volatile plasma-seep pockets, making this world a valuable source of propulsion-grade hyperfuel for our fleets."
+ d_hyperfuel_isotopes_2: "Abundant Hyperfuel Isotopes"
+ d_hyperfuel_isotopes_2_desc: "$d_hyperfuel_isotopes_desc$"
+ d_hyperfuel_coaxium: "Coaxium-Rich Isotopes"
+ d_hyperfuel_coaxium_desc: "Deep beneath the surface, volatile seams of coaxium pulse with barely-contained energy. This rare and unstable hyperfuel compound requires precise containment and immediate refinement, but the reward is immense-coaxium offers unmatched performance for faster-than-light propulsion systems."
+
+ mod_planet_farmers_bacta_produces_add: "£bacta£ $bacta$ from [farmer.GetIcon] [GetFarmerPlural]"
+ mod_planet_miners_spice_produces_add: "£spice£ $spice$ from [miner.GetIcon] [GetMinerPlural]"
+ mod_planet_miners_sr_kyber_produces_add: "£sr_kyber£ $kyber$ from [miner.GetIcon] [GetMinerPlural]"
+ mod_planet_technician_hyperfuel_produces_add: "£hyperfuel£ $hyperfuel$ from [technician.GetIcon] [GetTechnicianPlural]"
+ mod_planet_engineers_tibanna_gas_upkeep_add: "£tibanna_gas£ $tibanna_gas$ Upkeep per $pop_group_unit$ $job_engineer_plural_with_icon$"
+
+ # Tech Stuff
+ tech_fuel_industry: "Hyperfuel Industry"
+ tech_fuel_industry_desc: "The foundation of galactic transit begins here. Basic refining infrastructure enables the safe processing of volatile hypermatter into usable fuel, transforming raw deposits into the lifeblood of interstellar commerce."
+
+ # Building Stuff
+ requires_building_floating_capital: "§RRequires §Y$building_floating_capital$§! on planet.§!"
+ requires_building_floating_major_capital: "§RRequires §Y$building_floating_major_capital$§! on planet.§!"
+
+
+ ### July 14
+ # Building Stuff
+ building_electronics_factory_1: "Electronics Labs"
+ building_electronics_facroty_1_desc: "Basic laboratories for assembling circuits, sensors, and other precision components."
+ building_electronics_factory_2: "Electronics Factories"
+ building_electronics_facroty_2_desc: "Industrial facilities with integrated production lines for electronic systems and components."
+ building_electronics_factory_3: "Electronics Fabricators"
+ building_electronics_factory_3_desc: "Large-scale fabrication plants dedicated to the mass production of high-end electronic systems."
+
+ building_electronics_base: "Electronics Production Base"
+ building_electronics_base_desc: "Fabrication chambers and microassembly vaults producing the processors, sensor arrays, guidance systems, and targeting components that power the galaxy's military technologies."
+ building_electronics_hq: "Electronics Production Headquarters"
+ building_electronics_hq_desc: "Central command for regional electronics manufacturing, coordinating the precision output of advanced systems vital to starship combat, planetary defense, and command infrastructure."
+
+ building_central_tibanna_platform: "Central Tibanna Platform"
+ building_central_tibanna_platform_desc: "A sprawling airborne complex that anchors multiple extraction units, compression arrays, and atmospheric processing towers to maximize Tibanna yield across the surrounding skyfields."
+
+ building_synthetic_hyperfuel: "Synthetic Hyperfuel Refinery"
+ building_synthetic_hyperfuel_desc: "A high-tech facility where munitions engineers and systems technicians convert volatile compounds into synthetic hypermatter, refining it into Hyperfuel for advanced reactors and propulsion systems."
+ building_synthetic_hyperfuel_2: "Synthetic Hyperfuel Industry"
+ building_synthetic_hyperfuel_2_desc: "Planetary reserves can only support a fraction of the fleet's requirements.   Advanced refineries utilize our specialized technicians to synthesize hyperfuel in bulk."
+
+ # Tech Stuff
+ tech_electronics_base: "Electronics Production Base"
+ tech_electronics_base_desc: "Concentrating high-tech assembly and fabrication into zoned tech-parks improves efficiency in producing tactical sensors, signal processors, and targeting subsystems essential to modern warfare."
+ tech_electronics_hq: "Electronics Production Headquarters"
+ tech_electronics_hq_desc: "From the tech enclaves of Hosnian Prime to the towers of Commenor, electronics production is often driven by institutional coordination, whether through academic-industrial clusters or heavily regulated defense contracting hubs."
+ tech_central_tibanna_platform: "$building_central_tibanna_platform$"
+ tech_central_tibanna_platform_desc: "$building_central_tibanna_platform_desc$"
+
+ # District Stuff
+ planet_districts_cloud_city: "Floating City Districts"
+ district_cloud_city_housing: "Floating Housing District"
+ district_cloud_city_housing_plural: "Floating Housing Districts"
+ district_cloud_city_housing_desc: "Residential tiers nestled between storage silos and industrial lifts provide dense, efficient housing within the vast floating metropolis."
+ district_cloud_city_energy: "Floating Generator Disctrict"
+ district_cloud_city_energy_plural: "Floating Generator Districts"
+ district_cloud_city_energy_desc: "The city's lower decks house intake coils that draw steady power from the restless skies."
+ district_cloud_city_resort: "Floating Resort District"
+ district_cloud_city_resort_plural: "Floating Resort Districts"
+ district_cloud_city_resort_desc: "Upper terraces of the floating city are reserved for luxury and leisure. Observation decks, spas, and promenade domes offer unobstructed views above the clouds. Here, the air is cleaner, and the credits flow freely."
+
+ # Zone Stuff
+ zone_strategic_systems: "Strategic Systems Complex"
+ zone_strategic_systems_desc: "This industrial hub merges advanced electronics and munitions production, ensuring our fleets and defenses are well-equipped and maintained."
+ zone_ammunition: "Munitions Sector"
+ zone_ammunition_desc: "Explosions echo in these fortified halls where deadly ordnance is forged, fueling the fires of war and defense."
+ zone_electronics: "Electronics Sector"
+ zone_electronics_desc: "This sector hums with quiet focus, where circuitry and sensors are crafted for use across ship and station alike."
+
+ zone_unavailable_tech_resort_colonies: "$society_research_icon_with_space$$tech_resort_colonies$"
+ zone_unavailable_tech_tibanna_gas: "$physics_research_icon_with_space$$tech_tibanna_gas$"
+ zone_cloud_city_resort: "Tourist District"
+ zone_cloud_city_resort_desc: "Glass lounges, gardens, casinos, and museums line the upper tiers of the floating city, catering to travelers and dignitaries alike."
+ zone_tibanna_gas_mining: "Tibanna Gas Extraction"
+ zone_tibanna_gas_mining_desc: "Tractor beams hum and pipelines rush with Tibanna gas, siphoning it from the clouds into towering tanks for conversion into reactor fuel or blaster cartridges."
+ zone_tibanna_gas_research: "Tibanna Gas Research Support"
+ zone_tibanna_gas_research_desc: "A reliable supply of Tibanna gas supports experimental breakthroughs in propulsion systems and high-energy weaponry"
+
+ ### July 15 testing
+ # Modifier Locs
+ mod_planet_electronics_manufacturers_energy_upkeep_add: "$energy_with_icon$ Upkeep per $pop_group_unit$ £job_electronics_manufacturer£ $job_electronics_manufacturer_plural$"
+ mod_planet_electronics_manufacturers_minerals_upkeep_add: "$minerals_with_icon$ Upkeep per $pop_group_unit$ £job_electronics_manufacturer£ $job_electronics_manufacturer_plural$"
+ mod_planet_electronics_manufacturers_alloys_upkeep_add: "£alloys£ $alloys$ Upkeep per $pop_group_unit$ £job_electronics_manufacturer£ $job_electronics_manufacturer_plural$"
+ mod_planet_electronics_manufacturers_hyperfuel_produces_add: "£hyperfuel£ $hyperfuel$ from £job_electronics_manufacturer£ $job_electronics_manufacturer_plural$"
+ mod_planet_electronics_manufacturers_electronics_produces_add: "£electronics£ $electronics$ from £job_electronics_manufacturer£ $job_electronics_manufacturer_plural$"
+ mod_planet_tibanna_miners_tibanna_gas_produces_add: "£tibanna_gas£ $tibanna_gas$ from £job_tibanna_miner£ $job_tibanna_miner_plural$"
+ mod_planet_ammunition_manufacturers_energy_upkeep_add: "$energy_with_icon$ Upkeep per $pop_group_unit$ £job_ammunition_manufacturer£ $job_ammunition_manufacturer_plural$"
+ mod_planet_ammunition_manufacturers_minerals_upkeep_add: "$minerals_with_icon$ Upkeep per $pop_group_unit$ £job_ammunition_manufacturer£ $job_ammunition_manufacturer_plural$"
+ mod_planet_ammunition_manufacturers_hyperfuel_produces_add: "£hyperfuel£ $hyperfuel$ from £job_ammunition_manufacturer£ $job_ammunition_manufacturer_plural$"
+ mod_planet_ammunition_manufacturers_tibanna_gas_upkeep_add: "£tibanna_gas£ $tibanna_gas$ Upkeep per $pop_group_unit$ £job_ammunition_manufacturer£ $job_ammunition_manufacturer_plural$"
+ mod_planet_ammunition_manufacturers_ammunition_produces_add: "£ammunition£ $ammunition$ from £job_ammunition_manufacturer£ $job_ammunition_manufacturer_plural$"
+
+ ### July 16
+ # Colony Types
+ col_strategic_systems: "Strategic Systems World"
+ col_strategic_systems_tt: "A heavily networked planet producing advanced systems for weapons, targeting, and battlefield coordination."
+ col_strategic_systems_desc: "Defense Industry with mixed production domintes this world."
+ col_electronics: "Electronics World"
+ col_electronics_tt: "Microassembly chambers and fabrication labs span the planet, forging the processors and systems that guide fleets and firepower."
+ col_electronics_desc: "Specializes in the production of £electronics£ §SElectronics§!."
+ col_ammunition: "Munitions World"
+ col_ammunition_tt: "Refinery stacks and sealed foundries belch heat and gas, shaping volatile compounds into the instruments of destruction."
+ col_ammunition_desc: "Specializes in the production of £ammunition£ §SAmmunition§!."
+
+ col_cloud_energy: "Floating Energy City"
+ col_cloud_energy_tt: "Repulsorlift cores and beam generators once used for Tibanna rigs now surge with redirected power."
+ col_cloud_energy_desc: "Specializes in the production of £energy£ §SEnergy§!."
+ col_cloud_tibanna: "Floating Tibanna Mining City"
+ col_cloud_tibanna_tt: "Refinery platforms ride pressure currents, extracting volatile gases and condensing them into blaster-grade fuel."
+ col_cloud_tibanna_desc: "Specializes in the refinement of £tibanna_gas£ §STibanna§!."
+ col_cloud_resort: "Floating Resort City"
+ col_cloud_resort_tt: "Opulent spires and tranquil gardens float above the clouds, promising escape, indulgence, and impossible sunsets."
+ col_cloud_resort_desc: "Reduces the upkeep cost of £job_resort_worker£ §SResort Workers§!"
+ col_cloud_industrial: "Floating Industrial City"
+ col_cloud_industrial_tt: "Floating platforms buzz with industry - smokestacks, skydocks, and processing arrays hovering in synchronized formation."
+ col_cloud_industrial_desc: "Reduces the upkeep cost of £job_artisan£ £job_foundry£ §SIndustry§!."
+ col_cloud_foundry: "Floating Forge City"
+ col_cloud_foundry_tt: "Molten furnaces suspended by repulsors burn bright against the sky, pouring alloys into the bones of war machines."
+ col_cloud_foundry_desc: "Specializes in the production of £alloys£ §SAlloys§!."
+ col_cloud_factory: "Floating Factory City"
+ col_cloud_factory_tt: "Assembly tiers dangle in the mist, where automated arms and soaring elevators feed the endless cycle of production."
+ col_cloud_factory_desc: "Specializes in the production of £consumer_goods£ §SConsumer Goods§!."
+ col_cloud_strategic_systems: "Floating Strategic Systems City"
+ col_cloud_strategic_systems_tt: "Suspended platforms assemble targeting systems, fire-control cores, and energy cells high above the clouds."
+ col_cloud_strategic_systems_desc: "Reduces the upkeep cost of £job_electronics_manufacturer£ £job_ammunition_manufacturer£ §SIndustry§!."
+ col_cloud_electronics: "Floating Electronics City"
+ col_cloud_electronics_tt: "Delicate frameworks of circuits and processors take shape in gravity-neutral labs, suspended between cloud and code."
+ col_cloud_electronics_desc: "Specializes in the production of £electronics£ §SElectronics§!."
+ col_cloud_ammunition: "Floating Munitions City"
+ col_cloud_ammunition_tt: "Blaster gas refineries and ordnance arrays hang in layered formation, arming fleets from the skies."
+ col_cloud_ammunition_desc: "Specializes in the production of £ammunition£ §SAmmunition§!."
+ col_cloud_bureau: "Floating Unification City"
+ col_cloud_bureau_tt: "Suspended datacenters and ministerial towers manage billions with quiet efficiency and breathtaking views."
+ col_cloud_bureau_desc: "Boosts £unity£ §SUnity§! output."
+ col_cloud_bureau_spiritualist: "Floating Ecclesiastical City"
+ col_cloud_bureau_spiritualist_tt: "$col_cloud_bureau_tt$"
+ col_cloud_bureau_spiritualist_desc: "$col_cloud_bureau_desc$"
+ col_cloud_bureau_hive: "$col_cloud_bureau$"
+ col_cloud_bureau_hive_tt: "$col_cloud_bureau_tt$"
+ col_cloud_bureau_hive_desc: "$col_cloud_bureau_desc$"
+ col_cloud_bureau_machine: "$col_cloud_bureau$"
+ col_cloud_bureau_machine_tt: "$col_cloud_bureau_tt$"
+ col_cloud_bureau_machine_desc: "$col_cloud_bureau_desc$"
+ col_cloud_research: "Floating Research City"
+ col_cloud_research_tt: "Observatories and thinktanks hover above the weather, far from distraction, immersed in pure discovery."
+ col_cloud_research_desc: "Increases §HLab Build Speed§! and reduces £research£ §HResearchers Upkeep§!."
+ col_cloud_fortress: "Floating Fortress City"
+ col_cloud_fortress_tt: "Gun platforms and shield pylons stand sentinel among the clouds, a fortress in the sky ready to rain fire."
+ col_cloud_fortress_desc: "Boosts £stability£ §SStability§! and £defense_army£ §SDefense§!."
+
+ col_ecu_strategic_systems: "Ecumenopolis Strategic Systems"
+ col_ecu_strategic_systems_tt: "Arcologies churn out targeting nodes, guidance chips, and high-grade munitions for galactic war."
+ col_ecu_strategic_systems_desc: "Reduces the upkeep cost of £job_electronics_manufacturer£ £job_ammunition_manufacturer£ §SIndustry§!."
+ col_ecu_electronics: "Ecumenopolis Electronics"
+ col_ecu_electronics_tt: "A towering world of circuit-stacked spires and control-node foundries."
+ col_ecu_electronics_desc: "Specializes in the production of £electronics£ §SElectronics§!."
+ col_ecu_ammunition: "Ecumenopolis Munitions"
+ col_ecu_ammunition_tt: "Blast-shielded blocks refine Tibanna gas and assemble turbolaser ammunition around the clock."
+ col_ecu_ammunition_desc: "Specializes in the production of £ammunition£ §SAmmunition§!."
+
+ # Modifiers
+ mod_planet_district_cloud_city_energy_build_speed_mult: "Generator District Build Speed"
+ mod_planet_district_cloud_city_gas_mining_build_speed_mult: "Tibanna Gas Mining District Build Speed"
+
+ mod_planet_district_arcology_electronics_build_speed_mult: "$district_arcology_electronics$ Build Speed"
+ mod_planet_district_arcology_ammunition_build_speed_mult: "$district_arcology_ammunition$ Build Speed"
+ mod_planet_building_electronics_factory_1_build_speed_mult: "$building_electronics_factory_1$ Build Speed"
+ mod_planet_building_ammunition_factory_1_build_speed_mult: "$building_ammunition_factory_1$ Build Speed"
+
+ # Districts
+ district_arcology_strategic_systems: "Strategic Systems Arcology"
+ district_arcology_strategic_systems_plural: "Strategic Systems Arcologies"
+ district_arcology_strategic_systems_desc: "Within these towering arcologies, the hum of circuitry and the clang of munition presses echo together. Each superstructure serves as a vertically integrated war engine, producing fire-control cores, targeting nodes, and high-yield blaster gas canisters for fleets spread across the stars."
+ district_arcology_electronics: "Electronics Arcology"
+ district_arcology_electronics_plural: "Electronics Arcologies"
+ district_arcology_electronics_desc: "Layered with signal spires and control towers, these arcologies fabricate guidance chips, droid brains, and power regulators in kilometer-tall clean rooms. From hyperspace transceivers to encrypted command uplinks, every component forged here holds a piece of galactic control."
+ district_arcology_ammunition: "Munitions Arcology"
+ district_arcology_ammunition_plural: "Munitions Arcologies"
+ district_arcology_ammunition_desc: "Packed with blastproof refineries, these arcologies refine Tibanna gas, cast energy cells, and assemble turbolaser cores under permanent lockdown. Ammo elevators run night and day, fueling star destroyers, garrisons, and orbital cannon arrays without pause."
+
+### July 18
+# Building
+ building_tibanna_vane: "Gas-processing Vane"
+ building_tibanna_vane_desc: "A purification vane suspended in a central shaft draws raw tibanna gas through transport tunnels and flash-freezes it for preservation."
+ building_tibanna_vane_2: "Dual Gas-processing Vanes"
+ building_tibanna_vane_2_desc: "Tandem processing vanes increase throughput and stability, refining greater volumes of tibanna and preserving it with enhanced freezing systems."
+
+### July 19
+# Colony Types
+ col_habitat_strategic_systems: "Strategic Systems Station"
+ col_habitat_strategic_systems_tt: "An artificial deep-space arcology dedicated to electronics and munitions production."
+ col_habitat_strategic_systems_desc: "$col_strategic_systems_desc$"
+ col_habitat_electronics: "Electronics Station"
+ col_habitat_electronics_tt: "An artificial deep-space arcology dedicated to electronics production."
+ col_habitat_electronics_desc: "$col_electronics_desc$"
+ col_habitat_ammunition: "Munitions Station"
+ col_habitat_ammunition_tt: "An artificial deep-space arcology dedicated to munitions production."
+ col_habitat_ammunition_desc: "$col_ammunition_desc$"
+ col_deep_space_station_resort: "Tourist Station"
+ col_deep_space_station_resort_tt: "An orbital haven of comfort and indulgence, designed to attract wealthy travelers and their credits."
+ col_deep_space_station_resort_desc: "Reduces the upkeep cost of £job_resort_worker£ §SResort Workers§!"
+
+# Zones
+ zone_deep_space_station_resort: "Tourist District"
+ zone_deep_space_station_resort_desc: "Glass-walled lounges, casinos, shops, and exotic eateries draw travelers and thrill-seekers from across the stars."
+
+# Tech
+ TECH_UNLOCK_DEEP_SPACE_STATIONS: "§HUnlocks Station:§! Deep Space Station"
+ tech_deep_space_stations_2: "Deep Space Station Expansion"
+ tech_deep_space_stations_2_desc: "With additional hull space and reinforced life-support infrastructure, the station can now support a new operational zone, further expanding its long-term utility."
+
+ zone_unavailable_tech_deep_space_stations_2: "$engineering_research_icon_with_space$$tech_deep_space_stations_2$"
+ zone_unavailable_tech_cloud_cities_2: "$engineering_research_icon_with_space$$tech_cloud_cities_2$"
+ zone_unavailable_tech_asteroid_bases_2: "$engineering_research_icon_with_space$$tech_asteroid_bases_2$"
+
+ zone_strategic_systems_arcology: "$zone_strategic_systems$"
+ zone_strategic_systems_arcology_desc: "$zone_strategic_systems_desc$"
+ zone_electronics_arcology: "$zone_electronics$"
+ zone_electronics_arcology_desc: "$zone_electronics_desc$"
+ zone_ammunition_arcology: "$zone_ammunition$"
+ zone_ammunition_arcology_desc: "$zone_ammunition_desc$"
+
+### July 24
+# Deposits
+ d_recycled_buildings: "Recycled Structures"
+ d_recycled_buildings_desc: "Collapsed towers and fractured transitways are slowly dismantled for usable rubble, permacrete, and other basic construction materials."
+ d_runoff_gardens: "Runoff Gardens"
+ d_runoff_gardens_desc: "Built along broken causeways and collapsed underpasses, these makeshift gardens thrive on collected runoff, nutrient sludge, and decomposing waste. What grows here isn't pretty, but it's filling-and mostly safe to eat."
+ d_reclaimed_farmland: "Reclaimed Farmland"
+ d_reclaimed_farmland_desc: "Stripped of debris and rehydrated by jury-rigged irrigation, these patches of soil now support basic crop yields under artificial light."
+ d_overgrown_waterway: "Overgrown Waterway"
+ d_overgrown_waterway_desc: "Flooded transit lines and forgotten canals have become lush with hardy, self-sustaining plant life, which is now harvested for food."
+
+# Districts
+
+ moisture_0: "Moisture Vaporators"
+ moisture_1: "Evaporative Condenser Farms"
+ moisture_2: "Desert Agriponics"
+ moisture_3: "Gene-tuned Moisture Crops"
+ moisture_4: "Humidity Modulation Grids"
+ moisture_0_desc: "Harvesting water from the air. Crude, slow, and utterly essential."
+ moisture_1_desc: "Linked vaporators and condenser fields churn moisture into usable reserves."
+ moisture_2_desc: "Root systems dangle in nutrient gel while misting nozzles simulate rainfall."
+ moisture_3_desc: "Crops custom-built to thrive on trace humidity and baked soil."
+ moisture_4_desc: "Precision weather-tuning grids sculpt the desert into fertile ground."
+
+
+# Blockers
+ d_derelict_district: "£blocker£ Derelict District"
+ d_derelict_district_desc: "Scarred by war or abandoned through neglect, this section of the once-thriving city-world is now too hazardous for habitation or work."
+ d_icefall_cavern_wampa: "£blocker£ Gravak'k"
+ d_icefall_cavern_wampa_desc: "In the cold climate of Ilum can be found the Icefall Cavern, a vast enclosed cave, known to have untapped crystal deposits that could be of potential value. The greatest hindrance to mining has been the giant Wampa, known as Gravak'k. The ice predator identifies the cavern as home, and anyone who treads within will find him a ferocious adversary."
+
+# Deposits
+ d_teth_bomarr_monastery: "B'omarr Monastery"
+ d_teth_bomarr_monastery_desc: "Perched atop a mesa in the Teth jungle, this isolated monastery once served as both sanctuary and stronghold. Its lower levels held prisoners, while a grand throne room loomed above a rancor pit."
+ d_hyperfuel_1: "Small Hyperfuel Deposit"
+ d_hyperfuel_desc: "£hyperfuel£ +1"
+ d_hyperfuel_2: "Medium Hyperfuel Deposit"
+ d_hyperfuel_2_desc: "£hyperfuel£ +2"
+ d_hyperfuel_3: "Large Hyperfuel Deposit"
+ d_hyperfuel_3_desc: "£hyperfuel£ +3"
+
+# Mod
+ mod_planet_miners_electronics_produces_add: "£electronics£ $electronics$ per $pop_group_unit$ [miner.GetIcon] [GetMinerPlural]"
+ mod_planet_biologists_unity_produces_add: "£unity£ $unity$ per $pop_group_unit$ [biologist.GetIcon] [biologist.GetNamePlural]"
+ mod_planet_engineers_trade_produces_add: "£trade£ $trade$ per $pop_group_unit$ [engineer.GetIcon] [engineer.GetNamePlural]"
+ mod_polis_massa_max_districts_add: "Asteroid Base $MOD_PLANET_MAX_DISTRICTS_ADD$"
+ mod_deep_space_station_max_districts_add: "Deep Space Station $MOD_PLANET_MAX_DISTRICTS_ADD$"
+ mod_cloud_city_max_districts_add: "Floating City $MOD_PLANET_MAX_DISTRICTS_ADD$"
+
+# Tech
+ tech_asteroid_bases_2: "Asteroid Base Expansion"
+ tech_asteroid_bases_2_desc: "New methods in excavation and pressure management allow us to expand existing asteroid facilities."
+ tech_cloud_cities_2: "Floating City Expansion"
+ tech_cloud_cities_2_desc: "Improved structural supports and repulsor arrays enable larger populations in floating settlements."
+
+### July 29
+ electronics_jobs_bonus_workforce_mult: "$BONUS_WORKFORCE_FOR$ Electronics Manufacturer jobs"
+ electronics_jobs_bonus_workforce_mult_tt: "$t$- $BONUS_WORKFORCE_FOR$ Electronics Manufacturer Jobs: $VARIABLE|1%=+$"
+ ammunition_jobs_bonus_workforce_mult: "$BONUS_WORKFORCE_FOR$ Ammunition Manufacturer jobs"
+ ammunition_jobs_bonus_workforce_mult_tt: "$t$- $BONUS_WORKFORCE_FOR$ Ammunition Manufacturer Jobs: $VARIABLE|1%=+$"
+
+ mod_pop_electronics_manufacturer_bonus_workforce_mult: "Job Efficiency for Electronics Manufacturers"
+ mod_pop_electronics_manufacturer_drone_bonus_workforce_mult: "Job Efficiency for Electronics Manufacturer Drones"
+ mod_pop_ammunition_manufacturer_bonus_workforce_mult: "Job Efficiency for Ammunition Manufacturers"
+ mod_pop_ammunition_manufacturer_drone_bonus_workforce_mult: "Job Efficiency for Ammunition Manufacturer Drones"
+
+ building_ammunition_upkeep_1: "Ordnance Recovery Depot"
+ building_ammunition_upkeep_1_desc: "Obsolete and spent munitions are broken down here, allowing for material salvage, propellant extraction, and partial refurbishment."
+ building_ammunition_efficiency_1: "Ordnance Production Office"
+ building_ammunition_efficiency_1_desc: "Production targets are met with fewer resources through strategic deployment of shared best practices and optimized throughput models."
+ building_electronics_upkeep_1: "Component Salvage Lab"
+ building_electronics_upkeep_1_desc: "Disassembled systems yield reusable microcomponents, shielding material, and rare substrates, reducing the need for new inputs."
+ building_electronics_efficiency_1: "Integrated Systems Thinktank"
+ building_electronics_efficiency_1_desc: "Cross-discipline breakthroughs in circuit design, signal timing, and modular architecture drive greater output from fewer resources."
+
+### August 1
+# Branch Office Buildings
+ building_private_defense_industry: "Private Defense Industry"
+ building_private_defense_industry_desc: "£building£ §BNon-Criminal Outpost§!\n\nFrom precision circuitry to high-yield munitions and hyperfuel, private defense firms deliver whatever the war effort demands. No questions asked, so long as the credits clear."
+
+ trade_value_from_strategic_systems: "\n$trade_value_from$: §G+0.5%§! per $pop_group_unit$ §YElectronics§! or §YAmmunition§! jobs on the planet.\n$branch_office_building_trade_bonus$"
+
+### August 23
+# District Swaps
+ district_cloud_city_gas_mining_engineering: "$district_cloud_city_gas_mining$"
+ district_cloud_city_gas_mining_engineering_plural: "$district_cloud_city_gas_mining_plural$"
+ district_cloud_city_gas_mining_engineering_desc: "$district_cloud_city_gas_mining_desc$"
+
+# District Decision
+ admin_colony_tt: "Per £district£ City District:\n   - Bureaucrat Jobs: §G+100§!"
+ commerce_colony_tt: "Per £district£ City District:\n   - Trader Jobs: §G+100§!"
+ fortress_colony_tt: "Per £district£ City District:\n   - Soldier Jobs: §G+100§!"
+ foundry_colony_tt: "Per £district£ City District:\n   - Metallurgist Jobs: §G+30§!\n   - Electronics Manufacturer Jobs: §G+30§!\n   - Ammunition Manufacturer Jobs: §G+30§!"
+ tech_colony_tt: "Per £district£ City District:\n   - Physicist Jobs: §G+30§!\n   - Biologist Jobs: §G+30§!\n   - Engineer Jobs: §G+30§!"
+
+### Oct 10
+ decision_arcology_project_requirements_pop_amount: "£trigger_no£ Number of Owned Pops is greater than 8000"
+
+### Nov 22
+ zone_hyperfuel: "Hyperfuel Refining"
+ zone_hyperfuel_desc: "Redirecting generator output into condensed high-energy fields tempers the volatile hyperfuel isotopes, locking them into a stable, transport-safe state."
+ zone_spice: "Spice Mining"
+ zone_spice_desc: "Specialized equipment vastly increases the extraction of spice, with only a moderate amount of the material waste."
+ zone_kyber: "Kyber Crystal Mining"
+ zone_kyber_desc: "Specialized equipment vastly increases the extraction of kyber crystals, with only a moderate amount of the material waste."
+ zone_bacta: "Bacta Processing"
+ zone_bacta_desc: "Regulated growth chambers and purification arrays convert raw kavam and alazhi into the highly reactive bacta solution prized across the galaxy."
+
+ district_generator_hyperfuel: "$district_generator$"
+ district_generator_hyperfuel_plural: "$district_generator_plural$"
+ district_generator_hyperfuel_desc: "$district_generator_desc$"
+ district_mining_spice: "$district_mining$"
+ district_mining_spice_plural: "$district_mining_plural$"
+ district_mining_spice_desc: "$district_mining_desc$"
+ district_mining_kyber: "$district_mining$"
+ district_mining_kyber_plural: "$district_mining_plural$"
+ district_mining_kyber_desc: "$district_mining_desc$"
+ district_farming_bacta: "$district_farming$"
+ district_farming_bacta_plural: "$district_farming_plural$"
+ district_farming_bacta_desc: "$district_farming_desc$"
+
+ fuel_tech: "$job_fuel_tech$"
+ spice_miner: "$job_spice_miner$"
+ kyber_miner: "$job_kyber_miner$"
+ bacta_refiner: "$job_bacta_refiner$"
+
+ technician_is_fuel_tech_tt: "£job_technician£ $job_technician_plural$ are converted into £job_fuel_tech£ $job_fuel_tech_plural$"
+ technician_drone_is_fuel_tech_tt: "£job_technician_drone£ $job_technician_drone_plural$ are converted into £job_fuel_tech_drone£ $job_fuel_tech_drone_plural$"
+ miner_is_spice_miner_tt: "£job_miner£ $job_miner_plural$ are converted into £job_spice_miner£ $job_spice_miner_plural$"
+ mining_drone_is_spice_miner_tt: "£job_mining_drone£ $job_mining_drone_plural$ are converted into £job_spice_miner_drone£ $job_spice_miner_drone_plural$"
+ miner_is_kyber_miner_tt: "£job_miner£ $job_miner_plural$ are converted into £job_kyber_miner£ $job_kyber_miner_plural$"
+ mining_drone_is_kyber_miner_tt: "£job_mining_drone£ $job_mining_drone_plural$ are converted into £job_kyber_miner£ $job_kyber_miner_plural$"
+ farmer_is_bacta_refiner_tt: "£job_farmer£ $job_farmer_plural$ are converted into £job_bacta_refiner£ $job_bacta_refiner_plural$"
+ agri_drone_is_bacta_refiner_tt: "£job_agri_drone£ $job_agri_drone_plural$ are converted into £job_bacta_refiner_drone£ $job_bacta_refiner_drone_plural$"
+
+ kyber: "Kyber Crystals"
+
+### Jan 8
+### Clan Subjects Monthly Loyalty Modifiers
+ small_clan_disloyalty: "Recent Decisions"
+ small_clan_disloyalty_desc: "Recent event decisions have caused this clan to become unhappy"
+ medium_clan_disloyalty: "Recent Decisions"
+ medium_clan_disloyalty_desc: "Recent event decisions have caused this clan to become very unhappy"
+ large_clan_disloyalty: "Recent Decisions"
+ large_clan_disloyalty_desc: "Recent event decisions have caused this clan to become extremely unhappy"
+ small_clan_loyalty: "Recent Decisions"
+ small_clan_loyalty_desc: "Recent event decisions have improved this clan's mood"
+ medium_clan_loyalty: "Recent Decisions"
+ medium_clan_loyalty_desc: "Recent event decisions have made this clan very happy"
+ large_clan_loyalty: "Recent Decisions"
+ large_clan_loyalty_desc: "Recent event decisions have made this clan extremely happy"
+ ruling_clan_loyalty: "Ruling Clan"
+ ruling_clan_loyalty_desc: "This clan is the ruling faction from Mandalore"
+ clan_pops_very_unhappy: "Clan Population Happiness"
+ clan_pops_very_unhappy_desc: "This clan's population is very unhappy with conditions on the planets they inhabit"
+ clan_pops_unhappy: "Clan Population Happiness"
+ clan_pops_unhappy_desc: "This clan's population is unhappy with conditions on the planets they inhabit"
+ clan_pops_neutral: "Clan Population Happiness"
+ clan_pops_neutral_desc: "This clan's population is satisfied with conditions on the planets they inhabit"
+ clan_pops_happy: "Clan Population Happiness"
+ clan_pops_happy_desc: "This clan's population is happy with conditions on the planets they inhabit"
+ clan_pops_very_happy: "Clan Population Happiness"
+ clan_pops_very_happy_desc: "This clan's population is very happy with conditions on the planets they inhabit"
+
+
+### Jan 9
+### Golans becoming Deep Space Citadels
+ golan_platform_name: "Golan Defense Platform"
+ golan_platform_name_plural: "Golan Defense Platforms"
+
+ requires_less_than_x_golan_platform: "$TRIGGER_FAIL$The system cannot support more than [owner.GetGolanPlatformLimit] $golan_platform_name_plural$."
+ mod_golan_platform_limit_add: "$golan_platform_name$ System Capacity"
+
+ allow_golan_platform_1: "§HUnlocks Megastructure:§! $military_station_golan1$"
+ allow_golan_platform_2: "§HUnlocks Megastructure:§! $military_station_golan2$"
+ allow_golan_platform_3: "§HUnlocks Megastructure:§! $military_station_golan3$"
+ concept_golan_platform: "$tech_golan1_platforms$"
+ concept_golan_platform_desc: "$military_station_golan0_MEGASTRUCTURE_DETAILS$"
+ concept_golan_platform_tech: "$tech_golan1_platforms$"
+ concept_golan_platform_tech_desc: "§IUnlocks Megastructure:§! $golan_platform_name$\n$mod_golan_platform_limit_add$ §G+1§! $DOUBLE_NEW_LINE$§L$military_station_golan0_MEGASTRUCTURE_DETAILS$§!"
+ concept_golan1_platform: "$military_station_golan1$"
+ concept_golan1_platform_desc: "The first of three stages of a ['concept_golan_platform']."
+
+ military_station_golan0: "$golan_platform_name$"
+ military_station_golan0_DESC: "This logistical and resource hub serves as a base for the construction of a $golan_platform_name$."
+ military_station_golan0_MEGASTRUCTURE_DETAILS: "A §Y$military_station_golan0$§! is an armored Starbase designed for maximum defense within a stellar gravity well."

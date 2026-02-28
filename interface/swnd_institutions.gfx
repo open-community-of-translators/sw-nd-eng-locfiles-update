@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_swfr_institutions_image"
-		texturefile = "gfx/interface/institutions/institutions_header.dds"
-	}
-}

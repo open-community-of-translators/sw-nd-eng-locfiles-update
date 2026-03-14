@@ -788,7 +788,7 @@ l_english:
  swnd_hyperroute_relay_MEGASTRUCTURE_DETAILS: "This structure coordinates travel for a major trade route across the galaxy. These ancient hyperroutes have been crucial to galactic travel for thousands of years."
 
  SWND_TRADE_RELAYS: "Trade Relays"
- SWND_TRADE_RELAYS_TOOLTIP: "Links the systems along major hyperjump routes with relay megastructures. Travel along these routes will be §Hsignificantly faster§! and the difference between core systems and the expansion regions will be clearly felt."
+ SWND_TRADE_RELAYS_TOOLTIP: "Links the systems along major hyperjump routes with relay megastructures. Travel along these routes will be §Hsignificantly faster§! and the difference between core systems and the expansion regions will be clearly felt.\n\n§RThis does not disable relays from being built by players or AI.§!"
 
  ssolar_hub: "Solar Hub"
 

@@ -49,12 +49,12 @@
 #  swnd_digsite.19.desc: "Investigations have brought the research team to a large tower which seemed to be of some importance to the previous inhabitants of the city. The tower stood as one of the tallest buildings in the skyline, standing tall despite the battle torn walls and cratered base of the building. Scans deemed the tower to be at minor risk of collapse.\n\nUnfortunately for our team, a minor risk is still a risk, and after a few days exploration the tower fell in upon itself and collapsed, sending a plume of dust high into the sky. §Y[This.Leader.GetName]§! was not in the tower as it collapsed, nor were most of the team, but a handful of members were inside, and scans show no sign of life in the rubble."
 #  swnd_digsite.19.a: "We must continue, despite their sacrifice."
 
- r_blue_ring_vaale: "Blue Ring of Vaale"
- r_blue_ring_vaale_desc: "The Rings of Vaale were an artifact crafted by §HThe Architects of Vaale§!, an ancient, long-forgotten society based in the city of Vaale on the planet Dianth. According to legends, two such rings existed: one that provided eternal life but drove the wearer to madness, and another that gave whoever wore it eternal fortune but hastened their death. When worn together, the rings supposedly provided the wearer with great power."
- r_blue_ring_vaale_active: "Gives the $r_blue_ring_vaale$ to one of your leaders."
- requires_blue_ring_vaale_not_equipped: "$TRIGGER_FAIL$§ROne of your leaders is already wearing the $r_blue_ring_vaale$§!"
- leader_trait_blue_ring_of_vaale: "$r_blue_ring_vaale$"
- leader_trait_blue_ring_of_vaale_desc: "The $r_blue_ring_vaale$ provides eternal life at the expense of one's mental health."
+#  r_blue_ring_vaale: "Blue Ring of Vaale"
+#  r_blue_ring_vaale_desc: "The Rings of Vaale were an artifact crafted by §HThe Architects of Vaale§!, an ancient, long-forgotten society based in the city of Vaale on the planet Dianth. According to legends, two such rings existed: one that provided eternal life but drove the wearer to madness, and another that gave whoever wore it eternal fortune but hastened their death. When worn together, the rings supposedly provided the wearer with great power."
+#  r_blue_ring_vaale_active: "Gives the $r_blue_ring_vaale$ to one of your leaders."
+#  requires_blue_ring_vaale_not_equipped: "$TRIGGER_FAIL$§ROne of your leaders is already wearing the $r_blue_ring_vaale$§!"
+#  leader_trait_blue_ring_of_vaale: "$r_blue_ring_vaale$"
+#  leader_trait_blue_ring_of_vaale_desc: "The $r_blue_ring_vaale$ provides eternal life at the expense of one's mental health."
 
  ### New 4.4.2023 ###
  #Chiss lore events
@@ -110,9 +110,6 @@
  ## 27 June 2024 ##
  leader_trait_swnd_mando_merc: "Mandalorian Mercenary"
  leader_trait_swnd_mando_merc_desc: "Mandalorian mercenaries are highly sought after for their prowess in battle. They're willing to work for whoever can offer the most credits."
-
- ## 29 July 2024 ##
-
 
  ## 17 September 2024 ##
  ap_become_the_crisis: "The New Order"
@@ -174,17 +171,6 @@
  swnd_cloud_city_tt: "wip"
  swnd_asteroid_base_tt: "wip"
 
- ## 19 November 2024 ##
- swnd_unique_character_event.500.name: "Kalani"
- swnd_unique_character_event.500.desc: "wip HK shows up, do something"
- swnd_unique_character_event.500.a: "How did you find this channel?"
- swnd_unique_character_event.500.a.response: "Statement: "
- swnd_unique_character_event.500.b: "What use would I have from an assasin droid?"
- swnd_unique_character_event.500.b.response: "Recitation: It is my primary function to burn holes through meatbags that you wish removed from the galaxy."
- swnd_unique_character_event.500.c: "wip"
- swnd_unique_character_event.500.c.response: "REPLACE_ME"
- swnd_unique_character_event.500.hire.tooltip: "§Y$PRESCRIPTED_leader_kalani$§! joins our empire as a §HLeader§!."
-
  ## 28 November 2024 ##
  ## Updated Clan land grant/strip locs ##
  swnd_mandalorian_clans.101.system_choice_1: "Grant [system_choice_1.GetName]."
@@ -222,9 +208,6 @@
  war_goal_wg_clan_feud: "Clan Feud"
  war_goal_wg_clan_feud_desc: "Mandalorian clans fight between each other on the basis of honor."
 
- ## 26 March 2025 ##
- NAME_adjective_RebelAlliance: "Alliance"
-
  ## 11 May 2025 ##
  job_culture_worker_effect_desc: "wip"
 
@@ -258,12 +241,12 @@
 
  # 20 October 2025 #
  swnd_partisans.10.name: "Missing Supplies"
- swnd_partisans.10.desc: "The governor of §Y[Root.planet.GetName]§! has reported several missing shipments over the last few months. Nearly all the shipments were medical supplies or equipment meant to go to the local garrison in the capital city that were hijacked while en route.\n\n Most of the crew on the transports were killed and others left behind, shaken by the violent attack.\n\n While its very likely that these attacks are the work of group of criminals, the evidence shows that they are no mere thugs."
+ swnd_partisans.10.desc: "The governor of §Y[partisan_planet.GetName]§! has reported several missing shipments over the last few months. Nearly all the shipments were medical supplies or equipment meant to go to the local garrison in the capital city that were hijacked while en route.\n\n Most of the crew on the transports were killed and others left behind, shaken by the violent attack.\n\n While its very likely that these attacks are the work of group of criminals, the evidence shows that they are no mere thugs."
  swnd_partisans.10.a: "Bolster local defenses."
  swnd_partisans.10.b: "We'll recoup our losses over the next few rotations."
  swnd_partisans.10.c: "Downplay attacks on the holonet. Just some thugs after all."
  swnd_partisans.20.name: "Local Concerns"
- swnd_partisans.20.desc: "More shipments have gone missing on §Y[Root.planet.GetName]§!and the attackers appear to have begun stealing Imperial vehicles. The local governor, despite their best efforts, have failed in preventing more of these raids against Imperial shipments.\n\nThe local population is starting to become unnerved by these attacks and the thought of an insurrectionist group operating in our midst is becoming a greater concern. This situation is leading to unrest in various cities, threatening our operations on the planet.\n\n As this group has become bolder, it's become clear that stronger presence is needed to curtail these attacks. The ISB has taken interest in these raids and is willing to root out the source of this problem if needed."
+ swnd_partisans.20.desc: "More shipments have gone missing on §Y[partisan_planet.GetName]§! and the attackers appear to have begun stealing Imperial vehicles. The local governor, despite their best efforts, have failed in preventing more of these raids against Imperial shipments.\n\nThe local population is starting to become unnerved by these attacks and the thought of an insurrectionist group operating in our midst is becoming a greater concern. This situation is leading to unrest in various cities, threatening our operations on the planet.\n\n As this group has become bolder, it's become clear that stronger presence is needed to curtail these attacks. The ISB has taken interest in these raids and is willing to root out the source of this problem if needed."
  swnd_partisans.20.a: "Request ISB help on the matter."
  swnd_partisans.20.b: "Request additional military support."
  swnd_partisans.20.c: "Pay these criminals no mind."
@@ -272,31 +255,66 @@
  swnd_partisans.21.a: "Time to bolster defenses and hope for the best."
  swnd_partisans.22.name: "Criminals Uncovered"
  swnd_partisans.22.desc: "Through the tireless efforts of the ISB, we have discovered the identity of the primary attackers. This rebel cell, known simply as the §RPartisans§!, claims responsibility for the repeated attacks against Imperial convoys and personnel. While we don't know the leader's name for certain, we do know they go by the alias \"§YStoneface§!.\"\n\nThe ISB suggests that we tread carefully since the §RPartisans§! are more reckless than the usual seditionist riff-raf, not least because they disregard collateral damage.\n\nOur field agents will work their hardest to destabilize the group from within and create a larger rift between them and local resistance groups."
- swnd_partisans.22.a: "$swnd_partisans.21.a$"
- swnd_partisans.23.name: "Support Request"
- swnd_partisans.23.desc: "Criminals, rebels, whatever they may be, they've managed to cause an uproar among the populace. The governor of §Y[Root.planet.GetName]§! has requested has requested a full military deployment on the planet to help quell the growing discontent.\n\nThe Empire assures us that the stronger military presence will discourage these attacks and quell dissidents."
+ swnd_partisans.22.a: "The ISB is the cure to this disease."
+ swnd_partisans.23.name: "Military Support"
+ swnd_partisans.23.desc: "Criminals, rebels, whatever they may be, they've managed to cause an uproar among the populace. The governor of §Y[partisan_planet.GetName]§! has requested has requested a full military deployment on the planet to help quell the growing discontent.\n\nThe Empire assures us that the stronger military presence will discourage these attacks and quell dissidents."
  swnd_partisans.23.a: "They dare challenge the Empire? So be it."
  swnd_partisans.24.name: "Growing Dissension"
- swnd_partisans.24.desc: "These upstarts have managed to cause an uproar among the populace. The incompetence of the governor of §Y[Root.planet.GetName]§! has refused to call in extra support to keep the dissidents at bay.\n\nAmidst the chaos, a rebel faction called the §RPartisans§! has taken control of the local resistance and are making conducting attacks on Imperial facilities around the planet. Though casualties among the Partisans are estimated to be high, these strikes have taken a toll on our forces and some civilians caught in the attacks."
+ swnd_partisans.24.desc: "These upstarts have managed to cause an uproar among the populace. The incompetence of the governor of §Y[partisan_planet.GetName]§! has refused to call in extra support to keep the dissidents at bay.\n\nAmidst the chaos, a rebel faction called the §RPartisans§! has taken control of the local resistance and are making conducting attacks on Imperial facilities around the planet. Though casualties among the Partisans are estimated to be high, these strikes have taken a toll on our forces and some civilians caught in the attacks."
  swnd_partisans.24.a: "..."
+ swnd_partisans.25.name: "Sowing Dissent"
+ swnd_partisans.25.desc: "ISB agents have successfully infiltrated the §RPartisans§!. The raids on local Imperial are not isolated events but are missions designed to gather supplies for a larger operation. Field agents report that the Partisans are planning to launch a major attack on the planet's capital within the coming months.\n\nThe ISB is in a unique position to manipulate how things play out. The most direct course of action is to promptly arrest as many as we can before they can properly act. There are also two alternative approaches as well that involve us letting them try to carry out the operation. We can sabotage their equipment or lead a few of their squads into a trap.\n\nIt is highly unlikely we can capture §YSaw§! but crippling his forces may be enough to push him offworld."
+ swnd_partisans.25.a: "Begin the crackdown and arrests."
+ swnd_partisans.25.b: "Sometimes equipment failures just happen."
+ swnd_partisans.25.c: "Prepare the ambush."
+ swnd_partisans.26.name: "Too Trusting"
+ swnd_partisans.26.desc: "As the local rebels and §RPartisans§! squabble over tactics and theory, our infiltrated agents send out a coded message to the garrison providing the location of the base. Within the hour, dozens of stormtroopers arrive as chaos erupts inside the hideout. Accusations run wild between the leaders about who gave them away but their arguments are cut short as KX droids burst into the command center accompanied by ISB tactical troopers.\n\nIn the end, local forces captured dozens of §RPartisan§! members and majority of the local resistance with several casualties on their side.\n\n§YSaw§!, for his credit, had the foresight to avoid operating within the city and is presumed to have vanished with his most trusted fighters."
+ swnd_partisans.26.a: "Job well done."
+ swnd_partisans.27.name: "Rigged From The Start"
+ swnd_partisans.27.desc: "Our infiltrated agents work various jobs for the §RPartisans§!. A few especially skilled ones are responsible for weapon and vehicle upkeep, supporting those who are less technically inclined with making sure the rifles are cleaned, assembled properly, and the ammunition is accounted for. In many ways, its no different than busy work new army recruits have to do.\n\nThe agents slowly begin to make changes to the weapons and vehicles, ensuring they are less reliable and more frequent to break down. Blasters and bolt-throwers are set to overheat quicker, repulsors on modified landspeeders are set to malfunction, and several explosives are retooled to become nothing but duds.\n\nOthers sow further distrust between the local fighters and §YSaw's§! forces, creating tension between each other based on tactics and political theory."
+ swnd_partisans.27.a: "This should play out nicely."
+ swnd_partisans.28.name: "Into A Trap"
+ swnd_partisans.28.desc: "Our agents continue to gain favor with §YSaw's§! fighters and local resistance and they're now trusted enough to help with the coordination of the next big push: taking the capital.This provides us with a unique opportunity to capture several of their fighters before they can participate in the next operation.\n\nThe forces at our garrison greatly outnumber the §RPartisans§! and capturing them has the potential to prevent them from carrying out the attack. Our intelligence also suggests that §YSaw§! is a little suspicious and is choosing to distance himself from this operation."
+ swnd_partisans.28.a: "Very well. Prepare a trap."
+ swnd_partisans.29.name: "Ambushed"
+ swnd_partisans.29.desc: "All the preparations are made for the ambush. Squads are issued their orders, weapons are issued, and our forces lay in wait. It isn't long before the garrison commander recieves their signal, letting them know that the different agents are in enroute with the fighters.\n\nA few hours pass and explosions ring out in the streets. Another coded signal comes in - the agents are going to lead the push into the garrison with their blasters set to stun and shooting some predetermined targets. Anyone behind them is fair game. The agents rush in, stunning a few Imperials and rush behind some cover. The others charge in behind them and are immediately mowed down."
+ swnd_partisans.29.a: "Push out and secure the capital."
  swnd_partisans.30.name: "Turning Tides"
- swnd_partisans.30.desc: "Despite our best efforts by our field agents to destabilize the §RPartisans§!, the group remains unbroken. If anything, our interference has emboldened them.\n\nThe terrorists, aided by local resistance, seized enough equipment to launched a series of relentless attacks against military installations and crucial infrastructure systems, as well as executed the local governor.\n\nOur contacts in the station above §Y[Root.planet.GetName]§! have gone silent."
+ swnd_partisans.30.desc: "Despite our best efforts by our field agents to destabilize the §RPartisans§!, the group remains unbroken. If anything, our interference has emboldened them.\n\nThe terrorists, aided by local resistance, seized enough equipment to launched a series of relentless attacks against military installations and crucial infrastructure systems, as well as executed the local governor.\n\nOur contacts in the station above §Y[partisan_planet.GetName]§! have gone silent."
  swnd_partisans.30.a: "This is worrisome."
  swnd_partisans.40.name: "Desperate Attack"
- swnd_partisans.40.desc: "In a bold and foolish move, the §RPartisans§!, aided by local resistance, launched a series of failed attacks against our holdings on §Y[Root.planet.GetName]§!. While we took casualties, the §RPartisan§! cell inflicted several of their own against the local resistance groups out of a perceived mistrust in their leadership. With their standing among the populace reduced to nothing, the §RPartisans§! appear to have fled, leaving the planet entirely.\n\nUltimately they have done our §YEmpire§! a great service."
+ swnd_partisans.40.desc: "In a bold and foolish move, the §RPartisans§!, aided by local resistance, launched a series of failed attacks against our holdings on §Y[partisan_planet.GetName]§!. While we took casualties, the §RPartisan§! cell inflicted several of their own against the local resistance groups out of a perceived mistrust in their leadership. Furthemore, in-fighting between the local resistance and the §RPartisans§!, coupled with the possibility of tampered equipment also contributed to the failures. With their standing among the populace reduced to nothing, the §RPartisans§! appear to have fled, leaving the planet entirely.\n\nUltimately they have done our §YEmpire§! a great service."
  swnd_partisans.40.a: "Good riddance."
+ swnd_partisans.41.name: "Captured"
+ swnd_partisans.41.desc: "The prompt and swift arrest of several Partisan and rebel fighters has demoralized the populace from opposing Imperial rule. With our grip tightening on §Y[partisan_planet.GetName]§!, the Partisans lose a potential foothold in Imperial space.\n\nSensors have picked up on a handful of unknown ships leaving the planet surface. Wherever they are heading, their plans for §Y[partisan_planet.GetName]§! have no doubt failed."
+ swnd_partisans.41.a: "Good riddance."
  swnd_partisans.50.name: "Imperial Might"
- swnd_partisans.50.desc: "Our overwhelming military presence on the planet proved to be a clear message to the rebel cell. The increased presence of our forces and terrifying new walkers appears to have demotivated the scum.\n\nSensors have picked up on a handful of smuggling ships leaving the planet surface. Wherever they are heading, their plans for §Y[Root.planet.GetName]§! have no doubt failed."
+ swnd_partisans.50.desc: "Our overwhelming military presence on the planet proved to be a clear message to the rebel cell. The increased presence of our forces and terrifying new walkers appears to have demotivated the scum.\n\nSensors have picked up on a handful of unknown ships leaving the planet surface. Wherever they are heading, their plans for §Y[partisan_planet.GetName]§! have no doubt failed."
  swnd_partisans.50.a: "Long live the Empire."
  swnd_partisans.60.name: "Losing Control"
  swnd_partisans.60.desc: "The increased presence of our forces and terrifying new walkers appears to have only emboldened the scum.\n\nThis terrorist group known as the §RPartisans§! have launched reckless attacks against military installations across the planet and have disrupted our operations and communications. Army Intelligence indicates the local governor has been killed and the Partisans are attempting to secure control over the planet."
  swnd_partisans.60.a: "Blasted rebels!"
  swnd_partisans.70.name: "Partisan Control"
- swnd_partisans.70.desc: "The §RPartisans§! have successfully taken over §Y[Root.planet.GetName]§!. Our garrison was overrun and Imperial surviors are few and far between. The §RPartisans§! brutality means that both remaining Imperial personnel and loyal citizens will be at the mercy of §YSaw Gerrera§! and his men."
+ swnd_partisans.70.desc: "The §RPartisans§! have successfully taken over §Y[partisan_planet.GetName]§!. Our garrison was overrun and Imperial surviors are few and far between. The §RPartisans§! brutality means that both remaining Imperial personnel and loyal citizens will be at the mercy of §YSaw Gerrera§! and his men."
  swnd_partisans.70.a: "We will wipe them out!"
+ swnd_partisans.80.name: "Unfortunate Turn"
+ swnd_partisans.80.desc: "In a bold and foolish move, the §RPartisans§!, aided by local resistance, launched a series of failed attacks against our holdings on §Y[partisan_planet.GetName]§!. However, despite our best efforts to destabilize and sabotage their equipment and coordination, our garrison was overrun and Imperial surviors are few and far between. The §RPartisans§! brutality means that both remaining Imperial personnel and loyal citizens will be at the mercy of §YSaw Gerrera§! and his men."
+ swnd_partisans.80.a: "Blasted rebels!"
+ swnd_partisans.90.name: "Successful Trap"
+ swnd_partisans.90.desc: "In a bold and foolish move, the §RPartisans§!, aided by local resistance, launched a series of failed attacks against our holdings on §Y[partisan_planet.GetName]§!. Thanks to the due diligence from our embedded ISB agents, a major portion of the rebels were led into a trap. Their misplaced trust in the agents was their undoing.\n\nSensors have picked up on a handful of unknown ships leaving the planet surface. Wherever they are heading, their plans for §Y[partisan_planet.GetName]§! have no doubt failed."
+ swnd_partisans.90.a: "Good riddance."
  swnd_partisans.5002.name: "Saw's Reckoning"
  swnd_partisans.5002.desc: "§YSaw Gerrera§!'s §RPartisans§! are no more. A crushing defeat at the hands of those far superior to the cell ended the rhydo-fueled dreams of a very troubled man."
  swnd_partisans.5002.a: "So be it."
+
+ partisan_uprising_chain_title: "Partisan Uprising"
+ partisan_uprising_chain_desc: "wip"
+ PARTISAN_ISB_PROJECT: "Launch ISB Investigation"
+ PARTISAN_ISB_PROJECT_DESC: "The planetary governor has requested the involvement of the Imperial Security Bureau to help uncover the source of the ongoing theft of Imperial property and supplies."
+ PARTISAN_MILITARY_PROJECT: "Request for Assistance"
+ PARTISAN_MILITARY_PROJECT_DESC: "The planetary governor has requested additional forces to supplement the local garrison. They believe this will help curtail further theft of Imperial property."
+
+ mod_shipsize_defence_satelite_hull_mult: "Defense Satelite Hull Multiplier"
 
 ### ignore this section, its stuff I might reuse later ###
 #Early opposition in the senate led to sixty-three senators being arrested by  

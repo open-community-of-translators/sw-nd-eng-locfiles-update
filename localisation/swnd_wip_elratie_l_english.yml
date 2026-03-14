@@ -12,8 +12,8 @@
  tech_reb_hope_desc: "What chance do we have? The question is what choice. Run, hide, plead for mercy, scatter your forces. You give way to an enemy this evil with this much power and you condemn the galaxy to an eternity of submission. The time to fight is now!"
  tech_mando_crusade: "Crusade"
  tech_mando_crusade_desc: "Much like Mandalore the Ultimate a milenia ago, our Mand'alor has recieved a vision of the future."
- tech_sw_hyper_relays: "Hyperspace Relays"
- tech_sw_hyper_relays_desc: "Hyperspace Relays are stations that ensure the transmission of hyperwaves from transceiver to transceiver. In star systems lacking hyperspace relay stations, starships have to navigate using hyperspace beacons or navigation buoys unless the ship has a sophisticated navigation computer."
+ tech_sw_hyper_relays: "Hyperroute Expansion"
+ tech_sw_hyper_relays_desc: "Hyperspace Relays are stations that anchor stable transit corridors, allowing starships to navigate safely and swiftly between connected systems. By extending the relay network beyond established hyperroutes and into less-charted regions, we can bring reliable, high-speed travel to systems once considered off the beaten path."
 
  #Trait
  trait_neutral: "Neutral"

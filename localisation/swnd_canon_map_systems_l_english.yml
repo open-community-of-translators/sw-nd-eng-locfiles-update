@@ -9452,11 +9452,11 @@
  NAME_Jakku_P5: "Jakku V"
  
  #Zonama Sekot
- NAME_Zonama_Sekot: "Umaren'k"
- NAME_Zonama_Sekot_S: "Umaren'k"
+ NAME_Zonama_Sekot: "Zonama Sekot"
+ NAME_Zonama_Sekot_S: "Zonama Sekot"
  NAME_Zonama_Sekot_P1: "Cizuno"
  NAME_Zonama_Sekot_P2: "Likolea"
- NAME_Zonama_Sekot_P3: "Umaren'k"
+ NAME_Zonama_Sekot_P3: "Uceon"
  NAME_Zonama_Sekot_P4: "Zonama Sekot"
  NAME_Zonama_Sekot_P5: "Rulm"
  NAME_Zonama_Sekot_P6: "Thubbosie"
@@ -10167,3 +10167,8 @@ NAME_Koboh_P1_1: "Koboh's Shattered Moon"
 NAME_Koboh_Abyss: "Koboh Abyss"
 NAME_Koboh_Abyss_S: "Koboh Abyss"
 NAME_Koboh_Abyss_P1: "Tanalorr"
+
+#Ruhnuk
+NAME_Ruhnuk: "Ruhnuk"
+NAME_Ruhnuk_S: "Ruhnuk"
+NAME_Ruhnuk_P1: "Ruhnuk"

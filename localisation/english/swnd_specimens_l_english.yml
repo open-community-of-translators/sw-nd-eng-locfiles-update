@@ -86,7 +86,10 @@
  coral_fossil_desc_details: "Fossilized remains of an ancient coral structure that flourished on the ocean floor."
  cortosis_ingot: "Cortosis Ingot"
  cortosis_ingot_desc_short: "A rare find"
- cortosis_ingot_desc_details: "A rare but fragile metal that can absorb energy and withstand even a lightsaber strike."
+ cortosis_ingot_desc_details: "A rare but fragile metal that can absorb energy and even withstand a lightsaber strike."
+ rhydonium_cache: "Rhydonium Cache"
+ rhydonium_cache_desc_short: "Handle with care"
+ rhydonium_cache_desc_details: "A very volatile starship fuel. Its fumes are known to cause a brief euphoria that can lead to addiction."
 
  ## Repurposed SWFR Relics ##
  dream_rock: "$r_dream_rock$"
@@ -166,7 +169,7 @@
  ### Republic Specimens##
  332nd_clone_helmet: "332nd Division Helmet"
  332nd_clone_helmet_desc_short: "A stolen helmet from a deceased clone trooper"
- 332nd_clone_helmet_desc_details: "The 332nd Division was a part of the 501st Legion during the final days of the Clone Wars. It was commanded by CT-7567 and advised by Ahsoka Tano, both presumed dead in the wake of Order 66."
+ 332nd_clone_helmet_desc_details: "The 332nd Division was a part of the 501st Legion during the final days of the Clone Wars. It was commanded by CT-7567 and advised by Ahsoka Tano, both presumed dead."
  weapon_z6_rotary_cannon: "Z-6 Rotary Blaster Cannon"
  weapon_z6_rotary_cannon_desc_short: "A powerful weapon common among Republic forces"
  weapon_z6_rotary_cannon_desc_details: "The Z-6 rotary blaster cannon was a common sight throughout the Clone Wars among republic forces. Often used by heavy weapon specialists, the Z-6 was notorious for its weight and its long reload time."
@@ -205,6 +208,12 @@
  xwing_pilot_helmet: "X-Wing Flight Helmet"
  xwing_pilot_helmet_desc_short: "$awing_pilot_helmet_desc_short$"
  xwing_pilot_helmet_desc_details: "$awing_pilot_helmet_desc_details$"
+ stolen_officer_uniform: "Stolen Imperial Officer Uniform"
+ stolen_officer_uniform_desc_short: "A convenient disguise"
+ stolen_officer_uniform_desc_details: "A standard olive-grey Imperial officer uniform tastefully stolen from its owner. The scorch mark in the shoulder is stitched up and is barely noticable."
+ rebel_manifesto: "The Trail of Political Consciousness"
+ rebel_manifesto_desc_short: "A message to the galaxy"
+ rebel_manifesto_desc_details: "Written by a young rebel named Karis Nemik, this manifesto, while incomplete in some parts, carries with it a message of hope for a galaxy in turmoil. The Rebellion is everywhere. The Empire is unnatural. One single thing will break the Empire."
 
  ### Jedi Specimens##
  training_remote: "Marksman-H training remote"
@@ -309,6 +318,9 @@
  peridean_orb: "Mysterious Orb"
  peridean_orb_desc_short: "WIP"
  peridean_orb_desc_details: "We are not quite sure where this came from or who made it. What we do know is that there is a adark energy surrounding it. Something from maybe even beyond our galaxy."
+ ssi_ruuk_swarm_droid: "Swarm-class Battle Droid"
+ ssi_ruuk_swarm_droid_desc_short: "A rather odd clanker"
+ ssi_ruuk_swarm_droid_desc_details: "Compared to the old Separatist Vulture droids, the Ssi-Ruuk's Swarm-class battle droid is significantly smaller. Powered by entechment, two separate lifeforces control the ship - one to handle the shields and the other handled piloting and weapons."
 
  ### Sith
  cortosis_helmet: "Cortosis Helmet"

@@ -433,7 +433,7 @@ l_english:
  mod_weapon_type_fighter_speed_mult: "Fighter Speed"
  mod_ship_swp_star_destroyer_size_cost_mult: "Star Destroyer Ship Size Build Cost"
  mod_ship_swp_battle_dragon_size_cost_mult: "Battle Dragon Ship Size Build Cost"
- mod_ship_swp_mando_destroyer_size_cost_mult: "Mandalorian Destoryer Ship Size Build Cost"
+ mod_ship_swp_mando_destroyer_size_cost_mult: "Mandalorian Destroyer Ship Size Build Cost"
  mod_ship_swp_mon_cal_size_cost_mult: "Mon Calamari Ship Size Build Cost"
  mod_planet_jobs_worker_spice_produces_mult: "Worker Spice Production"
  mod_planet_jobs_hyperfuel_produces_mult: "Hyperfuel Production"

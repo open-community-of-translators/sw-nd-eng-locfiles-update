@@ -66,7 +66,12 @@
  swnd_dellso_signal_anomaly: "Smoke Plumes"
  swnd_dellso_signal_anomaly_desc: "Our survey of §Y[Root.planet.GetName]§! shows a mountain range emitting an abnormally large amount of smoke. While scans of the planet show limited volcanic activity, another pass shows a strange facility built into the side of the mountain."
  swnd_spar_signal_anomaly: "Dar Cabur"
- swnd_spar_signal_anomaly_desc: "We've heard rumors about possible sightings of a person of interest - a Mandalorian of importance to the Protectors. During our survey of §Y[Root.planet.GetName]§!, [Root.Leader.GetName] and their team picked up on a small Mandalorian encampment. Whether or not its abandoned is unknown."
+ swnd_spar_signal_anomaly_desc: "We've heard rumors about possible sightings of a person of interest - a Mandalorian of importance to the Protectors. During our survey of §Y[Root.planet.GetName]§!, [Root.Leader.GetName] and their team picked up on a small Mandalorian encampment. We are not sure whether or not its abandoned."
+ swnd_abandoned_rebel_base_anomaly: "Smoldering Debris"
+ swnd_abandoned_rebel_base_anomaly_desc: "Our scientists have discovered a military encampment on §Y[Root.planet.GetName]§!."
+ swnd_abandoned_mando_base_anomaly: "Werda"
+ swnd_abandoned_mando_base_anomaly_desc: "Our survey of §Y[Root.planet.GetName]§! has uncovered an abandoned Mandalorian outpost."
+
 
 #### Anomalies ####
  swnd_anomaly.10.name: "No One Home"
@@ -109,7 +114,7 @@
  swnd_anomaly.80.b: "Take surplus plasma cells."
  swnd_anomaly.80.c: "Loot their datapads."
  swnd_anomaly.90.name: "$swnd_crashed_rebel_ship_anomaly$"
- swnd_anomaly.90.desc: "[Root.Leader.GetName]'s team has completed their survey. The logs reveal this Mon Calamari vessel fled a Star Destroyer, making a desperate emergency jump that led to its demise. The ship is beyond saving, its crew long perished. There's little of value left - just scrap for the taking."
+ swnd_anomaly.90.desc: "[Root.Leader.GetName]'s team has completed their survey. The logs reveal this Mon Calamari vessel fled a Star Destroyer, making an emergency jump that led to its demise. The ship is beyond saving, its crew long since perished. There's little of value left - just scrap for the taking."
  swnd_anomaly.90.a: "Take what we can from the wreckage."
  swnd_anomaly.90.b: "No reason to linger here."
  swnd_anomaly.90.c: "Download any relevant intelligence."
@@ -166,6 +171,13 @@
  swnd_anomaly.240.name: "Dar Cabur"
  swnd_anomaly.240.desc: "The Mandalorian encampment on §Y[Root.planet.GetName]§! seems relatively quiet. A Pursuer-class patrol ship sits near by with the ramp down. [Root.Leader.GetName] approaches cautiously but stops as soon as he hears the cocking of a blaster pistol behind him and the feel of the barrel against his head. The unseen assailant, no doubt the Mandalorian that owns this ship guides him toward the ramp, following close behind.\n\nOnce on board, the ramp lifts up and closes behind him."
  swnd_anomaly.240.a: "..."
+ swnd_anomaly.250.name: "Desperate Scramble"
+ swnd_anomaly.250.desc: "[Root.Leader.GetName] and their team investigate the encampment and find signs of a struggle and a frantic escape. The camp is covered in debris, structures are collapsing, and several overturned crates block off certain corridors. Some of the crates have scorch marks on the side, as do some of the buildings.\n\nAs they explore the surrouding area, they find a clearing covered in wreckage of small fighters with parts of their pilots trapped inside. Behind them half of a GR-75 with its content spilling across the ground.\n\nIt seems as if the people at this outpost failed to make an escape and their attackers showed no mercy." #TODO: tweak desc
+ swnd_anomaly.250.a: "Let them rest peacefully."
+ swnd_anomaly.260.name: "$swnd_abandoned_mando_base_anomaly$"
+ swnd_anomaly.260.desc: "The Mandalorian encampment on §Y[Root.planet.GetName]§! is completely deserted. Much of the durasteel and plasteel has rusted and collapsed. Several structures, presumably barracks and armories, have collapsed in on themsevles. Armor racks are mostly bare, picked over by spacers in search of beskar for themselves and weapon racks are completely empty.\n\nHowever, [Root.Leader.GetName] and their team uncover a few hidden caches tucked away in the outpost's makeshift tapcaf."
+ swnd_anomaly.260.a: "A nice surprise."
+
  ### Vong Anomalies
  swnd_anomaly_vong.10.name: "Strange Bugs"
  swnd_anomaly_vong.10.desc: "Once docked at the ship, [Root.Leader.GetName] and their team are immediately attacked by the bizarre insects. The skittering creatures take flight, throwing themselves at the crew and trying to latch on to them with their mandibles or impale them with their carapaces.\n\n[Root.Leader.GetName] manages to disperse the insects just long enough to get the science team back to the ship. In their escape, two beetles escape into the vacuum of space, dying instantly.\n\nIf there was ever a chance to retrieve one for study, now would be it."

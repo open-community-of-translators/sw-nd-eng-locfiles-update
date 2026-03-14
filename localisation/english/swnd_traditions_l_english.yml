@@ -287,8 +287,8 @@
  tr_mando_mandalmotors_3: "Headquarters"
  tr_mando_mandalmotors_3_delayed: "Heart of MandalMotors and where deadly designs are made even more deadly."
 
- tr_mando_mandalmotors_4: "Testing Grounds"
- tr_mando_mandalmotors_4_delayed: "The frontlines is the ideal place to test our weapons."
+ tr_mando_mandalmotors_4: "Field Tested"
+ tr_mando_mandalmotors_4_delayed: "Training drills can only do so much. The frontlines is the ideal place to test our weapons."
 
  tr_mando_mandalmotors_5: "Improved Mass Drivers"
  tr_mando_mandalmotors_5_delayed: "The engineers at MandalMotors have improved the damage of our mass drivers. With an increased rate of fire, our weapons will be the bane of enemy fleets."
@@ -429,16 +429,6 @@
  tr_espos_divergence_supression: "Divergence Suppression"
  tr_espos_divergence_supression_desc: "$tr_domination_deviancy_protocols_desc$"
  tr_espos_divergence_supression_delayed: "Occasionally our unity is disrupted by a rogue drone. This threat has increased as we spread out across the stars. Purging and recycling these units gives them a chance to contribute to the hive with their deaths, in a way they could not with their lives."
-
- #tr_domination_star_lords: "Star Lords"
- #tr_domination_star_lords_machine: "Benevolence Emulation"
- #tr_domination_star_lords_hive: "Soporific Pheromones"
- #tr_domination_star_lords_desc:5 "Subject £opinion£ §YOpinion§! increased by §G+20§! and §YTrust Cap§! increased by §G+50§!."
- #tr_domination_star_lords_machine_desc: "$tr_domination_star_lords_desc$"
- #tr_domination_star_lords_hive_desc: "$tr_domination_star_lords_desc$"
- #tr_domination_star_lords_delayed: "It is our destiny to lord over those who are weaker. Obedient nations that swear fealty to our great empire may be permitted to exist... at our discretion."
- #tr_domination_star_lords_machine_delayed: "Programming our diplomatic AI to emulate the emotional mannerisms of other species increases their susceptibility to suggestion, even if they are aware it is a simulation."
- #tr_domination_star_lords_hive_delayed: "Generations of experimentation have revealed that certain combinations of gaseous emissions and pheromones greatly reduce the pugnacity and will to resist of the others. Some die, but they perish in bliss, having ever so briefly touched the beautiful purity of our mind."
 
  tr_espos_finish: "Security Police Traditions Finished"
  tr_espos_federations_finish: "$tr_domination_finish$"
